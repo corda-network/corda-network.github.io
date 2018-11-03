@@ -1,7 +1,9 @@
-<nav>
-    {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
-        {{ item.name }}
-    </a>
+<a href="/">Home</a>
+{% for item in site.data.navigation.toc %}
+<h3>{{ item.title }}</h3>
+<ul>
+    {% for entry in item.subfolderitems %}
+    <li><a href="{{ entry.url }}">{{ entry.name }}</a></li>
     {% endfor %}
-</nav>
+</ul>
+{% endfor %}
