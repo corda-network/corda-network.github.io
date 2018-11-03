@@ -1,4 +1,89 @@
+toc:
 - name: Home
-  link: /
-- name: About
-  link: /about.html
+  url: /
+- title: About
+  subfolderitems:
+  - name: Introduction
+    url: /about/index.html
+  - name: Concepts
+    url: /about/concepts.html
+  - name: Community
+    url: /about/community.html
+  - name: Business Networks
+    url: /about/business-networks.html
+  - name: Network Environments
+    url: /about/network-environments.html
+  - name: Contact
+    url: /about/contact.html
+- title: Governance
+  subfolderitems:
+  - name: Introduction
+    url: /governance/index.html
+  - name: Governance Guidelines
+    url: /governance/governance-guidelines.html
+- title: Participation
+  subfolderitems:
+  - name: Introduction
+    url: /participation/index.html
+  - name: Membership Tiers
+    url: /participation/membership-tiers.html
+  - name: Implementation Steps
+    url: /participation/implementation-steps.html
+- title: Policy
+  subfolderitems:
+  - name: Introduction
+    url: /policy/index.html
+  - name: Admission Criteria
+    url: /policy/admission-criteria.html
+  - name: Dispute Resolution
+    url: /policy/dispute-resolution.html
+  - name: GDPR
+    url: /policy/gdpr.html
+  - name: Network Services
+    url: /policy/network-services.html
+  - name: Allowable Names
+    url: /policy/allowable-names.html
+  - name: Anti-trust
+    url: /policy/anti-trust.html
+  - name: Code of Conduct
+    url: /policy/code-conduct.html
+  - name: Conflict of Interest
+    url: /policy/conflict-interest.html
+  - name: Infrastructure Management
+    url: /policy/infrastructure-management.html
+  - name: Notary Acceptance
+    url: /policy/notary-acceptance.html
+  - name: Protocol Definition
+    url: /policy/protocol-definition.html
+  - name: Security
+    url: /policy/security.html
+  - name: Clock Synchronisation
+    url: /policy/clock-synchronisation.html
+  - name: Event Horizon
+    url: /policy/event-horizon.html
+  - name: IP Addresses
+    url: /policy/ip-addresses.html
+  - name: Namespace Ownership
+    url: /policy/namespace-ownership.html
+  - name: Network Params Upgrade
+    url: /policy/network-params-upgrade.html
+  - name: Port Ranges
+    url: /policy/port-ranges.html
+- title: Trust Root
+  subfolderitems:
+  - name: Introduction
+    url: /trust-root/index.html
+  - name: Certificate Policy
+    url: /trust-root/certificate-policy.html
+  - name: Certificate Practices
+    url: /trust-root/certificate-practices.html
+  - name: Generation Script
+    url: /trust-root/script.html
+  - name: Execution Log
+    url: /trust-root/execution-log.html
+  - name: Ceremony Video
+    url: /trust-root/video.html
+- title: Policy
+  subfolderitems:
+  - name: Introduction
+    url: /policy/index.html
