@@ -1,8 +1,8 @@
 The Corda Network Foundation
 ==============================
 
-Notaries Policy
-===============
+Notary Services Policy
+======================
 This document defines required arrangements for the operation of Notary Services within the Corda Network.
 
 
