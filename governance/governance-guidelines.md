@@ -4,23 +4,17 @@ Corda Network Foundation
 Governance Guidelines
 =====================
 
-[GitHub history](../corda-network.github.io/blame/master/governance/governance-guidelines.md)
-[GitHub history](corda-network.github.io/blame/master/)
-[GitHub history](corda-network.github.io/blame/master/)
-
-Base URL : {{site.baseurl}}
-
-URL: {{page.url}}
-
-Path: {{page.path}}
-
-[GitHub history](corda-network.github.io/blame/master{{page.url}})
-
-[GitHub history](corda-network.github.io/blame/master{{page.path}})
-
 [GitHub history](../corda-network.github.io/blame/master{{page.url}})
 
-[GitHub history](../corda-network.github.io/blame/master{{page.path}})
+[GitHub history](/corda-network.github.io/blame/master{{page.url}})
+
+[GitHub history](/blame/master{{page.url}})
+
+[GitHub history](blame/master{{page.url}})
+
+[GitHub history]({{ site.github.repository_url }}/blame/master{{page.url}})
+
+{{ site.github.repository_url }}/blame/master{{page.url}}
 
 23 October 2018 : Version 0.95
 
