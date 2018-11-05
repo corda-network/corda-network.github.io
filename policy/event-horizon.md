@@ -4,13 +4,15 @@ The Corda Network Foundation
 Event Horizon
 =============
 
+[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})
+
 1 Proposed policy
 =================
 
 The event horizon for the Corda network shall be defined as 2592000 seconds on the Corda/Java timeline. This is 
 equivalent to 30 days excluding daylight savings transitions and leap seconds.
 
-1 Rationale
+2 Rationale
 ===========
 
 Corda nodes are not required to be online continuously. Like email servers, transient outages are tolerated by peer 

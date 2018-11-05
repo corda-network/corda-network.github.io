@@ -4,7 +4,7 @@ The Corda Network Foundation
 Clock Synchronisation
 =====================
 
-23 October 2018 : Version 1
+[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})
 
 1 Introduction
 ==============

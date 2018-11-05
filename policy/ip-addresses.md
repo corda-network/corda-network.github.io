@@ -4,6 +4,8 @@ The Corda Network Foundation
 Node IP Connectivity
 ====================
 
+[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})
+
 1 IP Policies
 =============
 1. Nodes may advertise IPv6 addresses, however all nodes in the main zone must advertise at least one IPv4 address.

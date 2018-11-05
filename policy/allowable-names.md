@@ -4,6 +4,8 @@ The Corda Network Foundation
 Allowable Identity Names
 ========================
 
+[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})
+
 1 Proposed policy
 ===================
 

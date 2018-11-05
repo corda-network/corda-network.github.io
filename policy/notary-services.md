@@ -3,8 +3,10 @@ The Corda Network Foundation
 
 Notary Services Policy
 ======================
-This document defines required arrangements for the operation of Notary Services within the Corda Network.
 
+[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})
+
+This document defines required arrangements for the operation of Notary Services within the Corda Network.
 
 1 Introduction
 ==============

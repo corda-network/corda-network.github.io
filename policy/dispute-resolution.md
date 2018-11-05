@@ -4,6 +4,8 @@ The Corda Network Foundation
 Dispute Resolution
 ==================
 
+[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})
+
 1 Introduction
 ==============
 Disputes between participants on the Corda Network shall be resolved in a hierarchical fashion, moving from the most 
@@ -14,12 +16,12 @@ counterparties, the parties involved shall use negotiation as the implicit first
 For technical operational issues, Corda node operators may contact the operations team at a counterparty using the 
 contact information in the NodeInfo file. This may be a team contact and not an individual one, and the counterparty 
 may need to be obliged to monitor their contact point, for example the email address provided.
-    1. For Corda data issues and contract constraint logic issues without an application provider: They shall discuss the terms 
-of the agreement and attempt to understand what has caused the dispute and how it can be resolved to the satisfaction of 
-both parties. 
-    2.  For Corda application issues where the application is provided by a vendor: The counterparties to the trade shall engage 
-the vendor, and the vendor support team would be expected to have a reference data database which they maintain with 
-contact information for both sides. 
+    1. For Corda data issues and contract constraint logic issues without an application provider: They shall discuss 
+    the terms of the agreement and attempt to understand what has caused the dispute and how it can be resolved to 
+    the satisfaction of both parties. 
+    2.  For Corda application issues where the application is provided by a vendor: The counterparties to the trade 
+    shall engage the vendor, and the vendor support team would be expected to have a reference data database which they 
+    maintain with contact information for both sides. 
 2. **Mediation** – on failure to reach a satisfactory agreement through negotiation, the parties may choose to mediate their 
 dispute, or their agreement may specify that. Mediation is similar to negotiation but involves an independent third 
 party, a mediator, to facilitate the process and assist the parties in reaching an agreement. The mediator does not 
@@ -191,7 +193,7 @@ large forums enables each to have visibility across a large range of cases which
 decisions. There may also be further challenge where disputes span multiple applications, and potentially cross 
 jurisdictional boundaries.
 
-I anticipate that arbitration will grow from the mediation step, but it will require time to develop and a mature 
-understanding of the types of application, which is why I propose to exclude it from the Policy for now. 
+Arbitration will grow from the mediation step, but it will require time to develop and a mature 
+understanding of the types of application, which is why it is excluded it from the Policy for now. 
 Regardless, the clear, unambiguous documentation of the dispute resolution process (and its boundaries) in the 
 agreements is critical to its success.
