@@ -4,18 +4,7 @@ Corda Network Foundation
 Governance Guidelines
 =====================
 
-[GitHub history]({{ site.github.repository_url }}/blame/master{{page.path}})
-
-{{ site.github.repository_url }}/blame/master{{page.path}}
-
-{{ site.github.repository_url }}/blame/master{{page.relative_path}}
-
-https://github.com/corda-network/corda-network.github.io/blame/master/governance/governance-guidelines.md
-https://github.com/corda-network/corda-network.github.io/blame/master/governance/governance-guidelines.html
-
-23 October 2018 : Version 0.95
-
-DRAFT for discussion
+[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})
 
 This is a set of governance guidelines for the Corda Network Foundation. It provides a framework for the Foundation’s 
 Board, to steer and govern Corda Network effectively to realise its potential. It is not a set of binding legal obligations.

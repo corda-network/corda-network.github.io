@@ -29,7 +29,7 @@ toc:
 #    url: /participation/membership-tiers.html
 #  - name: Implementation Steps
 #    url: /participation/implementation-steps.html
-- title: Policy
+- title: Business Policy
   subfolderitems:
 #  - name: Introduction
 #    url: /policy/index.html
@@ -41,34 +41,44 @@ toc:
 #    url: /policy/gdpr.html
 #  - name: Network Services
 #    url: /policy/network-services.html
-  - name: Allowable Names
-    url: /policy/allowable-names.html
 #  - name: Anti-trust
 #    url: /policy/anti-trust.html
+  - name: Change Management
+    url: /policy/change-management.html
 #  - name: Code of Conduct
 #    url: /policy/code-conduct.html
 #  - name: Conflict of Interest
 #    url: /policy/conflict-interest.html
+  - name: Dispute Resolution
+    url: /policy/dispute-resolution.html
+  - name: Incident Response
+    url: /policy/incident-response.html
 #  - name: Infrastructure Management
 #    url: /policy/infrastructure-management.html
-  - name: Notary Acceptance
-    url: /policy/notary-acceptance.html
+  - name: Inventory Management
+    url: /policy/inventory-management.html
+  - name: Notary Services
+    url: /policy/notary-services.html
 #  - name: Protocol Definition
 #    url: /policy/protocol-definition.html
 #  - name: Security
 #    url: /policy/security.html
+- title: Technical Policy
+  subfolderitems:
+  - name: Allowable Names
+    url: /policy/allowable-names.html
   - name: Clock Synchronisation
     url: /policy/clock-synchronisation.html
   - name: Event Horizon
     url: /policy/event-horizon.html
   - name: IP Addresses
     url: /policy/ip-addresses.html
-  - name: Namespace Ownership
-    url: /policy/namespace-ownership.html
-  - name: Network Params Upgrade
-    url: /policy/network-params-upgrade.html
-  - name: Port Ranges
-    url: /policy/port-ranges.html
+#  - name: Namespace Ownership
+#    url: /policy/namespace-ownership.html
+#  - name: Network Params Upgrade
+#    url: /policy/network-params-upgrade.html
+#  - name: Port Ranges
+#    url: /policy/port-ranges.html
 - title: Trust Root
   subfolderitems:
 #  - name: Introduction
