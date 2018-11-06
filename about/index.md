@@ -3,6 +3,8 @@
 Introduction to Corda Network
 =============================
 
+*06/11/2018: This content is a work in progress*
+
 Corda Network consists of Corda nodes operated by network participants, in which business transactions are created and 
 validated via Corda Distributed Applications (CorDapps) running on these nodes. Each node is identified by means of a 
 certificate issued by the Network's Certificate Authority, and will also be identifiable on a network map. 
