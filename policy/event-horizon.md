@@ -1,10 +1,7 @@
-The Corda Network Foundation
-============================
+|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
 Event Horizon
 =============
-
-[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})
 
 1 Proposed policy
 =================
