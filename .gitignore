@@ -1,0 +1,10 @@
+.DS_Store
+.idea/dictionaries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+Gemfile
+Gemfile.lock
+_site/
+corda-network.github.io.iml

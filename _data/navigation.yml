@@ -7,16 +7,16 @@ pages:
     children:
     - title: Introduction
       url: /about/index.html
-  #  - title: Concepts
-  #    url: /about/concepts.html
-  #  - title: Community
-  #    url: /about/community.html
-  #  - title: Business Networks
-  #    url: /about/business-networks.html
-  #  - title: Network Environments
-  #    url: /about/network-environments.html
-  #  - title: Contact
-  #    url: /about/contact.html
+#  - title: Concepts
+#    url: /about/concepts.html
+#  - title: Community
+#    url: /about/community.html
+#  - title: Business Networks
+#    url: /about/business-networks.html
+#  - title: Network Environments
+#    url: /about/network-environments.html
+#  - title: Contact
+#    url: /about/contact.html
   - title: Governance
     children:
     - title: Introduction
@@ -27,44 +27,56 @@ pages:
     children:
     - title: Introduction
       url: /participation/index.html
-  #  - title: Membership Tiers
-  #    url: /participation/membership-tiers.html
-  #  - title: Implementation Steps
-  #    url: /participation/implementation-steps.html
+#  - title: Membership Tiers
+#    url: /participation/membership-tiers.html
+#  - title: Implementation Steps
+#    url: /participation/implementation-steps.html
   - title: Business Policy
     children:
-  #  - title: Introduction
-  #    url: /policy/index.html
-  #  - title: Admission Criteria
-  #    url: /policy/admission-criteria.html
-    - title: Dispute Resolution
-      url: /policy/dispute-resolution.html
-  #  - title: GDPR
-  #    url: /policy/gdpr.html
-  #  - title: Network Services
-  #    url: /policy/network-services.html
-  #  - title: Anti-trust
-  #    url: /policy/anti-trust.html
-    - title: Change Management
-      url: /policy/change-management.html
+    #  - title: Introduction
+    #    url: /policy/index.html
+    #  - title: Admission Criteria
+    #    url: /policy/admission-criteria.html
+    #  - title: GDPR
+    #    url: /policy/gdpr.html
+    #  - title: Network Services
+    #    url: /policy/network-services.html
+    #  - title: Anti-trust
+    #    url: /policy/anti-trust.html
     - title: Code of Conduct
       url: /policy/code-conduct.html
-  #  - title: Conflict of Interest
-  #    url: /policy/conflict-interest.html
+    #  - title: Conflict of Interest
+    #    url: /policy/conflict-interest.html
     - title: Dispute Resolution
       url: /policy/dispute-resolution.html
-    - title: Incident Response
-      url: /policy/incident-response.html
-  #  - title: Infrastructure Management
-  #    url: /policy/infrastructure-management.html
-    - title: Inventory Management
-      url: /policy/inventory-management.html
+    #  - title: Infrastructure Management
+    #    url: /policy/infrastructure-management.html
+    #    - title: Information Classification
+    #      url: /policy/information-classification.html based on POL06
     - title: Notary Services
       url: /policy/notary-services.html
-  #  - title: Protocol Definition
-  #    url: /policy/protocol-definition.html
-  #  - title: Security
-  #    url: /policy/security.html
+#  - title: Protocol Definition
+#    url: /policy/protocol-definition.html
+#  - title: Security
+#    url: /policy/security.html
+#    - title: Supplier Management
+#      url: /policy/supplier-management.html based on POL04
+  - title: Operator Policy
+    children:
+    #    - title: Business Continuity
+    #      url: /policy/business-continuity.html based on POL08
+    - title: Change Management
+      url: /policy/change-management.html
+    #    - title: Data Retention
+    #      url: /policy/data-retention.html based on POL10
+    - title: Incident Response
+      url: /policy/incident-response.html
+    - title: Inventory Management
+      url: /policy/inventory-management.html
+#    - title: Physical Security
+#      url: /policy/physical-security.html based on POL12
+#    - title: Security Incident
+#      url: /policy/security-incident.html based on POL09
   - title: Technical Policy
     children:
     - title: Allowable Names
