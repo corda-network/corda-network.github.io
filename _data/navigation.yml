@@ -47,8 +47,8 @@ pages:
   #    url: /policy/anti-trust.html
     - title: Change Management
       url: /policy/change-management.html
-  #  - title: Code of Conduct
-  #    url: /policy/code-conduct.html
+    - title: Code of Conduct
+      url: /policy/code-conduct.html
   #  - title: Conflict of Interest
   #    url: /policy/conflict-interest.html
     - title: Dispute Resolution
