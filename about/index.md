@@ -12,7 +12,8 @@ that isn't possible with competing permissioned distributed ledger technologies 
 
 The network is due to go live in December 2018, and initially it will be governed by R3. An independent, not-for-profit 
 Foundation is currently being set-up which is intended to govern the Network from mid 2019, after a transition period
-when control moves entirely to the Foundation. See the [governance model](governance/governance-structure.md) for more 
+when control moves entirely to the Foundation. See the [governance model](../governance/index.md) for 
+more 
 detail.
 
 The Network will comprise many sub-groups many sub-groups of participants running particular CorDapps (sometimes but not 
