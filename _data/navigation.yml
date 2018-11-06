@@ -45,8 +45,8 @@ toc:
 #    url: /policy/anti-trust.html
   - name: Change Management
     url: /policy/change-management.html
-#  - name: Code of Conduct
-#    url: /policy/code-conduct.html
+  - name: Code of Conduct
+    url: /policy/code-conduct.html
 #  - name: Conflict of Interest
 #    url: /policy/conflict-interest.html
   - name: Dispute Resolution

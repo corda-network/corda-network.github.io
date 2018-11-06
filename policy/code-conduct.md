@@ -8,7 +8,7 @@ and to facilitate stable operations with a long-term perspective, over and above
 organization. 
 
 The Governing Board[1], is committed to the widespread adoption of Corda Network across all industries and upholding 
-the []Corda Network Foundation Governing Guidelines](../governance/governance-guidelines.md).  
+the [Corda Network Foundation Governing Guidelines](../governance/governance-guidelines.md).  
 
 The Governing Board of the Corda Foundation is committed to:
 
