@@ -1,95 +1,97 @@
-toc:
-- name: Home
-  url: /
-- title: About
-  subfolderitems:
-  - name: Introduction
-    url: /about/index.html
-#  - name: Concepts
-#    url: /about/concepts.html
-#  - name: Community
-#    url: /about/community.html
-#  - name: Business Networks
-#    url: /about/business-networks.html
-#  - name: Network Environments
-#    url: /about/network-environments.html
-#  - name: Contact
-#    url: /about/contact.html
-- title: Governance
-  subfolderitems:
-  - name: Introduction
-    url: /governance/index.html
-  - name: Governance Guidelines
-    url: /governance/governance-guidelines.html
-- title: Participation
-  subfolderitems:
-  - name: Introduction
-    url: /participation/index.html
-#  - name: Membership Tiers
-#    url: /participation/membership-tiers.html
-#  - name: Implementation Steps
-#    url: /participation/implementation-steps.html
-- title: Business Policy
-  subfolderitems:
-#  - name: Introduction
-#    url: /policy/index.html
-#  - name: Admission Criteria
-#    url: /policy/admission-criteria.html
-  - name: Dispute Resolution
-    url: /policy/dispute-resolution.html
-#  - name: GDPR
-#    url: /policy/gdpr.html
-#  - name: Network Services
-#    url: /policy/network-services.html
-#  - name: Anti-trust
-#    url: /policy/anti-trust.html
-  - name: Change Management
-    url: /policy/change-management.html
-  - name: Code of Conduct
-    url: /policy/code-conduct.html
-#  - name: Conflict of Interest
-#    url: /policy/conflict-interest.html
-  - name: Dispute Resolution
-    url: /policy/dispute-resolution.html
-  - name: Incident Response
-    url: /policy/incident-response.html
-#  - name: Infrastructure Management
-#    url: /policy/infrastructure-management.html
-  - name: Inventory Management
-    url: /policy/inventory-management.html
-  - name: Notary Services
-    url: /policy/notary-services.html
-#  - name: Protocol Definition
-#    url: /policy/protocol-definition.html
-#  - name: Security
-#    url: /policy/security.html
-- title: Technical Policy
-  subfolderitems:
-  - name: Allowable Names
-    url: /policy/allowable-names.html
-  - name: Clock Synchronisation
-    url: /policy/clock-synchronisation.html
-  - name: Event Horizon
-    url: /policy/event-horizon.html
-  - name: IP Addresses
-    url: /policy/ip-addresses.html
-#  - name: Namespace Ownership
-#    url: /policy/namespace-ownership.html
-#  - name: Network Params Upgrade
-#    url: /policy/network-params-upgrade.html
-#  - name: Port Ranges
-#    url: /policy/port-ranges.html
-- title: Trust Root
-  subfolderitems:
-#  - name: Introduction
-#    url: /trust-root/index.html
-#  - name: Certificate Policy
-#    url: /trust-root/certificate-policy.html
-#  - name: Certificate Practices
-#    url: /trust-root/certificate-practices.html
-#  - name: Generation Script
-#    url: /trust-root/script.html
-#  - name: Execution Log
-#    url: /trust-root/execution-log.html
-#  - name: Ceremony Video
-#    url: /trust-root/video.html
+#main:
+#  - title: "Quick-Start Guide"
+#    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+
+pages:
+  - title: About
+    children:
+    - title: Introduction
+      url: /about/index.html
+  #  - title: Concepts
+  #    url: /about/concepts.html
+  #  - title: Community
+  #    url: /about/community.html
+  #  - title: Business Networks
+  #    url: /about/business-networks.html
+  #  - title: Network Environments
+  #    url: /about/network-environments.html
+  #  - title: Contact
+  #    url: /about/contact.html
+  - title: Governance
+    children:
+    - title: Introduction
+      url: /governance/index.html
+    - title: Governance Guidelines
+      url: /governance/governance-guidelines.html
+  - title: Participation
+    children:
+    - title: Introduction
+      url: /participation/index.html
+  #  - title: Membership Tiers
+  #    url: /participation/membership-tiers.html
+  #  - title: Implementation Steps
+  #    url: /participation/implementation-steps.html
+  - title: Business Policy
+    children:
+  #  - title: Introduction
+  #    url: /policy/index.html
+  #  - title: Admission Criteria
+  #    url: /policy/admission-criteria.html
+    - title: Dispute Resolution
+      url: /policy/dispute-resolution.html
+  #  - title: GDPR
+  #    url: /policy/gdpr.html
+  #  - title: Network Services
+  #    url: /policy/network-services.html
+  #  - title: Anti-trust
+  #    url: /policy/anti-trust.html
+    - title: Change Management
+      url: /policy/change-management.html
+  #  - title: Code of Conduct
+  #    url: /policy/code-conduct.html
+  #  - title: Conflict of Interest
+  #    url: /policy/conflict-interest.html
+    - title: Dispute Resolution
+      url: /policy/dispute-resolution.html
+    - title: Incident Response
+      url: /policy/incident-response.html
+  #  - title: Infrastructure Management
+  #    url: /policy/infrastructure-management.html
+    - title: Inventory Management
+      url: /policy/inventory-management.html
+    - title: Notary Services
+      url: /policy/notary-services.html
+  #  - title: Protocol Definition
+  #    url: /policy/protocol-definition.html
+  #  - title: Security
+  #    url: /policy/security.html
+  - title: Technical Policy
+    children:
+    - title: Allowable Names
+      url: /policy/allowable-names.html
+    - title: Clock Synchronisation
+      url: /policy/clock-synchronisation.html
+    - title: Event Horizon
+      url: /policy/event-horizon.html
+    - title: IP Addresses
+      url: /policy/ip-addresses.html
+  #  - title: Namespace Ownership
+  #    url: /policy/namespace-ownership.html
+  #  - title: Network Params Upgrade
+  #    url: /policy/network-params-upgrade.html
+  #  - title: Port Ranges
+  #    url: /policy/port-ranges.html
+  - title: Trust Root
+    children:
+  #  - title: Introduction
+  #    url: /trust-root/index.html
+  #  - title: Certificate Policy
+  #    url: /trust-root/certificate-policy.html
+  #  - title: Certificate Practices
+  #    url: /trust-root/certificate-practices.html
+  #  - title: Generation Script
+  #    url: /trust-root/script.html
+  #  - title: Execution Log
+  #    url: /trust-root/execution-log.html
+  #  - title: Ceremony Video
+  #    url: /trust-root/video.html

@@ -1,10 +1,7 @@
-Corda Network Foundation
-========================
+|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
 Governance Guidelines
 =====================
-
-[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})
 
 This is a set of governance guidelines for the Corda Network Foundation. It provides a framework for the Foundation’s 
 Board, to steer and govern Corda Network effectively to realise its potential. It is not a set of binding legal obligations.

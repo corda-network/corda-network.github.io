@@ -1,12 +1,8 @@
----
-layout: default
-title: Home
----
-Corda Network
-==============
+|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
 Introduction to Corda Network
------------------------------
+=============================
+
 Corda Network consists of Corda nodes operated by network participants, in which business transactions are created and 
 validated via Corda Distributed Applications (CorDapps) running on these nodes. Each node is identified by means of a 
 certificate issued by the Network's Certificate Authority, and will also be identifiable on a network map. 
@@ -16,7 +12,8 @@ that isn't possible with competing permissioned distributed ledger technologies 
 
 The network is due to go live in December 2018, and initially it will be governed by R3. An independent, not-for-profit 
 Foundation is currently being set-up which is intended to govern the Network from mid 2019, after a transition period
-when control moves entirely to the Foundation. See the [governance model](governance-structure.md) for more detail.
+when control moves entirely to the Foundation. See the [governance model](governance/governance-structure.md) for more 
+detail.
 
 The Network will comprise many sub-groups many sub-groups of participants running particular CorDapps (sometimes but not 
 always referred to as 'business networks'), and such groups will often have a co-ordinating party (the 'Business 
