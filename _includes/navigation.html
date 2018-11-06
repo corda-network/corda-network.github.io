@@ -1,9 +1,0 @@
-<a href="/">Home</a>
-{% for item in site.data.navigation.toc %}
-<h3>{{ item.title }}</h3>
-<ul>
-    {% for entry in item.subfolderitems %}
-    <li><a href="{{ entry.url }}">{{ entry.name }}</a></li>
-    {% endfor %}
-</ul>
-{% endfor %}
