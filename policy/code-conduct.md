@@ -40,3 +40,4 @@ report illegal or improper activity in good faith will be protected from retalia
 
 [1] The Governing Board includes individuals in active and observer roles who may participate in strategic Board 
 decisions or committees.
+
