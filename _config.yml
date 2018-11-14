@@ -150,37 +150,39 @@ footer:
 
 
 # Reading Files
-include:
-- .htaccess
+#include:
+#- .htaccess
 exclude:
-- "*.sublime-project"
-- "*.sublime-workspace"
-- vendor
-- .asset-cache
-- .bundle
-- .jekyll-assets-cache
-- .sass-cache
 - assets/js/plugins
 - assets/js/_main.js
 - assets/js/vendor
-- Capfile
-- CHANGELOG
-- config
 - Gemfile
-- Gruntfile.js
-- gulpfile.js
-- LICENSE
-- log
-- node_modules
-- package.json
-- Rakefile
-- README
-- tmp
-- /docs # ignore Minimal Mistakes /docs
-- /test # ignore Minimal Mistakes /test
-keep_files:
-- .git
-- .svn
+- corda-network.github.io.iml
+- CNAME
+#- "*.sublime-project"
+#- "*.sublime-workspace"
+#- vendor
+#- .asset-cache
+#- .bundle
+#- .jekyll-assets-cache
+#- .sass-cache
+#- Capfile
+#- CHANGELOG
+#- config
+#- Gruntfile.js
+#- gulpfile.js
+#- LICENSE
+#- log
+#- node_modules
+#- package.json
+#- Rakefile
+#- README
+#- tmp
+#- /docs # ignore Minimal Mistakes /docs
+#- /test # ignore Minimal Mistakes /test
+#keep_files:
+#- .git
+#- .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -239,12 +241,12 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#category_archive:
+#  type: liquid
+#  path: /categories/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -267,23 +269,23 @@ compress_html:
 
 # Defaults
 defaults:
-# _posts
-- scope:
-    path: ""
-    type: posts
-  values:
-    layout: single
-    author_profile: true
-    read_time: true
-    comments: # true
-    share: true
-    related: true
-# _docs
-- scope:
-    path: ""
-    type: docs
-  values:
-    layout: single
+## _posts
+#- scope:
+#    path: ""
+#    type: posts
+#  values:
+#    layout: single
+#    author_profile: true
+#    read_time: true
+#    comments: # true
+#    share: true
+#    related: true
+## _docs
+#- scope:
+#    path: ""
+#    type: docs
+#  values:
+#    layout: single
 # _pages
 - scope:
     path: ""
@@ -296,6 +298,18 @@ defaults:
     permalink: /:path/:basename.html
 - scope:
     path: "assets"
+  values:
+    permalink: /:path/:basename
+- scope:
+    path: "sitemap.xml"
+  values:
+    permalink: /:path/:basename
+- scope:
+    path: "feed.xml"
+  values:
+    permalink: /:path/:basename
+- scope:
+    path: "robots.txt"
   values:
     permalink: /:path/:basename
 
