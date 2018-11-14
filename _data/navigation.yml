@@ -95,15 +95,9 @@ pages:
   #    url: /policy/port-ranges.html
   - title: Trust Root
     children:
-  #  - title: Introduction
-  #    url: /trust-root/index.html
-  #  - title: Certificate Policy
-  #    url: /trust-root/certificate-policy.html
-  #  - title: Certificate Practices
-  #    url: /trust-root/certificate-practices.html
-  #  - title: Generation Script
-  #    url: /trust-root/script.html
-  #  - title: Execution Log
-  #    url: /trust-root/execution-log.html
-  #  - title: Ceremony Video
-  #    url: /trust-root/video.html
+    - title: Introduction
+      url: /trust-root/index.html
+    - title: Certificate Policy
+      url: /trust-root/certificate-policy.html
+    - title: Certificate Practices
+      url: /trust-root/certificate-practices.html
