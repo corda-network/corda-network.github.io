@@ -16,7 +16,6 @@ HSMs.
 
 Certificate Policy
 ------------------
-
 [Current version](certificate-policy.md) is v12 - this should be updated to "issue" before network launch.
 
 Certification Practices Statement
@@ -27,7 +26,6 @@ Certificates
 ------------
 The certificate bundle (in JKS format) is the most likely to be used. The remaining details and formats are included 
 for reference and to harmonise with other Certificate Authorities.
-
 
 |Name                          |Public Key      |Fingerprint                                                |Valid Until  |Links|
 |------------------------------|----------------|-----------------------------------------------------------|-------------|-----|
@@ -57,24 +55,27 @@ This is the [Internal Witnesses' annotated script](witness-annotated-script.pdf)
 
 HSM initialisation script
 -------------------------
-
 The root and subordinate HSMs were initialized the night before the ceremony. The process was overseen and witnessed by 
 the Ceremony Administrator. See the [CA annotated HSM initialisation script](ca-annotated-hsm-initialisation-script.pdf).
 
 Ceremony Video
 --------------
 Extensive video recordings were made of the ceremony. The originals are not uploaded here, due to a combination of size 
-and format constraints. Versions rendered to a manageable size will be uploaded to YouTube. The links below will take you 
+and format constraints. Versions rendered to a manageable size have been uploaded to YouTube. The links below will take you 
 there.
 
-[Camera 1]() shows a view of the participants in the ceremony. 
-[Camera 2]() shows a view of the entire room from behind the ceremony witness.
-seating area. The Cameras were set to record at 1080p, however the output does not appear to reflect this.  Each 20 
-minute segment is approximately 500MB.
+The playlist for [Camera 1](https://www.youtube.com/playlist?list=PLi1PppB3-YrW7i3-nOBAE8Maf-EW_kPqx) shows a view of 
+the participants in the ceremony.
 
-[Video Capture]() shows the output from the HSM administration machine that used by the Ceremony Administrator to 
-interact with the HSMs during the ceremony. These appear to occupy approximately 724 MB per hour of recorded video at 
-720p.
+The playlist for [Camera 2](https://www.youtube.com/playlist?list=PLi1PppB3-YrWGObJ6BIaSU7PnQ_7jlC5t) shows a view of 
+the entire room from behind the ceremony witness seating area. 
+
+The Cameras were set to record at 1080p, however the output does not 
+appear to reflect this.  Each 20 minute segment is approximately 500MB.
+
+[Video Capture](https://www.youtube.com/playlist?list=PLi1PppB3-YrWvg2IQTZnscqbL50a9E783) shows the output from the 
+HSM administration machine that used by the Ceremony Administrator to interact with the HSMs during the ceremony. These 
+appear to occupy approximately 724 MB per hour of recorded video at 720p.
 
 HSM management computer screen log
 ----------------------------------
@@ -91,13 +92,11 @@ Logs from HSMs and SHA256 fingerprints for the same, calculated on the HMS manag
 exported.
 
 ### Root HSM (HSM1)
-
 [HSM Log](hsm01_audit.log) [SHA 256](hsm01_audit.log.sha256.txt)
 
 [CSLAN Log](hsm01_cslan.log) [SHA 256](hsm01_cslan.log.sha256.txt)
 
 ### Subordinate HSM (HSM2)
-
 [HSM Log](hsm02_audit.log) [SHA 256](hsm02_audit.log.sha256.txt)
 
 [CSLAN Log](hsm02_cslan.log) [SHA 256](hsm02_cslan.log.sha256.txt)
@@ -105,5 +104,6 @@ exported.
 HSM management machine ISO image
 --------------------------------
 
-ISO image for HSM management machine [tcn-rkg-2018-09-13-09.iso]() ([SHA256SUM]()). To be uploaded to cloud storage, 
-due to size of files.
+The ISO image for HSM management machine is downloadable from cloud storage, due to the size of files. The ISO is at 
+[tcn-rkg-2018-09-13-09.iso](https://r3share.mohso.com/dl/x5ZRISCR0P/tcn-rkg-2018-09-13-09.iso_) and the corresponding 
+checksum is at [SHA checksum](https://r3share.mohso.com/dl/9YB0MlWQvk/SHASUM_). 

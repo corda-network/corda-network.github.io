@@ -1,10 +1,10 @@
 |Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
-Node IP Connectivity
-====================
+Node IP Connectivity Policy
+===========================
 
-1 IP Policies
-=============
+1 IP Policy
+-----------
 1. Nodes may advertise IPv6 addresses, however all nodes in the main zone must advertise at least one IPv4 address.
 2. IPv6 only nodes will not be allowed before at least 2022.
 3. Node P2P ports must be globally reachable via the internet, from any part of the internet. By implication you may not 
@@ -13,7 +13,7 @@ using TLS termination and membership rule checking at the start of flow logic (i
 setup runs).
 
 2 Rationale
-===========
+-----------
 The world has run out of IPv4 addresses. IPv6 is clearly the future. Unfortunately 
 [adoption is currently only at 25%](https://www.google.com/intl/en/ipv6/statistics.html) and whilst it’s growing, so 
 too is the disparity between weekend and weekday IPv6 traffic. This is because workplaces are slower to adopt IPv6 than 

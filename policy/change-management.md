@@ -3,9 +3,8 @@
 Change Management
 =================
 
-1 Proposed policy
-===================
-
+1 Proposed Policy
+-----------------
 The Foundation and its Operator(s) shall apply controlled processes to the creation and modification of all 
 infrastructure and applications supporting Corda Network.
 
@@ -25,14 +24,12 @@ Participants, which do not themselves constitute Corda Network components (e.g. 
 services - e.g. revocation of participant node certificates not relating to  Corda Network components. 
 
 2 Governance
-============
-
+------------
 The Operator(s) is accountable for ensuring suitable change procedures, compliant with this policy, are in place and 
 maintained on an on-going basis.
 
 3 Testing
-=========
-
+---------
 Any intended change to a production environment must be tested in a non-production environment prior to execution. 
 Testing should follow standard the Foundation testing practices.
 
@@ -45,9 +42,8 @@ The Operator(s) are accountable for:
 * Where a deployment risk has been identified, proposing amendments to the CR to mitigate or negate this risk prior 
 to execution.
 
-4 Change requests
-=================
-
+4 Change Requests
+-----------------
 A **Change Request (CR)** must be raised for any intended change to a Production environment prior to its 
 execution.
 
@@ -72,9 +68,8 @@ accessibility of CR records, regardless of whether JIRA or another mechanism is
 CRs may also be raised for non-production environments where the level of operational exposure justifies formal 
 change management. The requirement to raise CRs in these cases depends on the environment-specific policy.
 
-5 Review and approval
-=====================
-
+5 Review and Approval
+---------------------
 At a minimum, all CRs must be reviewed and approved by one representative from each of the following groups with the 
 Operator(s), prior to execution:
 
@@ -99,8 +94,7 @@ DevOps are accountable for providing a suitable mechanism and establishing stand
 a JIRA, JIRA status)
 
 6 Prioritisation
-================
-
+----------------
 Each CR should be assigned one of three priority levels, prior to review:
 
 1.  Standard: No impact of non-immediate execution to external stakeholders or the Foundation operations. 
@@ -115,8 +109,7 @@ Operator(s) are responsible for assigning priority levels to each CR. The priori
 line with approval of the CR.
 
 7 Execution
-===========
-
+-----------
 Operator(s) are responsible for determining the appropriate method(s) to execute any CR. Following the immutable 
 infrastructure principle, changes should generally take the form of (re-)deployment of resources to the relevant 
 environment(s).
@@ -124,8 +117,7 @@ environment(s).
 By exception, other methods (e.g. manual re-configuration) may be used. Operator(s) are accountable for ensuring all such 
 methods are carried out in a controlled way and for capturing evidence of correct execution.
 
-7.1 Scheduling
---------------
+### 7.1 Scheduling
 Execution of CRs should be scheduled in advance. Operator(s) are accountable for scheduling of CR activity and ensuring 
 changes are carried out according to the schedule.
 
@@ -139,15 +131,13 @@ Agreements (SLAs) provided to business network operators and other participants.
 
 Operator(s) must keep the Foundation informed of the CR execution schedule.
 
-7.2 Communications
-------------------
+### 7.2 Communications
 External stakeholders to be impacted by the change, identified within the CR, should be advised in advance of scheduled 
 changes. The Platform Head of Delivery and Strategy is accountable for ensuring suitable communications are produced and 
 distributed to relevant stakeholders on a timely basis.
 
-8 Emergency changes
-===================
-
+8 Emergency Changes
+-------------------
 Exceptional circumstances may necessitate bypassing the normal review process in order to address critical operational 
 or reputational risks to the Foundation. This may include response to cyber-attacks, rollback of changes causing severe 
 network disruption, etc. 

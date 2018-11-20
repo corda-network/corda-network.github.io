@@ -3,9 +3,8 @@
 Protocol Definition
 ===================
 
-1 Proposed policy
-=================
-
+1 Proposed Policy
+-----------------
 Zone members agree that their nodes will understand the Corda protocol as defined by the open source reference 
 implementation, of at least the version specified in the network parameters' minPlatformVersion field or higher. Note 
 that the "platform version" may not always be aligned with the major version number of the Corda open source release, 
@@ -15,8 +14,7 @@ Nodes may additionally support and use extended versions of the protocol, howev
 nodes that are using the regular protocol.
 
 2 Rationale
-===========
-
+-----------
 There is currently no written specification of the Corda protocol. Therefore the Corda protocol is defined as whatever 
 the Corda software itself does.
 

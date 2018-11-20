@@ -3,9 +3,8 @@
 Allowable Identity Names
 ========================
 
-1 Proposed policy
-===================
-
+1 Proposed Policy
+-----------------
 Legal names registered with the Corda network must be submitted in the form of an X.500 name with at least the 
 organisation, locality and country attributes present. They must be sorted in the order specified in the Corda protocol. 
 The zone operator will ensure each component meets the following requirements:
@@ -24,7 +23,7 @@ are optional.
 Latin Extended B
 * Control characters are not allowed.
 * Must have at least two characters.
-* Must be normalized to Unicode NKFC form.
+* Must be normalized to Unicode NFKC form.
 * The following characters are forbidden:  , = $ " ' \ /
 * There may not be any trailing or leading whitespace.
 * They must be encoded using UTF-8
@@ -55,7 +54,7 @@ legitimately include stopwords will be handled via manual review.
 The Corda Network uses Unicode version 6.2
 
 2 Rationale
-===========
+-----------
 English benefits from a very simple alphabet. Many languages have more complex writing systems and this frequently 
 leads to a cascade of bugs and security holes when working with so-called "international text". Despite the decades of 
 excellent work done by the Unicode Consortium on creating a global system for computerized text, it is still a complex 
@@ -65,7 +64,7 @@ The rules above are designed to simplify Corda development for both R3 and app d
 problems we hope to avoid:
 
 * Names that cannot be pronounced over the phone by support staff.
-* Confusible character attacks, e.g. submitting an application for a name that already exists with letters like "o" 
+* Confusable character attacks, e.g. submitting an application for a name that already exists with letters like "o" 
 swapped for their Cyrillic equivalents, thus creating what appears to a computer to be a unique name.
 * Confusion attacks based on flipping text direction half way through a script that doesn't benefit from it, for 
 instance try copying the following word out of this email and into a text editor or terminal:  Mega‮proC‏
@@ -77,7 +76,7 @@ particular does not support the full range of Unicode inside UTF-8 fields. You h
 utf8mb4 instead. If you don't the non-BMP character and anything after it is silently truncated. This is not considered 
 a bug by the MySQL developers and therefore does not get fixed.Facebook got hacked in this way.
 
-It would imply a need to fully support complex scripts in end user apps, which may need to interop with legacy mainframe 
+It would imply a need to fully support complex scripts in end user apps, which may need to inter-operate with legacy mainframe 
 based applications that do not handle Unicode properly.
 
 The restriction on only supporting the extended Latin alphabet may be considered restrictive in some locales, as it 
@@ -109,26 +108,25 @@ good in user interfaces!
 
 The selected Unicode version is the one supported by Java 8.
 
-3 Developer notes
-=================
-
+3 Developer Notes
+-----------------
 Handling international text is a remarkably difficult task, filled with pitfalls for new and experienced engineers 
 alike. For best results follow these recommendations:
-* Do not be tempted to perform "looks alike" conversion into ASCII when attempting to interop with legacy systems. If you 
+* Do not be tempted to perform "looks alike" conversion into ASCII when attempting to inter-operate with legacy systems. If you 
 absolutely cannot upgrade a target system to be Unicode aware, use ? as a replacement character. Mapping extended 
 Latin characters to characters that English speakers think look the same has caused people to kill each other by 
 accident (the linked article is not a joke).
 * Names on the Corda network should not be prepared for comparison using methods like toLowerCase() or toUpperCase() 
-because some supported characters do not survive case roundtripping. For example the German letter ß converts to "SS" 
-when uppercased but, of course, "SS" converts to "ss" when lowercased. Whilst making two pieces of text "human compares 
-equal" by simply lowercasing or uppercasing is valid in English, in other languages some visual differences may be 
+because some supported characters do not survive case round-tripping. For example the German letter ß converts to "SS" 
+when upper-cased but, of course, "SS" converts to "ss" when lower-cased. Whilst making two pieces of text "human compares 
+equal" by simply lower-casing or upper-casing is valid in English, in other languages some visual differences may be 
 considered irrelevant yet not be removed by re-casing. A better approach is to use a java.text.Collator object, then 
 call the setStrength method to determine how lax the match should be, and then check if the compare method returns zero.
 * A Collator object should also be used to sort Corda names, for example if you wish to create an alphabetically sorted 
 list of target names. Note that sorting (collation) rules change depending on the native language of the user. For 
 example in Germany Ü sorts directly after U however in Swedish it is considered a separate letter and Ü will sort after 
 Z. Therefore if you want to sort things alphabetically you should have some understanding of where your user is from. 
-The HTTP Accept-Language header may seem tempting for this but it is common for users who aren't native English 
+The HTTP Accept-Language header may seem tempting for this but it is common for users who are not native English 
 speakers to put English first in their preference list, due to the abundance of poorly localized apps. So you may wish 
 to obtain this information in different ways, or to pay attention to the first non-English language specified.
 * When allowing the user to input free text for identities, use the CordaRPCOps.partiesFromName RPC to do lookups and 
@@ -146,12 +144,11 @@ behaviours here.
 Please note that these guidelines are not exhaustive. R3 employees can find a tech talk that explores Unicode security 
 further on our wiki.
 
-4 Potential future evolutions
-=============================
-
+4 Potential Future Evolutions
+-----------------------------
 * Support for more alphabets like Chinese and its variants, Japanese, Thai, Arabic, Hebrew. This implies allowing 
 right-to-left text in names and consequent policies designed to detect abuse.
 * Allowing commas and quote characters for e.g. Irish names, name of law firms etc.
 * Policy constraints on acceptable state, country names.
 * Relaxation or removal of stopwords. Alternatively, addition of more stopwords e.g. swear words.
-* Integration of Unicode confusible character detection algorithms.
+* Integration of Unicode confusable character detection algorithms.
