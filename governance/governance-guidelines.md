@@ -180,7 +180,7 @@ at least three business networks are conducting live transactions using the netw
 #### 3.3.3.2	Transition: Initial set-up of Foundation Board: 
 For the transition year, the first three business networks shall have the right to choose three Participants, to 
 represent the interests of the business network. One of each of these must be based in the Americas, Europe/Africa and 
-Asia, to ensure geographic diversity, if the pool Participants allows.  Each selected Participant will appoint a 
+Asia, to ensure geographic diversity, if the pool of Participants allows.  Each selected Participant will appoint a 
 Director, to sit on the Board, making nine Directors in addition to the two Directors from R3. 
 
 After this start-up period, there will be a vote for Board Directors.
