@@ -10,7 +10,7 @@ Board, to steer and govern Corda Network effectively to realise its potential. I
 =====================================
 
 Corda allows multiple independent applications and private networks to coexist, each with their own business models and 
-membership criteria, yet linked by the same underlying network (‘Corda Network’). This Network enables ‘interoperability’, 
+membership criteria, yet linked by the same underlying network (‘Corda Network’). This Network enables interoperability, 
 the exchange of data or assets via a secure, efficient ‘internet layer’, in a way that isn’t possible with competing 
 permissioned distributed ledger technologies or legacy systems.
 
@@ -45,7 +45,7 @@ Following on from the Corda introduction and technical white papers, we see the 
 to achieve the vision of Corda - whereby the state of transactions and agreements of business partners can be recorded 
 in a single global database, ending the need for costly reconciliation and error correction, while maintaining privacy. 
 Further details of the vision are laid out in the 
-[Corda Introductory White Paper](https://www.corda.net/content/corda-platform-whitepaper.pdf).
+[Corda Introductory White Paper](https://www.corda.net/content/corda-platform-whitepaper.pdf) from 2018.
 
 Achieving this vision in its full ubiquity will involve running and maintaining a stable and secure Network with open 
 and fair governance, while also promoting the Network so as to ensure its more widespread use.
@@ -118,7 +118,7 @@ exercise their business judgement to act in what they believe to be the best int
 of the interests of the Network community as a whole (rather than any one individual interest). 
 
 Directors are expected to comply with the Conflict of Interest policy, which includes a responsibility to disclose 
-promptly any conflicts that may arise, and meet the expected standards specified in the Code of Conduct Guidelines for 
+promptly any conflicts that may arise, and meet the expected standards specified in the [Code of Conduct Guidelines] (https://github.com/corda-network/corda-network.github.io/blob/master/policy/code-conduct.md) for 
 ethical conduct and breach reporting.
 
 The Board is the formal decision-making authority of the Foundation, and actions of the Board reflect its collective 
@@ -180,7 +180,7 @@ at least three business networks are conducting live transactions using the netw
 #### 3.3.3.2	Transition: Initial set-up of Foundation Board: 
 For the transition year, the first three business networks shall have the right to choose three Participants, to 
 represent the interests of the business network. One of each of these must be based in the Americas, Europe/Africa and 
-Asia, to ensure geographic diversity, if the pool Participants allows.  Each selected Participant will appoint a 
+Asia, to ensure geographic diversity, if the pool of Participants allows.  Each selected Participant will appoint a 
 Director, to sit on the Board, making nine Directors in addition to the two Directors from R3. 
 
 After this start-up period, there will be a vote for Board Directors.
