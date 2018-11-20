@@ -1,27 +1,24 @@
 |Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
-Inventory Management
-====================
+Inventory Management Policy
+===========================
 
-1 Proposed policy
-=================
-
+1 Policy
+--------
 This document describes the Foundation's approach to the management of IT assets in relation to Corda Network. 
 Specifically, it describes methods for proper acquisition, installation, handling, tracking and disposal of IT assets 
 to meet defined requirements. Requirements include ensuring adherence to company and industry standards, ensuring 
 consistency throughout the Foundation, and conforming to customer, legal, and regulatory requirements.
 
 2 Motivation
-============
-
+------------
 Corda Network depends on a complex set of technology infrastructure to deliver capabilities to network participants. 
 This infrastructure represents significant capital and operational investment by the Foundation. Effective management 
 of this infrastructure as a portfolio of assets is important in order to optimise costs in support of the Foundation's 
 strategic objectives.
 
 3 Scope
-=======
-
+-------
 In the context of this document, an asset may be any Corda Network component of identifiable economic value to the 
 Foundation. This includes, but is not limited to:
 
@@ -48,8 +45,7 @@ personal use laptops, mobile devices, or general office infrastructure.
 considered an asset; individual cloud resources are treated as configuration parameters of that asset.
 
 4 Governance
-============
-
+------------
 The Operator(s) is accountable for ensuring all assets are appropriately tracked throughout their lifecycle.
 
 Each asset must have an assigned owner, who is responsible for the general maintenance and upkeep of the asset. The 
@@ -60,8 +56,7 @@ A register of asset ownership shall be maintained to provide internal visibility
 and Operator(s) assets.
 
 5 Asset Assessment
-==================
-
+------------------
 The Foundation and Operator(s) shall assess, on an on-going basis, the extent to which its assets meet Corda Network 
 requirements. 
 
@@ -80,8 +75,7 @@ level of rigour. The outcome of asset assessments must be ratified by the Found
 recommendations.
 
 6 Cost Management 
-=================
-
+-----------------
 The Foundation shall monitor all costs accruing from Corda Network assets and manage them appropriately.
 
 The Operator(s) is accountable for ensuring that the costs associated with the Corda Network inventory are measured, 
@@ -93,8 +87,7 @@ owner of those assets must provide timely and accurate information to enable th
 relationship to operational metrics (e.g. # VMs, hours of operation etc.).
 
 7 Asset Acquisition
-===================
-
+-------------------
 Ultimate accountability for investment in Corda Network assets by the Operator(s) rests with the Operator(s). 
 Acquisition decisions are made on the basis of:
 
@@ -112,8 +105,7 @@ policies, without conducting a vendor selection process. Where no preferred vend
 expected to exceed $20,000 USD, a separate vendor selection exercise must be carried out in advance of purchase. 
 
 8 Disposal
-==========
-
+----------
 Disposal of an asset is required whenever the following conditions apply:
 
 * The asset is determined to no longer meet a requirement in the delivery of Corda Network capabilities;

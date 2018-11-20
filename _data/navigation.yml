@@ -35,40 +35,52 @@ pages:
     children:
     #  - title: Introduction
     #    url: /policy/index.html
-    #  - title: Admission Criteria
-    #    url: /policy/admission-criteria.html
-    #  - title: GDPR
-    #    url: /policy/gdpr.html
+    - title: Admission Criteria
+      url: /policy/admission-criteria.html
+    - title: Anti-trust
+      url: /policy/anti-trust.html
+    - title: GDPR
+      url: /policy/gdpr.html
     #  - title: Network Services
     #    url: /policy/network-services.html
-    #  - title: Anti-trust
-    #    url: /policy/anti-trust.html
     - title: Code of Conduct
       url: /policy/code-conduct.html
-    #  - title: Conflict of Interest
-    #    url: /policy/conflict-interest.html
+    - title: Conflict of Interest
+      url: /policy/conflict-interest.html
     - title: Dispute Resolution
       url: /policy/dispute-resolution.html
-    #  - title: Infrastructure Management
-    #    url: /policy/infrastructure-management.html
     #    - title: Information Classification
     #      url: /policy/information-classification.html based on POL06
+    - title: Network Services
+      url: /policy/network-services.html
     - title: Notary Services
       url: /policy/notary-services.html
-#  - title: Protocol Definition
-#    url: /policy/protocol-definition.html
-#  - title: Security
-#    url: /policy/security.html
+    - title: Security
+      url: /policy/security.html
 #    - title: Supplier Management
 #      url: /policy/supplier-management.html based on POL04
   - title: Operator Policy
     children:
+    - title: Access Control
+      url: /policy/access-control.html
+    - title: Backup / Restore
+      url: /policy/backup-restore.html
     #    - title: Business Continuity
     #      url: /policy/business-continuity.html based on POL08
     - title: Change Management
       url: /policy/change-management.html
+    - title: Configuration Management
+      url: /policy/configuration-management.html
+    - title: Cryptographic Material
+      url: /policy/cryptographic-material.html
+    - title: Deployment
+      url: /policy/deployment.html
     #    - title: Data Retention
     #      url: /policy/data-retention.html based on POL10
+    - title: Emergency Access
+      url: /policy/emergency-access.html
+    - title: Environments
+      url: /policy/environments.html
     - title: Incident Response
       url: /policy/incident-response.html
     - title: Inventory Management
@@ -77,6 +89,8 @@ pages:
 #      url: /policy/physical-security.html based on POL12
 #    - title: Security Incident
 #      url: /policy/security-incident.html based on POL09
+    - title: Updates / Patching
+      url: /policy/updates-patching.html
   - title: Technical Policy
     children:
     - title: Allowable Names
@@ -87,12 +101,14 @@ pages:
       url: /policy/event-horizon.html
     - title: IP Addresses
       url: /policy/ip-addresses.html
-  #  - title: Namespace Ownership
-  #    url: /policy/namespace-ownership.html
-  #  - title: Network Params Upgrade
-  #    url: /policy/network-params-upgrade.html
-  #  - title: Port Ranges
-  #    url: /policy/port-ranges.html
+    - title: Namespace Ownership
+      url: /policy/namespace-ownership.html
+    - title: Network Params Upgrade
+      url: /policy/network-params-upgrade.html
+    - title: Port Ranges
+      url: /policy/port-ranges.html
+    - title: Protocol Definition
+      url: /policy/protocol-definition.html
   - title: Trust Root
     children:
     - title: Introduction

@@ -1,39 +1,32 @@
 |Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
-Incident Response
-=================
+Incident Response Policy
+========================
 
 1 Introduction
-==============
-
-1.1 Purpose
------------
+--------------
+### 1.1 Purpose
 Computer security incident response is a part of the day to day business activities of the Foundation. This document 
 defines the Foundation’s policy for reporting, prioritising and managing the response to such incidents.
 
-1.2 Risks addressed
--------------------
+### 1.2 Risks addressed
 Failure to comply with this policy may expose the Foundation to prolonged and uncontrolled impact from information 
 security incidents.
 
 Furthermore, failure to comply with this policy may constitute a breach of the Foundation’s legislative, regulatory 
 and or contractual obligations.
 
-1.3 Who does the policy apply to?
----------------------------------
+### 1.3 Who does the policy apply to?
 This policy applies to employees and contractors, consultants, temporaries, and other workers at Corda Network 
 Foundation, or its Operator(s), including all personnel affiliated with third parties – in short, it applies to everyone.
 
 2 Scope
-=======
-
+-------
 All Foundation information, information assets and systems.
 
 3 Policy Guidance
-=================
-
-3.1 Everyone has a role to play
--------------------------------
+-----------------
+### 3.1 Everyone has a role to play
 The biggest challenge to effectively responding to a computer security incident is its detection and assessment. Whilst 
 some incidents may be readily indicated by automated system alerts or spotted by keen* eyed systems or network 
 administrators, other indicators of potential incidents may not be so immediately visible.
@@ -50,8 +43,7 @@ From these examples, it can be seen that incident detection is a complex problem
 effectively detect and respond to incidents spreads beyond the bounds of the IT, DevOps and Support teams. Everyone 
 in the organisation has a role to play.
 
-3.2 How detect we detect security incidents? 
---------------------------------------------
+### 3.2 How can we detect Security Incidents? 
 A computer security incident is any real, suspected or imminent threat of compromise of the security of data or 
 systems. Examples of incidents include:
 
@@ -88,8 +80,7 @@ Given this uncertainty, and the potential for “false positives”, it is sensi
 investigating adverse events. We must assume that such events may be indicators of an incident until they are shown 
 to be otherwise after investigation by experts.
 
-3.3 Your obligations
---------------------
+### 3.3 Your obligations
 All employees and associates are required to:
 
 * Be continually vigilant regarding events that might be indicators of security incidents.
@@ -97,10 +88,8 @@ All employees and associates are required to:
 suspected incidents are promptly reported.
 
 4 Mandatory Controls
-====================
-
-4.1 The Response Team and Response Plans
-----------------------------------------
+--------------------
+### 4.1 The Response Team and Response Plans
 The Foundation will maintain a computer security incident response team (CSIRT). 
 
 The CSIRT extended team will include members of the DevOps, support, IT support and development teams. 
@@ -109,8 +98,7 @@ The Foundation will maintain a computer security incident response plan that imp
 individual performing that role) is responsible for the development and maintenance of the plan and may delegate day 
 to day activities to the Information Security Program Manager.
 
-4.2 Reporting and Response
---------------------------
+### 4.2 Reporting and Response
 All suspicious events and suspected incidents must be reported to the CSIRT. Initial reporting must be via telephone to 
 the CSIRT response line on +44 (0)207 1131478.
 
@@ -127,23 +115,20 @@ may require a larger handling team to be assembled from the wider incident respo
 The Incident Handler will ensure that comprehensive records of the incident from reporting to closure and any actions 
 taken in response are maintained.
 
-4.3 Incident Classification and Prioritisation
-----------------------------------------------
+### 4.3 Incident Classification and Prioritisation
 Incident handling must be prioritised based on relevant factors, rather than on a first-come, first-served basis. The 
 Foundation computer security incident response plan includes a classification scheme that includes functional and 
 information impact (combined as the business impact) and the level and type of resources required to recover from the 
 incident. All incidents must be assessed according to this scheme as part of the triage phase the incident response 
 activity.
 
-4.4 Maintenance of Production Services
---------------------------------------
+### 4.4 Maintenance of Production Services
 Where there is a conflict between containment of a security incident and preservation of evidence, and maintenance of
 production services, the Foundation will usually prioritise the maintenance of production services wherever possible. 
 If the steps to contain of an incident or preserve evidence are likely to result in medium or above functional impact 
 to the production service, approval to implement must be sought from the Operator COO, Chief Engineer or CTO.
 
-4.5 Incident Notification and Communications
---------------------------------------------
+### 4.5 Incident Notification and Communications
 The following individuals of the Operator must be notified as a matter of course for incidents of for low and above 
 functional impact (one or more critical services operating at a reduced but tolerable level of performance). They 
 may also be notified in the event of a breach of information classified as internal or above:
@@ -177,8 +162,7 @@ directly with service providers and product vendors for the purposes of investig
 communication should be handled by the relevant relationship manager with input from Legal Counsel as dictated by the 
 incident impact.
 
-4.6 Interaction with Law Enforcement
-------------------------------------
+### 4.6 Interaction with Law Enforcement
 The Foundation may take the decision to involve law enforcement to handle a security breach. Any decision to involve 
 law enforcement must be taken in the light of any regulatory obligations to which the company is subject. Incident 
 handlers or other staff members must not independently initiate any conversation with law enforcement. Any decision 
@@ -186,8 +170,7 @@ should weigh regulatory and client obligations against loss of control of the in
 public disclosure of the incident. Decisions to involve law enforcement rest at COO and CEO level and must involve HR
 and legal counsel.
 
-4.7 Evidence Gathering and Handling
------------------------------------
+### 4.7 Evidence Gathering and Handling
 The incident handler must clearly document how all evidence gathered during the incident handling process has been 
 preserved.
 
@@ -195,7 +178,7 @@ Evidence should be accounted for at all times. Where evidence is transferred fro
 custody forms should detail the transfer and include each person’s signature.
 
 5 Compliance
-============
+------------
 Regular assessments are carried out for compliance against this policy. Any violation of this policy will be 
 investigated and if the cause is found due to wilful disregard or negligence, it will be treated as a disciplinary 
 offence. All disciplinary proceedings are coordinated through the Operator(s) Human Resources Departments.

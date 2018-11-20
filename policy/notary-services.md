@@ -6,10 +6,8 @@ Notary Services Policy
 This document defines required arrangements for the operation of Notary Services within the Corda Network.
 
 1 Introduction
-==============
-
-1.1 Definitions
----------------
+--------------
+### 1.1 Definitions
 The following definitions apply in the context of this document:
 
 * **Notarisation** : Assertion, via cryptographic signature, that a given Corda transaction may be considered a final, 
@@ -24,8 +22,7 @@ Notaries (see below).
 * **User** : Any Participant with a real or potential interest in the operation of a Notary Service, who would not be 
 precluded from access under the conditions of service (see 2.4)
 
-1.2 Motivation
---------------
+### 1.2 Motivation
 Transaction notarisation is recognised as a core requirement for the operation of the Corda Network. By providing a 
 basis for establishing the settlement finality of a transaction, notarisation enables business workflows including the 
 exchange of assets cross the network; this, in turn, supports the mission of the Network to allow seamless communication 
@@ -41,8 +38,7 @@ reliability and performance of the notary ecosystem. We believe the best way to 
 and competitive market in Notary Services, whilst applying sufficient governance to ensure Notary Services adhere to 
 minimum standards. This document sets out the key elements of this governance.
 
-1.3 Principles
---------------
+### 1.3 Principles
 This policy applies the following general principles:
 
 1. Notary Operators must meet minimum criteria defined by the Foundation in order to provide a Notary Service.
@@ -51,11 +47,9 @@ Service, and any changes of these over time.
 3. Participants must be conscious of the terms under which any Notary Service is provided before becoming Users of that 
 Notary Service.
 
-2 Policy detail
-===============
-
-2.1 Finality
-------------
+2 Policy Detail
+---------------
+### 2.1 Finality
 In providing any judgment or opinion, the Foundation shall apply a general principle that notarised transactions (that 
 is, cryptographically signed by a recognised Notary) shall be considered final, whereas un-notarised transactions shall 
 be considered non-final.
@@ -63,8 +57,7 @@ be considered non-final.
 Where there is a need for a Corda transaction to be considered final, it is incumbent on parties to that transaction to 
 ensure it is submitted to an appropriate Notary Service for notarisation.
 
-2.2 Organisation of Notary Services
------------------------------------
+### 2.2 Organisation of Notary Services
 A Notary Service may be operated either by a single Notary Operator, or by multiple Notary Operators operating 
 collectively (e.g. via a collection of Notaries running a Byzantine Fault-Tolerant consensus algorithm).
 
@@ -77,8 +70,7 @@ receives a notarisation request
 * Define and maintain appropriate mechanisms for collective governance (e.g. admission and removal of members, 
 allocation of liability, fees, etc.)
 
-2.3 Basic standards
--------------------
+### 2.3 Basic Standards
 The Foundation shall provide a dedicated policy document setting out minimum criteria for Applicants, and the Notary 
 Services they propose. These criteria form basic standards for the operation of Notary Services, covering areas such as:
 
@@ -90,8 +82,7 @@ Services they propose. These criteria form basic standards for the operation of 
 The Foundation may change these criteria over time. Existing Notary Services may, as a result, be required by the 
 Foundation to apply changes in order to comply with revised basic standards.
 
-2.4 Terms of Service
---------------------
+### 2.4 Terms of Service
 Notary Operators shall define Terms of Service for any Notary Service(s) they operate.
 
 At a minimum, Terms of Service shall include clear, explicit statements to cover the following:
@@ -134,7 +125,7 @@ are able to demonstrate, without ambiguity, which Terms of Service apply to any 
 Notary Operators shall ensure Terms of Service are visible to any Participant who is a User of the Service, or may 
 become so in future.
 
-### 2.4.1 User obligations
+#### 2.4.1 User obligations
 In providing any judgment or opinion, the Foundation shall consider usage of a Notary Service by a User to imply that 
 acceptance by that User to the Terms of Service in effect at the time of usage. It is therefore incumbent on 
 Participants to review and accept the Terms of Service prior to:
@@ -148,15 +139,14 @@ their behalf. It is incumbent on Participants to determine the Notary Service se
 use. Where a potential exists for a CorDapp to select one or more Notary Services on a behalf of a User, it is incumbent 
 on the User to review and accept the Terms of Service for those Notary Services prior to using that CorDapp.
 
-2.5 Creation of new Notary Services
------------------------------------
+### 2.5 Creation of new Notary Services
 The Foundation welcomes interest by all parties in the creation of new Notary Services as part of the Corda Network.
 
 Creation of a new Notary Service shall be subject to review and approval by the Foundation. In principle, all 
 applications to create a new Notary Service shall be reviewed without prejudice and approved subject to meeting the 
 basic standards (see 2.3).
 
-### 2.5.1Application process
+#### 2.5.1Application process
 The Foundation shall provide a structured process for the processing of all applications to create a new Notary Service, 
 wherein:
 
@@ -173,14 +163,12 @@ Operator and Notary Operator(s).
 Where one or more audits are deemed to be required as part of the application process, Applicants shall be required to 
 engage an auditor approved by the Foundation. The cost of all such audits shall be borne by the Applicant(s).
 
-2.6 Disclosures
----------------
+### 2.6 Disclosures
 Notary Operators are required to maintain transparency of changes in their status to their Users, such that Users may 
 make informed decisions regarding their operational exposure to a Notary Service. The minimum set of required 
 disclosures are described below.
 
-### 2.6.1 Advance disclosures
-
+#### 2.6.1 Advance disclosures
 Notary Operators shall disclose the following to Users in advance of the fact:
 
 * Any change to the Terms of Service applicable to those Users
@@ -189,8 +177,7 @@ Notary Operators operating the Notary Service
 * Intent to discontinue the Notary Service
 * Any other action with significant risk of impairing operation under the current Terms of Service
 
-### 2.6.2 Other disclosures
-
+#### 2.6.2 Other disclosures
 Notary Operators shall disclose the following to all Users:
 
 * Any financial, legal or operational dependencies existing between joint Notary Operators, such that inability of a 
@@ -204,13 +191,11 @@ Notary(ies)
 Disclosures shall be made at the earliest practical opportunity. Where possible, all such disclosures shall be made in 
 advance, and no later than 7 days after the event to be disclosed.
 
-### 2.6.3 Avoidance of disclosure conflicts
-
+#### 2.6.3 Avoidance of disclosure conflicts
 A Notary Operator shall avoid any action by which it may become unable to fulfill its disclosure obligations to Users, 
 e.g. due to legal non-disclosure obligations.
 
-2.7 Service monitoring
-----------------------
+### 2.7 Service monitoring
 The Foundation may, at any time, require Notary Operators to provide evidence of:
 
 * The accuracy of disclosures made to Users (or absence thereof; see 2.5)
@@ -224,8 +209,7 @@ Where one or more audits are deemed to be required in order to assemble such evi
 required to engage an auditor approved by the Foundation. The cost of all such audits shall be borne by the Notary 
 Operator(s).
 
-2.8 Complaints
---------------
+### 2.8 Complaints
 Participants may raise complaints to the Foundation at any time if they have reasonable cause to believe a Notary 
 Service is not being operated in compliance with basic standards and/or Terms of Service.
 
@@ -237,8 +221,7 @@ The Foundation shall apply a structured process to the handling of complaints, w
 
 The Foundation shall make details of its complaints handling process available upon request.
 
-2.9 Termination of Notary Services
-----------------------------------
+### 2.9 Termination of Notary Services
 Notary Operators may elect to discontinue provision of Notary Services where provision for such termination is given in 
 the Terms of Service.
 

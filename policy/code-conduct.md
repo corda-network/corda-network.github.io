@@ -3,10 +3,14 @@
 Code of Conduct
 ===============
 
+1 Introduction
+--------------
 The Corda Network Foundation (“Foundation”) was created to govern Corda Network in a transparent and democratic manner, 
 and to facilitate stable operations with a long-term perspective, over and above the interest of any individual or 
 organization. 
 
+2 Policy
+--------
 The Governing Board[1], is committed to the widespread adoption of Corda Network across all industries and upholding 
 the [Corda Network Foundation Governing Guidelines](../governance/governance-guidelines.md).  
 
