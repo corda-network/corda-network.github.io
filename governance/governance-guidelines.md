@@ -170,7 +170,7 @@ company classification data.
 Europe/Africa and Asia, to ensure geographic diversity. 
 * Of the nine Directors, there should not be more than three Directors representing any Corporate Group with more than 
 100,000 employees.
-* There is no restriction of re-election of Directors or the Chair of the Board.
+* Directors may hold a maximum of 4 terms. There is no restriction on re-election of the Chair of the Board, who holds a one-year term.
 
 ### 3.3.3 Establishment of the Board
 #### 3.3.3.1 Pre-Foundation 
