@@ -5,14 +5,15 @@ Trust Root Generation
 
 The generation of the long-lived trust root for Corda Network required a level of ceremony, witnessing and 
 memorialisation that was met through a highly-scripted and secure event held at the R3 offices at 2 London Wall, 
-London, UK on Friday 14th September 2018.
+London, UK on Friday 14th September 2018. The ceremony required extensive preparation, advice and guidance from both 
+KPMG in 2017 and Schellman in 2018, and included 7 independent witnesses from global banks and R3's partner program. The 
+total expenditure was more than one year of effort, and significant financial cost, in order to deliver long-term 
+trust.
 
 The full script for the event and other supporting artifacts are found via the links and attachments below.
 
-The root key material generated is held in offline secure locations and the subordinate key material held on production 
+The root key material generated is held in offline secure locations, and the subordinate key material held on production 
 HSMs.
-
-**Note: the video links referenced in this document are not yet populated.**
 
 Certificate Policy
 ------------------

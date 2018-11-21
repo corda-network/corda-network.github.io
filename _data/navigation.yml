@@ -37,7 +37,7 @@ pages:
     #    url: /policy/index.html
     - title: Admission Criteria
       url: /policy/admission-criteria.html
-    - title: Anti-trust
+    - title: Anti-Trust
       url: /policy/anti-trust.html
     - title: GDPR
       url: /policy/gdpr.html
@@ -49,18 +49,20 @@ pages:
       url: /policy/conflict-interest.html
     - title: Dispute Resolution
       url: /policy/dispute-resolution.html
-    #    - title: Information Classification
-    #      url: /policy/information-classification.html based on POL06
+    - title: Information Classification
+      url: /policy/information-classification.html
     - title: Network Services
       url: /policy/network-services.html
     - title: Notary Services
       url: /policy/notary-services.html
     - title: Security
       url: /policy/security.html
-#    - title: Supplier Management
-#      url: /policy/supplier-management.html based on POL04
+    - title: Supplier Management
+      url: /policy/supplier-management.html
   - title: Operator Policy
     children:
+    - title: Acceptable Use
+      url: /policy/acceptable-use.html
     - title: Access Control
       url: /policy/access-control.html
     - title: Backup / Restore
@@ -83,10 +85,12 @@ pages:
       url: /policy/environments.html
     - title: Incident Response
       url: /policy/incident-response.html
-    - title: Inventory Management
+     - title: Inventory Management
       url: /policy/inventory-management.html
-#    - title: Physical Security
-#      url: /policy/physical-security.html based on POL12
+    - title: Organisation of Info Security
+      url: /policy/organisation-info-security.html
+    - title: Physical Security
+      url: /policy/physical-security.html
 #    - title: Security Incident
 #      url: /policy/security-incident.html based on POL09
     - title: Updates / Patching
