@@ -85,7 +85,7 @@ pages:
       url: /policy/environments.html
     - title: Incident Response
       url: /policy/incident-response.html
-     - title: Inventory Management
+    - title: Inventory Management
       url: /policy/inventory-management.html
     - title: Organisation of Info Security
       url: /policy/organisation-info-security.html
