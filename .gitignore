@@ -1,9 +1,5 @@
 .DS_Store
-.idea/dictionaries/
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/workspace.xml
+.idea
 Gemfile
 Gemfile.lock
 _site/
