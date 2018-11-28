@@ -47,8 +47,8 @@ Corda Network Participants.
 Notary 
 ------
 Corda design separates correctness consensus from uniqueness consensus, and the latter is provided by one or more Notary 
-services. The Notary will digitally sign a transaction presented to it - provided no transaction referring to 
-any of the same inputs has been previously signed by the Notary, and the transaction timestamp is within bounds. 
+services. The Notaries will digitally sign a transaction presented to it - provided no transaction referring to 
+any of the same inputs has been previously signed by the relevant Notary, and the transaction timestamp is within bounds. 
 
 Business Network Operators and Network Participants may choose to enter into legal agreements which rely on the presence 
 of such digital signatures when determining whether a transaction to which they are party, or upon the details of which they 
