@@ -3,7 +3,10 @@
 Introduction to Corda Network
 =============================
 
-*06/11/2018: This content is a work in progress*
+*04/12/2018: This content is a work in progress*
+
+Welcome to Corda Network's website.
+
 
 Corda Network consists of Corda nodes operated by network participants, in which business transactions are created and 
 validated via Corda Distributed Applications (CorDapps) running on these nodes. Each node is identified by means of a 
@@ -12,13 +15,9 @@ certificate issued by the Network's Certificate Authority, and will also be iden
 Corda Network enables interoperability – the exchange of data or assets via a secure, efficient internet layer – in a way 
 that isn't possible with competing permissioned distributed ledger technologies or legacy systems.
 
-The network is due to go live in December 2018, and initially it will be governed by R3. An independent, not-for-profit 
-Foundation is currently being set-up which is intended to govern the Network from mid 2019, after a transition period
-when control moves entirely to the Foundation. See the [governance model](../governance/index.md) for 
-more 
-detail.
+As of December 2018, Corda Network is live with its new [certificate hierarchy] (https://docs.corda.net/head/permissioning.html). Initially, it will be governed by R3. An independent, not-for-profit Foundation has been set-up which is intended to govern the Network from early/mid 2019, after a transition period when control moves entirely to the Foundation. See the [governance model](../governance/index.md) for more detail.
 
-The Network will comprise many sub-groups many sub-groups of participants running particular CorDapps (sometimes but not 
+The Network will comprise many sub-groups of participants running particular CorDapps (sometimes but not 
 always referred to as 'business networks'), and such groups will often have a co-ordinating party (the 'Business 
 Network Operator') who manages the distribution of the app and rules (including around membership) for its use. 
 
