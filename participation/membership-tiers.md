@@ -10,3 +10,17 @@ A **full participant** usually signs contracts directly with the Corda Network F
 
 In contrast, **identity-only participants** typically are part of much larger, disparate business networks where participants only infrequently transact on Corda Network. They only need an identity for one application; are expected to receive on-boarding support from the business network or application provider, instead of the Network Operator; do not have voting rights and cannot stand for the Foundation's board of directors. They are issued with a certificate by the Network Doorman, they will be on the network map and a lower level of identity checking will have been done, given that they are part of a sponsored model. 
 
+
+  | Identity-only (Sponsored) | Full Membership
+-- | -- | --
+Node Deployment |   |  
+Certificate Issuance | ✗ | ✗
+On the Network Map | ✗ | ✗
+Identity checks | ✗ | ✗
+Onboarding support |   | ✗
+Ongoing |   |  
+Multiple node applications |   | ✗
+Ongoing support |   | ✗
+Voting rights + can stand for the Foundation’s board of directors |   | ✗
+PRICE | $100   per year / node | $2500   per year / node
+
