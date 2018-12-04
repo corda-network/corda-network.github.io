@@ -1,9 +1,11 @@
 |Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
-Currently there are two membership tiers for Corda Network:
+Participation in Corda Network is for legal entities only. In general, the term 'participation' rather than 'membership' is used, as this is the terminology used for a Dutch Stichting in the laws governing it.
+
+Currently there are two tiers for participation in Corda Network:
 (1) Full participant
-(2) Identity-Only / sponsored participant
+(2) Identity-only / sponsored participant
 
-A **full participant** will usually sign contracts directly with R3. They will usually manage their own nodes and be part of  tightly-knit business network(s). They will receive full customer support from the Network Operator, can be a member of multiple business networks, will have voting rights and can stand for the Foundation's Board of directors.  
+A **full participant** usually signs contracts directly with the Corda Network Foundation. They typically manage their own nodes and are part of one or several tightly-knit business network(s). They receive full onboarding support from the Network Operator, can be a member of multiple business networks, have voting rights and can stand for the Foundation's board of directors.  
 
-In contrast, **identity-only participants** will typically be seen in much larger, disparate business networks where participants only infrequently transact on Corda Network. They only need an identity for one node application, do not receive any customer support, do not have voting rights and cannot stand for the Foundation's board of directors. They are issued with a certificate by the Network Doorman, they will be on the network map and a lower level of identity checking will have been done, given that they are part of a sponsored model. 
+In contrast, **identity-only participants** typically are part of much larger, disparate business networks where participants only infrequently transact on Corda Network. They only need an identity for one node application, do not receive any onboarding support, do not have voting rights and cannot stand for the Foundation's board of directors. They are issued with a certificate by the Network Doorman, they will be on the network map and a lower level of identity checking will have been done, given that they are part of a sponsored model. 
