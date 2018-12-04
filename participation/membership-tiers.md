@@ -13,14 +13,14 @@ In contrast, **identity-only participants** typically are part of much larger, d
 
   | Identity-only (Sponsored) | Full Membership
 -- | -- | --
-Node Deployment |   |  
+**Node Deployment** |   |  
 Certificate Issuance | ✗ | ✗
 On the Network Map | ✗ | ✗
 Identity checks | ✗ | ✗
 Onboarding support |   | ✗
-Ongoing |   |  
+**Ongoing** |   |  
 Multiple node applications |   | ✗
 Ongoing support |   | ✗
 Voting rights + can stand for the Foundation’s board of directors |   | ✗
-PRICE | $100   per year / node | $2500   per year / node
+**PRICE** | $100   per year / node | $2500   per year / node
 
