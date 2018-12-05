@@ -3,7 +3,9 @@
 Joining Corda Network
 =====================
 
-Corda Network participation requires each node to possess a recognised Certificate Authority (CA) signed certificate 
+The below gives a high-level guide on the steps required to join Corda Network. However, we have found that many of our users are joining Corda Network as part of a wider group or [business network](https://solutions.corda.net/business-networks/intro.html), so far - and the process can be modified where a group is joining together.
+
+Firstly, Corda Network participation requires each node to possess a recognised Certificate Authority (CA) signed certificate 
 (“Participation Certificate”), which is used to derive other digital certificates required (such as legal entity signing 
 certificates and TLS certificates).
 
@@ -34,17 +36,14 @@ request as well as choosing a distinguished name.
 
 *Choosing a Distinguished Name* 
 
-*Specifying URL for initial registration* - For Corda Network, it is http://join.cordaconnect.org/ED5D077E-F970-428B-8091-F7FCBDA06F8C. This needs to be added to the node.conf at the end of the file:
-compatibilityZoneURL=http://join.cordaconnect.org/ED5D077E-F970-428B-8091-F7FCBDA06F8C
-
 Step 6. Run the initial registration. 
 Once the node.conf file is configured, the following should be typed to the command line "java -jar <corda jar file> --initial-registration". This will send a Certificate Signing Request (with the relevant name and email) to the 
 Network Manager service (Doorman / Network Map).
 
 Step 7. Sign Participant terms of use, either directly or indirectly:
-* **Sponsored model**: A Business Network Operator (BNO) requesting approval for a certificate on behalf of the Participant.
+* **Indirect model**: A Business Network Operator (BNO) may request approval for a certificate on behalf of Participants in its Business Network.
 * **Direct model**: The Participant requesting a certificate for themselves.
-Where relevant, the TOU document will be sent from doorman@r3.com.
+Where relevant, a Terms of Use legal document will be sent from doorman@r3.com which will need to be signed by the Participant.
 
 Step 8. Doorman verification checks – upon receipt of a CSR, a number of identity-related checks will be conducted, before issuing a certificate, including email and legal entity checks. 
 
