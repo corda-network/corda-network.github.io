@@ -24,3 +24,4 @@ Ongoing support |   | ✗
 Voting rights + can stand for the Foundation’s board of directors |   | ✗
 **PRICE** | $100   per year / node | $2500   per year / node
 
+There will also be some minimal transaction fees for all Corda Network participants, to cover notary costs. 
