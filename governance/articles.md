@@ -7,6 +7,7 @@ Informal translation in the English language of the substance of the original no
 
 INCORPORATION OF A FOUNDATION (STICHTING)
 ----------------------------------------
+
 CORDA NETWORK FOUNDATION STICHTING
 ----------------------------------
 
