@@ -128,8 +128,8 @@ FINAL STATEMENT .
 Finally, the person appearing made the following statements:  
 (i)	the board shall consist of two (2) directors;  
 (ii)	the first directors are:  
-James William George Carlyle, residing at 16 Kerrfield, Winchester, SO22 5EX London, United Kingdom and born on 17 June 1966; and
-Carolyne Quinn, residing at Flat 7, 142 Finchley Road, NW3 5HS, London, United Kingdom and born on 12 April 1984.  
+James William George Carlyle, residing at {redacted}, London, United Kingdom and born on 17 June 1966; and
+Carolyne Quinn, residing at {redacted}, London, United Kingdom and born on 12 April 1984.  
 THIS DEED, was executed in Amsterdam on the date first above written.   
 The person appearing is known to me, civil law notary.  
 The essential contents of this deed were communicated and explained to the person appearing. The identity of the person appearing has been established by me, civil law notary, by way of a document meant for that purpose. The person appearing then declared to have noted and approved the contents and did not want a full reading thereof. Thereupon, after limited reading, this deed was signed by the person appearing and by me, civil law notary.  
