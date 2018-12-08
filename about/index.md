@@ -3,8 +3,6 @@
 Introduction to Corda Network
 =============================
 
-*04/12/2018: This content is a work in progress*
-
 Welcome to Corda Network's website.
 
 ![image](https://github.com/corda-network/corda-network.github.io/blob/master/Screen%20Shot%202018-12-04%20at%2012.15.27.png)
