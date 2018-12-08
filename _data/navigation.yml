@@ -15,14 +15,18 @@ pages:
 #    url: /about/business-networks.html
 #  - title: Network Environments
 #    url: /about/network-environments.html
-#  - title: Contact
-#    url: /about/contact.html
+    - title: Contact
+      url: /about/contact.html
   - title: Governance
     children:
     - title: Introduction
       url: /governance/index.html
     - title: Governance Guidelines
       url: /governance/governance-guidelines.html
+    - title: Articles
+      url: /governance/articles.html
+    - title: Transition Board
+      url: /governance/board-election.html
   - title: Participation
     children:
     - title: Introduction
