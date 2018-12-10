@@ -712,12 +712,18 @@ and any activity conducted by them with parties appearing on the list is at thei
 ----------------------------
 CRLs shall be issued periodically by the CA. Certificate status information may be issued more 
 frequently than the issuance frequency described below. Certificate status information shall be 
-published no later than the next scheduled update. This will facilitate the local caching of certificate status 
-information for off-line or remote (laptop) operation.
+published no later than the next scheduled update, this will facilitate the local caching of certificate status 
+information.
 
-Note that we **do** need to define the issuance frequency here.
+For the status of Doorman-issued Node Certificates: the CRL is updated and reissued at least once every seven (7) days,
+and the value of the nextUpdate field is not more than ten (10) days beyond the value of the thisUpdate field.
 
-CAs that issue certificates to subscribers or operate on-line must issue on a defined cycle.
+For the status of node TLS certificates: the CRL is updated and reissued at least once every seven (7) days,
+and the value of the nextUpdate field is not more than ten (10) days beyond the value of the thisUpdate field.
+
+For the status of all other certificates issued by the Corda Network Operator: the CRL will be issued at least (i) once
+every twelve (12) months and (ii) within 24 hours after revoking a certificate. The value of the nextUpdate field is not
+more than twelve months beyond the value of the thisUpdate field.
 
 Circumstances related to emergency CRL issuance are specified in section 4.9.12.
 
