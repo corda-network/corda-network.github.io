@@ -29,11 +29,9 @@ rules around membership of business networks will be controlled by its Business 
 Key services 
 ============
 
-Doorman
--------
-The Doorman controls admissions and exits of Participants into and out of Corda Network. The Service receives Certificate 
-Signing Requests (CSRs) from prospective Network Participants (sometimes via a Business Network Operator) and reviews the 
-information submitted. A digitally signed Participation Certificate is returned if:
+Identity Issuance Service
+-------------------------
+The Service receives Certificate Signing Requests (CSRs) from prospective Network Participants (sometimes via a Business Network Operator) and reviews the information submitted. A digitally signed Participation Certificate is returned if:
 
 * The prospective Corda Network Participant meets the requirements specified in the documentation;
 * Evidence is provided by the Participant or Business Network Operator of agreement to the Corda Network Participant Terms 
