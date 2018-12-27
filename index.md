@@ -5,7 +5,7 @@ Introduction to Corda Network
 
 Welcome to Corda Network's website.
 
-![image](assets/global-map.png)
+![image](assets/images/global-map.png)
 
 [Corda Network](https://corda.network/) is an publicly-available internet of Corda nodes operated by network participants. Each 
 node is identified by a certificate issued by the network's identity service, and will also be identifiable on a network map. 
