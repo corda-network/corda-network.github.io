@@ -17,6 +17,8 @@ pages:
 #    url: /about/network-environments.html
     - title: Contact
       url: /about/contact.html
+    - title: News
+      url: /about/news.html
   - title: Governance
     children:
     - title: Introduction

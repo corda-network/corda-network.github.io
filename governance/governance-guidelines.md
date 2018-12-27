@@ -118,7 +118,8 @@ exercise their business judgement to act in what they believe to be the best int
 of the interests of the Network community as a whole (rather than any one individual interest). 
 
 Directors are expected to comply with the Conflict of Interest policy, which includes a responsibility to disclose 
-promptly any conflicts that may arise, and meet the expected standards specified in the [Code of Conduct Guidelines] (https://github.com/corda-network/corda-network.github.io/blob/master/policy/code-conduct.md) for 
+promptly any conflicts that may arise, and meet the expected standards specified in the 
+[Code of Conduct Guidelines](../policy/code-conduct.md) for 
 ethical conduct and breach reporting.
 
 The Board is the formal decision-making authority of the Foundation, and actions of the Board reflect its collective 
