@@ -12,6 +12,7 @@ We also meet face to face frequently at [Corda meetups](https://www.meetup.com/p
 
 Contacting the Foundation
 =========================
+
 1 Email
 -------
 Please use this email address:
