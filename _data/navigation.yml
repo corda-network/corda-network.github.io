@@ -39,6 +39,8 @@ pages:
       url: /participation/notary-considerations.html
     - title: Participant Terms of Use
       url: /participation/terms-of-use.html
+    - title: Business Networks Toolkit
+      url: /participation/bn-toolkit-intro.html
   - title: Business Policy
     children:
     #  - title: Introduction
