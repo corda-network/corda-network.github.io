@@ -1,7 +1,10 @@
 |Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
+Pricing
+=======
+
 Membership Tiers
-================
+----------------
 
 Participation in Corda Network is for legal entities only. In general, the term 'participation' rather than 'membership' 
 is used, as this is the terminology used for a Dutch Stichting in the laws governing it.
@@ -36,4 +39,15 @@ Ongoing support |   | ✗
 Voting rights + can stand for the Foundation’s board of directors |   | ✗
 **PRICE** | $100   per year / identity | $2500   per year / identity
 
-There will also be some minimal transaction fees for all Corda Network participants, to cover notary costs. 
+Transaction Fees
+----------------
+
+We propose 2 different models, for our end-customers to pay:
+
+|                                   |             |                                    |        | 
+|-----------------------------------|-------------|------------------------------------|--------| 
+| Model 1. Pay as you go (monthly?) |             | Model 2. Up-front package (annual) |        | 
+| # transactions per year           | cost $      | # transactions per year            | cost $ | 
+| 0 – 10k                           | FREE        | 0 - 50k                            | $1,000 | 
+| 10 - 20k                          | 10c per txn | 50 - 100k                          | $800   | 
+| 20k +                             | 1c per txn  | 100k +  (In 50k increments)        | $500   | 
