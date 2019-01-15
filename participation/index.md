@@ -19,9 +19,7 @@ A high-level outline of steps to join the Network is listed below. This assumes 
 and already have access to at least one CorDapp which they wish to deploy. A more detailed step-by-step guide will soon 
 be available.
 
-Step 1. Obtain Corda software - either the Enterprise version, via a Corda sales representative, or the open source version
-available through [github](https://github.com/corda) under an Apache 2 license. There is further guidance available on 
-Corda Docs for [getting set up on Corda] (https://docs.corda.net/getting-set-up.html).
+Step 1. Obtain Corda software - either the Enterprise version, via a [Corda representative](https://www.r3.com/corda-enterprise-download/), or the open source version available through [github](https://github.com/corda) under an Apache 2 license. There is further guidance available on Corda Docs for [getting set up on Corda] (https://docs.corda.net/getting-set-up.html).
 
 Step 2. Whitelist the IP address(es) associated with the Corda deployment, prior to raising Certificate Signing Requests (CSRs). 
 Send to doorman@r3.com.
@@ -37,9 +35,7 @@ Step 5. [Configure the node](https://docs.corda.net/corda-configuration-file.htm
 root directory of every Corda node. This includes: specifying an email address in relation to the certificate signing 
 request as well as choosing a distinguished name.
 
-*Specifying an email address* - this is only retained by the Operator for the purposes of contact in relation to identity checks and any administrative issues.
-
-*Choosing a Distinguished Name* 
+The email address is only retained by the Operator for the purposes of contact in relation to identity checks and any administrative issues.
 
 Step 6. Run the initial registration. 
 Once the node.conf file is configured, the following should be typed to the command line 
@@ -66,4 +62,11 @@ also automatically generate additional identity and TLS certificates from the no
 for subsequent operation of the node. 
 
 At this point, the node will terminate and will need to be restarted. Type "java -jar <corda jar file>" into the command 
-line. Once restarted, the node will then proceed to download the network map and discover other nodes within Corda Network.
+line. Once restarted, the node will then proceed to download the network map and discover other nodes within Corda Network. By the end of this process, joiners will be a participant in Corda Network and Corda Network Foundation. 
+
+Participation fee 
+------------------
+
+Billing details will be gathered, for a participation fee invoice, during this process. This will depend on if they are taking part in the **indirect** or **direct model**.
+
+For further questions on this process, please [contact us](../about/contact.html) (preferably on the [mailing list](https://groups.io/g/corda-network).
