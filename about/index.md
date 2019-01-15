@@ -7,12 +7,11 @@ Welcome to Corda Network's website.
 
 ![image](../assets/images/global-map.png)
 
-[Corda Network](https://corda.network/) is an publicly-available internet of Corda nodes operated by network participants. Each 
+[Corda Network](https://corda.network/) is a publicly-available internet of Corda nodes operated by network participants. Each 
 node is identified by a certificate issued by the network's identity service, and will also be identifiable on a network map. 
 
 Corda Network enables interoperability – the exchange of data or assets via a secure, efficient internet layer – in a way 
-that isn't possible with separate, isolated Corda networks. A common trust root surrounds all transactions, and a consistent set of 
-network parameters ensures all participants may transact with each other.
+that isn't possible with separate, isolated Corda networks. A common trust root surrounds all transactions, and a consistent set of network parameters ensures all participants may transact with each other.
 
 The network went live in December 2018, and is currently governed by R3. An independent, not-for-profit foundation has been 
 set-up to govern the network, and a transitional board of participants will be elected in Spring 2019, which will oversee the foundation 
@@ -27,6 +26,8 @@ and for individual business networks. Like the internet, Corda Network intends t
 The main benefit of Corda Network for participants is being able to move cash, digital assets, and identity data from one application 
 or line of business to another. Business network operators also benefit by being able to access network-wide services, and reuse the 
 [trust root](../trust-root/index.md) and network services, instead of building and managing their own.
+
+If you're interested to participate, visit [joining Corda Network](../participation/index.html).
 
 Key services 
 ============
@@ -63,3 +64,5 @@ Support Service
 ---------------
 The Support Service is provided to participants and business network operators to manage and resolve inquiries and incidents 
 relating to the Identity Service, Network Map Service and Notary Services.
+
+If you have questions about any of the above, and can't find your answer on this site, [contact us](../about/contact.html)!
