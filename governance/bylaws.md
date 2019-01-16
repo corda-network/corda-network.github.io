@@ -110,6 +110,8 @@ Without prejudice to the provisions of the Articles of Association, to ensure ra
 
 * 3.3.7	Other than as set out in clause 3.6 of the Articles of Association or after expiry of their term, directors can be removed from the board through a Mandatory Governance Event. Any board seat that becomes vacant prior to the end of a non-R3 director's term will be filled by a candidate elected during the next yearly board election.
 
+* 3.3.8	In the event a director decides to voluntary resign from the board prior to the expiry of his or her term, he or she is required to inform the other directors at least ten (10) weeks prior to such decision taking effect pursuant to clause 3.6 of the Articles of Association.
+
 
 4.BOARD COMPOSITION CRITERIA
 ----------------------------
@@ -461,7 +463,10 @@ Corda was created and is maintained through a collaborative effort, and part of 
 
 * 18.2.2	which has a member of the board who is related under family law to a member of the board of the Foundation.
 
-19.	A director shall report any potential conflict of interest in a transaction that is of material significance to the Foundation and/or to the Chair and to the other members of the board without delay. The director shall provide all relevant information in that regarded as necessary, including the information relevant to the situation concerning his spouse, registered partner or other life companion, foster child and relatives by blood or marriage up to the second degree who is relevant to the potential conflict of interest. 
+19.CONFLICT OF INTEREST
+-----------------------
+
+19. A director shall report any potential conflict of interest in a transaction that is of material significance to the Foundation and/or to the Chair and to the other members of the board without delay. The director shall provide all relevant information in that regarded as necessary, including the information relevant to the situation concerning his spouse, registered partner or other life companion, foster child and relatives by blood or marriage up to the second degree who is relevant to the potential conflict of interest. 
 
 19.1	Directors must be alert to conflicts of interest and shall in any case refrain from the following:
 
