@@ -3,9 +3,6 @@
 Corda Network Foundation Transition Board
 =========================================
 
-*Please note: This is a repeat of clauses 3.3.3.1 - 3.3.3.3 from the 
-[Governance Guidelines](governance-guidelines.md)*
-
 Initially R3 shall govern Corda Network, to ensure rapid progress on its implementation. 
 
 Once at least three business networks are conducting live transactions using the network with at least three 
@@ -13,16 +10,28 @@ Participants each, the ‘transition period’ of one year will commence.
 
 1 Initial Set-up of Transition Board
 ------------------------------------
-For a transition year, the first three business networks onboarded onto Corda Network shall have the right to choose 
-three Participants, to represent the interests of the business network. 
 
-One of each of these must be based in the Americas, Europe/Africa and Asia, to ensure geographic diversity, if the pool 
-of Participants allows. 
-
-Each selected Participant will appoint a director, to sit on the board, making nine directors in addition to the two 
-directors from R3.
+The Corda Network Foundation wishes for its Transition Board to be set-up soon, so transition to governance by the Foundation (and independence from R3) can commence. 
+ 
+The first 3 Business Networks with at least 3 nodes (from separate corporate groups) live on Corda Network (production) are eligible for nominating 3 x Transition Board directors.  How these 3 are picked is up to the Business Networks, and should be done in a fair and transparent manner if possible. In most situations, R3 is not responsible (though may assist) in picking and nominating the members. (Nominated members can be communicated through R3 to the Foundation.)
+ 
+No more than 1 person representing a single corporate group can join the Transition Board.
+ 
+The Foundation will also consider those participants with nodes live on UAT, who are advanced in their plans, for Transition Board directorship. However, respective participants should be (or about to be) full members and should also be in the production plans (in other words: those who create a node for UAT-only will not be considered eligible).
+ 
+Where more than 3 Business Networks qualify as per above, Transition Board members will be selected by the Foundation, based on the following precedence:
+* Whether they have nodes live on CN production (or at least, UAT). This will be checked by R3’s doorman.
+* Whether they are advanced in their plans to move onto Corda Network (live)
+* That they have the right legal agreements in place with R3 / the Foundation. For UAT, this will typically involve the PTOU, and any Corda Enterprise license / pricing agreement for UAT – but relationship managers will confirm with the Business Networks.
+ 
+Director confirmation is expected to take place by mid-February, and for the Transition Board to be in place (and commence operations) soon after that.
+ 
+Both Business Network Operators and their end-participants are eligible, so long as they meet the criteria stipulated above. However, the latter are preferential to be on the Board, since they are the ‘users’ of it. 
 
 During the Transition Board seating, there will be a vote for Board Directors for the steady-state board.
+
+2 Steady-State Board
+--------------------
 
 For the first election only for the steady-state board, of the nine vacant seats:
 - three will be for a duration of one year
