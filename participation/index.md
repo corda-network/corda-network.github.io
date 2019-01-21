@@ -19,7 +19,7 @@ A high-level outline of steps to join the Network is listed below. This assumes 
 and already have access to at least one CorDapp which they wish to deploy. A more detailed step-by-step guide will soon 
 be available.
 
-Step 1. Obtain Corda software - either the Enterprise version, via a [Corda representative](https://www.r3.com/corda-enterprise-download/), or the open source version available through [github](https://github.com/corda) under an Apache 2 license. There is further guidance available on Corda Docs for [getting set up on Corda] (https://docs.corda.net/getting-set-up.html).
+Step 1. Obtain Corda software - either the Enterprise version, via a [Corda representative](https://www.r3.com/corda-enterprise-download/), or the open source version available through [github](https://github.com/corda) under an Apache 2 license. There is further guidance available on Corda Docs for [getting set up on Corda](https://docs.corda.net/getting-set-up.html).
 
 Step 2. Whitelist the IP address(es) associated with the Corda deployment, prior to raising Certificate Signing Requests (CSRs). 
 Send to doorman@r3.com.
@@ -69,4 +69,4 @@ Participation fee
 
 Billing details will be gathered, for a participation fee invoice, during this process. This will depend on if they are taking part in the **indirect** or **direct model**.
 
-For further questions on this process, please [contact us](../about/contact.html) (preferably on the [mailing list](https://groups.io/g/corda-network).
+For further questions on this process, please [contact us](../about/contact.html) - preferably on the [mailing list](https://groups.io/g/corda-network).
