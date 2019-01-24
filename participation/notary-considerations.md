@@ -11,6 +11,6 @@ When joining Corda Network, participants *will need to decide* whether:
 
 In deploying a CorDapp, currently the default option is to use the Corda Network notary. For all participants using this service, [transaction fees](https://corda.network/participation/membership-tiers.html) will be charged.
 
-However, participants also are able to set up their own, third-party notary. Detailed instructions are listed, how to do set-up a 'third party notary' [here](https://docs.corda.r3.com/running-a-notary-cluster/toctree.html). In this case, transaction fees will not apply. 
+However, Corda Network participants also have the option to set up their own, third-party notary. Detailed instructions are listed, how to do set-up a 'third party notary' [here](https://docs.corda.r3.com/running-a-notary-cluster/toctree.html). In this case, transaction fees will not apply. It is worth noting that setting up a notary will be a complex process; for advice, feel free to email our public mailing lists, [corda.network](https://groups.io/g/corda-network) or [corda-dev](https://groups.io/g/corda-dev) - or (if applicable) your R3 representative.
 
 For an introduction to what is a notary, in Corda, take a look at the video and explanations uploaded [here](https://docs.corda.net/key-concepts-notaries.html). 
