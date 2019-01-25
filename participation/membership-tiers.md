@@ -3,26 +3,29 @@
 Pricing
 =======
 
-Membership Tiers
-----------------
-Participation in Corda Network is for legal entities only. In general, the term 'participation' rather than 'membership' 
-is used, as this is the terminology used for a Dutch Stichting in the laws governing it.
+1. Participation (or Membership) Fee
+------------------------------------
+
+In general, the term 'participation' rather than 'membership' is used, as this is the terminology used for a Dutch Stichting in the laws governing it.
+
+At present, participation in Corda Network is for legal entities only. 
 
 Currently there are two tiers for participation in Corda Network:
+
 (1) Full participant
-(2) Identity-only / sponsored participant
+* Receives full onboarding support onto Corda Network from the Network Operator
+* Can be a member of multiple business networks and run multiple business applications
+* Has voting rights for how the Foundation is governed
+* Can stand for the Foundation's Board of Directors
+* Manages their own node
 
-A **full participant** usually signs an agreement directly with the Corda Network Foundation. They typically manage their 
-own nodes and are part of one or several tightly-knit business network(s). They receive full onboarding support from 
-the Network Operator, can be a member of multiple business networks and run multiple applications, have voting rights 
-and can stand for the Foundation's board of directors.  
+(2) Identity-only participant
+* Onboarding support typically through their business network / application provider
+* Only can be a member of one business network
+* No voting rights
+* Cannot stand for the Board
+* Node will be managed and / or hosted by another party
 
-In contrast, **identity-only participants** typically are part of much larger, disparate business networks where 
-participants only infrequently transact on Corda Network. They only need an identity for one application; are expected 
-to receive on-boarding support from their business network or application provider, instead of the Network Operator; 
-do not have voting rights and cannot stand for the Foundation's board of directors. They are issued with a certificate 
-by the Network Doorman, they will be on the network map and a lower level of identity checking will have been done, 
-given that they are part of a sponsored model. 
 
 
                            | Identity-only (Sponsored) | Full Membership
@@ -40,10 +43,11 @@ Can stand for the Foundation’s board of directors |    | ✗
 **PRICE**                  | $100 per year / identity  | $2500 per year / identity
 Billing                    | Aggregated via sponsor    | Direct invoice
 
+
 Transaction Fees
 ----------------
-Transaction fees are charged for notarisation provided by Corda Network notary, and are structured in two different 
-models. Both apply on a per-identity basis:
+
+Transaction fees are charged for notarisation provided by [Corda Network notary](https://corda.network/participation/notary-considerations.html), and are structured in two different models. Both apply on a per-identity basis:
 
 ## Model 1. Pay As You Go
 This is invoiced retrospectively at the end of the year. As with participation fees, the invoice is managed by Sponsors 
