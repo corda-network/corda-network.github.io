@@ -3,6 +3,10 @@
 News
 ====
 
+2019-01-16
+----------
+Corda Network Foundation and the CN are officially launched. Refer to the [press release](https://www.r3.com/news/corda-network-launches-with-new-governing-foundation/) for further details.
+
 2018-12-06
 ----------
 Corda Network Foundation Stichting is established. More details are available in this 
