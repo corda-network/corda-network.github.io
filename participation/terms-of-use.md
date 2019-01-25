@@ -2,3 +2,7 @@
 
 Network Terms of Use
 ====================
+
+Work in Progress.
+
+We will upload the Terms of Use for Participating in the Network, here.
