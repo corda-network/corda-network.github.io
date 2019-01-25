@@ -15,9 +15,10 @@ However, Corda Network participants also have the option to set up their own, th
 
 For an introduction to what is a notary, in Corda, take a look at the video and explanations uploaded [here](https://docs.corda.net/key-concepts-notaries.html). 
 
-*Guidance for application developers:*
- 
-Explicit Selection of Notaries
+Guidance for application developers:
+------------------------------------
+
+**Explicit Selection of Notaries**
  
 Corda Network allows for public and private notaries to operate. Both types of notary are currently advertised in the network parameters and application developers should ensure that their applications explicitly select their chosen notary when writing states that will be subject to notarized transactions (state issuance does not require notarization). Notary identities follow the same format in the network parameters as the X509 certificates issued to their nodes, and the full identity should be specified.
  
@@ -31,7 +32,7 @@ serviceHub.networkMapCache.notaryIdentities.single { it.name == CordaX500Name.pa
 // Via RPC, where rpc is CordaRPCOps.
 rpc.notaryIdentities().single { it.name == CordaX500Name.parse("CN=Non-validating Prod HA Notary, O=R3 HoldCo LLC, L=New York, C=US") }
 
-Current Notary List:
+**Current Notary List**:
  
 1. R3 High Availability Non- Validating Notary
    X500 Name: CN=Non-validating Prod HA Notary, O=R3 HoldCo LLC, L=New York, C=US
