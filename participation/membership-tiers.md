@@ -3,7 +3,7 @@
 Pricing
 =======
 
-1. Participation (or Membership) Fee
+1.Participation (or Membership) Fee
 ------------------------------------
 
 In general, the term 'participation' rather than 'membership' is used, as this is the terminology used for a Dutch Stichting in the laws governing it.
@@ -44,8 +44,8 @@ Can stand for the Foundation’s board of directors |    | ✗
 Billing                    | Aggregated via sponsor    | Direct invoice
 
 
-Transaction Fees
-----------------
+2.Transaction Fees
+------------------
 
 Transaction fees are charged for notarisation provided by [Corda Network notary](https://corda.network/participation/notary-considerations.html), and are structured in two different models. Both apply on a per-identity basis:
 
