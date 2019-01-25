@@ -50,7 +50,8 @@ Transaction fees are charged for notarisation provided by [Corda Network notary]
 
 Both apply on a per-identity basis:
 
-## Model 1. Pay As You Go
+**Model 1. Pay As You Go**
+
 This is invoiced retrospectively at the end of the year. As with participation fees, the invoice is managed by Sponsors 
 for identity-only participants, and sent direct to full members.
 
@@ -60,7 +61,8 @@ Number of transactions per year   | Cost $
 10 - 20K                          | 10c per txn 
 20K +                             | 1c per txn  
 
-## Model 2. Up-front Package
+**Model 2. Up-front Package**
+
 This is designed to provide assurance over notarisation costs. It is invoiced prospectively at the start of the year. 
 As with participation fees, the invoice is managed by Sponsors for identity-only participants, and sent direct to full 
 members. 
