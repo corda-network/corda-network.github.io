@@ -35,8 +35,6 @@ pages:
       url: /participation/index.html
     - title: Membership Tiers
       url: /participation/membership-tiers.html
-    - title: Implementation Steps
-      url: /participation/implementation-steps.html
   - title: Business Policy
     children:
     #  - title: Introduction
