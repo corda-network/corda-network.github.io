@@ -3,7 +3,7 @@
 Pricing
 =======
 
-1.Participation (Membership) Fee
+1.Annual Participation (Membership) Fee
 ------------------------------------
 
 In general, the term 'participation' rather than 'membership' is used, as this is the terminology used for a Dutch Stichting in the laws governing it. At present, participation in Corda Network is for legal entities only. 
@@ -23,7 +23,7 @@ Currently there are two tiers for participation in Corda Network:
 * Only can be a member of one business network
 * No voting rights
 * Cannot stand for the Board
-* Node will be managed and / or hosted by another party
+* Node will be managed by another party
 
 
 
@@ -35,6 +35,7 @@ On the Network Map         | ✗                         | ✗
 Identity checks            | ✗                         | ✗
 Onboarding support         |                           | ✗
 **Ongoing**                |                           |  
+Will manage own nodes      |                           | ✗
 Multiple node applications |                           | ✗
 Ongoing support            |                           | ✗
 Voting rights              |                           | ✗
