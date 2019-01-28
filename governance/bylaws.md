@@ -1,3 +1,4 @@
+|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 	
 CORDA NETWORK FOUNDATION STICHTING BY-LAWS
 =========================================
@@ -5,36 +6,48 @@ CORDA NETWORK FOUNDATION STICHTING BY-LAWS
 INTRODUCTION
 ------------
 
-(1)	These By-Laws are established pursuant to clause 6.4 of the Articles of Association and, together with the Articles of Association, provide a framework for the Foundation's board and Participant Community to steer and govern the Corda Network effectively to realise its potential.
+(1)	These By-Laws are established pursuant to clause 6.4 of the Articles of Association and, together with the Articles 
+of Association, provide a framework for the Foundation's board and Participant Community to steer and govern the Corda 
+Network effectively to realise its potential.
 
-(2)	These By-Laws are complementary to the provisions regarding the board and the directors contained in applicable law and regulations and the Articles of Association.
+(2)	These By-Laws are complementary to the provisions regarding the board and the directors contained in applicable law 
+and regulations and the Articles of Association.
 
 (3)	These By-Laws shall be posted on the Foundation's website.
 
-(4)	The meaning of certain capitalised or uncapitalised terms used in these By-Laws are set forth in the List of Definitions attached as Annex I and where capitalised terms are not set forth in the List of Definitions, they shall be defined as per the Articles of Association.
+(4)	The meaning of certain capitalised or uncapitalised terms used in these By-Laws are set forth in the List of 
+Definitions attached as Annex I and where capitalised terms are not set forth in the List of Definitions, they shall be 
+defined as per the Articles of Association.
 
 
 1.MISSION
 ----------
 
-1.1	The Foundation is a not-for-profit entity created exclusively to achieve the vision of Corda, whereby the state of transactions and agreements of business partners can be recorded in a single global database, ending the need for costly reconciliation and error correction, while maintaining privacy. Achieving this vision in its full ubiquity will involve running, maintaining and promoting a stable and secure Network with open and fair governance.
+1.1	The Foundation is a not-for-profit entity created exclusively to achieve the vision of Corda, whereby the state of 
+transactions and agreements of business partners can be recorded in a single global database, ending the need for costly 
+reconciliation and error correction, while maintaining privacy. Achieving this vision in its full ubiquity will involve 
+running, maintaining and promoting a stable and secure Network with open and fair governance.
 
 1.2	In furtherance of the foregoing, the board shall execute its mission adhering to the following principles:
 
 * 1.2.1	**Fairness and openness** 
-Participants (irrespective of their background or a specific group’s affiliation) can join the Network and be elected to the   board through a straightforward voting process.
+Participants (irrespective of their background or a specific group’s affiliation) can join the Network and be elected 
+to the board through a straightforward voting process.
 
 * 1.2.2	**Democracy and transparency**
 Key decisions and their rationale are shared openly with all Participants.
 
 * 1.2.3	**Stability (with a long-term view) with flexibility**
-The board is structured as a staggered board and directors' terms will in principle last three (3) years. The governance       model will be flexible to adapt if and when required.
+The board is structured as a staggered board and directors' terms will in principle last three (3) years. The governance 
+model will be flexible to adapt if and when required.
 
 * 1.2.4	**Efficiency and cost effectiveness**
-Maintaining a lean organisation, as appropriate to commission, monitor and support an Operator to run the Network to achieve   the vision of Corda. 
+Maintaining a lean organisation, as appropriate to commission, monitor and support an Operator to run the Network to 
+achieve the vision of Corda. 
 
 * 1.2.5	**Not-for-profit nature**
-Membership fees received from Participants are not for profit-making and are solely used to pay the Operator or any third     parties otherwise necessary to run the Network responsibly and securely.
+Membership fees received from Participants are not for profit-making and are solely used to pay the Operator or any 
+third parties otherwise necessary to run the Network responsibly and securely.
 
 * 1.2.6	**Independence** 
 Within the boundaries set by applicable rules and regulations, the board makes its own independent decisions.
@@ -42,7 +55,8 @@ Within the boundaries set by applicable rules and regulations, the board makes i
 
 1.3	More specifically, the board shall focus on the following long-term commitments of the Foundation:
 
-* 1.3.1	Maintaining the long-term standards, services and open governance model of the Network, ensuring that the Network      continues to be updated to the then current Corda protocol version.
+* 1.3.1	Maintaining the long-term standards, services and open governance model of the Network, ensuring that the 
+Network continues to be updated to the then current Corda protocol version.
 
 * 1.3.2	Holding the Network's Trust Root that is used for the creation of operational certificates independently from the Operator.
 
