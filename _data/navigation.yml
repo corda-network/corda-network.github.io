@@ -31,10 +31,14 @@ pages:
       url: /governance/board-election.html
   - title: Participation
     children:
-    - title: Introduction
+    - title: Joining Corda Network
       url: /participation/index.html
-    - title: Membership Tiers
+    - title: Pricing
       url: /participation/membership-tiers.html
+    - title: Notary Considerations
+      url: /participation/notary-considerations.html
+    - title: Participant Terms of Use
+      url: /participation/terms-of-use.html
   - title: Business Policy
     children:
     #  - title: Introduction
