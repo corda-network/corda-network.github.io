@@ -25,8 +25,10 @@ pages:
       url: /governance/index.html
     - title: Governance Guidelines
       url: /governance/governance-guidelines.html
-    - title: Articles
+    - title: Articles of Association
       url: /governance/articles.html
+    - title: By-Laws
+      url: governance/bylaws.html
     - title: Transition Board
       url: /governance/board-election.html
   - title: Participation
