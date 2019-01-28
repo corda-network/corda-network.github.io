@@ -20,12 +20,12 @@ Business Network Operators to run their Business Networks:
 
 * [Business Network Membership Service (BNMS)](https://github.com/corda/corda-solutions/tree/master/bn-apps/memberships-management). 
 BNMS is an extensible service that allows BNOs to manage memberships on their Business Networks. It provides APIs to 
-- on-board new members
-- suspend the existing members
-- associate a custom metadata with a node's identity and 
-- distribute it to the Business Network 
+  * on-board new members
+  * suspend the existing members
+  * associate a custom metadata with a node's identity and 
+  * distribute it to the Business Network 
 
-BNMS can be used by multiple CorDapps simultaneously and allows a single node to participate in multiple Business Networks, while managing all memberships within a single application. BNMS distributes any changes to the memberships in near real-time and can provide instant membership revocations.
+  BNMS can be used by multiple CorDapps simultaneously and allows a single node to participate in multiple Business Networks,   while managing all memberships within a single application. BNMS distributes any changes to the memberships in near real-     time and can provide instant membership revocations.
 
 * [CorDapp Distribution Service (CDS)](https://github.com/corda/corda-solutions/tree/master/bn-apps/cordapp-updates-distribution).
 CDS aims to tackle the problem of CorDapp updates distribution. It allows Business Network members to subscribe to one 
