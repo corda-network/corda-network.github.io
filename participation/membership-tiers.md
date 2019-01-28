@@ -13,16 +13,16 @@ Currently there are two tiers for participation in Corda Network:
 (2) Identity-only / sponsored participant
 
 A **full participant** usually signs an agreement directly with the Corda Network Foundation. They typically manage their 
-own nodes and are part of one or several tightly-knit business network(s). They receive full onboarding support from 
+own nodes and are part of one or several tightly-knit business network(s). They receive full on-boarding support from 
 the Network Operator, can be a member of multiple business networks and run multiple applications, have voting rights 
 and can stand for the Foundation's board of directors.  
 
 In contrast, **identity-only participants** typically are part of much larger, disparate business networks where 
-participants only infrequently transact on Corda Network. They only need an identity for one application; are expected 
-to receive on-boarding support from their business network or application provider, instead of the Network Operator; 
+participants only infrequently transact on Corda Network. They only need an identity for one application; receive 
+on-boarding support from their business network or application provider, instead of the Network Operator; 
 do not have voting rights and cannot stand for the Foundation's board of directors. They are issued with a certificate 
-by the Network Doorman, they will be on the network map and a lower level of identity checking will have been done, 
-given that they are part of a sponsored model. 
+by the network identity issuance service, they will be on the network map, 
+and a lower level of identity checking will have been done, given that they are part of a sponsored model. 
 
 
                            | Identity-only (Sponsored) | Full Membership
