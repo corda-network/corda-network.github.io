@@ -35,7 +35,7 @@ On the Network Map         | ✗                         | ✗
 Identity checks            | ✗                         | ✗
 Onboarding support         |                           | ✗
 **Ongoing**                |                           |  
-Will manage own nodes      |                           | ✗
+Will manage own node(s)    |                           | ✗
 Multiple node applications |                           | ✗
 Ongoing support            |                           | ✗
 Voting rights              |                           | ✗
