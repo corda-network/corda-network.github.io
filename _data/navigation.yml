@@ -40,7 +40,7 @@ pages:
     - title: Participant Terms of Use
       url: /participation/terms-of-use.html
     - title: Business Networks Toolkit
-      url: /participation/bn-toolkit-intro.html
+      url: /participation/bn-tools-intro.html
   - title: Business Policy
     children:
     #  - title: Introduction
