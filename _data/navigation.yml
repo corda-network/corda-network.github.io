@@ -7,8 +7,8 @@ pages:
     children:
     - title: Introduction
       url: /about/index.html
-#  - title: Concepts
-#    url: /about/concepts.html
+    - title: Concepts
+      url: /about/concepts.html
 #  - title: Community
 #    url: /about/community.html
 #  - title: Business Networks
