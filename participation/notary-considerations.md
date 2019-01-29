@@ -26,12 +26,14 @@ A list of current notaries will be maintained on this site (see below).
  
 Sample code for selecting notaries in the application is included here, based on actual identity data for the first public notary to be offered in Corda Network:
  
-```// In the flow context.
+```
+// In the flow context.
 serviceHub.networkMapCache.notaryIdentities.single { it.name == CordaX500Name.parse
 ("CN=Non-validating Prod HA Notary, O=R3 HoldCo LLC, L=New York, C=US") }
 ```
  
-```// Via RPC, where rpc is CordaRPCOps.
+```
+// Via RPC, where rpc is CordaRPCOps.
 rpc.notaryIdentities().single { it.name == CordaX500Name.parse
 ("CN=Non-validating Prod HA Notary, O=R3 HoldCo LLC, L=New York, C=US") }
 ```
