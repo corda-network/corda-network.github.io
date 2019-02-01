@@ -19,44 +19,44 @@ A high-level outline of steps to join the Network is listed below. This assumes 
 and already have access to at least one CorDapp which they wish to deploy. A more detailed step-by-step guide will soon 
 be available.
 
-Step 1. Obtain Corda software - either the Enterprise version, via a [Corda representative](https://www.r3.com/corda-enterprise-download/), or the open source version available through [github](https://github.com/corda) under an Apache 2 license. There is further guidance available on Corda Docs for [getting set up on Corda](https://docs.corda.net/getting-set-up.html).
+New Joiner Process 
+------------------
 
-Step 2. Whitelist the IP address(es) associated with the Corda deployment, prior to raising Certificate Signing Requests (CSRs). 
-Send to doorman@r3.com.
+*01 Feb 2019: Please note, the team is working hard to streamline this process, to provide an improved user experience.*
 
-Step 3. For the time being, request the trust root certificate from Identity Service by mailing doorman@r3.com, which 
-will be sent back as a truststore.jks file. In future, the Corda Network trust root will be packaged in the software
-distribution.
+**Step 1.** Obtain Corda software - either: 
+* Open Source, through [github](https://github.com/corda) under an Apache 2 license. 
+* Corda Enterprise, available via a [Corda representative](https://www.r3.com/corda-enterprise-download/).
 
-Step 4. [Start the node](https://docs.corda.net/deploying-a-node.html) - where applicable, with help from a Corda 
+There is further guidance available on Corda Docs for [getting set up on Corda](https://docs.corda.net/getting-set-up.html).
+
+**Step 2.** Whitelist the IP address(es) associated with the Corda deployment, prior to raising Certificate Signing Requests (CSRs). Send to doorman@r3.com.
+
+**Step 3.** Request the Trust Root from Identity Operator by mailing doorman@r3.com, which will be sent back as a truststore.jks file. In future, the Trust Root will be packaged in the software distribution.
+
+**Step 4.** [Deploy the node](https://docs.corda.net/deploying-a-node.html) - where applicable, with help from a Corda 
 representative. 
 
-Step 5. [Configure the node](https://docs.corda.net/corda-configuration-file.html) – a node.conf file must be included in the 
-root directory of every Corda node. This includes: specifying an email address in relation to the certificate signing 
-request as well as choosing a distinguished name.
+**Step 5.** [Configure the node](https://docs.corda.net/corda-configuration-file.html) – a node.conf file must be included in the root directory of every Corda node. Configuring the node will include: 
+* specifying an email address in relation to the CSR, as well as 
+* choosing a distinguished name.
 
-The email address is only retained by the Operator for the purposes of contact in relation to identity checks and any administrative issues.
+*The email address is only retained by the Operator for the purposes of contact in relation to identity checks and any administrative issues.*
 
-Step 6. Run the initial registration. 
+**Step 6.** Run the initial registration. 
 Once the node.conf file is configured, the following should be typed to the command line 
 "java -jar <corda jar file> --initial-registration". This will send a Certificate Signing Request (with the relevant 
 name and email) to the Identity Service.
 
-Step 7. Sign Participant terms of use, either directly or indirectly:
-* **Indirect model**: A Business Network Operator (BNO) may request approval for a certificate on behalf of Participants 
-in its Business Network.
-* **Direct model**: The Participant requesting a certificate for themselves.
-Where relevant, a Terms of Use legal document will be sent from doorman@r3.com which will need to be signed by the 
-Participant.
+**Step 7.** Sign the [Terms of Use](https://corda.network/participation/terms-of-use.html) legal document
 
-Step 8. Identity Service verification checks – upon receipt of a CSR, a number of identity-related checks will be conducted, 
-before issuing a certificate, including email and legal entity checks. 
+**Step 8.** Identity Operator does verification checks – upon receipt of a CSR, a number of identity-related checks will be conducted, before issuing a certificate. 
 
-Identity checks do not constitute formal Know Your Customer (KYC) or Enhanced Due Diligence (EDD) checks. Node operators 
+*Identity checks do not constitute formal Know Your Customer (KYC) or Enhanced Due Diligence (EDD) checks. Node operators 
 and their users are responsible for carrying out appropriate due diligence on any participant in relation to transactions 
-performed via Corda Network.
+performed via Corda Network.*
 
-Step 9. Once identity checks have been completed, a signed node CA certificate will be released by the Operator to the 
+**Step 9.** Once identity checks have been completed, a signed node CA certificate will be released by the Operator to the 
 node. A node in polling mode will automatically download and install the certificate in its local trust store. It will 
 also automatically generate additional identity and TLS certificates from the node CA certificate, which are required 
 for subsequent operation of the node. 
