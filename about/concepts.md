@@ -3,12 +3,16 @@
 Key services 
 ============
 
-Identity Issuance Service
--------------------------
-The Identity Service admits new participants onto Corda Network. The service receives certificate signing requests (CSRs) from prospective network participants (sometimes via a business network operator) and reviews the 
-information submitted. A digitally signed participation certificate is returned if:
+Corda Network has it's own [Trust Root)](https://corda.network/trust-root/index.html) the single, long-term cryptographic key which all the certificates on the Network root back to, and is the basis of trust in the provenance of data, recognised by  participants. For Corda Network, this is offline and secured in custody by the Corda Network Foundation.
 
-* The participant meets the requirements specified in the bylaws and policies of the foundation (broadly speaking, limited to 
+
+Identity Operator
+-----------------
+The Identity Operator admits new participants onto Corda Network. The service receives certificate signing requests (CSRs) from prospective network participants (sometimes via a business network operator) and reviews the information submitted. 
+
+A digitally signed participation certificate (based on the Corda Network Trust Root) is returned if:
+
+* The participant meets the requirements specified in the bylaws and policies of the Foundation (broadly speaking, limited to 
 sanction screening only);
 * The participant agrees to Corda Network participant terms of use.
 
