@@ -3,7 +3,7 @@
 Key services 
 ============
 
-Corda Network has it's own [Trust Root](https://corda.network/trust-root/index.html) the single, long-term cryptographic key which all the certificates on the Network root back to, and is the basis of trust in the provenance of data, recognised by  participants. For Corda Network, this is offline and secured in custody by the Corda Network Foundation.
+Corda Network has it's own [Trust Root](https://corda.network/trust-root/index.html) -- the single, long-term cryptographic key which all the certificates on the Network root back to, and is the basis of trust in the provenance of data, recognised by  participants. For Corda Network, this is offline and secured in custody by the Corda Network Foundation.
 
 
 Identity Operator
