@@ -27,22 +27,20 @@ representative.
 
 **Step 5.** [Configure the node](https://docs.corda.net/corda-configuration-file.html) – a node.conf file must be included in the root directory of every Corda node. 
 
-Configuring the node will include: 
-* 5.1 - specifying an email address in relation to the CSR, 
-* 5.2 - choosing a distinguished name,
-* 5.3 - specifying urls for initial registration
+Configuring the node includes: 
 
-5.1. The email address is only retained by the Operator for the purposes of contact in relation to identity checks and any administrative issues. It is not included in the certificate. The email address should belong to a suitably authorised employee of the node operator organisation.
+5.1. **Choosing an email address.** The email address should belong to a suitably authorised employee of the node operator organisation. The email address is only retained by the Operator for the purposes of contact in relation to identity checks and any administrative issues. It is not included in the certificate. 
 
-5.2. A **Distinguished Name** (DN) must be unique within Corda Network. The DN is comprised of separate fields as per the table below. Only O and OU are used for the identity uniqueness check, and the other fields are considered as attributes of the identity. 
+5.2. **Choosing a Distinguished Name** A DN must be unique within Corda Network. The DN is comprised of separate fields as per the table below. Only O and OU are used for the identity uniqueness check, and the other fields are considered as attributes of the identity. 
+
 All data fields must adhere to the following constraints:
-•	Only uses Latin, common and inherited unicode scripts
-•	Upper-case first letter
-•	At least two letters
-•	No leading or trailing whitespace
-•	Does not include the following characters: , , = , $ , " , ' , \
-•	Is in NFKC normalization form
-•	Does not contain the null character
+* Only uses Latin, common and inherited unicode scripts
+* Upper-case first letter
+* At least two letters
+* No leading or trailing whitespace
+* Does not include the following characters: , , = , $ , " , ' , \
+* Is in NFKC normalization form
+* Does not contain the null character
 
 |   | Mandatory | Length (chars) | Validation | Purpose |
 | --- | --- | --- | --- | --- |
@@ -55,8 +53,10 @@ All data fields must adhere to the following constraints:
 
 The above fields must be populated accurately with respect to the legal status of the entity being registered. As part of standard onboarding checks for Corda Network, the Identity Operator may verify that these details have been accurately populated and reject requests where the population of these fields does not appear to be correct.
 
-5.3. Specify URLs For Initial Registration
+**5.3. Specify URLs For Initial Registration**
 The settings below must be added to the node.conf at the end of the file:
+
+```
 networkServices {
 doormanURL=“https://prod-doorman2-01.corda.network/ED5D077E-F970-428B-8091-F7FCBDA06F8C”
 networkMapURL=“https://prod-netmap2-01.corda.network/ED5D077E-F970-428B-8091-F7FCBDA06F8C”
@@ -65,7 +65,7 @@ devMode = false
 
 tlsCertCrlDistPoint : “http://crl.corda.network/nodetls.crl”
 tlsCertCrlIssuer : “CN=Corda TLS CRL Authority,OU=Corda Network,O=R3 HoldCo LLC,L=New York,C=US”
-
+```
 
 **Step 6.** Run the initial registration. 
 Once the node.conf file is configured, the following should be typed to the command line 
@@ -75,6 +75,8 @@ name and email) to the Identity Service.
 Once the node.conf file is configured, the following should be typed to the command line "java -jar <corda jar file> --initial-registration --network-root-truststore-password trustpass". This will send a CSR (with the relevant DN and email) to the Network Manager service (Doorman / Network Map). 
 
 A message similar to the below will be printed to the console:
+
+```
 Legal Name: O=ABC LIMITED, L=New York, C=US
 Email: john.smith@abc.com
 
@@ -94,6 +96,7 @@ DkNUdQJPqhkBBEpgVqyZmE8=
 Submitting certificate signing request to Corda certificate signing server.
 Successfully submitted request to Corda certificate signing server, request ID: 6CBB63558B4B2D9C94F8C14AB713432F60AF692EB30F2E12E628B089C517F3CF.
 Start polling server for certificate signing approval.
+```
 
 Important: the Request ID given in the above should be noted and kept safe for future reference. 
 
@@ -102,7 +105,9 @@ Important: the Request ID given in the above should be noted and kept safe for f
 *Sponsored Model*
 Business Network Operators need to ensure their participants have signed the Terms of Use before they can receive a participation certificate. The Terms of Use are available as a click-through agreement which will provide direct confirmation of acceptance to the Corda Network Operator. If BNOs prefer to organise acceptance themselves, then they must forward appropriate documentary evidence for each participant (either a signed hard copy with wet signature or a scan of such hard copy). You must specify the precise Distinguished Names in order to confirm that the correct entity has signed and an accurate certificate can be issued.
 
-**Step 8.** Identity Operator does verification checks – upon receipt of a CSR, a number of identity-related checks will be conducted, before issuing a certificate. 
+**Step 8.** Identity Checks.
+
+Identity Operator does verification checks – upon receipt of a CSR, a number of identity-related checks will be conducted, before issuing a certificate. 
 
 **Identity checks do not constitute formal Know Your Customer (KYC) or Enhanced Due Diligence (EDD) checks. Node operators 
 and their users are responsible for carrying out appropriate due diligence on any participant in relation to transactions 
@@ -114,10 +119,12 @@ Upon receipt of a CSR, the Identity Operator will conduct a number of identity-r
 3.	The contact email address provided is valid
 4.	The owner of the email address and an independent and suitably qualified person in the same organisation is aware of / approves the CSR
 
+
 *Email contact*
 
 The Corda Network Operator will contact the owner of the email address provided in the CSR and it is important that the owner of this email address is aware of and prepared to respond to contact from the Corda Network Operator in relation to the CSR submission, and that they are able to do so on a timely basis. Issuance of the certificate cannot proceed until contact has been made and so any delay will add to the elapsed time to issue the certificate and enable the node to join the network.
 Communications will be sent from 'Corda Network Onboarding' (doorman@r3.com). The email owner should ensure that this address is whitelisted by their email provider. 
+
 
 **Step 9.** Once identity checks have been completed, a signed node CA certificate will be released by the Operator to the 
 node. A node in polling mode will automatically download and install the certificate in its local trust store. It will 
