@@ -34,7 +34,7 @@ pages:
   - title: Participation
     children:
     - title: Considerations before joining Corda Network
-      url: /participation/prejoining.html
+      url: /participation/pre-joining.html
     - title: Process to join Corda Network
       url: /participation/index.html
     - title: Pricing
