@@ -143,6 +143,6 @@ Business Network Operators should co-ordinate any post-install tests that may in
 Participation fee 
 ------------------
 
-Billing details will be gathered, for a participation fee invoice, during this process. This will depend on if they are taking part in the **indirect** or **direct model**.
+Billing details will be gathered, for a participation fee invoice, during this process. This will depend on if they are part of the **indirect** or **direct model**.
 
 For further questions on this process, please [contact us](../about/contact.html) - preferably on the [mailing list](https://groups.io/g/corda-network).
