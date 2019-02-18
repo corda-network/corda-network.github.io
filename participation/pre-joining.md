@@ -16,3 +16,5 @@ Before joining Corda Network, would-be Participants should:
 * Have access to at least one CorDapp that they wish to deploy in Corda Network.
 
 * Be able to supply a dedicated IP address for communications with their node - typical network configurations are described at Corda Firewall. 
+
+tbc
