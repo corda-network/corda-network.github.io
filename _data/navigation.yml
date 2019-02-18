@@ -33,7 +33,7 @@ pages:
       url: /governance/board-election.html
   - title: Participation
     children:
-   - title: Process to join Corda Network
+    - title: Process to join Corda Network
       url: /participation/index.html
     - title: Pricing
       url: /participation/membership-tiers.html
