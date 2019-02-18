@@ -44,7 +44,7 @@ All data fields must adhere to the following constraints:
 
 |   | Mandatory | Length (chars) | Validation | Purpose |
 | --- | --- | --- | --- | --- |
-| **Common Name (CN) ** | N | 64 | As per above | Available for use by the node operator for their own internal purposes. Often used for home website urls in WWW.  |
+| **Common Name (CN)** | N | 64 | As per above | Available for use by the node operator for their own internal purposes. Often used for home website urls in WWW.  |
 | **Organisation (O)** | Y | 128 | As per above, and additionally:No double-spacing. May not contain the words &quot;node&quot; or &quot;server&quot;. | Used to define the owning organisation of the node / certificate. The O field for the legal entity defines the beneficial owner of states on the ledger. It should therefore be set to the **legal nam** e of the participant organisation as it appears on the official trade register within the jurisdiction in which the entity is registered.  |
 | **Organisation Unit (OU)** | N | 64 | As per above | This field is generally used to denote sub-divisions or units of the organisation (legal entity). It may be used by node operators for internal purposes to separate nodes used for different purposes by the same legal entity. |
 | **Locality (L)** | Y | 64 | As per above | The city or town in which the registered head-office of the legal entity is located. If the company operates from New York City but is registered in Wilmington, Delaware then please use Wilmington |
