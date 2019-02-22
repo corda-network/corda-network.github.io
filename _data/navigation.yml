@@ -21,7 +21,7 @@ pages:
       url: /about/news.html
   - title: Governance
     children:
-    - title: Introduction
+    - title: Corda Network Foundation
       url: /governance/index.html
     - title: Governance Guidelines
       url: /governance/governance-guidelines.html
