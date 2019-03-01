@@ -8,142 +8,98 @@ This document outlines requirements for the handling of updates to Network Param
 Introduction
 ============
 
-Definitions
------------
+Network parameters are the minimum set of shared  run-time settings which  enable all Corda Network nodes to interoperate.
 
-The following definitions apply in the context of this document:
+They specify things like Minimum  Platform Version and whitelisted notaries  which, although not expected to change frequently,  nevertheless will need to be updated over time. Our docs site [Our docs site](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.corda.net%2Fnetwork-map.html%23network-parameters&data=02%7C01%7C%7C7b5adf5bd9674a65dc7708d697159e1a%7Ca4be1f2e2d10419587cd736aca9b672c%7C0%7C0%7C636862516429056071&sdata=nQfxg5VijKYmEXjmPdSoDH5HjGLtXTEDjIX0%2BAMFfJ8%3D&reserved=0)has more detail.
 
-*   **Network Parameter**: A parameter with a single value at any point in time, on which the entire Network is taken 
-to be in agreement
-*   **Participant**: A user of the Corda Network. 
-*   **Corda Reference Implementation**: Official open source reference node implementation for the Corda protocol, 
-uniquely recognised as such by the Foundation.
 
-Motivation
-----------
+Guiding Principles
+------------------
 
-Network Parameters provide a means to optimise compatibility between nodes on the Network. For several operating 
-parameters, the possibility of different Participant nodes assuming different values may give rise to technical or 
-operational issues between nodes attempting to transact with each other, or make it impossible for them to do so. The 
-Foundation considers it vital to avoid these scenarios in line with its aim of realising frictionless interaction 
-between Participants via the Corda Network.
-
-Equally, it is recognised that a highly opinionated Network is not automatically in the interests of Participants. This 
-places emphasis on structured governance to ensure that both the scope of Network Parameters, and their values, are 
-appropriately chosen to reflect the collective interest.
-
-Principles
-----------
-
-This policy applies the following general principles:
+This policy applies the following principles:
 
 1.  **Control**: Changes to Network Parameters must take place via a controlled process which minimises operational 
-risks to Participants.
-2.  **Backward compatibility**: Wherever permissible, changes to Network Parameters should avoid breaking compatibility 
-with previously-supported implementations of Corda. 
+risks to Participants during the upgrade.
+2.  **Backward compatibility**: Wherever possible, changes to Network Parameters should avoid breaking compatibility 
+with applications based on previously-supported implementations of Corda. 
 3.  **Collective interest**: Network Parameters shall be adopted and updated based on what the Foundation judges to be 
 the collective interest of all Participants to the network. 
 
-Policy Detail
-=============
 
 Roles & Responsibilities
 ------------------------
 
-The Foundation shall determine the scope of Network Parameters and the value to be adopted for each Network Parameter.
+As outlined in the Foundation’s [by-laws](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcorda.network%2Fgovernance%2Fbylaws.html&data=02%7C01%7C%7C7b5adf5bd9674a65dc7708d697159e1a%7Ca4be1f2e2d10419587cd736aca9b672c%7C0%7C0%7C636862516429066085&sdata=IpBxiEXL6zTrFt%2BMY8Q7gYldsYpViLi2gQOLnOWfzRI%3D&reserved=0), changes to technical parameters and  notary criteria are managed through a governance process: “Advisory Governance  Events” (clauses 8.1.1.c and 10.1). These are changes which can be implemented  by the Operator without Foundation approval, but the Foundation can ask to  provide an advisory vote. It’s important that the Operator can progress parameter upgrades to a  regular schedule without encumbering the governance process of the Foundation with routine changes to keep in line  with the Corda Protocol.
 
-The Network Operator is accountable for the distribution of Network Parameters to all Participants and ensuring these 
-consistently reflect values agreed by the Foundation.
-
-Addition of new Network Parameters
-----------------------------------
-
-The Foundation shall apply a structured process to the creation of new Network Parameters, wherein:
-
-*   New parameters may be proposed by any Participant of the Foundation, or by the Network Operator.
-*   All proposals for new parameters shall be reviewed without prejudice.
-*   Following approval, the appropriate timing to introduce new parameters shall be determined by the Network Operator.
-
-### Reference implementation alignment
-
-At a minimum, the Foundation shall ensure that Network Parameters include all parameters assumed by the Corda Reference 
-Implementation.
-
-### Majority interest
-
-Network Parameters shall only be provided for purposes which may be reasoned to be of potential relevance to the 
-majority of Network Participants, both in the near term and for the foreseeable future. They shall not be employed as a 
-mechanism for distributing information which is specific to a given business network or other group of users.
-
-### Descriptive
-
-Network parameter names shall use the English language, and be clearly descriptive of their intended use.
-
-Updates to existing Network Parameters
+Changes to Network Parameters: Process
 --------------------------------------
 
-The Foundation shall apply a structured process to any changes in the value of Network Parameters, wherein:
+The Foundation shall apply a structured process to the creation of new Network Parameters, where:
 
-*   Changes may be proposed by any Member of the Foundation, or by the Network Operator.
-*   All proposals for changes shall be reviewed by the Foundation without prejudice.
-*   The Network Operator shall undertake structured testing to demonstrate in advance that proposed change shall not 
-have unforeseen negative effects on the operation of the Network.
-*   Following approval, the appropriate timing of parameters updates shall be determined by the Network Operator.
-*   The Network Operator shall provide advanced disclosure of planned parameters updates.
-*   The Network Operator shall apply a controlled process to the distribution and enactment of Network Parameters 
-updates.
+1. Changes may be proposed by any Participant of the Network, or by the Network Operator.
+2. All proposals for changes shall be reviewed by the Network Operator and the Foundation.
+3. The Network Operator shall undertake testing to demonstrate in advance that proposed changes shall not have unforeseen negative effects on the operation of the Network.
+4. The Network Operator will determine the appropriate implementation date, following the schedule below
+5. The Network Operator will have the right to refuse or delay parameter upgrades at its discretion, but at all times acting in accordance with its brief and the terms and objectives of the Corda Network Charter
+6. The Network Operator shall provide forward notice of planned parameters updates.
 
-### Advance disclosure
+_
 
-The Network Operator shall ensure any proposed changes to Network Parameters are disclosed to all Participants in 
-advance of their coming into effect.
+Addition of new parameters and updates to existing  parameters
+--------------------------------------------------------------_
 
-In general, this shall be no less than 30 days prior to the proposed changes coming into effect. Any planned changes 
-which allow less than 30 days notice to Participants shall be subject to prior approval by the Foundation via an 
-Emergency Governance Event.
+Every 2 months for the Production environment, the Network Operator will announce the changes ahead of time and execute the changes for a maintenance window on Saturday mornings. This shall be at 10am UTC. The planned annual dates will be communicated by the Operator to all participants in advance on [https://corda.network/](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcorda.network%2F&data=02%7C01%7C%7C7b5adf5bd9674a65dc7708d697159e1a%7Ca4be1f2e2d10419587cd736aca9b672c%7C0%7C0%7C636862516429066085&sdata=K6T%2Bxp7TvdYAwXtr5QQvIAnv2wUalGOkjzRSIvvtQ4A%3D&reserved=0), and if anything needs to change, reasonable advance notice to all participants will be uploaded onto this website.  The following are to be provided by participants:
 
-### Re-scheduling
+- If participants wish to include a new public notary, they must give notice to the Operator 20 business days in advance of the scheduled Network Parameter window
+- If they have contracts for whitelisting, this must be provided no later than the Monday preceding the change window at 1200 UTC 
 
-The Network Operator may, at its discretion, alter the timing at which a proposed update to Network Parameters is 
-scheduled to take place, subject to the following conditions:
 
-*   The revised timing must be disclosed to all Participants.
-*   The revised timing must be no less than 30 days in advance of disclosing the re-scheduled timing to Participants.
+Please note:
+------------
 
-### Cancellation
+Due to the importance of the new features in Corda 4  (in particular signature constraints), the Foundation will be aiming to complete the upgrade to Minimum Platform Version v4 within 6 months of the release of the  Corda Enterprise version.
 
-The Network Operator may, subject to approval by the Foundation, cancel a planned update to Network Parameters. The 
-following conditions apply:
+Generally, the Minimum Platform Version will be upgraded within 15 months of the release of each major new release of the open source version of Corda.
 
-*   The cancellation must be disclosed to all Participants.
-*   The cancellation must be disclosed at the earliest possible opportunity.
+ 
+Re-scheduling:
+--------------
 
-The Foundation shall only approve a cancellation if it believes that doing so serves the collective interest of all 
-Participants, and seeks to avoid any unnecessary cancellations.
+ 
+The Network Operator may, at its discretion, alter the timing at which a proposed update to Network Parameters is scheduled to take place, subject to the following conditions:
 
-### Emergency reversion
+- The revised timing must be disclosed to all Participants  not less than 30 days in advance of the new implementation date
 
-In the event of major issues resulting from enactment of a Network Parameters update, the Network Operator may, at its 
-discretion, apply a further update with the effect of reverting the Network Parameters to their original state prior to 
-the change. In this case, the following conditions apply:
+Cancellation:
+-------------
+ 
+The Network Operator may, subject to approval by the Foundation, cancel a planned update to Network Parameters. The following conditions apply:
 
-*   The balance of interest for all Participants of the Network must be clearly in favour of reversion.
-*   All parameters must be reverted to their collective state prior to the change.
-*   No new parameters may be added during the course of a reversion.
-*   No parameters may be otherwise changed except to their reverted values.
-*   Appropriate controls over the reversion process must be in place to minimise subsequent risk to the Network.
-*   The reversion must be completed within 48 hours of the Network Parameters update (otherwise, normal provisions for 
-changes to Network Parameters apply).
-*   The Network Operator shall disclose the action taken and rationale to all Participants at the earliest opportunity.
+- The cancellation must be disclosed to all Participants.
+- The cancellation must be disclosed at the earliest possible opportunity.
 
-Removal of Network Parameters
------------------------------
+The Foundation shall only approve a cancellation if it believes that doing so serves the collective interest of all Participants. 
+
+Emergency reversion:
+--------------------
+
+In the event of major issues resulting from enactment of a Network Parameters update, the Network Operator may, at its discretion, apply a further update with the effect of reverting the Network Parameters to their original state prior to the change. In this case, the following conditions apply:
+
+- The balance of interest for all Participants of the Network must be clearly in favour of reversion.
+- All parameters must be reverted to their collective state prior to the change.
+- No new parameters may be added during the course of a reversion.
+- No parameters may be otherwise changed except to their reverted values.
+- Appropriate controls over the reversion process must be in place to minimise subsequent risk to the Network.
+- The reversion must be completed within 48 hours of the Network Parameters update (otherwise, normal provisions for changes to Network Parameters apply).
+- The Network Operator shall disclose the action taken and rationale to all Participants at the earliest opportunity.
+
+Removal of Network Parameters:
+------------------------------
 
 The Foundation shall apply a structured process to the removal of new Network Parameters, wherein:
 
-*   Removal of a parameter may be proposed by any Member of the Foundation, or by the Network Operator.
-*   All proposals for parameter removals shall be reviewed without prejudice.
-*   Following approval, the appropriate timing to remove a parameter shall be determined by the Network Operator.
+- Removal of a parameter may be proposed by any Participant of the Foundation, or by the Network Operator.
+- All proposals for parameter removals shall be reviewed by the Foundation and put to a governance vote if necessary.
+- Following approval, the appropriate timing to remove a parameter shall be determined by the Network Operator.
 
-No Network Parameter shall be removed where it is required for operation of nodes employing the Corda Reference 
-Implementation, over and above the version indicated in the `minimumPlatformVersion` Network Parameter.
+No Network Parameter shall be removed where it is required for operation of nodes employing the Corda Reference Implementation, over and above the version indicated in the minimumPlatformVersion Network Parameter.
