@@ -10,7 +10,7 @@ Introduction
 
 Network parameters are the minimum set of shared  run-time settings which  enable all Corda Network nodes to interoperate.
 
-They specify things like Minimum  Platform Version and whitelisted notaries  which, although not expected to change frequently,  nevertheless will need to be updated over time. Our docs site [Our docs site](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.corda.net%2Fnetwork-map.html%23network-parameters&data=02%7C01%7C%7C7b5adf5bd9674a65dc7708d697159e1a%7Ca4be1f2e2d10419587cd736aca9b672c%7C0%7C0%7C636862516429056071&sdata=nQfxg5VijKYmEXjmPdSoDH5HjGLtXTEDjIX0%2BAMFfJ8%3D&reserved=0)has more detail.
+They specify things like Minimum  Platform Version and whitelisted notaries  which, although not expected to change frequently,  nevertheless will need to be updated over time. [Our docs site](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.corda.net%2Fnetwork-map.html%23network-parameters&data=02%7C01%7C%7C7b5adf5bd9674a65dc7708d697159e1a%7Ca4be1f2e2d10419587cd736aca9b672c%7C0%7C0%7C636862516429056071&sdata=nQfxg5VijKYmEXjmPdSoDH5HjGLtXTEDjIX0%2BAMFfJ8%3D&reserved=0) has more detail.
 
 
 Guiding Principles
@@ -60,10 +60,8 @@ Due to the importance of the new features in Corda 4  (in particular signature
 
 Generally, the Minimum Platform Version will be upgraded within 15 months of the release of each major new release of the open source version of Corda.
 
- 
 Re-scheduling:
 --------------
-
  
 The Network Operator may, at its discretion, alter the timing at which a proposed update to Network Parameters is scheduled to take place, subject to the following conditions:
 
