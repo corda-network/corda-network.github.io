@@ -43,10 +43,9 @@ The Foundation shall apply a structured process to the creation of new Network P
 5. The Network Operator will have the right to refuse or delay parameter upgrades at its discretion, but at all times acting in accordance with its brief and the terms and objectives of the Corda Network Charter
 6. The Network Operator shall provide forward notice of planned parameters updates.
 
-_
 
 Addition of new parameters and updates to existing  parameters
---------------------------------------------------------------_
+--------------------------------------------------------------
 
 Every 2 months for the Production environment, the Network Operator will announce the changes ahead of time and execute the changes for a maintenance window on Saturday mornings. This shall be at 10am UTC. The planned annual dates will be communicated by the Operator to all participants in advance on [https://corda.network/](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcorda.network%2F&data=02%7C01%7C%7C7b5adf5bd9674a65dc7708d697159e1a%7Ca4be1f2e2d10419587cd736aca9b672c%7C0%7C0%7C636862516429066085&sdata=K6T%2Bxp7TvdYAwXtr5QQvIAnv2wUalGOkjzRSIvvtQ4A%3D&reserved=0), and if anything needs to change, reasonable advance notice to all participants will be uploaded onto this website.  The following are to be provided by participants:
 
