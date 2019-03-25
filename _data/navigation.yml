@@ -41,6 +41,8 @@ pages:
       url: /participation/membership-tiers.html
     - title: Notary Considerations
       url: /participation/notary-considerations.html
+    - title: Network Parameter Upgrade Days
+      url: /networkparamschedule
     - title: Participant Terms of Use
       url: /participation/terms-of-use.html
     - title: Business Networks Toolkit
