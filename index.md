@@ -7,7 +7,7 @@ Welcome to Corda Network's website.
 
 ![image](assets/images/global-map.png)
 
-[Corda Network](https://corda.network/) is an publicly-available internet of Corda nodes operated by network participants. Each 
+[Corda Network](https://corda.network/) is a publicly-available internet of Corda nodes operated by network participants. Each 
 node is identified by a certificate issued by the network's identity service, and will also be identifiable on a network map. 
 
 Corda Network enables interoperability – the exchange of data or assets via a secure, efficient internet layer – in a way 
