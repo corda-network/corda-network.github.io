@@ -41,8 +41,8 @@ pages:
       url: /participation/membership-tiers.html
     - title: Notary Considerations
       url: /participation/notary-considerations.html
-    - title: Network Parameter Upgrade Days
-      url: /networkparamschedule
+    - title: Network Parameters Schedule
+      url: /networkparamsschedule
     - title: Participant Terms of Use
       url: /participation/terms-of-use.html
     - title: Business Networks Toolkit
@@ -123,7 +123,7 @@ pages:
       url: /policy/ip-addresses.html
     - title: Namespace Ownership
       url: /policy/namespace-ownership.html
-    - title: Network Params Upgrade
+    - title: Network Parameter Upgrades
       url: /policy/network-params-upgrade.html
     - title: Port Ranges
       url: /policy/port-ranges.html
