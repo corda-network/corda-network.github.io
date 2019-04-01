@@ -1,10 +1,13 @@
 |Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
+
 Network Parameter Updates
 =========================
 
+
 Addition of new parameters and updates to existing parameters
 -------------------------------------------------------------
+
 
 Every 2 months for the Production environment, the Network Operator will announce the changes ahead of time and execute the changes for a maintenance window on Saturday mornings. This shall commence at 10am UTC.
 
