@@ -49,7 +49,7 @@ pages:
       url: /participation/index.html
     - title: Choosing your node's Distinguished Name
       url: /participation/distinguishedname.html
-    - title: Picking the right Right Legal Entity 
+    - title: Selecting your Legal Entity name
       url: /participation/legalentity.html
   - title: Business Policy
     children:
