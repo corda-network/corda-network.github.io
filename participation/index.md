@@ -27,14 +27,14 @@ representative.
 
 Configuring the node includes: 
 
-4.1. **Choosing an email address.** The email address should belong to a suitably authorised employee of the node operator organisation. The email address is retained by the Operator for the purposes of contact in relation to identity checks and any administrative or technical issues - on an ongoing basis. It is not included in the certificate. 
+4.1. **Choosing an email address.** The email address should belong to a suitably authorised employee of the node operator organisation. The email address is retained by the Operator for the purposes of contact in relation to identity checks (for onboarding) and any administrative or technical issues (on an ongoing basis). It is not included in the certificate. 
 
 4.2. **Choosing a Distinguished Name** 
-All nodes on Corda Network must have out a Distinguised Name (DN) in their [participation certificate](https://docs.corda.net/corda-network/index.html#identity-service).
+All nodes on Corda Network must have a Distinguised Name (DN) in their [participation certificate](https://docs.corda.net/corda-network/index.html#identity-service).
 * Follow the guidelines [here](https://corda.network/participation/distinguishedname.html) to pick the right DN, as part of the onboarding process.
 * A DN will include a legal entity name for your node. For guidance on which legal entity name to pick for your node, see [here](https://corda.network/participation/legalentity.html).
 
-**4.3. Specify URLs For Initial Registration**
+**4.3. Specifying URLs For Initial Registration**
 The settings below must be added to the node.conf at the end of the file:
 
 ```
