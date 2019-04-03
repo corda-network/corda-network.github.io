@@ -31,9 +31,9 @@ pages:
       url: governance/bylaws.html
     - title: Transition Board
       url: /governance/board-election.html
-  - title: Participation
+  - title: Preparing to Join 
     children:
-    - title: Preparing to join Corda Network
+    - title: Pre-requisites to join 
       url: /participation/pre-joining.html
     - title: Process to join Corda Network
       url: /participation/index.html
@@ -47,6 +47,14 @@ pages:
       url: /participation/terms-of-use.html
     - title: Business Networks Toolkit
       url: /participation/bn-tools-intro.html
+ # - title: Step by Step Joining Process
+ #   children:
+ #   - title: Process to Join
+ #      url: /joining/step-by-step-guide.html
+ #   - title: Choosing your node's Distinguished Name
+ #      url: /joining/distinguishedname.html
+ #   - title: Picking the right Right Legal Entity 
+ #      url: /joining/legalentity
   - title: Business Policy
     children:
     #  - title: Introduction
