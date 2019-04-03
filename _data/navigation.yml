@@ -35,26 +35,22 @@ pages:
     children:
     - title: Pre-requisites to join 
       url: /participation/pre-joining.html
-    - title: Process to join Corda Network
-      url: /participation/index.html
-    - title: Pricing
+    - title: Pricing for Corda Network
       url: /participation/membership-tiers.html
     - title: Notary Considerations
       url: /participation/notary-considerations.html
     - title: Network Parameters Schedule
       url: /networkparamsschedule
-    - title: Participant Terms of Use
-      url: /participation/terms-of-use.html
     - title: Business Networks Toolkit
       url: /participation/bn-tools-intro.html
- # - title: Step by Step Joining Process
- #   children:
- #   - title: Process to Join
- #      url: /joining/step-by-step-guide.html
- #   - title: Choosing your node's Distinguished Name
- #      url: /joining/distinguishedname.html
- #   - title: Picking the right Right Legal Entity 
- #      url: /joining/legalentity
+  - title: Step by Step Joining Process
+    children:
+    - title: Process to join Corda Network
+      url: /participation/index.html
+    - title: Choosing your node's Distinguished Name
+      url: /participation/distinguishedname.html
+    - title: Picking the right Right Legal Entity 
+      url: /participation/legalentity.html
   - title: Business Policy
     children:
     #  - title: Introduction
