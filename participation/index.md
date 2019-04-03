@@ -29,27 +29,10 @@ Configuring the node includes:
 
 4.1. **Choosing an email address.** The email address should belong to a suitably authorised employee of the node operator organisation. The email address is retained by the Operator for the purposes of contact in relation to identity checks and any administrative or technical issues - on an ongoing basis. It is not included in the certificate. 
 
-4.2. **Choosing a Distinguished Name** A DN must be unique within Corda Network. The DN is comprised of separate fields as per the table below. Only O and OU are used for the identity uniqueness check, and the other fields are considered as attributes of the identity. 
-
-All data fields must adhere to the following constraints:
-* Only uses Latin, common and inherited unicode scripts
-* Upper-case first letter
-* At least two letters
-* No leading or trailing whitespace
-* Does not include the following characters: , , = , $ , " , ' , \
-* Is in NFKC normalization form
-* Does not contain the null character
-
-|   | Mandatory | Length (chars) | Validation | Purpose |
-| --- | --- | --- | --- | --- |
-| **Common Name (CN)** | N | 64 | As per above | Available for use by the node operator for their own internal purposes. Often used for home website urls in WWW.  |
-| **Organisation (O)** | Y | 128 | As per above, and additionally:No double-spacing. May not contain the words &quot;node&quot; or &quot;server&quot;. | The O field for the legal entity defines the beneficial owner of states on the ledger. This should be set to the **legal name** of the organisation, as it appears on the official trade register within the jurisdiction in which the entity is registered. This is used to define the owning organisation of the node / certificate. |
-| **Organisation Unit (OU)** | N | 64 | As per above | This field is generally used to denote sub-divisions or units of the organisation (legal entity). It may be used by node operators for internal purposes to separate nodes used for different purposes by the same legal entity. |
-| **Locality (L)** | Y | 64 | As per above | The city or town in which the registered head-office of the legal entity is located. If the company operates from New York City but is registered in Wilmington, Delaware then please use Wilmington |
-| **Country (C)** | Y | 2 | 2-digit ISO code  | The country in which the registered head-office of the legal entity is located. |
-| **State (S)** | N | 64 | As per above | If your country operates a State or Province system (e.g. USA and Canada) please add the State in which the registered head-office of the legal entity is located. Do not abbreviate. For example, &quot;CA&quot; is not a valid state name. &quot;California&quot; is correct. If the company operates from New York but is registered in Delaware, please use Delaware |
-
-The above fields must be populated accurately with respect to the legal status of the entity being registered. As part of standard onboarding checks for Corda Network, the Identity Operator may verify that these details have been accurately populated and reject requests where the population of these fields does not appear to be correct.
+4.2. **Choosing a Distinguished Name** 
+All nodes on Corda Network must have out a Distinguised Name (DN) in their [participation certificate](https://docs.corda.net/corda-network/index.html#identity-service).
+* Follow the guidelines [here](https://corda.network/participation/distinguishedname.html) to pick the right DN, as part of the onboarding process.
+* A DN will include a legal entity name for your node. For guidance on which legal entity name to pick for your node, see [here](https://corda.network/participation/legalentity.html).
 
 **4.3. Specify URLs For Initial Registration**
 The settings below must be added to the node.conf at the end of the file:
