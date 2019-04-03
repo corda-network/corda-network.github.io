@@ -27,7 +27,7 @@ representative.
 
 Configuring the node includes: 
 
-4.1. **Choosing an email address.** The email address should belong to a suitably authorised employee of the node operator organisation. The email address is only retained by the Operator for the purposes of contact in relation to identity checks and any administrative issues. It is not included in the certificate. 
+4.1. **Choosing an email address.** The email address should belong to a suitably authorised employee of the node operator organisation. The email address is retained by the Operator for the purposes of contact in relation to identity checks and any administrative or technical issues - on an ongoing basis. It is not included in the certificate. 
 
 4.2. **Choosing a Distinguished Name** A DN must be unique within Corda Network. The DN is comprised of separate fields as per the table below. Only O and OU are used for the identity uniqueness check, and the other fields are considered as attributes of the identity. 
 
