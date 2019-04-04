@@ -13,10 +13,10 @@ Every 2 months for the Production environment, the Network Operator will announc
 
 For 2019, Network Parameter upgrade Windows will be run, on the following Saturdays:
 
-*June 29th
-*August 31st
-*October 26th
-*December 14th
+* June 29th
+* August 31st
+* October 26th
+* December 14th
 
 The planned annual dates will also be communicated by the Network Operator to all participants in advance on https://corda.network/, and if anything needs to change, reasonable advance notice to all participants will be uploaded onto this website.  
 
