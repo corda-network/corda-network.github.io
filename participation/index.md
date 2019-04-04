@@ -18,7 +18,7 @@ New Joiner Process
 
 There is further guidance available on Corda Docs for [getting set up on Corda](https://docs.corda.net/getting-set-up.html).
 
-**Step 2.** Request the Trust Root from Identity Operator by mailing doorman@r3.com, which will be sent back as a truststore.jks file. In future, the Trust Root will be packaged in the software distribution.
+**Step 2.** Request the Trust Root from Identity Operator by mailing doorman@r3.com, which will be sent back as a network-root-truststore.jks file. In future, the Trust Root will be packaged in the software distribution.
 
 **Step 3.** [Deploy the node](https://docs.corda.net/deploying-a-node.html) - where applicable, with help from a Corda 
 representative. 
