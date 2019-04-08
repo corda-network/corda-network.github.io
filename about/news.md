@@ -3,6 +3,14 @@
 News
 ====
 
+2019-04-08
+---------
+Today we launched the [Corda Network StatusPage](https://cordanetwork.statuspage.io), for the latest news on all network upgrade and maintenance windows.
+
+2019-03-27
+---------
+Corda Network Foundation's Transition Board has it's first meeting after being appointed 1 month earlier. Press release to come shortly.
+
 2019-01-16
 ----------
 Corda Network Foundation and the CN are officially launched. Refer to the [press release](https://www.r3.com/news/corda-network-launches-with-new-governing-foundation/) for further details.
