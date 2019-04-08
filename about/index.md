@@ -29,4 +29,4 @@ or line of business to another. Business network operators also benefit by being
 
 If you're interested to participate, visit [joining Corda Network](../participation/index.html).
 
-For all latest status updates on network upgrades and maintenance windows, please see the Corda Network StatusPage: https://cordanetwork.statuspage.io
+For all latest status updates on network upgrades and maintenance windows, visit the [Corda Network StatusPage](https://cordanetwork.statuspage.io).
