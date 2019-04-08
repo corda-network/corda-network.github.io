@@ -5,9 +5,10 @@ Network Parameter Updates
 =========================
 
 
-Addition of new parameters and updates to existing parameters
+Addition of new and updates to existing parameters
 -------------------------------------------------------------
 
+Network parameters specify things like Minimum Platform Version and whitelisted notaries which, although not expected to change frequently, nevertheless will need to be updated over time. [Our docs site](https://docs.corda.net/network-map.html#network-parameters) has more detail.
 
 Every 2 months for the Production environment, the Network Operator will announce the changes ahead of time and execute the changes for a maintenance window on Saturday mornings. This shall commence at 10am UTC.
 
