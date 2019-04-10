@@ -49,11 +49,14 @@ tlsCertCrlIssuer : “CN=Corda TLS CRL Authority,OU=Corda Network,O=R3 HoldCo LL
 ```
 
 **Step 5.** Run the initial registration. 
-Once the node.conf file is configured, the following should be typed to the command line 
-"java -jar <corda jar file> --initial-registration". This will send a Certificate Signing Request (with the relevant 
-name and email) to the Identity Service.
 
-Once the node.conf file is configured, the following should be typed to the command line "java -jar <corda jar file> --initial-registration --network-root-truststore-password trustpass". This will send a CSR (with the relevant DN and email) to the Network Manager service (Doorman / Network Map). 
+Once the node.conf file is configured, the following should be typed to the command line:
+
+```
+java -jar corda.jar --initial-registration
+``` 
+
+This will send a Certificate Signing Request (with the relevant name and email) to the Identity Service.
 
 A message similar to the below will be printed to the console:
 
