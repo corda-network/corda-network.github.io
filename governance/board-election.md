@@ -9,17 +9,17 @@ Corda Network Foundation Transition Board
 -----------------------------------------
 
 The Corda Network Foundation's Transition Board has been appointed (press release: April 2019). 
-The Board includes senior figures from across financial services as well as representatives from blockchain technology companies building on Corda.
+The Board includes 9 senior figures from external companies across financial services as well as representatives from blockchain technology companies building on Corda.
 
-1. Andrei Ilchenko, Head of IT Wholesale Banking Channels, ING, Europe
-2. Alain Verschueren      Head of Innovation & DLT, Trade Finance Competence Centre, BNP Paribas, Europe
-3. Masayuki Miyashita    Head of Structured Trade Group, Global Trade Finance Department,Sumitomo Mitsui Banking Corporation, Asia
-4. Joshua Kroeker          Director, Blockchain Lead for Global Commercial Banking, HSBC, Asia
-5. Andrew Speers            Director, Product and Innovation, NatWest, Europe
-6. Jordane Rollin             Executive Director & Head, Digital Transformation, Trade Finance Global Products, Standard Chartered, Asia
-7. Markus Tradt               Chief Technology Officer, B3i, Europe
-8. Edwin Oversteeg         Manager, Organisational Development, Achmea, Europe
-9. Greg Crow                   Global Head of Architecture, AXA XL, Europe
+1. Andrei Ilchenko: Head of IT Wholesale Banking Channels, ING, Europe
+2. Alain Verschueren: Head of Innovation & DLT, Trade Finance Competence Centre, BNP Paribas, Europe
+3. Masayuki Miyashita: Head of Structured Trade Group, Global Trade Finance Department,Sumitomo Mitsui Banking Corporation, Asia
+4. Joshua Kroeker: Director, Blockchain Lead for Global Commercial Banking, HSBC, Asia
+5. Andrew Speers: Director, Product and Innovation, NatWest, Europe
+6. Jordane Rollin: Executive Director & Head, Digital Transformation, Trade Finance Global Products, Standard Chartered, Asia
+7. Markus Tradt: Chief Technology Officer, B3i, Europe
+8. Edwin Oversteeg: Manager, Organisational Development, Achmea, Europe
+9. Greg Crow: Global Head of Architecture, AXA XL, Europe
 
 In addition, the board has two directors employed by R3: 
 10. James Carlyle
