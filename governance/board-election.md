@@ -3,14 +3,12 @@
 Corda Network Foundation Transition Board
 =========================================
 
-Initially R3 shall govern Corda Network, to ensure rapid progress on its implementation. 
-
-As outlined in the [Governance Guidelines](https://corda.network/governance/governance-guidelines.html), the Foundation will be governed by a 1-year 'Transition Board', after which steady-state elections will commence.
+As outlined in the [Governance Guidelines](https://corda.network/governance/governance-guidelines.html), the Foundation will first be governed by a 1-year 'Transition Board', after which steady-state elections will commence.
 
 Corda Network Foundation Transition Board 
---------------------------------------------------------
+-----------------------------------------
 
-The Corda Network Foundation's Transition Board has been appointed (press release announced April 2019). 
+The Corda Network Foundation's Transition Board has been appointed (press release: April 2019). 
 The Board includes senior figures from across financial services as well as representatives from blockchain technology companies building on Corda.
 
 1. Andrei Ilchenko, Head of IT Wholesale Banking Channels, ING, Europe
