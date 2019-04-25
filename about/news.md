@@ -3,6 +3,11 @@
 News
 ====
 
+2019-04-18
+----------
+
+Press release about the Corda Network Foundation's 9 external Board of Directors is released. Good overview given here: https://www.marketsmedia.com/corda-network-establishes-independent-governing-body/
+
 2019-04-08
 ---------
 Today we launched the [Corda Network StatusPage](https://cordanetwork.statuspage.io), for the latest news on all network upgrade and maintenance windows.
