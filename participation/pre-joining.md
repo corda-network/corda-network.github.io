@@ -39,7 +39,7 @@ For Corda 3 environments, new projects will require a Network Parameter Update t
 On-boarding Information Required:
 --------------------------------
 
-1. Is the client joining with a consortium of potential other participants, or a separate entity such as a bespoke network operator?If as part of a consortium...
+1. Is the client joining with a consortium of potential other participants, or a separate entity such as a bespoke network operator? If as part of a consortium...
 
 2. Will the BNO be reselling Corda Network services to its participants?
 
