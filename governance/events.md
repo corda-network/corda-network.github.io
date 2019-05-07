@@ -1,13 +1,13 @@
 News: Governance Events
 =======================
 
-Advisory Governance Event: #1
-07 May 2019
+Advisory Governance Event: #1 | 07 May 2019
+------------------------------------------
 
-*Proposal*
+**Proposal**
 Converge the UAT Network (or sometimes known as “Pre-Production” Network) to be part of the Corda Network Foundation’s overall remit. For more details, please see here: https://uat.network.r3.com/
 
-*Rationale*
+**Rationale**
 Most, if not all, of Corda Network customers will be joining both Pre-Production and Production. 
 Bringing both networks under the same remit and governance will make the overall customer onboarding and ongoing experience much smoother, in terms of there being 
 -	1 legal agreement
@@ -15,8 +15,8 @@ Bringing both networks under the same remit and governance will make the overall
 
 We also expect that customers can join just once (in UAT) and not have to re-onboard onto Production. 
 
-*Conclusion*
+**Conclusion**
 Stakeholders in R3 (Product and Production teams as well as Legal and Finance) as well as the Transition Board of the Corda Network Foundation are unanimously agreed. 
 
-*Decision* 
+**Decision** 
 The decision has been taken to merge UAT into the remit of Corda Network Foundation. The transition is now underway.
