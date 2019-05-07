@@ -31,6 +31,8 @@ pages:
       url: governance/bylaws.html
     - title: Transition Board
       url: /governance/board-election.html
+    - title: Governance Events
+      url: governance/events.html
   - title: Preparing to Join 
     children:
     - title: Pre-requisites to join 
