@@ -11,8 +11,8 @@ pages:
       url: /about/concepts.html
 #  - title: Community
 #    url: /about/community.html
-#  - title: Business Networks
-#    url: /about/business-networks.html
+    - title: Business Networks
+      url: /about/business-networks.html
 #  - title: Network Environments
 #    url: /about/network-environments.html
     - title: Contact
