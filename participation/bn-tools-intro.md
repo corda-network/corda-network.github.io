@@ -36,5 +36,7 @@ utilises Maven infrastructure and can be easily integrated into an existing ente
 Business Network participants to verify their ledgers' consistency, and to recover the ledger from their counterparts 
 in the case of a data loss.
 
+* [The Billing Service](https://github.com/corda/corda-solutions/tree/master/bn-apps/billing). This can be used for billing and metering on Business Networks.
+
 The Business Network Toolkit can be easily integrated into your solution. For more details, please visit the repositories
 referenced above.
