@@ -59,6 +59,7 @@ The planned annual dates will also be communicated by the Network Operator to al
 
 If participants wish to update any network parameter, they must give notice to the Operator 20 business days in advance of the scheduled Network Parameter window.
 
+This should be sent to: cordanetwork.ops@r3.com
 
 Please note:
 ------------
