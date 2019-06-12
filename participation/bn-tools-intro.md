@@ -16,8 +16,8 @@ Pre-Production is therefore more aligned to the testing of the operational chara
 
 Realistic test data is therefore expected to be used and may include data copied from production environments and hence representing real world entities and business activities. It will be up to the introducer of such data to ensure that all relevant data protection legislation is complied with and, in particular, that the terms and conditions under which Corda Network Services processes such data is suitable for their needs. All test data will be cleared down from Corda Network Services on the completion of testing.
 
-Governance
-----------
+Governance Model
+----------------
 The Pre-Production Network is also governed by the Corda Network Foundation. It is operated by the Network Operator, currently R3, on behalf of the Foundation. 
 
 [Testnet](https://testnet.corda.network/) is a separate network run and paid for by R3. This is for users at early stages.
