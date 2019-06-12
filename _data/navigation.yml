@@ -1,4 +1,4 @@
-#main:
+du#main:
 #  - title: "Quick-Start Guide"
 #    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
@@ -45,7 +45,7 @@ pages:
       url: /participation/notary-considerations.html
     - title: Network Parameters Schedule
       url: /participation/networkparamsschedule.html
-    - title: Business Networks Toolkit
+    - title: Test Networks
       url: /participation/bn-tools-intro.html
   - title: Step by Step Joining Process
     children:
