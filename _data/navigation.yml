@@ -46,7 +46,7 @@ pages:
     - title: Network Parameters Schedule
       url: /participation/networkparamsschedule.html
     - title: Test Networks
-      url: /participation/bn-tools-intro.html
+      url: /participation/preprod.html
   - title: Step by Step Joining Process
     children:
     - title: Process to join Corda Network
