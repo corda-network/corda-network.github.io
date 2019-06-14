@@ -3,7 +3,8 @@
 Joining Corda Network
 =====================
 
-A summary of steps to join the Network (either the Pre-Production or Production network) is listed below. More details are further down.
+A summary of steps to join the Network (either the Pre-Production or Production network) is listed below. 
+More details are given on each of these steps, further down this page.
 
 This assumes that participants wish to operate a node and already have access to at least one CorDapp which they wish to deploy, as well as other considerations listed. 
 
@@ -45,18 +46,19 @@ The below provides more on detail on each of the steps for the joining process f
 There is further guidance available on Corda Docs for [getting set up on Corda](https://docs.corda.net/getting-set-up.html)
 
 **Step 2**
-**Trust Root** - 
-request the Trust Root from Identity Operator by mailing uatdoorman@r3.com, which will be sent back as a network-root-truststore.jks file. In future, the Trust Root will be packaged in the software distribution. For Production, this will be the same but to doorman@r3.com
+**Trust Root** - request the Trust Root from the Network's Identity Manager. It will be sent back as a network-root-truststore.jks file. In future, the Trust Root will be packaged in the software distribution. 
+For Pre-Production, email uatdoorman@r3.com.
+For the Production Network, email doorman@r3.com
 
 **Step 3**
-**[Deploy the node]**(https://docs.corda.net/deploying-a-node.html) - where applicable, with help from a Corda representative.  
+**[Deploy the node](https://docs.corda.net/deploying-a-node.html)** - where applicable, with help from a Corda representative.  
 
 **Step 4**
-**[Configure the node]**(https://docs.corda.net/corda-configuration-file.html) – a node.conf file must be included in the root directory of every Corda node.
+**[Configure the node](https://docs.corda.net/corda-configuration-file.html)** – a node.conf file must be included in the root directory of every Corda node.
 
 **Step 4.1**
 **Choosing an email address** 
-The email address should be non-personal (for example, admin@... or info@...), with suitable access, of the node operator organisation. The email address is retained by the Operator for the purposes of contacting in relation to identity checks (for onboarding) and any administrative or technical issues (on an ongoing basis). It is not included in the certificate.
+The email address should be non-personal (for example, admin@... or info@...), with suitable access, of the node operator organisation. The email address is retained by the Corda Network Operator, for the purposes of contacting in relation to identity checks (for onboarding) and any administrative or technical issues (on an ongoing basis). It is not included in the certificate.
 
 **Step 4.2**
 **Picking a Distinguished Name**
@@ -135,12 +137,14 @@ Important: the Request ID given in the above should be noted and kept safe for f
 **Terms of Use**
 
 *Pre-Production Network*
-The Terms of Use are available as a click-through agreement which will provide direct confirmation of acceptance to the Corda Network Operator. Available here: [Terms of Use](https://fs22.formsite.com/r3cev/CordaUATAgreement2019/index.html)
 
-*Sponsored Model*
+The Terms of Use for signing are available as a click-through agreement which will provide direct confirmation of acceptance to the Corda Network Operator. Available here: [Terms of Use](https://fs22.formsite.com/r3cev/CordaUATAgreement2019/index.html)
+
+Sponsored Model
 Business Network Operators need to ensure their participants have signed the Terms of Use before they can receive a participation certificate. If BNOs prefer to organise acceptance themselves, then they must forward appropriate documentary evidence for each participant (either a signed hard copy with wet signature or a scan of such hard copy). You must specify the precise Distinguished Names in order to confirm that the correct entity has signed and an accurate certificate can be issued. They must also sign a Sponsored Legal Agreement, available during the onboarding process.
 
 *Production Network* 
+
 Terms of Use for direct signing: https://corda.network/participation/terms-of-use.html) 
 
 **Step 7**
@@ -157,11 +161,15 @@ Upon receipt of a CSR, the Identity Operator will conduct a number of identity-r
 3. The contact email address provided is valid
 4. The owner of the email address and an independent and suitably qualified person in the same organisation is aware of / approves the CSR
 
+
 **Step 8**
+**Confirmation**
 Once identity checks have been completed, a signed node CA certificate will be released by the Operator to the node. A node in polling mode will automatically download and install the certificate in its local trust store. It will also automatically generate additional identity and TLS certificates from the node CA certificate, which are required for subsequent operation of the node.
+
 At this point, the node will terminate and will need to be restarted. Type “java -jar " into the command line. Once restarted, the node will then proceed to download the network map and discover other nodes within Corda Network. By the end of this process, joiners will be a participant in Corda Network and Corda Network Foundation.
-Confirming your implementation
-Installation and configuration of your Corda applications must be undertaken by the node operator. Instructions to install CorDapps can be found on https://docs.corda.net. Specifics on application usage or installation should be available from your CorDapp provider.
+
+Confirming your implementation - Installation and configuration of your Corda applications must be undertaken by the node operator. Instructions to install CorDapps can be found on https://docs.corda.net. Specifics on application usage or installation should be available from your CorDapp provider.
+
 Business Network Operators should co-ordinate any post-install tests that may involve a small number of low value transactions on the business network to assure themselves of the correct setup of their node. Node operators should co-ordinate with their Business Network Operator in this regard. All node-initiated activity on the network from the point of connection is the responsibility of the node operator.
 
 Participation fee 
