@@ -133,7 +133,7 @@ Start polling server for certificate signing approval.
 
 Important: the Request ID given in the above should be noted and kept safe for future reference. 
 
-**Step 6*
+**Step 6**
 **Terms of Use**
 
 *Pre-Production Network*
