@@ -39,25 +39,24 @@ The below provides more on detail on each of the steps for the joining process f
 
 
 **Step 1**
-*Obtain Corda software* - either: 
+**Obtain Corda software** - either: 
 * Open Source, through [github](https://github.com/corda) under an Apache 2 license. 
 * Corda Enterprise, available via a [Corda representative](https://www.r3.com/corda-enterprise-download/). 
 There is further guidance available on Corda Docs for [getting set up on Corda](https://docs.corda.net/getting-set-up.html)
 
 **Step 2**
-*Trust Root*
-Request the Trust Root from Identity Operator by mailing uatdoorman@r3.com, which will be sent back as a network-root-truststore.jks file. In future, the Trust Root will be packaged in the software distribution. For Production, this will be the same but to doorman@r3.com
+**Trust Root** - 
+request the Trust Root from Identity Operator by mailing uatdoorman@r3.com, which will be sent back as a network-root-truststore.jks file. In future, the Trust Root will be packaged in the software distribution. For Production, this will be the same but to doorman@r3.com
 
 **Step 3**
-[Deploy the node](https://docs.corda.net/deploying-a-node.html) - where applicable, with help from a Corda representative.  
+**[Deploy the node]**(https://docs.corda.net/deploying-a-node.html) - where applicable, with help from a Corda representative.  
 
 **Step 4**
-[Configure the node](https://docs.corda.net/corda-configuration-file.html) – a node.conf file must be included in the root directory of every Corda node.
+**[Configure the node]**(https://docs.corda.net/corda-configuration-file.html) – a node.conf file must be included in the root directory of every Corda node.
 
 **Step 4.1**
-**Choosing an email address.** 
-The email address should be non-personal (for example, admin@... or info@...), with suitable access, of the node operator organisation. 
-The email address is retained by the Operator for the purposes of contacting in relation to identity checks (for onboarding) and any administrative or technical issues (on an ongoing basis). It is not included in the certificate.
+**Choosing an email address** 
+The email address should be non-personal (for example, admin@... or info@...), with suitable access, of the node operator organisation. The email address is retained by the Operator for the purposes of contacting in relation to identity checks (for onboarding) and any administrative or technical issues (on an ongoing basis). It is not included in the certificate.
 
 **Step 4.2**
 **Picking a Distinguished Name**
@@ -96,7 +95,7 @@ tlsCertCrlIssuer : "CN=Corda TLS CRL Authority,OU=Corda UAT,O=R3 HoldCo LLC,L=Ne
 ```
 
 **Step 5**
-** Run the initial registration** 
+**Run the initial registration** 
 
 Once the node.conf file is configured, the following should be typed to the command line:
 
@@ -135,13 +134,14 @@ Important: the Request ID given in the above should be noted and kept safe for f
 **Step 6*
 **Terms of Use**
 
-*Pre-Production*
+*Pre-Production Network*
 The Terms of Use are available as a click-through agreement which will provide direct confirmation of acceptance to the Corda Network Operator. Available here: [Terms of Use](https://fs22.formsite.com/r3cev/CordaUATAgreement2019/index.html)
 
 *Sponsored Model*
 Business Network Operators need to ensure their participants have signed the Terms of Use before they can receive a participation certificate. If BNOs prefer to organise acceptance themselves, then they must forward appropriate documentary evidence for each participant (either a signed hard copy with wet signature or a scan of such hard copy). You must specify the precise Distinguished Names in order to confirm that the correct entity has signed and an accurate certificate can be issued. They must also sign a Sponsored Legal Agreement, available during the onboarding process.
 
-Production Terms of Use for direct signing: https://corda.network/participation/terms-of-use.html) 
+*Production Network* 
+Terms of Use for direct signing: https://corda.network/participation/terms-of-use.html) 
 
 **Step 7**
 **Identity Manager**
