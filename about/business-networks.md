@@ -3,14 +3,13 @@
 Business Networks (Consortiums)
 ==============================
 
-For Corda Network, Business Networks are groups of companies who wish to transact together using either Corda or our Enterprise version, for a specific commercial purpose. 
+In Corda Network, Business Networks are groups of companies who wish to transact together - using either Corda Open Source or  Enterprise, for a specific commercial purpose. 
 
-A Business Network **Operator** is a company who sets-up and operates the legal rules and business processes for the Business Network, often also designing and operating a shared CorDapp.
+We see that Business Networks have many different governance models, including ranging from a consortium model, to a more centralized model with a **Business Network Operator**. A BNO may set-up and operate the legal rules and business processes for the Business Network, often also designing and operating a shared CorDapp. 
 
-Depending on their size, Business Networks may also wish to
-- onboard, offboard and bill their members - see the [business network membership service](https://github.com/corda-network/corda-network.github.io/blob/master/participation/bn-tools-intro.md)
-- create their own governance structure, for decision-making and policies 
+Depending on their size, Business Networks may also wish to onboard, offboard and bill their members - see the [business network membership service](https://github.com/corda-network/corda-network.github.io/blob/master/participation/bn-tools-intro.md)
 
-We continue to develop tools and features for Business Networks to work well. The team is currently developing an onboarding and member management website.
+We continue to develop tools and features for Business Networks to work well. Please visit the [Business Networks Toolkit](https://corda.network/about/businessnetworkstoolkit.html).
 
+We also have a detailed solutions site on the options and flexibility which [Business Networks](https://solutions.corda.net/business-networks/intro.html) offer on Corda.
 
