@@ -126,7 +126,7 @@ Business Network Operators need to ensure their participants have signed the Ter
 
 *Production Network* 
 
-Terms of Use for direct signing: https://corda.network/participation/terms-of-use.html) 
+Terms of Use for direct signing [available here](https://corda.network/participation/terms-of-use.html) 
 
 **Step 7**
 **Identity Manager**
