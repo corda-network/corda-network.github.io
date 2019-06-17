@@ -50,7 +50,7 @@ All nodes on Corda Network must have a Distinguished Name (DN) in their [partici
 **Step 4.3**
 **Specifying URLs For Initial Registration**
 
-*Pre-Production Network*
+*Production Network*
 
 The settings below must be added to the node.conf at the end of the file:
 
@@ -65,7 +65,7 @@ tlsCertCrlDistPoint : “http://crl.corda.network/nodetls.crl”
 tlsCertCrlIssuer : “CN=Corda TLS CRL Authority,OU=Corda Network,O=R3 HoldCo LLC,L=New York,C=US”
 ```
 
-*Production Network*
+*Pre-Production Network*
 
 ```
 networkServices {
