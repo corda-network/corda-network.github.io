@@ -115,18 +115,21 @@ Start polling server for certificate signing approval.
 Important: the Request ID given in the above should be noted and kept safe for future reference. 
 
 **Step 6**
-**Terms of Use**
+**Terms of Use Agreement**
+
+Direct Model
 
 *Pre-Production Network*
 
-The Terms of Use for signing are available as a click-through agreement which will provide direct confirmation of acceptance to the Corda Network Operator. Available here: [Terms of Use](https://fs22.formsite.com/r3cev/CordaUATAgreement2019/index.html)
-
-Sponsored Model
-Business Network Operators need to ensure their participants have signed the Terms of Use before they can receive a participation certificate. If BNOs prefer to organise acceptance themselves, then they must forward appropriate documentary evidence for each participant (either a signed hard copy with wet signature or a scan of such hard copy). You must specify the precise Distinguished Names in order to confirm that the correct entity has signed and an accurate certificate can be issued. They must also sign a Sponsored Legal Agreement, available during the onboarding process.
+The Terms of Use for direct signing are available as a click-through agreement which will provide direct confirmation of acceptance to the Corda Network Operator. Available here: [Terms of Use](https://fs22.formsite.com/r3cev/CordaUATAgreement2019/index.html)
 
 *Production Network* 
 
 Terms of Use for direct signing [available here](https://corda.network/participation/terms-of-use.html) 
+
+Sponsored Model
+
+Business Network Operators need to ensure their participants have signed the Terms of Use before they can receive a participation certificate. If BNOs prefer to organise acceptance themselves, then they must forward appropriate documentary evidence for each participant (either a signed hard copy with wet signature or a scan of such hard copy). You must specify the precise Distinguished Names in order to confirm that the correct entity has signed and an accurate certificate can be issued. They must also sign a Sponsored Terms of Use Agreement (available both for Pre-Production and Production), which can be requested through an r3 representative, or via cordanetwork@r3.com.
 
 **Step 7**
 **Identity Manager**
