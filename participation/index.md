@@ -50,6 +50,23 @@ All nodes on Corda Network must have a Distinguished Name (DN) in their [partici
 **Step 4.3**
 **Specifying URLs For Initial Registration**
 
+<span style="color:red"> **!!!WARNING!!!** </span> 
+
+Please note if you are joining a SSZ, you need to request your unique **networkMapURL** from uatdoorman@r3.com for pre-production or doorman@r3.com for the production network. The below networkmapurls are for the public zones, so if you start up your node and connect with this url, you will join the public zone. This is a problem that can easily be corrected if you do it accidentally, but your node's identity will appear on the network map for a period of time, and if you want to keep your node's identity 100% private, you need to take care not to accidentally join a public zone.
+
+
+*Pre-Production Network*
+
+```
+networkServices {
+    doormanURL="https://doorman.uat.corda.network/3FCF6CEB-20BD-4B4F-9C72-1EFE7689D85B"
+    networkMapURL="https://uat-sub1-netmap-01.uat.corda.network/SUB1CEP8-32UX-6ZXK-9C82-1FLR6268D75Z"    
+}
+devMode = false
+tlsCertCrlDistPoint : "http://crl.uat.corda.network/nodetls.crl"
+tlsCertCrlIssuer : "CN=Corda TLS CRL Authority,OU=Corda UAT,O=R3 HoldCo LLC,L=New York,C=US"
+```
+
 *Production Network*
 
 The settings below must be added to the node.conf at the end of the file:
@@ -65,17 +82,7 @@ tlsCertCrlDistPoint : “http://crl.corda.network/nodetls.crl”
 tlsCertCrlIssuer : “CN=Corda TLS CRL Authority,OU=Corda Network,O=R3 HoldCo LLC,L=New York,C=US”
 ```
 
-*Pre-Production Network*
 
-```
-networkServices {
-    doormanURL="https://doorman.uat.corda.network/3FCF6CEB-20BD-4B4F-9C72-1EFE7689D85B"
-    networkMapURL="https://uat-sub1-netmap-01.uat.corda.network/SUB1CEP8-32UX-6ZXK-9C82-1FLR6268D75Z"    
-}
-devMode = false
-tlsCertCrlDistPoint : "http://crl.uat.corda.network/nodetls.crl"
-tlsCertCrlIssuer : "CN=Corda TLS CRL Authority,OU=Corda UAT,O=R3 HoldCo LLC,L=New York,C=US"
-```
 
 **Step 5**
 **Run the initial registration** 
