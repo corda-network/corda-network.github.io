@@ -39,7 +39,7 @@ For the Production Network, email doorman@r3.com
 
 **Step 4.1**
 **Choosing an email address** 
-The email address should be non-personal (for example, admin@... or info@...), with suitable access, of the node operator organisation. The email address is retained by the Corda Network Operator, for the purposes of contacting in relation to identity checks (for onboarding) and any administrative or technical issues (on an ongoing basis). It is not included in the certificate.
+The email address should be non-personal (for example, admin@... or info@...) and actively monitored by the node operator. The email address is retained by the Corda Network Operator for the purpose of contact in relation to identity checks (for onboarding) and any administrative or technical issues (on an ongoing basis). It is not included in the certificate.
 
 **Step 4.2**
 **Picking a Distinguished Name**
