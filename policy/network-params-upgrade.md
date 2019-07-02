@@ -1,6 +1,6 @@
 |Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
-Network Parameters Upgrade Policy
+Network Parameters Update Policy
 =================================
 
 This document outlines requirements for the handling of updates to network parameters.
@@ -19,7 +19,7 @@ Guiding Principles
 This policy applies the following principles:
 
 1.  **Control**: Changes to Network Parameters must take place via a controlled process which minimises operational 
-risks to Participants during the upgrade.
+risks to Participants during the update.
 2.  **Backward compatibility**: Wherever possible, changes to Network Parameters should avoid breaking compatibility 
 with applications based on previously-supported implementations of Corda. 
 3.  **Collective interest**: Network Parameters shall be adopted and updated based on what the Foundation judges to be 
@@ -29,7 +29,7 @@ the collective interest of all Participants to the network. 
 Roles & Responsibilities
 ------------------------
 
-As outlined in the Foundation’s [by-laws](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcorda.network%2Fgovernance%2Fbylaws.html&data=02%7C01%7C%7C7b5adf5bd9674a65dc7708d697159e1a%7Ca4be1f2e2d10419587cd736aca9b672c%7C0%7C0%7C636862516429066085&sdata=IpBxiEXL6zTrFt%2BMY8Q7gYldsYpViLi2gQOLnOWfzRI%3D&reserved=0), changes to technical parameters and  notary criteria are managed through a governance process: “Advisory Governance  Events” (clauses 8.1.1.c and 10.1). These are changes which can be implemented  by the Operator without Foundation approval, but the Foundation can ask to  provide an advisory vote. It’s important that the Operator can progress parameter upgrades to a  regular schedule without encumbering the governance process of the Foundation with routine changes to keep in line  with the Corda Protocol.
+As outlined in the Foundation’s [by-laws](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcorda.network%2Fgovernance%2Fbylaws.html&data=02%7C01%7C%7C7b5adf5bd9674a65dc7708d697159e1a%7Ca4be1f2e2d10419587cd736aca9b672c%7C0%7C0%7C636862516429066085&sdata=IpBxiEXL6zTrFt%2BMY8Q7gYldsYpViLi2gQOLnOWfzRI%3D&reserved=0), changes to technical parameters and  notary criteria are managed through a governance process: “Advisory Governance  Events” (clauses 8.1.1.c and 10.1). These are changes which can be implemented  by the Operator without Foundation approval, but the Foundation can ask to  provide an advisory vote. It’s important that the Operator can progress parameter update to a  regular schedule without encumbering the governance process of the Foundation with routine changes to keep in line  with the Corda Protocol.
 
 Changes to Network Parameters: Process
 --------------------------------------
@@ -40,7 +40,7 @@ The Foundation shall apply a structured process to the creation of new Network P
 2. All proposals for changes shall be reviewed by the Network Operator and the Foundation.
 3. The Network Operator shall undertake testing to demonstrate in advance that proposed changes shall not have unforeseen negative effects on the operation of the Network.
 4. The Network Operator will determine the appropriate implementation date, following the schedule below
-5. The Network Operator will have the right to refuse or delay parameter upgrades at its discretion, but at all times acting in accordance with its brief and the terms and objectives of the Corda Network Charter
+5. The Network Operator will have the right to refuse or delay parameter updates at its discretion, but at all times acting in accordance with its brief and the terms and objectives of the Corda Network Charter
 6. The Network Operator shall provide forward notice of planned parameters updates.
 
 
@@ -49,7 +49,7 @@ Addition of new parameters and updates to existing  parameters
 
 Every 2 months for the Production environment, the Network Operator will announce the changes ahead of time and execute the changes for a maintenance window on Saturday mornings. This shall commence at 10am UTC. 
 
-For 2019, Network Parameter upgrade Windows will be run, on the following Saturdays:
+For 2019, Network Parameter update Windows will be run, on the following Saturdays:
 * June 29th
 * August 31st
 * October 26th
@@ -64,9 +64,9 @@ This should be sent to: cordanetwork.ops@r3.com
 Please note:
 ------------
 
-Due to the importance of the new features in Corda 4  (in particular signature constraints), the Foundation will be aiming to complete the upgrade to Minimum Platform Version v4 within 6 months of the release of the Corda Enterprise version.
+Due to the importance of the new features in Corda 4  (in particular signature constraints), the Foundation will be aiming to complete the update to Minimum Platform Version v4 within 6 months of the release of the Corda Enterprise version.
 
-Generally, the Minimum Platform Version will be upgraded within 15 months of the release of each major new release of the open source version of Corda.
+Generally, the Minimum Platform Version will be updated within 15 months of the release of each major new release of the open source version of Corda.
 
 Re-scheduling:
 --------------
@@ -78,7 +78,7 @@ The Network Operator may, at its discretion, alter the timing at which a propose
 Cancellation:
 -------------
  
-The Network Operator may, subject to approval by the Foundation, cancel a planned update to the Network Parameter upgrade Window. The following conditions apply:
+The Network Operator may, subject to approval by the Foundation, cancel a planned update to the Network Parameter update Window. The following conditions apply:
 
 - The cancellation must be disclosed to all Participants.
 - The cancellation must be disclosed at the earliest possible opportunity.
