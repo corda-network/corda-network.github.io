@@ -129,8 +129,8 @@ pages:
       url: /policy/ip-addresses.html
     - title: Namespace Ownership
       url: /policy/namespace-ownership.html
-    - title: Network Parameter Upgrades
-      url: /policy/network-params-upgrade.html
+    - title: Network Parameter Updates
+      url: /policy/network-params-update.html
     - title: Port Ranges
       url: /policy/port-ranges.html
     - title: Protocol Definition
