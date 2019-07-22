@@ -73,15 +73,12 @@ The settings below must be added to the node.conf at the end of the file:
 
 ```
 networkServices {
-doormanURL=“https://prod-doorman2-01.corda.network/ED5D077E-F970-428B-8091-F7FCBDA06F8C”
-networkMapURL=“https://prod-netmap2-01.corda.network/ED5D077E-F970-428B-8091-F7FCBDA06F8C”
+doormanURL = "https://doorman.corda.network/ED5D077E-F970-428B-8091-F7FCBDA06F8C"
+networkMapURL = "https://prod-sub0-netmap-01.corda.network/SUB0CHKQ-8GCO-HS3S-KLZC-BINKKAGIMDRS"
 }
-devMode = false
-
-tlsCertCrlDistPoint : “http://crl.corda.network/nodetls.crl”
-tlsCertCrlIssuer : “CN=Corda TLS CRL Authority,OU=Corda Network,O=R3 HoldCo LLC,L=New York,C=US”
+tlsCertCrlDistPoint : "http://crl.corda.network/nodetls.crl"
+tlsCertCrlIssuer : "CN=Corda TLS CRL Authority,OU=Corda Network,O=R3 HoldCo LLC,L=New York,C=US"
 ```
-
 
 
 **Step 5**
