@@ -8,40 +8,15 @@ Pricing
 
 In general, the term 'participation' rather than 'membership' is used, as this is the terminology used for a Dutch Stichting in the laws governing it. At present, participation in Corda Network is for legal entities only. 
 
-Currently there are two tiers for participation in Corda Network:
 
-**(1) Full participant**
+**Participation Certificate**
 * Receives full onboarding support onto Corda Network from the Network Operator
 * Can be a member of multiple business networks and run multiple business applications
 * Has voting rights for how the Foundation is governed
 * Can stand for the Foundation's Board of Directors
-* Manages their own node
 
+Pricing: Free until December 2021
 
-**(2) Identity-only participant**
-* Onboarding support typically through their business network / application provider
-* Only can be a member of one business network
-* No voting rights
-* Cannot stand for the Board
-* Node will be managed by another party
-
-
-
-                           | Identity-only (Sponsored) | Full Membership
--------------------------- | ------------------------- | --------------------
-**Node Deployment**        |                           |                     
-Certificate Issuance       | ✗                         | ✗
-On the Network Map         | ✗                         | ✗
-Identity checks            | ✗                         | ✗
-Onboarding support         |                           | ✗
-**Ongoing**                |                           |  
-Will manage own node(s)    |                           | ✗
-Multiple node applications |                           | ✗
-Ongoing support            |                           | ✗
-Voting rights              |                           | ✗
-Can stand for the Foundation’s board of directors |    | ✗
-**PRICE**                  | $100 per year / identity  | $2500 per year / identity
-Billing                    | Aggregated via sponsor    | Direct invoice
 
 
 2.Transaction Fees
@@ -79,4 +54,4 @@ packages can be purchased at any time, but previous purchases that year are igno
 
 ## Third-party Notaries
 Notary fees for third-party notaries are at the sole discretion of the corresponding notary provider, and invoicing is 
-managed by them. See [Notary Considerations](https://corda.network/participation/notary-considerations.html).
+managed by them. There are no Corda Network fees for running your own notary. See [Notary Considerations](https://corda.network/participation/notary-considerations.html).
