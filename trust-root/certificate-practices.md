@@ -34,7 +34,7 @@ in response to the Corda Network Certificate Policy (CP).
 
 1.2.1 Revisions
 ---------------
-See Appendix B
+See Appendix C
 
 1.3 PKI Participants
 --------------------
@@ -273,6 +273,7 @@ repository from unauthorised modification or deletion.
 --------------------
 The CA shall assign an X.50 1 Distinguished Name (DN) to each subscriber, which will be contained 
 in the Subject name field of Corda Network node certificates.
+Names must conform to the Corda Network [Allowable Entity Names policy|https://corda.network/policy/allowable-names.html] [1].
 
 3.1.2 Need for Names to Be Meaningful
 -------------------------------------
@@ -2201,7 +2202,12 @@ UUID Universal Unique Identifier
 
 VPN Virtual Private Network
 
-Appendix B: Document History
+Appendix B: References
+======================
+
+1. [Allowable Identity Names|https://corda.network/policy/allowable-names.html] (Corda Network technical policies): 
+
+Appendix C: Document History
 ============================
 
  Version Date Author Change Details
