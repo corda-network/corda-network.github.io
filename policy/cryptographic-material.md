@@ -5,37 +5,33 @@ Cryptographic Material Policy
 
 1 Introduction
 --------------
-The Operator must manage all operationally-sensitive cryptographic material in a secure and controlled manner. This 
+The Network Operator must manage all operationally-sensitive cryptographic material in a secure and controlled manner. This 
 document outlines provisions for secure generation, storage and access control of cryptographic material in relation to 
 Corda Network. It follows the policies on [Access Control](access-control.md) and 
 [Infrastructure Management](infrastructure-management.md).
 
 2 Motivation
 ------------
-The Operator manages and controls the certificate authority ("doorman") for all Corda Network environments, with the 
-intention for Corda Network to serve as a global network of regulated financial institutions engaging in financially 
-significant transactions via Corda.
+The Network Operator manages and controls the certificate authority ("Identity Manager") for all Corda Network environments, with the intention for Corda Network to serve as a global network of legal entities engaging in significant transactions via Corda.
 
-Inappropriate management of the Foundation and Operator's cryptographic key material could expose not only the 
+Inappropriate management of the Foundation and Network Operator's cryptographic key material could expose not only the 
 Foundation but all such participants to major financial and reputational risk. The Foundation therefore recognises the 
 importance of ensuring that the generation and full-lifecycle management of sensitive cryptographic material is 
 conducted in a secure and controlled manner.
 
 3 Governance
 ------------
-The Operator's security team owns the definition of this policy and monitoring compliance with it on an on-going basis.
-
-The operations team is accountable for implementation of this policy and maintaining compliance.
+The Network Operator's security team owns the definition of this policy and monitoring compliance with it on an on-going basis. The operations team is accountable for implementation of this policy and maintaining compliance.
 
 4 Scope
 -------
 In the context of this document, cryptographic material refers to any information which may be used to assert ownership 
 of an identity using cryptographic means. This primarily relates to private ("signing") keys used in public key 
 cryptography. Identities of relevance to this policy include (but are not limited to) those used for the 
-Corda Network certificate authority ("doorman").
+Corda Network certificate authority ("Identity Manager").
 
 "Sensitive" cryptographic material refers specifically to cryptographic material of significance such that the Foundation 
-or Operator may be reputationally or operationally impacted by its loss or disclosure to external parties, or into the 
+or Network may be reputationally or operationally impacted by its loss or disclosure to external parties, or into the 
 public domain. This is typically limited to 'production' contexts, but may also apply to non-production environments 
 where commitments exist provide secure services to external stakeholders.
 
@@ -95,7 +91,7 @@ Backups of sensitive material must be exported from HSMs in an encrypted state a
 in a plain-text form. Backups should be separately encrypted using credentials managed by DevOps.
 
 Backups should be stored on an appropriate cloud platform (e.g. [Egnyte](https://egnyte.com/)) which is approved 
-for Operator corporate use, and which allows for:
+for Network Operator corporate use, and which allows for:
 
 *   Geo-redundant replication to mitigate risk of loss.
 *   Historic version retention.
@@ -159,7 +155,7 @@ storing all relevant passwords. Credentials used to access this database must be
 itself.
 
 Password databases should be stored on an appropriate cloud platform (e.g. [Egnyte](https://egnyte.com/)) which is 
-approved for Operator corporate use, and which allows for:
+approved for Network Operator corporate use, and which allows for:
 
 *   Geo-redundant replication to mitigate risk of loss.
 *   Historic version retention.
@@ -179,8 +175,8 @@ policy (e.g. 2:6) is enforced.
 *   Backup key media are distributed across multiple separate physical locations to ensure redundancy in the event of 
 disaster.
 *   Backup key media are stored in highly secure environments (e.g. safety deposit boxes).
-*   Backup key media are only accessible by appropriately authorised Operator personnel.
-*   Backup key media are only accessible with explicit authorisation from a member of Operator senior management.
+*   Backup key media are only accessible by appropriately authorised Network Operator personnel.
+*   Backup key media are only accessible with explicit authorisation from a member of Network Operator senior management.
 
 Tamper Inspections
 ------------------
@@ -189,7 +185,7 @@ HSMs shall be subject to inspections for evidence of accidental or malicious tam
 The operations team is responsible for leading inspections. All inspections must be witnessed by an appropriate delegate 
 oversight party on behalf of senior management.
 
-Inspections must be logged. Logs shall be reviewed by the Operator security team every 6 months, at a minimum.
+Inspections must be logged. Logs shall be reviewed by the Network Operator security team every 6 months, at a minimum.
 
 Audit Trail
 -----------
@@ -200,4 +196,4 @@ reviewing audit logs from HSMs on a monthly basis.
 Physical Access
 ---------------
 Physical access to HSMs containing sensitive cryptographic material will be controlled in such a manner that, at a 
-minimum, requires one member of the operations team and one member of the Operator executive team to secure access.
+minimum, requires one member of the operations team and one member of the Network Operator executive team to secure access.
