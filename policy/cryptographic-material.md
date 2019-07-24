@@ -41,10 +41,9 @@ where commitments exist provide secure services to external stakeholders.
 
 5 Data Security
 ---------------
-All sensitive cryptographic material should be stored on a Hardware Security Module (see 2.2). HSMs used for this 
-purpose shall be tamper-resistant to FIPS 140-2 level 3 or higher.
+All sensitive cryptographic material managed by the Network Operator should be stored on a Hardware Security Module (see 2.2). HSMs used for this purpose shall be tamper-resistant to FIPS 140-2 level 3 or higher.
 
-Under no circumstances shall sensitive cryptographic material be permitted to exist in an unencrypted (“clear text”) 
+Under no circumstances shall such sensitive cryptographic material be permitted to exist in an unencrypted (“clear text”) 
 format outside of an HSM.
 
 All communication between HSMs containing sensitive cryptographic material and other networked devices shall occur via 
