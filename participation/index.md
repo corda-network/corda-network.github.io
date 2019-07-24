@@ -3,51 +3,67 @@
 Joining Corda Network
 =====================
 
-A summary of steps to join the Network (either the Pre-Production or Production network) is listed below. 
-More details are given on each of these steps, further down this page.
+A summary of steps to join the Network (either the Pre-Production or Production network) is listed below. More details are given on each of these steps, further down this page.
 
 This assumes that participants wish to operate a node and already have access to at least one CorDapp which they wish to deploy, as well as other considerations listed. 
 
-New Joiner Process 
-------------------
-
-*June 2019: Please note, the team is working hard to streamline this process, to provide an improved user experience.*
-
-
-Detailed Joining Process
-========================
-
-The below provides more on detail on each of the steps for the joining process for either Pre-Production or Production network.
-
-
 **Step 1**
-**Obtain Corda software** - either: 
-* Open Source, through [github](https://github.com/corda) under an Apache 2 license. 
-* Corda Enterprise, available via a [Corda representative](https://www.r3.com/corda-enterprise-download/). 
-There is further guidance available on Corda Docs for [getting set up on Corda](https://docs.corda.net/getting-set-up.html)
+**Terms of Use Agreement**
+
+Direct Model
+
+*Pre-Production Network*
+
+The Terms of Use for direct signing are available as a click-through agreement which will provide direct confirmation of acceptance to the Corda Network Operator. Available here: [Terms of Use](https://fs22.formsite.com/r3cev/CordaUATAgreement2019/index.html)
+
+*Production Network* 
+
+Terms of Use for direct signing [available here](https://corda.network/participation/terms-of-use.html) 
+
+Sponsored Model
+
+Business Network Operators acting as Sponsors need to ensure their participants have signed the Terms of Use before they can receive a participation certificate. If BNOs prefer to organise acceptance themselves, then they must forward appropriate documentary evidence for each participant (either a signed hard copy with wet signature or a scan of such hard copy). You must specify the precise Distinguished Names in order to confirm that the correct entity has signed and an accurate certificate can be issued. They must also sign a Sponsored Terms of Use Agreement (available both for Pre-Production and Production), which can be requested through an r3 representative, or via cordanetwork@r3.com.
 
 **Step 2**
+To expedite your certificate signing request (CSR) to join CN, please follow these steps in order. 
+Steps i-iv are pre-approval steps, to ensure when the CSR is submitted (below, in Step 6), all values are populated correctly.
+ 
+i.	The node operator fills out fields in bold in the table below, for every node to be onboarded (you may submit as many nodes as you like). Send this email of nodes to cordanetwork@r3.com. Useful tip: If you reply from the ‘node operator email address’ (listed below), you’ll also have completed step 3.
+ii.	CNF performs legal identity and sanctions checks on Organisation field (O) for each node. For guidance on which legal entity name to pick for your node, see [here](https://corda.network/participation/legalentity.html).
+iii.	CNF needs to verify the person submitting this CSR has access to the associated email inbox and will do so by sending an email to the ‘node operator email address’ and waiting for a confirmation reply.
+iv.	The network operator will give the all clear to node operator to submit their CSR.
+ 
+Before you begin...
+•	If you are setting up a notary, there are additional considerations you need to keep in mind, please see the guidance you have received for setting up a notary.
+•	Fields in orange are optional, except for State (S), which is required only for legal entities registered in the USA. 
+•	The email address used below should be an actively monitored mailbox. We will use this email address for all communications with the node, including those involved in identity verification. We recommend this is an ‘admin@’ or ‘info@’ generic email associated with the legal entity, to avoid key man risk.
+•	The combination of O and OU are checked for uniqueness. If a CSR is submitted (or a certificate exists) with these two fields already in Corda Network, it will be rejected.
+•	If you are unsure of how to populate any fields, please see the guidance at the end of the email or reply to this email with your specific questions.
+
+ Node 1 
+ 
+| Node Operator email address |   |
+|-----------------------------|---|
+| **Organisation (O)**        |   |
+| **City (L)**                |   |
+| **Country (C)**             |   |
+| State (US / Canada only)    |   |
+| Organisation Unit (OU)      |   |
+| Common Name (CN)            |   |
+ 
+ 
+**Step 3**
 **Trust Root** - request the Trust Root from the Network's Identity Manager. It will be sent back as a network-root-truststore.jks file. In future, the Trust Root will be packaged in the software distribution. 
 For Pre-Production, email uatdoorman@r3.com.
 For the Production Network, email doorman@r3.com
 
-**Step 3**
+**Step 4**
 **[Deploy the node](https://docs.corda.net/deploying-a-node.html)** - where applicable, with help from a Corda representative.  
 
-**Step 4**
+**Step 5**
 **[Configure the node](https://docs.corda.net/corda-configuration-file.html)** – a node.conf file must be included in the root directory of every Corda node.
 
-**Step 4.1**
-**Choosing an email address** 
-The email address should be non-personal (for example, admin@... or info@...) and actively monitored by the node operator. The email address is retained by the Corda Network Operator for the purpose of contact in relation to identity checks (for onboarding) and any administrative or technical issues (on an ongoing basis). It is not included in the certificate.
-
-**Step 4.2**
-**Picking a Distinguished Name**
-All nodes on Corda Network must have a Distinguished Name (DN) in their [participation certificate](https://docs.corda.net/corda-network/index.html#identity-service).
-* Follow the guidelines [here](https://corda.network/participation/distinguishedname.html) to pick the right DN, as part of the onboarding process.
-* A DN will include a legal entity name for your node. For guidance on which legal entity name to pick for your node, see [here](https://corda.network/participation/legalentity.html).
-
-**Step 4.3**
+**Step 5.1**
 **Specifying URLs For Initial Registration**
 
 <span style="color:red"> **!!!WARNING!!!** </span> 
@@ -81,7 +97,7 @@ tlsCertCrlIssuer : "CN=Corda TLS CRL Authority,OU=Corda Network,O=R3 HoldCo LLC,
 ```
 
 
-**Step 5**
+**Step 6**
 **Run the initial registration** 
 
 Once the node.conf file is configured, the following should be typed to the command line:
@@ -118,41 +134,10 @@ Start polling server for certificate signing approval.
 
 Important: the Request ID given in the above should be noted and kept safe for future reference. 
 
-**Step 6**
-**Terms of Use Agreement**
-
-Direct Model
-
-*Pre-Production Network*
-
-The Terms of Use for direct signing are available as a click-through agreement which will provide direct confirmation of acceptance to the Corda Network Operator. Available here: [Terms of Use](https://fs22.formsite.com/r3cev/CordaUATAgreement2019/index.html)
-
-*Production Network* 
-
-Terms of Use for direct signing [available here](https://corda.network/participation/terms-of-use.html) 
-
-Sponsored Model
-
-Business Network Operators need to ensure their participants have signed the Terms of Use before they can receive a participation certificate. If BNOs prefer to organise acceptance themselves, then they must forward appropriate documentary evidence for each participant (either a signed hard copy with wet signature or a scan of such hard copy). You must specify the precise Distinguished Names in order to confirm that the correct entity has signed and an accurate certificate can be issued. They must also sign a Sponsored Terms of Use Agreement (available both for Pre-Production and Production), which can be requested through an r3 representative, or via cordanetwork@r3.com.
 
 **Step 7**
-**Identity Manager**
-The Identity Manager does verification checks – upon receipt of a CSR, a number of identity-related checks will be conducted, before issuing a certificate. 
-
-**Identity checks do not constitute formal Know Your Customer (KYC) or Enhanced Due Diligence (EDD) checks. Node operators 
-and their users are responsible for carrying out appropriate due diligence on any participant in relation to transactions 
-performed via Corda Network.**
-
-Upon receipt of a CSR, the Identity Operator will conduct a number of identity-related checks before issuing a certificate:
-1. The DN accurately reflects a real-world legal entity, as registered with an appropriate trade register
-2. The node operator (participating entity) has signed the Corda Network Terms of Use
-3. The contact email address provided is valid
-4. The owner of the email address and an independent and suitably qualified person in the same organisation is aware of / approves the CSR
-
-
-**Step 8**
 **Confirmation**
-Once identity checks have been completed, a signed node CA certificate will be released by the Operator to the node. A node in polling mode will automatically download and install the certificate in its local trust store. It will also automatically generate additional identity and TLS certificates from the node CA certificate, which are required for subsequent operation of the node.
+Once approved, a signed node CA certificate will be released by the Operator to the node. A node in polling mode will automatically download and install the certificate in its local trust store. It will also automatically generate additional identity and TLS certificates from the node CA certificate, which are required for subsequent operation of the node.
 
 At this point, the node will terminate and will need to be restarted. Type “java -jar " into the command line. Once restarted, the node will then proceed to download the network map and discover other nodes within Corda Network. By the end of this process, joiners will be a participant in Corda Network and Corda Network Foundation.
 
@@ -166,7 +151,3 @@ Participation fee
 Billing details will be gathered, for a participation fee invoice, during this process. This will depend on if they are part of the **indirect** or **direct model**.
 
 For further questions on this process, please [contact us](../about/contact.html) - preferably on the [mailing list](https://groups.io/g/corda-network).
-
-
-
-
