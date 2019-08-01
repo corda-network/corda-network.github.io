@@ -5,9 +5,8 @@ Joining Corda Network
 
 A summary of steps to join the Network (either the Pre-Production or Production network) is listed below. More details are given on each of these steps, further down this page. This assumes that participants wish to operate a node and already have access to at least one CorDapp which they wish to deploy, as well as other considerations listed. 
 
-**Step 1**
-**Terms of Use Agreement**
---------------------------
+**Step 1: Terms of Use Agreement**
+----------------------------------
 
 **1.1 Direct Model**
 
@@ -23,9 +22,8 @@ Terms of Use for direct signing [available here](https://corda.network/participa
 
 Business Network Operators acting as Sponsors need to ensure their participants have signed the Terms of Use before they can receive a participation certificate. If BNOs prefer to organise acceptance themselves, then they must forward appropriate documentary evidence for each participant (either a signed hard copy with wet signature or a scan of such hard copy). You must specify the precise Distinguished Names in order to confirm that the correct entity has signed and an accurate certificate can be issued. They must also sign a Sponsored Terms of Use Agreement (available both for Pre-Production and Production), which can be requested through an r3 representative, or via cordanetwork@r3.com.
 
-**Step 2**
-**Pre-approval of CSR information**
------------------------------------
+**Step 2: Pre-approval of CSR information**
+-------------------------------------------
 
 To expedite your certificate signing request (CSR) to join CN, please follow these steps in order. 
 Steps i-iv are pre-approval steps, to ensure when the CSR is submitted (below, in Step 6), all values are populated correctly.
@@ -54,25 +52,25 @@ iv.	The network operator will give the all clear to node operator to submit thei
 | Common Name (CN)            |   |
  
  
-**Step 3**
-**Trust Root** 
----------------
+**Step 3: Trust Root** 
+----------------------
+
 Request the Trust Root from the Network's Identity Manager. It will be sent back as a network-root-truststore.jks file. In future, the Trust Root will be packaged in the software distribution. 
 For Pre-Production, email uatdoorman@r3.com.
 For the Production Network, email doorman@r3.com
 
-**Step 4**
-**[Deploy the node](https://docs.corda.net/deploying-a-node.html)**
-------------------------------------------------
+**Step 4: [Deploy the node](https://docs.corda.net/deploying-a-node.html)**
+---------------------------------------------------------------------------
+
 Where applicable, with help from a Corda representative.  
 
-**Step 5**
-**[Configure the node](https://docs.corda.net/corda-configuration-file.html)**
----------------------------
+**Step 5: [Configure the node](https://docs.corda.net/corda-configuration-file.html)**
+---------------------------------------------------------------------------
+
 A node.conf file must be included in the root directory of every Corda node.
 
-**Step 5.1**
-**Specifying URLs For Initial Registration**
+**Step 5.1: Specifying URLs For Initial Registration**
+
 
 <span style="color:red"> **!!!WARNING!!!** </span> 
 
@@ -104,9 +102,8 @@ tlsCertCrlDistPoint : "http://crl.corda.network/nodetls.crl"
 tlsCertCrlIssuer : "CN=Corda TLS CRL Authority,OU=Corda Network,O=R3 HoldCo LLC,L=New York,C=US"
 ```
 
-**Step 6**
-**Run the initial registration** 
---------------------------------
+**Step 6: Run the initial registration** 
+----------------------------------------
 
 Once the node.conf file is configured, the following should be typed to the command line:
 
@@ -143,9 +140,9 @@ Start polling server for certificate signing approval.
 Important: the Request ID given in the above should be noted and kept safe for future reference. 
 
 
-**Step 7**
-**Confirmation**
-----------------
+**Step 7: Confirmation**
+------------------------
+
 Once approved, a signed node CA certificate will be released by the Operator to the node. A node in polling mode will automatically download and install the certificate in its local trust store. It will also automatically generate additional identity and TLS certificates from the node CA certificate, which are required for subsequent operation of the node.
 
 At this point, the node will terminate and will need to be restarted. Type “java -jar " into the command line. Once restarted, the node will then proceed to download the network map and discover other nodes within Corda Network. By the end of this process, joiners will be a participant in Corda Network and Corda Network Foundation.
