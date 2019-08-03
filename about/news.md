@@ -5,7 +5,7 @@ News
 
 2019-08-01 
 ----------
-Cryptocurrency broker, BCB is now live on Corda Network:
+As reported in Finextra, the cryptocurrency broker, BCB is now live on Corda Network:
 https://www.finextra.com/pressarticle/79386/cryptocurrency-broker-bcb-hops-on-corda-network
 
 
