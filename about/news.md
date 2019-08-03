@@ -14,9 +14,9 @@ https://www.finextra.com/pressarticle/79386/cryptocurrency-broker-bcb-hops-on-co
 B3i's Property Catastrophe Excess of Loss product is now live on the global Corda Network:
 https://b3i.tech/single-news-reader/product-release-b3i-announces-cat-xol-v1-0.html
 
-2019-July
+2019-07-29
 ---------
-The Board of Corda Network Foundation has decided that all annual participation fees for Corda Network (both Pre-Production and Production) are now free until end 2021. Transaction fees (for those using the Corda Network notary) still apply for over 10,000 transactions per year.
+The Board of Corda Network Foundation has decided that annual participation fees for Corda Network (both Pre-Production and Production) will be free for all, until end 2021. Transaction fees (for those using the Corda Network notary) still apply for over 10,000 transactions per year. More info is available here: https://corda.network/participation/membership-tiers.html
 
 2019-04-18
 ----------
