@@ -3,9 +3,23 @@
 News
 ====
 
+2019-08-01 
+----------
+Cryptocurrency broker, BCB is now live on Corda Network:
+https://www.finextra.com/pressarticle/79386/cryptocurrency-broker-bcb-hops-on-corda-network
+
+
+2019-07-31
+----------
+B3i's Property Catastrophe Excess of Loss product is now live on the global Corda Network:
+https://b3i.tech/single-news-reader/product-release-b3i-announces-cat-xol-v1-0.html
+
+2019-July
+---------
+The Board of Corda Network Foundation has decided that all annual participation fees for Corda Network (both Pre-Production and Production) are now free until end 2021. Transaction fees (for those using the Corda Network notary) still apply for over 10,000 transactions per year.
+
 2019-04-18
 ----------
-
 Press release about the Corda Network Foundation's 9 external Board of Directors is released. Good overview given here: https://www.marketsmedia.com/corda-network-establishes-independent-governing-body/
 
 2019-04-08
