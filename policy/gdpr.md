@@ -46,7 +46,7 @@ this area frequently to stay informed, as your continued use of our
 Website following the posting of changes to these terms means that you
 consent to such changes. It is also important that the information we
 hold about you is accurate and current. Please therefore keep us
-informed if your information changes during your relationship with us**.
+informed if your information changes during your relationship with us.
 
 ## 2.What Information Does Corda Network Collect? 
 
@@ -58,23 +58,22 @@ We may collect, use, store and transfer different kinds of personal
 data about you which we have grouped together as follows:
 
 1.  **Identity Data**includes first name, maiden name, last name,
-    username or similar identifier, company, title,**
+    username or similar identifier, company, title,
 
 2.  **Contact Data** includes email address and telephone numbers.
 
-<!-- -->
 
-1.  **Technical Data** includes internet protocol (IP) address, your login
-    data, browser type and version,** Media Access Control address,
+3.  **Technical Data** includes internet protocol (IP) address, your login
+    data, browser type and version, Media Access Control address,
     time zone setting and location, browser plug-in types and
     versions, operating system and platform, device information, domain,
-    webpage address** that linked you to our Website, pages visited, and
+    webpage address that linked you to our Website, pages visited, and
     whether you have visited us before or are new to the Website
 
-2.  **Usage Data includes** \[information about how you use our website,
-    products and services\].
+4.  **Usage Data includes** information about how you use our website,
+    products and services.
 
-3.  **Marketing and Communications** Data includes your preferences in
+5.  **Marketing and Communications** Data includes your preferences in
     receiving marketing from us and our third parties and your
     communication preferences.
 
@@ -106,7 +105,7 @@ information about your device or usage by automated means or by using
 technologies such as cookies, web server logs, and web beacons, as
 described below.
 
-[Information that You or Others Provide]{.underline}
+Information that You or Others Provide
 
 You may choose to provide information (such as Identity Data or Contact
 Data) to us when you correspond with us by filling in forms, post,
@@ -116,7 +115,7 @@ If you provide us with information regarding another individual, we will
 assume that you have that person's consent to give us his or her
 information.
 
-[Information Collected Automatically]
+Information Collected Automatically
 
 When you visit this Website or open an email that we send you, we may
 collect **Technical** **Data** and **Usage Data** about your equipment,
@@ -264,7 +263,7 @@ one of the following safeguards is implemented:
 
 -   We will only transfer your personal data to countries that have
     been deemed to provide an adequate level of protection for personal
-    data by the European Commission. For further details, see**
+    data by the European Commission. For further details, see
     [*European Commission: Adequacy of the protection of personal data
     in non-EU
     countries*](https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu/adequacy-protection-personal-data-non-eu-countries_en)**.**
