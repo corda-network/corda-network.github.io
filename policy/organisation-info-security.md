@@ -13,9 +13,8 @@ Foundation.
 The objectives of this policy are to ensure the effective governance of information security activities by the
 Foundation, such that:
 
-  * All members of the organisation understand their information security responsibilities. An effective security
-  * management program is established, that appropriately directs company resources to protect information assets and
-  address current and emerging information security (cyber) risks.
+  * All members of the organisation understand their information security responsibilities. 
+  * An effective security management program is established, that appropriately directs company resources to protect information assets and address current and emerging information security (cyber) risks.
 
 3 Who Does the Policy Apply to?
 -------------------------------
@@ -66,7 +65,7 @@ particular they are required to be aware of, and to abide by, the Foundation's i
 maintain the controls appropriate for their individual area of responsibility. All employees and associates may be
 called upon to provide subject matter expertise to information security program activities as required.
 
-# The Information Security Program
+### The Information Security Program
 The information security program includes the following main elements:
 
 An *Information Security Committee* that defines and monitors the Foundation’s desired security posture and provides
@@ -80,7 +79,7 @@ concerned with the maintenance of the Foundation’s desired security posture.
 A *Security Operations Group* that provide resources and expertise for the execution of the Security Operations
 Portfolio and monitors the performance of the Foundation's security controls.
 
-###The Information Security Committee
+### The Information Security Committee
 The Information Security Committee will provide oversight and direction for the Security Management and Security
 Operations portfolios though Committee meetings and associated activities. The Committee will:
 
@@ -170,7 +169,7 @@ Security Management Portfolio.
 
 The Security Operations Group will meet at a frequency to be determined, but not less than every two months.
 
-# Compliance
+### Compliance
 Regular assessments are carried out for compliance against this policy. Any violation of this policy will be 
 investigated and if the cause is found due to wilful disregard or negligence, it will be treated as a disciplinary 
 offence. All disciplinary proceedings are coordinated through the Human Resources Department.
