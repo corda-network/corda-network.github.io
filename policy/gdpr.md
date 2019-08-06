@@ -21,7 +21,7 @@ This Privacy Statement applies to the collection, use, disclosure and
 retention of information from and about you by Corda Foundation on
 https://corda.network/, through email communications, and through other
 sources. This Privacy Statement does not apply to other websites which
-may be accessible through hyperlinks on the Website.
+may be accessible through hyperlinks on the website.
 
 While this website may include links to third-party websites, plug-ins
 and applications, linking to a third-party site does not necessarily
@@ -43,7 +43,7 @@ should not use our Website. We may update or modify this Privacy
 Statement from time to time at our sole discretion, and will note the
 date of last update on the top of this page. We encourage you to visit
 this area frequently to stay informed, as your continued use of our
-Website following the posting of changes to these terms means that you
+website following the posting of changes to these terms means that you
 consent to such changes. It is also important that the information we
 hold about you is accurate and current. Please therefore keep us
 informed if your information changes during your relationship with us.
@@ -100,7 +100,7 @@ We may obtain information about you from various sources. We may collect
 this information when you provide it on our website, in telephone or
 email communication, through third parties (such as when you provide
 employment application information to a third party), or at one of our
-events. When you visit the Website, we may also collect certain
+events. When you visit the website, we may also collect certain
 information about your device or usage by automated means or by using
 technologies such as cookies, web server logs, and web beacons, as
 described below.
@@ -117,7 +117,7 @@ information.
 
 Information Collected Automatically
 
-When you visit this Website or open an email that we send you, we may
+When you visit this website or open an email that we send you, we may
 collect **Technical** **Data** and **Usage Data** about your equipment,
 browsing actions and patterns by automated means or by using
 technologies such as cookies, web server logs, and web beacons, as well
@@ -132,7 +132,7 @@ as other web-based technologies.
     and some are persistent for multiple sessions over time. We may use
     cookies that are managed by Corda Network or by third parties for
     the purposes provided in this Privacy Statement, including for
-    session management, authentication, user preference storage, Website
+    session management, authentication, user preference storage, website
     performance and personalization, Website analytics, content
     management, search, and social media integration.
 
@@ -159,9 +159,9 @@ as other web-based technologies.
 
 At this time, we do not honor "do not track" signals from website
 browsers. However, you may refuse or delete cookies. If you refuse or
-delete cookies, some of the functionality of our Websites may be
+delete cookies, some of the functionality of our websites may be
 impaired. If you turn off cookies, Web beacon and other technologies
-will still detect visits to our Websites, but the information they
+will still detect visits to our websites, but the information they
 generate cannot be associated with other non-identifiable cookie
 information and are disregarded. Please refer to your browser Help
 instructions to learn more about how to manage cookies and the use of
@@ -174,7 +174,7 @@ purposes:
 
 -   responding to your inquiries or feedback;
 
--   analyzing and improving our Website (including developing new
+-   analyzing and improving our website (including developing new
     services; improving safety; managing our communications; performing
     market research; performing data analytics; and performing
     accounting, auditing and other internal functions);
@@ -306,7 +306,7 @@ We may retain your **personal data** for a longer period in the event of
 a complaint or if we reasonably believe there is a prospect of
 litigation in respect to our relationship with you.
 
-## 8. What About my Rights under the GDPR?
+## 8. What About my Rights under GDPR?
 
 As an EU Citizen, the processing of your personal information is subject
 to the EU General Data Protection Regulation (\"GDPR\"), and you
