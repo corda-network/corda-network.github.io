@@ -61,8 +61,6 @@ pages:
       url: /policy/admission-criteria.html
     - title: Anti-Trust
       url: /policy/anti-trust.html
-    - title: Privacy Policy
-      url: /policy/gdpr.html
     #  - title: Network Services
     #    url: /policy/network-services.html
     - title: Code of Conduct
@@ -77,6 +75,8 @@ pages:
       url: /policy/network-services.html
     - title: Notary Services
       url: /policy/notary-services.html
+    - title: Privacy Policy
+      url: /policy/gdpr.html
     - title: Security
       url: /policy/security.html
     - title: Supplier Management
