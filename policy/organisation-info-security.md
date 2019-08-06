@@ -68,16 +68,19 @@ called upon to provide subject matter expertise to information security program 
 ### The Information Security Program
 The information security program includes the following main elements:
 
-An *Information Security Committee* that defines and monitors the Foundation’s desired security posture and provides
-governance for the overall information security program.
-A *Security Management Portfolio* that includes high level information risk and information security management
-capabilities as well as large security-related projects. The Security Management Portfolio is concerned with the
-implementation of the Foundation’s desired security posture.
-A *Security Operations Portfolio* which includes the development and execution of specific security controls, incident
-response capabilities and the execution of small, self-contained security projects. The Security Operations Portfolio is
-concerned with the maintenance of the Foundation’s desired security posture.
-A *Security Operations Group* that provide resources and expertise for the execution of the Security Operations
-Portfolio and monitors the performance of the Foundation's security controls.
+  * An *Information Security Committee* that defines and monitors the Foundation’s desired security posture and provides
+  governance for the overall information security program.
+
+  * A *Security Management Portfolio* that includes high level information risk and information security management
+  capabilities as well as large security-related projects. The Security Management Portfolio is concerned with the
+  implementation of the Foundation’s desired security posture.
+
+  * A *Security Operations Portfolio* which includes the development and execution of specific security controls, incident
+  response capabilities and the execution of small, self-contained security projects. The Security Operations Portfolio is
+  concerned with the maintenance of the Foundation’s desired security posture.
+
+  * A *Security Operations Group* that provide resources and expertise for the execution of the Security Operations
+  Portfolio and monitors the performance of the Foundation's security controls.
 
 ### The Information Security Committee
 The Information Security Committee will provide oversight and direction for the Security Management and Security
