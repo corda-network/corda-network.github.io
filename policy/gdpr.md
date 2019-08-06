@@ -1,74 +1,392 @@
 |Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Full Privacy Statement
 
-GDPR Policy
-===========
+Corda Network respects your concerns about privacy and values the
+relationship we have with you. This Privacy Statement describes the
+types of information we collect about you, how we collect, use and
+retain your information, with whom we share it, how we protect your
+information, the choices available to you regarding our use of the
+information, and how you can contact us about our privacy practices.
 
-1 Policy Statement
-------------------
-The General Data Protection Regulation ("GDPR") (Regulation (EU) 2016/679) requires companies to protect the personal 
-data and privacy for the collection and processing of personal information of individuals within the European Union 
-(EU). The regulation aims to give citizens and residents back the control of their personal data, while imposing 
-regulatory and legal requirements for data controllers and data processors (as defined below), including data hosting 
-providers. Generally speaking, under GDPR individuals have the right to understand how companies use their data for 
-sales and marketing purposes, and need to be made aware of their rights with regard to their personal data and to be 
-informed when cyber data thefts occur in relation to their personal information.
-Corda Network Foundation is committed to embed data protection compliance deeply into its business processes, with the 
-objective that technical and organizational security measures limit the amount and use of personal data to what is 
-specifically required.
+It is important that you read this **Privacy Statement** together with
+any other fair processing **policies or notices** we may provide on
+specific occasions when we are collecting or processing personal data
+about you so that you are fully aware of how and why we are using your
+data. This **Privacy Statement** supplements other policies and notices
+and is not intended to override them.
 
-2 Key Definitions
------------------
-* **Personal Data**: means any information relating to an identified or identifiable natural person ('data subject'). In turn, 
-an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an 
-identifier such as a name, address, an identification number (such as a passport or a social security number), location 
-data, telephone number, an online identifier or log in details or to one or more factors specific to the physical, 
-physiological, genetic, mental, economic, cultural or social identity of that natural person. 
-**First Name** and **Last 
-Name** can be personal data if linked to other data (or otherwise independently if they are not common names).
-* **Data Controller**: "‌controller" means the natural or legal person, public authority, agency or other body (each, a 
-"person") which, alone or jointly with others, determines the purposes and means of the processing of personal data; 
-where the purposes and means of such processing are determined by Union or Member State law, the controller or the 
-specific criteria for its nomination may be provided for by Union or Member State law.
-* **Data Processor**: any person (other than an employee of the data controller) who processes the data on behalf of the 
-data controller. 
-* **Processing**, in relation to information or data means obtaining, recording or holding the information 
-or data or carrying out any operation or set of operations on the information or data, including:
-    1. organization, adaptation or alteration of the information or data,
-    2. retrieval, consultation or use of the information or data,
-    3. disclosure of the information or data by transmission, dissemination or otherwise making available or
-    4. alignment, combination, blocking, erasure or destruction of the information or data.
+## 1. What Information Does This Privacy Statement Apply to?
 
-3 Corda Network Foundation Services
------------------------------------
-## Doorman
-The Doorman Service undertakes screening on Node Users and Node Operators wishing to join Corda Enterprise and issues 
-certificates to Node Operators, signed by a Certificate Authority. The Registration Service collects information on the 
-Node User and Node Operator. Any personal data collected as part of the certificate issuance process, such as contact 
-name, phone number or email address will be stored on private, secure databases. Personal Data related to revoked 
-certificates will be deleted after record retention rules expire as long as there is no legitimate business reason to 
-store the data.
+This Privacy Statement applies to the collection, use, disclosure and
+retention of information from and about you by Corda Foundation on
+https://corda.network/, through email communications, and through other
+sources. This Privacy Statement does not apply to other websites which
+may be accessible through hyperlinks on the Website.
 
-## Network Maps
-The Network Map Service provides information relating to each node on the network so that other nodes can identity 
-other participants on the network. No personal data will be shared with other network participants as part of this 
-service.
+**While this website may include links to third-party websites, plug-ins
+and applications, l**inking to a third-party site does not necessarily
+mean that we endorse the site, any products or services described on the
+site, or any other material contained in a third-party site. To the
+extent any linked websites you visit are not owned or controlled by us,
+we are not responsible for the sites' content, any use of the sites, or
+the privacy practices of the sites. **Clicking on those links or
+enabling those connections may allow third parties to collect or share
+data about you. We do not control these third-party websites and are not
+responsible for their privacy statements, so p**lease review the privacy
+statement on those other websites to see how they handle your
+information.
 
-## Notary
-Notaries receive transactions submitted for processing and either return a signature over the transaction or a rejection 
-error that states a double spend occurred. Corda has two types of notaries – validating notary and a non-validating 
-notary. A validating notary needs to see all data in a state object to make a confirmation decision before it gets 
-added to the next block. Non-validating notaries only see a subset of a transaction to determine ordering / uniqueness. 
-At this time, the Corda Network Foundation only provides non-validating notaries; therefore no personal data is 
-processed or stored.
+If you choose to use our Website in any way, such as browsing or
+interacting, you agree with the terms of our current Privacy Statement
+as posted here. If you do not agree with this Privacy Statement, you
+should not use our Website. We may update or modify this Privacy
+Statement from time to time at our sole discretion, and will note the
+date of last update on the top of this page. We encourage you to visit
+this area frequently to stay informed, as your continued use of our
+Website following the posting of changes to these terms means that you
+consent to such changes. **It is also important that the information we
+hold about you is accurate and current. Please therefore keep us
+informed if your information changes during your relationship with us**.
 
-4 Notification
---------------
-The Corda Network Foundation operator ("operator") will notify impacted parties of personal data breaches no later than 
-72 hours after having become aware of a breach. A supervisory authority will be notified if there is any risk to the 
-rights and freedoms of natural persons. The operator will notify the Corda Network Foundation Board immediately.
+## 2.What Information Does Corda Network Collect? \[3\]
 
-5 The Right to Erasure
-----------------------
-Under GDPR, the data subject shall have the right to obtain the erasure of personal data concerning him or her without 
-undue delay. Personal data will be removed from systems if it is no longer necessary in relation to the purposes for 
-which they were collected or otherwise processed and record retention rules expire.
+**Personal data, or personal information, means any information about an
+individual from which that person can be identified. It does not include
+data where the identity has been removed (anonymous data).**
+
+**We may collect, use, store and transfer different kinds of personal
+data about you which we have grouped together as follows:**
+
+1.  **Identity Data includes first name, maiden name, last name,
+    username or similar identifier, company, title,**
+
+2.  **Contact Data includes email address and telephone numbers.**
+
+<!-- -->
+
+1.  **Technical Data includes internet protocol (IP) address, your login
+    data, browser type and version,** Media Access Control address,
+    **time zone setting and location, browser plug-in types and
+    versions, operating system and platform, device information, domain,
+    webpage address** that linked you to our Website, pages visited, and
+    whether you have visited us before or are new to the Website
+
+2.  **Usage Data includes \[information about how you use our website,
+    products and services\].**
+
+3.  **Marketing and Communications Data includes your preferences in
+    receiving marketing from us and our third parties and your
+    communication preferences.**
+
+**We also collect, use and share Aggregated Data such as statistical or
+demographic data for any purpose. Aggregated Data could be derived from
+your personal data but is not considered personal data in law as this
+data will not directly or indirectly reveal your identity. For example,
+we may aggregate your Usage Data to calculate the percentage of users
+accessing a specific website feature. However, if we combine or connect
+Aggregated Data with your personal data so that it can directly or
+indirectly identify you, we treat the combined data as personal data
+which will be used in accordance with this Privacy Statement.**
+
+**We do not collect any Special Categories of Personal Data about you
+(this includes details about your race or ethnicity, religious or
+philosophical beliefs, sex life, sexual orientation, political opinions,
+trade union membership, information about your health, and genetic and
+biometric data). Nor do we collect any information about criminal
+convictions and offences.**
+
+## 3. How is your Information Collected? \[4\]
+
+We may obtain information about you from various sources. We may collect
+this information when you provide it on our website, in telephone or
+email communication, through third parties (such as when you provide
+employment application information to a third party), or at one of our
+events. When you visit the Website, we may also collect certain
+information about your device or usage by automated means or by using
+technologies such as cookies, web server logs, and web beacons, as
+described below.
+
+[Information that You or Others Provide]{.underline}
+
+You may choose to provide information (such as Identity Data or Contact
+Data) to us when you correspond with us by filling in forms, post,
+phone, email or otherwise.
+
+If you provide us with information regarding another individual, we will
+assume that you have that person's consent to give us his or her
+information.
+
+[Information Collected Automatically]{.underline}
+
+When you visit this Website or open an email that we send you, we may
+collect **Technical** **Data** and **Usage Data** about your equipment,
+browsing actions and patterns by automated means or by using
+technologies such as cookies, web server logs, and web beacons, as well
+as other web-based technologies.
+
+-   [Cookies]{.underline}: Cookies are small text files that websites
+    send to your computer or other Internet-connected device to uniquely
+    identify your browser or to store information or settings in your
+    browser. Your browser may tell you how to be notified when you
+    receive certain types of cookies and how to restrict or disable
+    certain cookies. Some cookies may exist for only a single session
+    and some are persistent for multiple sessions over time. We may use
+    cookies that are managed by Corda Network or by third parties for
+    the purposes provided in this Privacy Statement, including for
+    session management, authentication, user preference storage, Website
+    performance and personalization, Website analytics, content
+    management, search, and social media integration.
+
+-   [Web server logs]{.underline}: In conjunction with obtaining
+    information through cookies, our web servers may log details
+    regarding your device, operating system, or information about your
+    Website usage.
+
+-   [Web beacons & pixels]{.underline}: To control which web servers
+    collect information described above, we may place tags on our
+    Website or in emails called "web beacons" or "pixels." These are
+    computer instructions that link web pages to particular web servers
+    and their cookies. Web beacons and pixels can be used to track the
+    pages you view, links that you click, or other online behavior.
+    These tools may also be used to measure the effectiveness of our
+    email campaigns by identifying the individuals who open or act upon
+    an email message, when an email message is opened, how many times an
+    email message is forwarded, the type of software, device, operating
+    system and browser used to deliver the email, and any URL accessed
+    through our email message.
+
+-   [Other]{.underline}: we may use other technology to collect
+    information for the purposes described in this Privacy Statement.
+
+At this time, we do not honor "do not track" signals from website
+browsers. However, you may refuse or delete cookies. If you refuse or
+delete cookies, some of the functionality of our Websites may be
+impaired. If you turn off cookies, Web beacon and other technologies
+will still detect visits to our Websites, but the information they
+generate cannot be associated with other non-identifiable cookie
+information and are disregarded. Please refer to your browser Help
+instructions to learn more about how to manage cookies and the use of
+similar technologies.
+
+## 4. How Does Corda Network Process My Information? \[5\]
+
+We collect, maintain, and use your information for the following
+purposes:
+
+-   responding to your inquiries or feedback;
+
+-   analyzing and improving our Website (including developing new
+    services; improving safety; managing our communications; performing
+    market research; performing data analytics; and performing
+    accounting, auditing and other internal functions);
+
+-   making employment decisions if you apply for a position;
+
+-   maintaining the security and integrity of our systems, including
+    maintaining internal records; or
+
+-   conforming to legal requirements or industry standards, complying
+    with legal process, detecting and preventing fraud or misuse,
+    defending our legal rights, or protecting others.
+
+All information we collect may be aggregated and merged or enhanced with
+data from other sources, such as third parties. We may also collect and
+store information locally on your device using mechanisms such as
+browser web storage (including HTML 5) and application data caches.
+
+The below table describes our use of your **personal data, and the legal
+bases relied on, as well as** our legitimate interests where
+appropriate.
+
++-----------------------+-----------------------+-----------------------+
+| **Purpose/Activity**  | **Type of data**      | **Lawful basis for    |
+|                       |                       | processing including  |
+|                       |                       | basis of legitimate   |
+|                       |                       | interest**            |
++-----------------------+-----------------------+-----------------------+
+| To manage our         | \(a) Identity         | \(a) Necessary to     |
+| relationship with you |                       | comply with a legal   |
+| which will include:   | \(b) Contact          | obligation            |
+|                       |                       |                       |
+| -   Maintaining your  |                       |                       |
+|     information to    |                       |                       |
+|     notify you about  |                       |                       |
+|     updates and       |                       |                       |
+|     events related to |                       |                       |
+|     the Corda Network |                       |                       |
++-----------------------+-----------------------+-----------------------+
+| To deliver relevant   | \(a) Identity         | Necessary for our     |
+| website content and   |                       | legitimate interests  |
+| advertisements to you | \(b) Contact          | (to study how         |
+| and measure or        |                       | customers use our     |
+| understand the        | \(c) Usage            | products/services, to |
+| effectiveness of the  |                       | develop them, to grow |
+| advertising we serve  | \(d) Technical        | our business and to   |
+| to you                |                       | inform our marketing  |
+|                       |                       | strategy)             |
++-----------------------+-----------------------+-----------------------+
+| To use data analytics | \(a) Technical        | Necessary for our     |
+| to improve our        |                       | legitimate interests  |
+| website, services,    | \(b) Usage            | (to define types of   |
+| marketing, customer   |                       | customers for our     |
+| relationships and     |                       | products and          |
+| experiences           |                       | services, to keep our |
+|                       |                       | website updated and   |
+|                       |                       | relevant, to develop  |
+|                       |                       | our business and to   |
+|                       |                       | inform our marketing  |
+|                       |                       | strategy)             |
++-----------------------+-----------------------+-----------------------+
+
+We will only use your personal data for the purposes for which we
+collected it, unless we reasonably consider that we need to use it for
+another reason and that reason is compatible with the original purpose.
+If you wish to get an explanation as to how the processing for the new
+purpose is compatible with the original purpose, please contact us.
+
+If we need to use your personal data for an unrelated purpose, we will
+notify you and we will explain the legal basis which allows us to do so.
+
+ Please note that we may process your personal data without your
+knowledge or consent, in compliance with the above rules, where this is
+required or permitted by law.
+
+Please contact us if you need details about the specific legal ground we
+are relying on to process your **personal data** where more than one
+ground has been identified.
+
+## 5. How Does Corda Network Share My Information? \[6\]
+
+We may disclose your information to third parties who help us maintain
+our website or sales and marketing efforts. Examples of these service
+providers include entities that provide web hosting or analytics
+services. These service providers may be located around the world and in
+countries where privacy rules are different or less stringent than rules
+in the country where you reside.
+
+**We may also contract with third-party advertising networks that
+collect IP addresses and other information through the use of cookies,
+web server logs and web beacons on our Websites and emails; on
+third-party websites and emails; and on our advertising placed on
+third-party websites. They use this information to provide
+advertisements about products and services tailored to your interests
+(including for companies not affiliated with us). You may see these
+advertisements on other websites. This process also helps us manage and
+track the effectiveness of our and third-party marketing efforts.**
+
+**We require all third parties to respect the security of your personal
+data and to treat it in accordance with the law. We do not allow our
+third-party service providers to use your personal data for their own
+purposes and only permit them to process your personal data** for
+specified purposes and in accordance with our instructions.
+
+In addition, we may share your information if necessary to protect the
+safety, property, or other rights of us, our customers, or employees, or
+when otherwise required by law. We may also share your information with
+your consent in certain circumstances.
+
+Your information may be stored in databases maintained by Corda Network
+(including local storage) or third parties, and may be disclosed to
+third parties for the purposes stated in this Privacy Statement, that
+are located within and outside the United States, including countries
+where privacy rules differ and may be less stringent than those of the
+country in which you reside.
+
+**Whenever we transfer your personal data out of the EEA, we ensure that
+a similar degree of protection is afforded to it by ensuring at least
+one of the following safeguards is implemented:**
+
+-   **We will only transfer your personal data to countries that have
+    been deemed to provide an adequate level of protection for personal
+    data by the European Commission. For further details, see**
+    [*European Commission: Adequacy of the protection of personal data
+    in non-EU
+    countries*](https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu/adequacy-protection-personal-data-non-eu-countries_en)**.**
+
+-   **Where we use certain service providers, we may use specific
+    contracts approved by the European Commission which give personal
+    data the same protection it has in Europe. For further details,
+    see** [*European Commission: Model contracts for the transfer of
+    personal data to third
+    countries*](https://ec.europa.eu/info/strategy/justice-and-fundamental-rights/data-protection/data-transfers-outside-eu/model-contracts-transfer-personal-data-third-countries_en)**.**
+
+**Please contact us if you want further information on the specific
+mechanism used by us when transferring your personal data out of the
+EEA.**
+
+## 6. Is My Information Secure?
+
+Corda Network will take reasonable precautions and put in place
+appropriate security measures to protect your information from loss and
+unauthorized access, misuse, alteration or disclosure. In addition, we
+limit access to your information to those employees, agents, contractors
+and other third parties who have a business need to know. They will only
+process your information on our instructions and they are subject to a
+duty of confidentiality. Please be aware, however, that any email or
+other transmission you send through the Internet cannot be completely
+protected against unauthorized interception.
+
+We have also put in place procedures to deal with any suspected
+**personal** **data** breach and will notify you and any applicable
+regulator of a breach where we are legally required to do so.
+
+## 7. What Choices Do I Have?
+
+We only store data for as long as it is reasonably necessary to fulfil
+the purposes we collected it for, including for the purposes of
+satisfying any legal, regulatory, tax, accounting or reporting
+requirements.
+
+We may retain your **personal data** for a longer period in the event of
+a complaint or if we reasonably believe there is a prospect of
+litigation in respect to our relationship with you.
+
+## 8. What About my Rights under the GDPR?
+
+As an EU Citizen, the processing of your personal information is subject
+to the EU General Data Protection Regulation (\"GDPR\"), and you
+therefore have the following rights:
+
+-   Right of access -- you have the right to request a copy of the data
+    that we hold about you.
+
+-   Right of rectification -- you have a right to correct data that we
+    hold about you that is inaccurate or incomplete.
+
+-   Right to be forgotten -- you can ask for the data we hold about you
+    to be erased from our records.
+
+-   Right to restriction of processing -- you can ask for us to restrict
+    the way we process your data.
+
+-   Right of portability -- you have the right to have the data we hold
+    about you transferred to another organisation.
+
+-   Right to object -- you have the right to object to our processing
+    your data where we are relying on a legitimate interest in order to
+    process it.
+
+-   Right to withdraw your consent -- you have the right to withdraw
+    your consent at any time.
+
+Please note that these rights are not absolute and certain exemptions
+apply. If you wish to exercise any of the rights set out above, please
+contact us. 
+
+## 9. How Can I Contact Corda Network?
+
+Corda Network is committed to working with you to obtain a fair and
+rapid resolution of any queries, complaints, or disputes about privacy.
+If you have submitted information to Corda Network and you would like to
+have it deleted from our databases or corrected, or if you have any
+other questions or comments regarding our privacy practices, please
+email us at info\@corda.network for more information.
+
+If you are a resident in the UK, you have the right to make a complaint
+at any time to the Information Commissioner's Office (ICO), the UK
+supervisory authority for data protection issues
+([*www.ico.org.uk*](http://www.ico.org.uk/)). We would, however,
+appreciate the chance to deal with your concerns before you approach the
+ICO so please contact us in the first instance.
+
+Effective Date: 5 August 2019
