@@ -23,16 +23,16 @@ https://corda.network/, through email communications, and through other
 sources. This Privacy Statement does not apply to other websites which
 may be accessible through hyperlinks on the Website.
 
-**While this website may include links to third-party websites, plug-ins
-and applications, l**inking to a third-party site does not necessarily
+While this website may include links to third-party websites, plug-ins
+and applications, linking to a third-party site does not necessarily
 mean that we endorse the site, any products or services described on the
 site, or any other material contained in a third-party site. To the
 extent any linked websites you visit are not owned or controlled by us,
 we are not responsible for the sites' content, any use of the sites, or
-the privacy practices of the sites. **Clicking on those links or
+the privacy practices of the sites. Clicking on those links or
 enabling those connections may allow third parties to collect or share
 data about you. We do not control these third-party websites and are not
-responsible for their privacy statements, so p**lease review the privacy
+responsible for their privacy statements, so please review the privacy
 statement on those other websites to see how they handle your
 information.
 
@@ -44,41 +44,41 @@ Statement from time to time at our sole discretion, and will note the
 date of last update on the top of this page. We encourage you to visit
 this area frequently to stay informed, as your continued use of our
 Website following the posting of changes to these terms means that you
-consent to such changes. **It is also important that the information we
+consent to such changes. It is also important that the information we
 hold about you is accurate and current. Please therefore keep us
 informed if your information changes during your relationship with us**.
 
-## 2.What Information Does Corda Network Collect? \[3\]
+## 2.What Information Does Corda Network Collect? 
 
-**Personal data, or personal information, means any information about an
+Personal data, or personal information, means any information about an
 individual from which that person can be identified. It does not include
-data where the identity has been removed (anonymous data).**
+data where the identity has been removed (anonymous data).
 
-**We may collect, use, store and transfer different kinds of personal
-data about you which we have grouped together as follows:**
+We may collect, use, store and transfer different kinds of personal
+data about you which we have grouped together as follows:
 
-1.  **Identity Data includes first name, maiden name, last name,
+1.  **Identity Data**includes first name, maiden name, last name,
     username or similar identifier, company, title,**
 
-2.  **Contact Data includes email address and telephone numbers.**
+2.  **Contact Data** includes email address and telephone numbers.
 
 <!-- -->
 
-1.  **Technical Data includes internet protocol (IP) address, your login
+1.  **Technical Data** includes internet protocol (IP) address, your login
     data, browser type and version,** Media Access Control address,
-    **time zone setting and location, browser plug-in types and
+    time zone setting and location, browser plug-in types and
     versions, operating system and platform, device information, domain,
     webpage address** that linked you to our Website, pages visited, and
     whether you have visited us before or are new to the Website
 
-2.  **Usage Data includes \[information about how you use our website,
-    products and services\].**
+2.  **Usage Data includes** \[information about how you use our website,
+    products and services\].
 
-3.  **Marketing and Communications Data includes your preferences in
+3.  **Marketing and Communications** Data includes your preferences in
     receiving marketing from us and our third parties and your
-    communication preferences.**
+    communication preferences.
 
-**We also collect, use and share Aggregated Data such as statistical or
+We also collect, use and share Aggregated Data such as statistical or
 demographic data for any purpose. Aggregated Data could be derived from
 your personal data but is not considered personal data in law as this
 data will not directly or indirectly reveal your identity. For example,
@@ -86,16 +86,16 @@ we may aggregate your Usage Data to calculate the percentage of users
 accessing a specific website feature. However, if we combine or connect
 Aggregated Data with your personal data so that it can directly or
 indirectly identify you, we treat the combined data as personal data
-which will be used in accordance with this Privacy Statement.**
+which will be used in accordance with this Privacy Statement.
 
-**We do not collect any Special Categories of Personal Data about you
+We do not collect any Special Categories of Personal Data about you
 (this includes details about your race or ethnicity, religious or
 philosophical beliefs, sex life, sexual orientation, political opinions,
 trade union membership, information about your health, and genetic and
 biometric data). Nor do we collect any information about criminal
-convictions and offences.**
+convictions and offences.
 
-## 3. How is your Information Collected? \[4\]
+## 3. How is your Information Collected?
 
 We may obtain information about you from various sources. We may collect
 this information when you provide it on our website, in telephone or
@@ -116,7 +116,7 @@ If you provide us with information regarding another individual, we will
 assume that you have that person's consent to give us his or her
 information.
 
-[Information Collected Automatically]{.underline}
+[Information Collected Automatically]
 
 When you visit this Website or open an email that we send you, we may
 collect **Technical** **Data** and **Usage Data** about your equipment,
@@ -124,7 +124,7 @@ browsing actions and patterns by automated means or by using
 technologies such as cookies, web server logs, and web beacons, as well
 as other web-based technologies.
 
--   [Cookies]{.underline}: Cookies are small text files that websites
+-   **Cookies**: Cookies are small text files that websites
     send to your computer or other Internet-connected device to uniquely
     identify your browser or to store information or settings in your
     browser. Your browser may tell you how to be notified when you
@@ -137,13 +137,13 @@ as other web-based technologies.
     performance and personalization, Website analytics, content
     management, search, and social media integration.
 
--   [Web server logs]{.underline}: In conjunction with obtaining
+-   **Web server logs**: In conjunction with obtaining
     information through cookies, our web servers may log details
     regarding your device, operating system, or information about your
     Website usage.
 
--   [Web beacons & pixels]{.underline}: To control which web servers
-    collect information described above, we may place tags on our
+-   **Web beacons & pixel** to control which web servers
+    collect information described above, we may place tags on our 
     Website or in emails called "web beacons" or "pixels." These are
     computer instructions that link web pages to particular web servers
     and their cookies. Web beacons and pixels can be used to track the
@@ -155,7 +155,7 @@ as other web-based technologies.
     system and browser used to deliver the email, and any URL accessed
     through our email message.
 
--   [Other]{.underline}: we may use other technology to collect
+-   **Other**: we may use other technology to collect
     information for the purposes described in this Privacy Statement.
 
 At this time, we do not honor "do not track" signals from website
@@ -168,7 +168,7 @@ information and are disregarded. Please refer to your browser Help
 instructions to learn more about how to manage cookies and the use of
 similar technologies.
 
-## 4. How Does Corda Network Process My Information? \[5\]
+## 4. How Does Corda Network Process My Information?
 
 We collect, maintain, and use your information for the following
 purposes:
@@ -198,46 +198,12 @@ The below table describes our use of your **personal data, and the legal
 bases relied on, as well as** our legitimate interests where
 appropriate.
 
-+-----------------------+-----------------------+-----------------------+
-| **Purpose/Activity**  | **Type of data**      | **Lawful basis for    |
-|                       |                       | processing including  |
-|                       |                       | basis of legitimate   |
-|                       |                       | interest**            |
-+-----------------------+-----------------------+-----------------------+
-| To manage our         | \(a) Identity         | \(a) Necessary to     |
-| relationship with you |                       | comply with a legal   |
-| which will include:   | \(b) Contact          | obligation            |
-|                       |                       |                       |
-| -   Maintaining your  |                       |                       |
-|     information to    |                       |                       |
-|     notify you about  |                       |                       |
-|     updates and       |                       |                       |
-|     events related to |                       |                       |
-|     the Corda Network |                       |                       |
-+-----------------------+-----------------------+-----------------------+
-| To deliver relevant   | \(a) Identity         | Necessary for our     |
-| website content and   |                       | legitimate interests  |
-| advertisements to you | \(b) Contact          | (to study how         |
-| and measure or        |                       | customers use our     |
-| understand the        | \(c) Usage            | products/services, to |
-| effectiveness of the  |                       | develop them, to grow |
-| advertising we serve  | \(d) Technical        | our business and to   |
-| to you                |                       | inform our marketing  |
-|                       |                       | strategy)             |
-+-----------------------+-----------------------+-----------------------+
-| To use data analytics | \(a) Technical        | Necessary for our     |
-| to improve our        |                       | legitimate interests  |
-| website, services,    | \(b) Usage            | (to define types of   |
-| marketing, customer   |                       | customers for our     |
-| relationships and     |                       | products and          |
-| experiences           |                       | services, to keep our |
-|                       |                       | website updated and   |
-|                       |                       | relevant, to develop  |
-|                       |                       | our business and to   |
-|                       |                       | inform our marketing  |
-|                       |                       | strategy)             |
-+-----------------------+-----------------------+-----------------------+
-
+| ﻿Purpose/Activity                                                                                                                                         | Type of data                                  | Lawful basis for processing including basis of legitimate interest                                                                                                                                          |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| To manage our relationship with you which will include: Maintaining your information to notify you about updates and events related to the Corda Network | (a)Identity (b)Contact                       | (a) Necessary to comply with a legal obligation                                                                                                                                                             |
+| To deliver relevant website content and advertisements to you and measure or understand the effectiveness of the advertising we serve to you             | (a)Identity (b)Contact (c)Usage (d)Technical | Necessary for our legitimate interests (to study how customers use our products/services, to develop them, to grow our business and to inform our marketing strategy)                                       |
+| To use data analytics to improve our website, services, marketing, customer relationships and experiences                                                | (a)Technical (b) Usage                        | Necessary for our legitimate interests (to define types of customers for our products and services, to keep our website updated and relevant, to develop our business and to inform our marketing strategy) |
+  
 We will only use your personal data for the purposes for which we
 collected it, unless we reasonably consider that we need to use it for
 another reason and that reason is compatible with the original purpose.
@@ -255,7 +221,7 @@ Please contact us if you need details about the specific legal ground we
 are relying on to process your **personal data** where more than one
 ground has been identified.
 
-## 5. How Does Corda Network Share My Information? \[6\]
+## 5. How Does Corda Network Share My Information? 
 
 We may disclose your information to third parties who help us maintain
 our website or sales and marketing efforts. Examples of these service
@@ -264,7 +230,7 @@ services. These service providers may be located around the world and in
 countries where privacy rules are different or less stringent than rules
 in the country where you reside.
 
-**We may also contract with third-party advertising networks that
+We may also contract with third-party advertising networks that
 collect IP addresses and other information through the use of cookies,
 web server logs and web beacons on our Websites and emails; on
 third-party websites and emails; and on our advertising placed on
@@ -272,12 +238,12 @@ third-party websites. They use this information to provide
 advertisements about products and services tailored to your interests
 (including for companies not affiliated with us). You may see these
 advertisements on other websites. This process also helps us manage and
-track the effectiveness of our and third-party marketing efforts.**
+track the effectiveness of our and third-party marketing efforts.
 
-**We require all third parties to respect the security of your personal
+We require all third parties to respect the security of your personal
 data and to treat it in accordance with the law. We do not allow our
 third-party service providers to use your personal data for their own
-purposes and only permit them to process your personal data** for
+purposes and only permit them to process your personal data for
 specified purposes and in accordance with our instructions.
 
 In addition, we may share your information if necessary to protect the
@@ -292,21 +258,21 @@ are located within and outside the United States, including countries
 where privacy rules differ and may be less stringent than those of the
 country in which you reside.
 
-**Whenever we transfer your personal data out of the EEA, we ensure that
+Whenever we transfer your personal data out of the EEA, we ensure that
 a similar degree of protection is afforded to it by ensuring at least
-one of the following safeguards is implemented:**
+one of the following safeguards is implemented:
 
--   **We will only transfer your personal data to countries that have
+-   We will only transfer your personal data to countries that have
     been deemed to provide an adequate level of protection for personal
     data by the European Commission. For further details, see**
     [*European Commission: Adequacy of the protection of personal data
     in non-EU
     countries*](https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu/adequacy-protection-personal-data-non-eu-countries_en)**.**
 
--   **Where we use certain service providers, we may use specific
+-   Where we use certain service providers, we may use specific
     contracts approved by the European Commission which give personal
     data the same protection it has in Europe. For further details,
-    see** [*European Commission: Model contracts for the transfer of
+    see[*European Commission: Model contracts for the transfer of
     personal data to third
     countries*](https://ec.europa.eu/info/strategy/justice-and-fundamental-rights/data-protection/data-transfers-outside-eu/model-contracts-transfer-personal-data-third-countries_en)**.**
 
