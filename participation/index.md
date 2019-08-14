@@ -55,9 +55,11 @@ iv.	The network operator will give the all clear to node operator to submit thei
 **Step 3: Trust Root** 
 ----------------------
 
-Request the Trust Root from the Network's Identity Manager. It will be sent back as a network-root-truststore.jks file. In future, the Trust Root will be packaged in the software distribution. 
-For Pre-Production, email uatdoorman@r3.com.
-For the Production Network, email doorman@r3.com
+Please put the trust root file for the correct environment in your certificates folder.
+
+[Pre-production] (assets/trustroots/preproduction/network-root-truststore.jks)
+[Production] (assets/trustroots/production/network-root-truststore.jks)
+
 
 **Step 4: [Deploy the node](https://docs.corda.net/deploying-a-node.html)**
 ---------------------------------------------------------------------------
