@@ -57,8 +57,9 @@ iv.	The network operator will give the all clear to node operator to submit thei
 
 Please put the trust root file for the correct environment in your certificates folder.
 
-[Pre-production](assets/trustroots/preproduction/network-root-truststore.jks)
-[Production](assets/trustroots/production/network-root-truststore.jks)
+[Pre-production](/assets/trustroots/preproduction/network-root-truststore.jks)
+
+[Production](/assets/trustroots/production/network-root-truststore.jks)
 
 
 **Step 4: [Deploy the node](https://docs.corda.net/deploying-a-node.html)**
