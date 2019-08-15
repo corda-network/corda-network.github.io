@@ -20,7 +20,7 @@ Terms of Use for direct signing [available here](https://corda.network/participa
 
 **1.2 Sponsored Model**
 
-Business Network Operators acting as Sponsors need to ensure their participants have signed the Terms of Use before they can receive a participation certificate. If BNOs prefer to organise acceptance themselves, then they must forward appropriate documentary evidence for each participant (either a signed hard copy with wet signature or a scan of such hard copy). You must specify the precise Distinguished Names in order to confirm that the correct entity has signed and an accurate certificate can be issued. They must also sign a Sponsored Terms of Use Agreement (available both for Pre-Production and Production), which can be requested through an r3 representative, or via cordanetwork@r3.com.
+Business Network Operators acting as Sponsors need to ensure their participants have signed the Terms of Use before they can receive a participation certificate. If BNOs prefer to organise acceptance themselves, then they must forward appropriate documentary evidence for each participant (either a signed hard copy with wet signature or a scan of such hard copy). You must specify the precise Distinguished Names in order to confirm that the correct entity has signed and an accurate certificate can be issued. They must also sign a Sponsored Terms of Use Agreement (available both for Pre-Production and Production), which can be requested through an r3 representative, or via info@corda.network.
 
 **Step 2: Pre-approval of CSR information**
 -------------------------------------------
@@ -28,9 +28,12 @@ Business Network Operators acting as Sponsors need to ensure their participants 
 To expedite your certificate signing request (CSR) to join CN, please follow these steps in order. 
 Steps i-iv are pre-approval steps, to ensure when the CSR is submitted (below, in Step 6), all values are populated correctly.
  
-i.	The node operator fills out fields in bold in the table below, for every node to be onboarded (you may submit as many nodes as you like). Send this email of nodes to cordanetwork@r3.com. Useful tip: If you reply from the ‘node operator email address’ (listed below), you’ll also have completed step 3.
+i.	The node operator fills out fields in bold in the table below, for every node to be onboarded (you may submit as many nodes as you like). Send this email of nodes to info@corda.network. Useful tip: If you reply from the ‘node operator email address’ (listed below), you’ll also have completed step 3.
+
 ii.	CNF performs legal identity and sanctions checks on Organisation field (O) for each node. For guidance on which legal entity name to pick for your node, see [here](https://corda.network/participation/legalentity.html).
+
 iii.	CNF needs to verify the person submitting this CSR has access to the associated email inbox and will do so by sending an email to the ‘node operator email address’ and waiting for a confirmation reply.
+
 iv.	The network operator will give the all clear to node operator to submit their CSR.
  
 *Before you begin...*
@@ -57,9 +60,9 @@ iv.	The network operator will give the all clear to node operator to submit thei
 
 Please put the trust root file for the correct environment in your certificates folder.
 
-[Pre-production](/assets/trustroots/preproduction/network-root-truststore.jks)
+[Pre-production Network](/assets/trustroots/preproduction/network-root-truststore.jks)
 
-[Production](/assets/trustroots/production/network-root-truststore.jks)
+[Production Network](/assets/trustroots/production/network-root-truststore.jks)
 
 
 **Step 4: [Deploy the node](https://docs.corda.net/deploying-a-node.html)**
@@ -157,6 +160,6 @@ Business Network Operators should co-ordinate any post-install tests that may in
 Participation fee 
 ------------------
 
-Billing details will be gathered, for a participation fee invoice, during this process. This will depend on if they are part of the **indirect** or **direct model**.
+Billing details will be gathered, for a participation fee invoice, during this process. This will depend on if they are part of the **Sponsor** or **Direct model**.
 
 For further questions on this process, please [contact us](../about/contact.html) - preferably on the [mailing list](https://groups.io/g/corda-network).
