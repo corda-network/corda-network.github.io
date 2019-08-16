@@ -29,7 +29,7 @@ Here is a few examples of this in practice:
 
 Example 1:
 
-| Node Operator email address | admin@natwestmarkets.com (example - not actual email address) |
+| Field title | Real-life example |
 |-----------------------------|---|
 | **Organisation (O)**        | NatWest Markets PLC  |
 | **City (L)**                | Edinburgh  |
@@ -37,12 +37,13 @@ Example 1:
 | State (US / Canada only)    |   |
 | Organisation Unit (OU)      |   |
 | Common Name (CN)            |   |
+| Node Operator email address | admin@natwestmarkets.com (example - not actual email address)|
 
 *This is the correct Legal Entity name, as evidenced in the UK government trade register, here:https://beta.companieshouse.gov.uk/company/SC090312*
 
 Example 2:
 
-| Node Operator email address | information@bnpp.fr (example - not actual email address) |
+| Field title | Real-life example |
 |-----------------------------|---|
 | **Organisation (O)**        | · BNP PARIBAS SA  |
 | **City (L)**                | Serignan  |
@@ -50,6 +51,7 @@ Example 2:
 | State (US / Canada only)    |   |
 | Organisation Unit (OU)      |   |
 | Common Name (CN)            |   |
+| Node Operator email address | information@bnpp.fr (example - not actual email address) |
 
  
 
