@@ -47,6 +47,7 @@ Country | Link
 --- | --- 
 Australia | https://connectonline.asic.gov.au/RegistrySearch/faces/landing/SearchRegisters.jspx?_adf.ctrl-state=jx0kwgy52_4
 Chile | https://www.conservador.cl/portal/indice_comercio
+France | http://www.sirene.fr/sirene/public/accueil?sirene_locale=en
 Finland | https://virre.prh.fi/novus/home?execution=e1s1
 Hungary | https://www.e-cegjegyzek.hu/?cegkereses
 India | http://www.mca.gov.in/mcafoportal/viewCompanyMasterData.do
