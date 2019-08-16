@@ -1,7 +1,7 @@
 |Corda Network|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
-Filling in the right legal entity name for your node
-========================================================
+Filling in the right legal entity name for your node's x500 name, "O" field
+==========================================================================
 
 According to existing Corda Network guidelines, every node on Corda Network should represent a different legal entity to best enable interoperability for future operations. The legal entity name picked should be the owner of the assets which would be  transacted.
 
@@ -23,6 +23,37 @@ Singapore | https://www.bizfile.gov.sg/ngbbizfileinternet/faces/oracle/webcenter
 South Africa | https://eservices.cipc.co.za/Search.aspx
 UK | https://beta.companieshouse.gov.uk/
 US | https://www.sec.gov/edgar/searchedgar/companysearch.html
+
+
+Here is a few examples of this in practice:
+
+Example 1:
+
+| Node Operator email address | admin@natwestmarkets.com (example - not actual email address) |
+|-----------------------------|---|
+| **Organisation (O)**        | NatWest Markets PLC  |
+| **City (L)**                | Edinburgh  |
+| **Country (C)**             | UK  |
+| State (US / Canada only)    |   |
+| Organisation Unit (OU)      |   |
+| Common Name (CN)            |   |
+
+*This is the correct Legal Entity name, as evidenced in the UK government trade register, here:https://beta.companieshouse.gov.uk/company/SC090312*
+
+Example 2:
+
+| Node Operator email address | information@bnpp.fr (example - not actual email address) |
+|-----------------------------|---|
+| **Organisation (O)**        | · BNP PARIBAS SA  |
+| **City (L)**                | Serignan  |
+| **Country (C)**             | France  |
+| State (US / Canada only)    |   |
+| Organisation Unit (OU)      |   |
+| Common Name (CN)            |   |
+
+ 
+
+*This is the correct Legal Entity name, as evidenced in the French government trade register, here: http://www.sirene.fr/sirene/public/recherche*
 
 
 This page may also be helpful: https://en.wikipedia.org/wiki/List_of_company_registers#cite_note-194
