@@ -1,13 +1,11 @@
 |Corda Network|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
-Filling in the right legal entity name for your node's x500 name, "O" field
-==========================================================================
+Selecting the right Legal Entity for the "O" field in your X500 name
+====================================================================
 
-According to existing Corda Network guidelines, every node on Corda Network should represent a different legal entity to best enable interoperability for future operations. The legal entity name picked should be the owner of the assets which would be  transacted.
+According to existing Corda Network guidelines, every node on Corda Network should represent a different legal entity to best enable interoperability for future operations. The legal entity name picked should be the owner of the assets which would be  transacted. 
 
-However, strictly speaking, for the nodes to function, it’s only imperative that each name is unique. Despite this, if you may join other business networks in the future, it would be better overall to pick different legal entity names for each node. 
-
-The legal entity name should match the name in the government official trade list, in which it is registered.
+The Legal Entity is found in the O field, of the node's [X500 name](https://corda.network/participation/distinguishedname.html) The Legal Entity should match the name in the government official trade list, in which it is registered.
 
 Here are some examples of government trade registers (list is a work in progress):
 
