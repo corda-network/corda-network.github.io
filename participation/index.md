@@ -28,31 +28,39 @@ Business Network Operators acting as Sponsors need to ensure their participants 
 To expedite your certificate signing request (CSR) to join CN, please follow these steps in order. 
 Steps i-iv are pre-approval steps, to ensure when the CSR is submitted (below, in Step 6), all values are populated correctly.
  
-i.	The node operator fills out fields in bold in the table below, for every node to be onboarded (you may submit as many nodes as you like). Send this email of nodes to info@corda.network. Useful tip: If you reply from the ‘node operator email address’ (listed below), you’ll also have completed step 3.
+i.	The node operator fills out fields in bold in the table below, for every node to be onboarded (you may submit as many nodes as you like). Send this email of nodes to info@corda.network. 
+Useful tip: If you email this to us from the ‘node operator email address’ (specific below), step iii is not required!
 
-ii.	CNF performs legal identity and sanctions checks on Organisation field (O) for each node. For guidance on which legal entity name to pick for your node, see [here](https://corda.network/participation/legalentity.html).
+"O" - Organisation should usually be the same Legal Entity as what you have filled out in your Terms of Use (Step 1), which is also the owner of the assets being used on Corda Network. For guidance on which legal entity name to pick for your node, see [here](https://corda.network/participation/legalentity.html).
+
+
+| Required fields             |Value |
+|-----------------------------|------|
+| **Organisation (O)**        |      |
+| **City (L)**                |      |
+| **Country (C)**             |      |
+| State (US / Canada only)    |      |
+| Organisation Unit (OU)      |      |
+| Common Name (CN)            |      |
+| Node Operator email address |      |
+
+ii.	CNF performs legal identity and sanctions checks on Organisation field (O) for each node. 
 
 iii.	CNF needs to verify the person submitting this CSR has access to the associated email inbox and will do so by sending an email to the ‘node operator email address’ and waiting for a confirmation reply.
 
 iv.	The network operator will give the all clear to node operator to submit their CSR.
  
 *Before you begin...*
-* If you are setting up a notary, there are additional considerations you need to keep in mind, please see the guidance you have received for setting up a notary.
-* Fields in orange are optional, except for State (S), which is required only for legal entities registered in the USA. 
+
+* Fields in non-bold are optional, except for State (S), which is required only for legal entities registered in the USA. 
+
 * The email address used below should be an actively monitored mailbox. We will use this email address for all communications with the node, including those involved in identity verification. We recommend this is an ‘admin@’ or ‘info@’ generic email associated with the legal entity, to avoid key man risk.
+
 * The combination of O and OU are checked for uniqueness. If a CSR is submitted (or a certificate exists) with these two fields already in Corda Network, it will be rejected.
+
 * If you are unsure of how to populate any fields, please see the guidance at the end of the email or reply to this email with your specific questions.
 
- Node 1 
- 
-| Node Operator email address |   |
-|-----------------------------|---|
-| **Organisation (O)**        |   |
-| **City (L)**                |   |
-| **Country (C)**             |   |
-| State (US / Canada only)    |   |
-| Organisation Unit (OU)      |   |
-| Common Name (CN)            |   |
+* If you are setting up a notary, there are additional considerations you need to keep in mind, please see the guidance you have received for setting up a notary.
  
  
 **Step 3: Trust Root** 
