@@ -88,7 +88,7 @@ A node.conf file must be included in the root directory of every Corda node.
 
 <span style="color:red"> **!!!WARNING!!!** </span> 
 
-Please note if you are joining a SSZ, you need to request your unique **networkMapURL** from uatdoorman@r3.com for pre-production or doorman@r3.com for the production network. The below networkmapurls are for the public zones, so if you start up your node and connect with this url, you will join the public zone. This is a problem that can easily be corrected if you do it accidentally, but your node's identity will appear on the network map for a period of time, and if you want to keep your node's identity 100% private, you need to take care not to accidentally join a public zone.
+Please note if you are joining a SSZ, you need to request your unique **networkMapURL** from info@corda.network for pre-production or info@corda.network for the production network. The below networkmapurls are for the public zones, so if you start up your node and connect with this url, you will join the public zone. This is a problem that can easily be corrected if you do it accidentally, but your node's identity will appear on the network map for a period of time, and if you want to keep your node's identity 100% private, you need to take care not to accidentally join a public zone.
 
 
 *Pre-Production Network*
