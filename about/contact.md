@@ -7,8 +7,7 @@ Corda Network Foundation expects to hold all discussions in public. Our communit
 the community by helping each other with questions and answers.
 
 We also meet face to face frequently at [Corda meetups](https://www.meetup.com/pro/corda/), especially in 
-[London](https://www.meetup.com/London-Corda-Meetup/). And we are happy to help on the 
-[Corda Slack channel](https://cordaledger.slack.com/messages/C2KGD72UX) - please tag @jamescarlyle or @caroquinn there.
+[London](https://www.meetup.com/London-Corda-Meetup/). And we are happy to help on the Corda Network Slack channel - join cordaledger.slack.com and please tag @jamescarlyle or @caroquinn there or join #corda-network
 
 Contacting the Foundation
 =========================
@@ -16,7 +15,7 @@ Contacting the Foundation
 1 Email
 -------
 Please use this email address:
-> cordanetwork@r3.com. 
+> info@corda.network. 
 
 2 Telephone
 -----------
