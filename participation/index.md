@@ -66,7 +66,7 @@ iv.	The network operator will give the all clear to node operator to submit thei
 **Step 3: Trust Root** 
 ----------------------
 
-Please put the trust root file for the correct environment in your certificates folder.
+Please put the trust root file for the correct environment in your certificates folder. The password for both is "trustpass".
 
 [Pre-production Network](/assets/trustroots/preproduction/network-root-truststore.jks)
 
