@@ -52,6 +52,7 @@ France | http://www.sirene.fr/sirene/public/accueil?sirene_locale=en
 Finland | https://virre.prh.fi/novus/home?execution=e1s1
 Hungary | https://www.e-cegjegyzek.hu/?cegkereses
 India | http://www.mca.gov.in/mcafoportal/viewCompanyMasterData.do
+Luxembourg | https://www.lbr.lu/mjrcs/jsp/DisplayConsultDocumentsActionNotSecured.action?FROM_MENU=true&time=1568379674560&currentMenuLabel=menu.item.companyconsultation
 Philippines | https://www.bnrs.dti.gov.ph/web/guest/search
 Singapore | https://www.bizfile.gov.sg/ngbbizfileinternet/faces/oracle/webcenter/portalapp/pages/BizfileHomepage.jspx
 South Africa | https://eservices.cipc.co.za/Search.aspx
