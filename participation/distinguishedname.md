@@ -3,7 +3,7 @@
 Choosing the node's X500 name
 =============================
 
-Any node on Corda Network must have a Distinguished Name (DN) or X500 name in its [participation certificate](https://docs.corda.net/corda-network/index.html#identity-service). This must, at minimum, have 3 fields included (Organisation (O), Locality (L), Country (C)). It may include up to 6 fields (optional 3 additional fields are: Organisation Unit (OU), State (S), and Common Name(CN)). These 6 fields are explained below. For now, the maximum number of characters  in the whole x500 name is **128 characters**.
+Any node on Corda Network must have a Distinguished Name (DN) or X500 name in its [participation certificate](https://docs.corda.net/corda-network/index.html#identity-service). This must, at minimum, have 3 fields included (Organisation (O), Locality (L), Country (C)). It may include up to 6 fields (optional 3 additional fields are: Organisation Unit (OU), State (S), and Common Name(CN)). These 6 fields are explained below. For now, the maximum number of characters  in the whole x500 name (across all 6 fields) is **128 characters**.
 
 A X500 must be unique within Corda Network. The combination of O and OU are used for the uniqueness check, and the other fields are considered as attributes of the identity. 
 
@@ -29,4 +29,4 @@ Overall, the DN is one of the most common points of error in joining Corda Netwo
 | **State (S)** | N | 64 | As per above | If your country operates a State or Province system (e.g. USA and Canada) please add the State in which the registered head-office of the legal entity is located. Do not abbreviate. For example, &quot;CA&quot; is not a valid state name. &quot;California&quot; is correct. If the company operates from New York but is registered in Delaware, please use Delaware |
 | **Common Name (CN)** | N | 64 | As per above | Available for use by the node operator for their own internal purposes. Often used for home website urls in www. |
 
-**Please note** - the max number of characters in the whole x500 name should be 128 characters. In addition, guidance has been given above on a per field basis.
+**Please note** - the max number of characters in the whole x500 name should be **128 characters in total (including spaces)**. In addition, guidance has been given above on the max length on a per field basis.
