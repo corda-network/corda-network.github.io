@@ -29,18 +29,18 @@ Sample code for selecting notaries in the application is included here, based on
 ```
 // In the flow context.
 serviceHub.networkMapCache.notaryIdentities.single { it.name == CordaX500Name.parse
-("CN=Non-validating Prod HA Notary, O=R3 HoldCo LLC, L=New York, C=US") }
+("CN=Non-validating Prod SUB0 HA Notary, O=R3 HoldCo LLC, L=New York, C=US")}
 ```
  
 ```
 // Via RPC, where rpc is CordaRPCOps.
 rpc.notaryIdentities().single { it.name == CordaX500Name.parse
-("CN=Non-validating Prod HA Notary, O=R3 HoldCo LLC, L=New York, C=US") }
+("CN=Non-validating Prod SUB0 HA Notary, O=R3 HoldCo LLC, L=New York, C=US") }
 ```
 
 **Current Notary List**:
  
 1. R3 High Availability Non- Validating Notary
-   X500 Name: CN=Non-validating Prod HA Notary, O=R3 HoldCo LLC, L=New York, C=US
+   X500 Name: CN=Non-validating Prod SUB0 HA Notary, O=R3 HoldCo LLC, L=New York, C=US
  
 Setting of Contract Constraints (To Follow)
