@@ -40,7 +40,8 @@ rpc.notaryIdentities().single { it.name == CordaX500Name.parse
 
 **Current Notary List**:
  
-1. R3 High Availability Non- Validating Notary
-   X500 Name: CN=Non-validating Prod SUB0 HA Notary, O=R3 HoldCo LLC, L=New York, C=US
+1. R3 High Availability Non- Validating Notary X500 Name: 
+
+CN=Non-validating Prod SUB0 HA Notary, O=R3 HoldCo LLC, L=New York, C=US
  
 Setting of Contract Constraints (To Follow)
