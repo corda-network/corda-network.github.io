@@ -34,7 +34,7 @@ Useful tip: If you email this to us from the ‘node operator email address’ (
 "O" - Organisation should usually be the same Legal Entity as what you have filled out in your Terms of Use (Step 1), which is also the owner of the assets being used on Corda Network. For guidance on which legal entity name to pick for your node, see [here](https://corda.network/participation/legalentity.html).
 
 
-| Required fields             |Value |
+| Required x500 fields        |Value |
 |-----------------------------|------|
 | **Organisation (O)**        |      |
 | **City (L)**                |      |
@@ -42,6 +42,9 @@ Useful tip: If you email this to us from the ‘node operator email address’ (
 | State (US / Canada only)    |      |
 | Organisation Unit (OU)      |      |
 | Common Name (CN)            |      |
+
+| Other required information  |Value |
+|-----------------------------|------|
 | Node Operator email address |      |
 
 ii.	CNF performs legal identity and sanctions checks on Organisation field (O) for each node. 
