@@ -6,7 +6,7 @@ Corda Network News
 2019-12-03
 ----------
 
-[HQLAx](https://www.hqla-x.com/), a Business Network, starts the first live trades on Corda Network, between Credit Suisse, UBS and Commerzbank, on the [Production Corda Network] (https://www.ledgerinsights.com/blockchain-deutsche-borse-hqlax-commerzbank-credit-suisse-ubs-securities-lending/)
+[HQLAx](https://www.hqla-x.com/), a Business Network, starts the first live trades on Corda Network, between Credit Suisse, UBS and Commerzbank, on the [Production Corda Network](https://www.ledgerinsights.com/blockchain-deutsche-borse-hqlax-commerzbank-credit-suisse-ubs-securities-lending/).
 
 2019-11-27
 ----------
