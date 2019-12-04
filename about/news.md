@@ -3,6 +3,16 @@
 News
 ====
 
+2019-12-03
+----------
+
+HQLAx starts the first live trades on Corda Network, between Credit Suisse, UBS and Commerzbank, on the Production Corda Network https://www.ledgerinsights.com/blockchain-deutsche-borse-hqlax-commerzbank-credit-suisse-ubs-securities-lending/
+
+2019-11-27
+----------
+
+Ledger Insights publishes a detailed article about Corda Network: https://www.ledgerinsights.com/corda-network-enterprise-blockchain-interoperability/
+
 2019-08-01 
 ----------
 As reported in Finextra, the cryptocurrency broker, BCB is now live on Corda Network:
