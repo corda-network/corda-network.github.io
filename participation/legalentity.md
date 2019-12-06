@@ -13,7 +13,7 @@ Here is a few examples of filling out the whole X500 name, in practice. Take a c
 
 Example 1:
 
-| Field title | Real-life example |
+| Field title | Example |
 |-----------------------------|---|
 | **Organisation (O)**        | NatWest Markets PLC  |
 | **City (L)**                | Edinburgh  |
@@ -27,7 +27,7 @@ Example 1:
 
 Example 2:
 
-| Field title | Real-life example |
+| Field title | Example |
 |-----------------------------|---|
 | **Organisation (O)**        | BNP PARIBAS SA  |
 | **City (L)**                | Serignan  |
