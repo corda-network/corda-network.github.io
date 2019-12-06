@@ -18,7 +18,7 @@ Example 1:
 | **Organisation (O)**        | NatWest Markets PLC  |
 | **City (L)**                | Edinburgh  |
 | **Country (C)**             | UK  |
-| **Organisation Unit (OU)**  | Fixed Income Department  |
+| **Organisation Unit (OU)**  | FI  |
 | State (US / Canada only)    |   |
 | Common Name (CN)            |   |
 | **Node Operator email address** | admin@natwestmarkets.com (example - not actual email address)|
@@ -32,7 +32,7 @@ Example 2:
 | **Organisation (O)**        | BNP PARIBAS SA  |
 | **City (L)**                | Serignan  |
 | **Country (C)**             | France  |
-| **Organisation Unit (OU)**  | Trade Finance Department  |
+| **Organisation Unit (OU)**  | Agent1  |
 | State (US / Canada only)    |   |
 | Common Name (CN)            |   |
 | **Node Operator email address** | information@bnpp.fr (example - not actual email address) |
