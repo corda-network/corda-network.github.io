@@ -39,8 +39,8 @@ Useful tip: If you email this to us from the ‘node operator email address’ (
 | **Organisation (O)**        |      |
 | **City (L)**                |      |
 | **Country (C)**             |      |
+| **Organisation Unit (OU)**  |      |
 | State (US / Canada only)    |      |
-| Organisation Unit (OU)      |      |
 | Common Name (CN)            |      |
 
 | Other required information  |Value |
