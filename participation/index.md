@@ -45,7 +45,7 @@ Useful tip: If you email this to us from the ‘node operator email address’ (
 
 | Other required information  |Value |
 |-----------------------------|------|
-| Node Operator email address |      |
+| **Node Operator email address** |      |
 
 ii.	CNF performs legal identity and sanctions checks on Organisation field (O) for each node. 
 
