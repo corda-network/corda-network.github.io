@@ -5,9 +5,8 @@ Pricing
 
 1.Annual Participation (Membership) Fee
 ------------------------------------
-
-In general, the term 'participation' rather than 'membership' is used, as this is the terminology used for a Dutch Stichting in the laws governing it. At present, participation in Corda Network is for legal entities only. 
-
+In general, the term 'participation' rather than 'membership' is used, as this is the terminology used for a Dutch 
+Stichting in the laws governing it. At present, participation in Corda Network is for legal entities only. 
 
 **Participation Certificate**
 * Receives full onboarding support onto Corda Network from the Network Operator
@@ -17,17 +16,14 @@ In general, the term 'participation' rather than 'membership' is used, as this i
 
 Pricing: Free until December 2021
 
-
-
 2.Transaction Fees
 ------------------
-
-Transaction fees are charged for notarisation provided by [Corda Network notary](https://corda.network/participation/notary-considerations.html), and are structured in two different models. 
+Transaction fees are charged for notarisation provided by [Corda Network notary](https://corda.network/participation/notary-considerations.html), 
+and are structured in two different models. 
 
 Both apply on a per-identity basis:
 
 **Model 1. Pay As You Go**
-
 This is invoiced retrospectively at the end of the year. As with participation fees, the invoice is managed by Sponsors 
 for identity-only participants, and sent direct to full members.
 
@@ -38,7 +34,6 @@ Number of transactions per year   | Cost $
 20K +                             | 1c per txn  
 
 **Model 2. Up-front Package**
-
 This is designed to provide assurance over notarisation costs. It is invoiced prospectively at the start of the year. 
 As with participation fees, the invoice is managed by Sponsors for identity-only participants, and sent direct to full 
 members. 
@@ -54,4 +49,5 @@ packages can be purchased at any time, but previous purchases that year are igno
 
 ## Third-party Notaries
 Notary fees for third-party notaries are at the sole discretion of the corresponding notary provider, and invoicing is 
-managed by them. There are no Corda Network fees for running your own notary. See [Notary Considerations](https://corda.network/participation/notary-considerations.html).
+managed by them. There are no Corda Network fees for running your own notary. See 
+[Notary Considerations](https://corda.network/participation/notary-considerations.html).

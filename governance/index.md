@@ -18,7 +18,7 @@ this will bring about the best decisions and outcomes for the Network’s long-t
 
 Its governance bodies shall include:
 
-- A **Governing Board** (‘the Board’) of 11 representatives (‘Directors’). 
+- A **Governing Board** (‘the Board’) of 11 representatives (‘Directors’), already established. 
 - A **Technical Advisory Committee** (‘the TAC’), comprised of representatives of Participant organisations. 
 - A **Governance Advisory Committee**, comprised of representatives of Participant organisations. 
 - A **Network Operator** (‘the Operator’), charging the Foundation reasonable costs for providing network and administration 

@@ -5,9 +5,10 @@ Preparing to Join
 
 Before joining Corda Network, would-be Participants should:
 
-* Be familiar with the objectives, policies and standards of the Corda Network as described on https://corda.network
+* Be familiar with the objectives, policies and standards of the Corda Network as described on https://corda.network .
 
-* Have conducted the appropriate project management and operational activities within their organisation to authorise the set up and operation of the Node for live business use and to to agree commercial terms and sign the Corda Network Terms of Use
+* Have conducted the appropriate project management and operational activities within their organisation to authorise 
+the set up and operation of the Node for live business use and to to agree commercial terms and sign the Corda Network Terms of Use
 
 * Be familiar with Corda and key Corda concepts as described in the Corda documentation (https://docs.corda.net)
 
@@ -17,7 +18,8 @@ Before joining Corda Network, would-be Participants should:
 
 * Have a look at the Network's [Service Level Agreements](/participation/production-sla.html)
 
-* Be able to supply a dedicated IP address for communications with their node - typical network configurations are described at Corda Firewall. 
+* Be able to supply a dedicated IP address for communications with their node - typical network configurations are 
+described at Corda Firewall. 
 
 Pre-onboarding questionnaire
 ============================
