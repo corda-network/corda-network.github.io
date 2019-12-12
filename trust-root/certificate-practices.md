@@ -34,7 +34,7 @@ in response to the Corda Network Certificate Policy (CP).
 
 1.2.1 Revisions
 ---------------
-See Appendix B
+See Appendix C
 
 1.3 PKI Participants
 --------------------
@@ -54,69 +54,71 @@ Root CAs
 * Corda Network Root Certificate 
  Key: ECC 256, SHA- 256 
  Serial#: 10:e5:ff:3e:a9:be:d0: 
- Fingerprint: 23:01:21:0E:B9:99:37:D4:A4:AA:3A:15:9C:57:D7:8B:68:6A:07:5B 
+ SHA-1 Fingerprint: 23:01:21:0E:B9:99:37:D4:A4:AA:3A:15:9C:57:D7:8B:68:6A:07:5B
  Valid until: Jan 18, 2038
 ```
 
 Corda Network Subordinate CAs
 
-_Note: R3 may redact information about unused Corda Network Authority certificates in future 
-versions of this document._
-
 ```
-* Corda Network Authority CNA 
- Key: ECC 256, SHA- 256 
- Serial: 34:6C:58:95:DC:68:30: 
- Fingerprint: 76:6E:BD:9B:55:CD:DB:FA:4A:9F:9F:EE:5F:0F:52:63:D7:C9:1B:C 
+* Corda Network Authority CNA1
+ Key: ECC-256, SHA-256 
+ Serial: 34:6C:58:95:DC:68:30:70
+ SHA-1 Fingerprint: 76:6E:BD:9B:55:CD:DB:FA:4A:9F:9F:EE:5F:0F:52:63:D7:C9:1B:C2
  Valid until: Jan 18, 2038
 
-* Corda Network Authority CNA 
- Key: ECC 256, SHA- 256 
+* Corda Network Authority CNA2 
+ Key: ECC-256, SHA-256 
  Serial: 50:FE:91:B8:74:F0:0C:1E 
- Fingerprint: E9:84:7D:C9:F0:C4:71:47:DB:9B:C7:63:74:A9:EB:C8:7F:01:E4:3D 
+ SHA-1 Fingerprint: E9:84:7D:C9:F0:C4:71:47:DB:9B:C7:63:74:A9:EB:C8:7F:01:E4:3D
  Valid until: Jan 18, 2038
 
-* Corda Network Authority CNA 
- Key: ECC 256, SHA- 256 
- Serial#: 63 :FD: 94 : 55 : 41 :A4: 41 :D 
- Fingerprint: 27:5E:93:CA:81:B4:EB:14:75:61:06:AB:90:00:79:92:50:89:6D:D 
+* Corda Network Authority CNA3 
+ Key: ECC-256, SHA-256 
+ Serial#: 63:FD:94:55:41:A4:41:D1
+ SHA-1 Fingerprint: 27:5E:93:CA:81:B4:EB:14:75:61:06:AB:90:00:79:92:50:89:6D:D2
  Valid until: Jan 18 00:00:00 2038 GMT
 
-* Corda Network Authority CNA 
- Key: ECC 256, SHA- 256 
- Serial#: 2C:CB:A5:F7:BC:5D:F2: 25 
- Fingerprint=9B:5B:FA:D0:D1:9C:B1:25:76:D3:C9:A5:0D:29:73:1A:7E:E4:E3:0C 
+* Corda Network Authority CNA4
+ Key: ECC-256, SHA-256 
+ Serial#: 2C:CB:A5:F7:BC:5D:F2:25 
+ SHA-1 Fingerprint: 9B:5B:FA:D0:D1:9C:B1:25:76:D3:C9:A5:0D:29:73:1A:7E:E4:E3:0C
  Valid until: Jan 18, 2038
 
-* Corda Network Authority CNA 
- Key: ECC 256, SHA- 256 
+* Corda Network Authority CNA5
+ Key: ECC-256, SHA-256 
  Serial#: 2F:9A: 24 :CA:C7:EB:8E:ED 
- Fingerprint: 45:25:AE:77:48:F0:62:AE:6D:B3:2D:86:BD:37:A8:4A:16:40:AF: 
+ SHA-1 Fingerprint: 45:25:AE:77:48:F0:62:AE:6D:B3:2D:86:BD:37:A8:4A:16:40:AF:79
  Valid until: Jan 18, 203 8
 
-* Corda Network Authority CNA 
- Key: ECC 256, SHA- 256 
- Serial: 12 :AF:2F: 30 :ED:1F: 19 :5D 
- Fingerprint: 82:7D:9D:FA:D0:D4:E3:F3:38:4F:F1:F7:40:DD:57:8B:C6:B8:86:6C 
+* Corda Network Authority CNA6
+ Key: ECC-256, SHA-256 
+ Serial: 12 :AF:2F:30:ED:1F:19:5D 
+ SHA-1 Fingerprint: 82:7D:9D:FA:D0:D4:E3:F3:38:4F:F1:F7:40:DD:57:8B:C6:B8:86:6C
  Valid until: Jan 18, 2038
 
-* Corda Network Authority CNA 
- Key: ECC 256, SHA- 256 
- Serial#: 4E:B8:8B:4C:C7:4C: 57 :3E 
- SHA1 Fingerprint=FE:ED:02:45:9E:7D:D5:D6:D0:E7:C0:F5:12:3E:0A:A5:16:97:4D:D 
+* Corda Network Authority CNA7
+ Key: ECC-256, SHA-256 
+ Serial#: 4E:B8:8B:4C:C7:4C:57:3E 
+ SHA-1 Fingerprint=FE:ED:02:45:9E:7D:D5:D6:D0:E7:C0:F5:12:3E:0A:A5:16:97:4D:D7
  Valid until: Jan 18, 2038
 
-* Corda Network Authority CNA 
- Key: ECC 256, SHA- 256 
- Serial#: 59 :A9:0F:AC:9F: 27 :3D:A 
- Fingerprint: 3A:C3:20:7A:75:C0:77:6F:68:F1:0C:5D:89:32:09:FF:00:7F:DD:FC 
+* Corda Network Authority CNA8
+ Key: ECC-256, SHA-256 
+ Serial#: 59:A9:0F:AC:9F:27:3D:A0
+ SHA-1 Fingerprint: 3A:C3:20:7A:75:C0:77:6F:68:F1:0C:5D:89:32:09:FF:00:7F:DD:FC
  Valid until: Jan 18, 2038
 ```
 
 Corda Network Doorman CA
 
-_Note: Foundation will include The Corda Network Doorman CA certificate details here when the certificate 
-has been issued by one of the Corda Network Subordinate CAs._
+```
+* Corda Doorman CA
+ Key: ECC-256, SHA-256 
+ Serial#: 4C:BF:B4:D5:12:4C:72:65
+ SHA-1 Fingerprint: F2:C6:54:EC:4D:99:4F:3A:9C:FF:38:E2:6E:1A:72:6C:20:C9:5E:1B
+ Valid until: Jan 18, 2038
+```
 
 1.3.2 Registration Authorities
 ------------------------------
@@ -271,6 +273,7 @@ repository from unauthorised modification or deletion.
 --------------------
 The CA shall assign an X.50 1 Distinguished Name (DN) to each subscriber, which will be contained 
 in the Subject name field of Corda Network node certificates.
+Names must conform to the Corda Network [Allowable Entity Names policy|https://corda.network/policy/allowable-names.html] [1].
 
 3.1.2 Need for Names to Be Meaningful
 -------------------------------------
@@ -710,12 +713,18 @@ and any activity conducted by them with parties appearing on the list is at thei
 ----------------------------
 CRLs shall be issued periodically by the CA. Certificate status information may be issued more 
 frequently than the issuance frequency described below. Certificate status information shall be 
-published no later than the next scheduled update. This will facilitate the local caching of certificate status 
-information for off-line or remote (laptop) operation.
+published no later than the next scheduled update, this will facilitate the local caching of certificate status 
+information.
 
-Note that we **do** need to define the issuance frequency here.
+For the status of Doorman-issued Node Certificates: the CRL is updated and reissued at least once every seven (7) days,
+and the value of the nextUpdate field is not more than ten (10) days beyond the value of the thisUpdate field.
 
-CAs that issue certificates to subscribers or operate on-line must issue on a defined cycle.
+For the status of node TLS certificates: the CRL is updated and reissued at least once every seven (7) days,
+and the value of the nextUpdate field is not more than ten (10) days beyond the value of the thisUpdate field.
+
+For the status of all other certificates issued by the Corda Network Operator: the CRL will be issued at least (i) once
+every twelve (12) months and (ii) within 24 hours after revoking a certificate. The value of the nextUpdate field is not
+more than twelve months beyond the value of the thisUpdate field.
 
 Circumstances related to emergency CRL issuance are specified in section 4.9.12.
 
@@ -2193,7 +2202,12 @@ UUID Universal Unique Identifier
 
 VPN Virtual Private Network
 
-Appendix B: Document History
+Appendix B: References
+======================
+
+1. [Allowable Identity Names|https://corda.network/policy/allowable-names.html] (Corda Network technical policies): 
+
+Appendix C: Document History
 ============================
 
  Version Date Author Change Details
