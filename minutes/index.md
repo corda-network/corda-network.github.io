@@ -13,8 +13,9 @@ Governance Events
 -----------------
 Details of the following governance events, with their voting status, are available:
 
-1. [M007](M007.md): Approve Segregated Sub-Zone Pricing.
-2. [M008](M008.md): Approve 2019 Budget and 2020 Plan.
+1. [Advisory event 0001](event-0001.md): Converge the UAT Network Governance.
+1. [Mandatory event 0007](event-0007.md): Approve Segregated Sub-Zone Pricing.
+2. [Mandatory event 0008](event-0008.md): Approve 2019 Budget and 2020 Plan.
 
 For more information about the intended governance of the network, please refer to the [Corda Network Foundation : 
 Governance Guidelines](governance-guidelines.md) document.

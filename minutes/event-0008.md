@@ -1,7 +1,7 @@
 |Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
-Governance Event M008
-=====================
+Mandatory Governance Event 0008
+===============================
 
 Approve 2019 Budget and 2020 Plan
 =================================
