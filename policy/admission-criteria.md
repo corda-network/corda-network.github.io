@@ -83,3 +83,4 @@ For a US-based Operator, the following lists will be used:
 * Excluded Parties List System
 * FATF Financial Action Task Force         
 * Office of the Superintendent of Financial Institutions Consolidated List—Canada
+* Consolidated list of Persons, Groups and Entities subject to EU Financial Sanctions
