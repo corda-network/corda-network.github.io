@@ -18,7 +18,7 @@ The Board includes 9 senior figures from external companies across financial ser
 5. Andrew Speers: Director, Product and Innovation, NatWest, Europe
 6. Jordane Rollin: Executive Director & Head, Digital Transformation, Trade Finance Global Products, Standard Chartered, Asia
 7. Markus Tradt: Chief Technology Officer, B3i, Europe
-8. Edwin Oversteeg: Manager, Organisational Development, Achmea, Europe
+8. Chris Madsen, Head of Global Underwriting Center, Aegon, Europe 
 9. Greg Crow: Global Head of Architecture, AXA XL, Europe
 
 In addition, the board has two directors employed by R3: 
