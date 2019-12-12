@@ -12,11 +12,11 @@ A summary of steps to join the Network (either the Pre-Production or Production 
 
 *Pre-Production Network*
 
-The Terms of Use for direct signing are available as a click-through agreement which will provide direct confirmation of acceptance to the Corda Network Operator. Available here: [Terms of Use](https://fs22.formsite.com/r3cev/CordaUATAgreement2019/index.html)
+The Terms of Use for direct signing are available through contacting info@corda.network. Shortly, this will be available as a click-through.
 
 *Production Network* 
 
-Terms of Use for direct signing [available here](https://corda.network/participation/terms-of-use.html) 
+The Terms of Use for direct signing are available through contacting info@corda.network. Shortly, this will be available as a click-through.
 
 **1.2 Sponsored Model**
 
