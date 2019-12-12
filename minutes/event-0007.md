@@ -1,7 +1,7 @@
 |Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 
-Governance Event M007
-=====================
+Mandatory Governance Event 0007
+===============================
 
 Approve Segregated Sub-Zone Pricing
 ===================================
