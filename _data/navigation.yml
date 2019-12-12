@@ -37,12 +37,12 @@ pages:
         url: /about/index.html
       - title: 06 December 2019
         url: /minutes/20191206.html
-      - title: M001
-        url: /minutes/M001.html
-      - title: M007
-        url: /minutes/M007.html
-      - title: M008
-        url: /minutes/M008.html
+      - title: 0001 UAT Governance
+        url: /minutes/event-0001.html
+      - title: M007 SSZ Pricing
+        url: /minutes/event-0007.html
+      - title: M008 2019 Budget Review
+        url: /minutes/event-0008.html
   - title: Preparing to Join
     children:
     - title: Pre-requisites to join 
