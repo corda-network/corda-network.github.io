@@ -14,4 +14,4 @@ A partitioned sub-network within Corda Network, which enables membership privacy
 
 A business network operating and being governed entirely independently, using the Corda Enterprise Network Manager software. Can control location and operations of all its services and infrastructure.
 
-[Link to paper - attached PDF](Corda_Networks_-_guiding_note_Final.pdf)
+[Link to paper - attached PDF](https://github.com/corda-network/corda-network.github.io/blob/master/assets/Corda_Networks_-_guiding_note_Final.pdf)
