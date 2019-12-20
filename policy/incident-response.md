@@ -1,15 +1,14 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Incident Response Policy
 
-Incident Response Policy
-========================
+## 1 Introduction
 
-1 Introduction
---------------
 ### 1.1 Purpose
+
 Computer security incident response is a part of the day to day business activities of the Foundation. This document 
 defines the Foundation’s policy for reporting, prioritising and managing the response to such incidents.
 
 ### 1.2 Risks addressed
+
 Failure to comply with this policy may expose the Foundation to prolonged and uncontrolled impact from information 
 security incidents.
 
@@ -17,16 +16,18 @@ Furthermore, failure to comply with this policy may constitute a breach of the F
 and or contractual obligations.
 
 ### 1.3 Who does the policy apply to?
+
 This policy applies to employees and contractors, consultants, temporaries, and other workers at Corda Network 
 Foundation, or its Operator(s), including all personnel affiliated with third parties – in short, it applies to everyone.
 
-2 Scope
--------
+## 2 Scope
+
 All Foundation information, information assets and systems.
 
-3 Policy Guidance
------------------
+## 3 Policy Guidance
+
 ### 3.1 Everyone has a role to play
+
 The biggest challenge to effectively responding to a computer security incident is its detection and assessment. Whilst 
 some incidents may be readily indicated by automated system alerts or spotted by keen* eyed systems or network 
 administrators, other indicators of potential incidents may not be so immediately visible.
@@ -44,6 +45,7 @@ effectively detect and respond to incidents spreads beyond the bounds of the IT,
 in the organisation has a role to play.
 
 ### 3.2 How can we detect Security Incidents? 
+
 A computer security incident is any real, suspected or imminent threat of compromise of the security of data or 
 systems. Examples of incidents include:
 
@@ -81,15 +83,17 @@ investigating adverse events. We must assume that such events may be indicators 
 to be otherwise after investigation by experts.
 
 ### 3.3 Your obligations
+
 All employees and associates are required to:
 
 * Be continually vigilant regarding events that might be indicators of security incidents.
 * Comply with the mandatory controls in this policy, in particular you must ensure that suspicious events and 
 suspected incidents are promptly reported.
 
-4 Mandatory Controls
---------------------
+## 4 Mandatory Controls
+
 ### 4.1 The Response Team and Response Plans
+
 The Foundation will maintain a computer security incident response team (CSIRT). 
 
 The CSIRT extended team will include members of the DevOps, support, IT support and development teams. 
@@ -99,6 +103,7 @@ individual performing that role) is responsible for the development and maintena
 to day activities to the Information Security Program Manager.
 
 ### 4.2 Reporting and Response
+
 All suspicious events and suspected incidents must be reported to the CSIRT. Initial reporting must be via telephone to 
 the CSIRT response line on +44 (0)207 1131478.
 
@@ -116,6 +121,7 @@ The Incident Handler will ensure that comprehensive records of the incident from
 taken in response are maintained.
 
 ### 4.3 Incident Classification and Prioritisation
+
 Incident handling must be prioritised based on relevant factors, rather than on a first-come, first-served basis. The 
 Foundation computer security incident response plan includes a classification scheme that includes functional and 
 information impact (combined as the business impact) and the level and type of resources required to recover from the 
@@ -123,12 +129,14 @@ incident. All incidents must be assessed according to this scheme as part of the
 activity.
 
 ### 4.4 Maintenance of Production Services
+
 Where there is a conflict between containment of a security incident and preservation of evidence, and maintenance of
 production services, the Foundation will usually prioritise the maintenance of production services wherever possible. 
 If the steps to contain of an incident or preserve evidence are likely to result in medium or above functional impact 
 to the production service, approval to implement must be sought from the Operator COO, Chief Engineer or CTO.
 
 ### 4.5 Incident Notification and Communications
+
 The following individuals of the Operator must be notified as a matter of course for incidents of for low and above 
 functional impact (one or more critical services operating at a reduced but tolerable level of performance). They 
 may also be notified in the event of a breach of information classified as internal or above:
@@ -163,6 +171,7 @@ communication should be handled by the relevant relationship manager with input 
 incident impact.
 
 ### 4.6 Interaction with Law Enforcement
+
 The Foundation may take the decision to involve law enforcement to handle a security breach. Any decision to involve 
 law enforcement must be taken in the light of any regulatory obligations to which the company is subject. Incident 
 handlers or other staff members must not independently initiate any conversation with law enforcement. Any decision 
@@ -171,18 +180,17 @@ public disclosure of the incident. Decisions to involve law enforcement rest at 
 and legal counsel.
 
 ### 4.7 Evidence Gathering and Handling
+
 The incident handler must clearly document how all evidence gathered during the incident handling process has been 
 preserved.
 
 Evidence should be accounted for at all times. Where evidence is transferred from one person to another, chain of 
 custody forms should detail the transfer and include each person’s signature.
 
-5 Compliance
-------------
+## 5 Compliance
+
 Regular assessments are carried out for compliance against this policy. Any violation of this policy will be 
 investigated and if the cause is found due to wilful disregard or negligence, it will be treated as a disciplinary 
 offence. All disciplinary proceedings are coordinated through the Operator(s) Human Resources Departments.
 
 The Foundation reserves the right to amend this policy at any time and will publish updated versions to all Operator(s).
-
-

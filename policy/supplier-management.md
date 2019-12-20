@@ -1,16 +1,13 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Supplier Management Policy
 
-Supplier Management Policy
-==========================
+## 1 Purpose
 
-1 Purpose
----------
 Use of external suppliers or outsourcing arrangements can deliver commercial benefits in the form of reduced costs,
 greater focus on core business and access to superior external skills or resources.
 This policy mandates the assessment and management of information security risks associated with that process.
 
-2 Risks Addressed
------------------
+## 2 Risks Addressed
+
 This policy addresses risks resulting from the use of external suppliers to handle sensitive Corda Network Foundation
 information or to provide services or products critical to the Foundation's mission.
 These risks may include (but are not limited to):
@@ -19,18 +16,18 @@ These risks may include (but are not limited to):
 information.
 * Risks to the availability of Foundation services through the inability of the supplier to deliver agreed service levels.
 
-3 Control Objectives
---------------------
+## 3 Control Objectives
+
 This policy specifies controls to manage the information security risks associated with the use of external suppliers.
 
-4 Who Does the Policy Apply To?
--------------------------------
+## 4 Who Does the Policy Apply To?
+
 This policy must be observed by anyone involved in the selection of suppliers of services or products critical to the
 Foundation’s mission, or that handle information or other assets of high value or sensitivity.
 More detailed roles and responsibilities are described in the Mandatory Controls section of this policy.
 
-5 Scope
--------
+## 5 Scope
+
 The terms “product” and “service” are used frequently, and interchangeably within this document.
 They both refer to a capability that the Foundation intends to acquire from an external supplier rather than
 develop or otherwise construct from scratch.
@@ -49,9 +46,10 @@ When in doubt as to whether this policy applies to the selection of a supplier f
 the individual intending to engage with a supplier must consult with the Head of Compliance
 or Information Security Manager for clarification.
 
-6 Mandatory Controls
---------------------
+## 6 Mandatory Controls
+
 ### 6.1 Roles and Responsibilities
+
 The Foundation Board of Directors is responsible for designating suitable service owners for external suppliers.
 The service owner will be responsible for oversight of services delivered by the supplier and for ensuring that
 this policy is followed.
@@ -75,6 +73,7 @@ service owners to analyse the associated risks and develop appropriate process, 
 This policy will be jointly maintained by the Information Security Manager and the Head of Compliance.
 
 ### 6.2 Choosing a supplier
+
 The criteria for selecting a particular supplier shall be defined and documented, taking into account:
 
 * Market research to establish a list of possible suppliers for the service or product.
@@ -86,6 +85,7 @@ The criteria for selecting a particular supplier shall be defined and documented
 * The financial stability of the supplier and its commercial record.
 * Quality assurance and security management certifications held by the supplier.
   
+
 Where multiple suppliers exist offering competing, but distinct, services or products, the supplier evaluation
 process will provide:
 
@@ -131,6 +131,7 @@ make recommendations for additional controls to be put in place as part of any c
 The risk assessment report and the recommendations of the review group must be recorded for future reference.
 
 ### 6.4 Contracts and Confidentiality agreements
+
 A formal contract between the Foundation and the supplier must exist to protect both parties.  The contract shall
 clearly define the types of information exchanged and the purpose for so doing.
 
@@ -160,11 +161,13 @@ mutually agreed independent third-party auditor for this purpose.
 Recovery.
 
 ### 6.5 Hiring and Training of Employees
+
 Supplier employees, contractors and consultants working on behalf of the Foundation shall be subjected to background
 checks equivalent to those performed on Foundation employees. Such screening shall take into consideration the level of
 trust and responsibility associated with the position.
 
 ### 6.6 Access Controls
+
 In order to prevent unauthorized access to the Foundation’s information assets by the supplier or sub-contractors,
 suitable security controls are required. The details depend on the nature of the information assets and the associated
 risks. Particularly complicated processes may result in a further risks assessment and design of a suitable controls
@@ -182,6 +185,7 @@ normally requires the use of a schedule or register and a process whereby the su
 for the assets at the point of handover.
 
 ### 6.7 Security Audits
+
 Where a supplier handles Foundation or client sensitive information, or provides mission critical services, the
 Foundation may choose to audit the outsourcer’s physical premises periodically for compliance to the Foundation’s
 security policies, ensuring that it meets the requirements defined in the contract.
@@ -195,6 +199,7 @@ Information Security Manager and Legal.
 Any material produced as part of the audit process (findings, reports etc.) must be preserved for future reference.
 
 ### 6.8 Compliance
+
 Regular assessments are carried out for compliance against this policy. Any violation of this policy will be
 investigated and if the cause is found to be due to wilful disregard or negligence, it will be treated as a disciplinary
 offence. All disciplinary proceedings are coordinated through the Human Resources Department. The Foundation reserves

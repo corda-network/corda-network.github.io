@@ -1,10 +1,6 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Corda Pre-Production Network
 
-Corda Pre-Production Network
-============================
-
-Introduction
-------------
+## Introduction
 
 For owners of tested CorDapps with a firm plan to take them into production, a bespoke Pre-Production environment is provided by the Foundation. 
 
@@ -16,12 +12,12 @@ Pre-Production is therefore more aligned to the testing of the operational chara
 
 Realistic test data is therefore expected to be used and may include data copied from production environments and hence representing real world entities and business activities. It will be up to the introducer of such data to ensure that all relevant data protection legislation is complied with and, in particular, that the terms and conditions under which Corda Network Services processes such data is suitable for their needs. All test data will be cleared down from Corda Network Services on the completion of testing.
 
-Governance Model
-----------------
+## Governance Model
+
 The Pre-Production Network is also governed by the Corda Network Foundation. It is operated by the Network Operator, currently R3, on behalf of the Foundation. 
 
-[Testnet](https://marketplace.r3.com/network/testnet) is a separate network run and paid for by R3. This is for users at early stages.
+[Testnet](https://testnet.corda.network/) is a separate network run and paid for by R3. This is for users at early stages.
 
-How to join?
-------------
-Follow the steps on Process to join, with care to follow the steps for Pre-Production. https://corda.network/participation/index.html 
+## How to join?
+
+Follow the steps on Process to join, with care to follow the steps for Pre-Production. https://corda.network/participation/index

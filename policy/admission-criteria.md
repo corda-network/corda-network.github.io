@@ -1,10 +1,7 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Admission Criteria Policy
 
-Admission Criteria Policy
-=========================
+## 1 Introduction
 
-1 Introduction
---------------
 Participants, including Business Network Operators, must request a certificate from the Operator to gain 
 access to and join Corda Network. The requirements should be constrictive enough for Participants and Business 
 Networks Operators to feel safe and secure in the network, but also not too onerous to deter Participants from seeking 
@@ -14,8 +11,8 @@ The Operator’s validation and approval to the network should not be considered
 required “Know Your Customer” processes. Business Network Operators are obligated to escalate inappropriate business 
 conduct or fraudulent identities to the Operator and relevant regulatory bodies or authorities.
 
-2 Policy
---------
+## 2 Policy
+
 A certificate will be provided to non-natural persons, i.e. organisations that are an incorporated legal entity.
 The following information should be provided by all Participants seeking access to Corda Network:  
 
@@ -28,7 +25,7 @@ The following information should be provided by all Participants seeking access 
 * Website Domain (Optional)
 
 Note: additional details may be required for Participation billing, but these requirements do not form part of this Policy.
-                                                                   
+
 The Operator must conduct a sanction review commensurate with jurisdictional laws and regulations on all entities and 
 establish a process to clear false positives. Positive matches will not receive a certificate for the network. Business Network 
 Operators must perform their own KYC check and should not rely on the Operator’s identification or sanction review. 
@@ -41,8 +38,8 @@ Certifications will be issued based on the information provided in the certifica
 provided, including updating the entity name or contact information, will require a certification to be revoked and 
 subsequently re-issued by the operator.
 
-3 Rationale
------------
+## 3 Rationale
+
 The Corda Network should obtain minimum information required to confirm identity and for billing purposes. See below 
 membership requirements for other foundations.
 
@@ -70,8 +67,9 @@ standardization in the entity’s respective country, and that said country is r
 domain's registrant, administrative and billing contacts.
     * This is practical for the Corda Network.  
     
-4 Addendum
-----------
+
+## 4 Addendum
+
 For a US-based Operator, the following lists will be used:
 
 * United Kingdom Her Majesty’s Treasury Sanctions    

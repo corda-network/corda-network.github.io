@@ -1,14 +1,11 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Corda Network Services 
 
-Key services 
-============
-
-Corda Network has it's own [Trust Root](https://corda.network/trust-root/index.html) -- the single, long-term cryptographic key which all the certificates on the Network root back to, and is the basis of trust in the provenance of data, recognised by  participants. For Corda Network, this is offline and secured in custody by the Corda Network Foundation.
+Corda Network has it's own [Trust Root](/trust-root/index) -- the single, long-term cryptographic key which all the certificates on the Network root back to, and is the basis of trust in the provenance of data, recognised by  participants. For Corda Network, this is offline and secured in custody by the Corda Network Foundation.
 
 
-Identity Operator
------------------
-The Identity Operator admits new participants onto Corda Network. The service receives certificate signing requests (CSRs) from prospective network participants (sometimes via a business network operator) and reviews the information submitted. 
+## Identity Manager
+
+The Identity Manager admits new participants onto Corda Network. The service receives certificate signing requests (CSRs) from prospective network participants (sometimes via a [Sponsor](/participation/join-directly-or-as-sponsor)) and reviews the information submitted. 
 
 A digitally signed participation certificate (based on the Corda Network Trust Root) is returned if:
 
@@ -16,20 +13,19 @@ A digitally signed participation certificate (based on the Corda Network Trust R
 sanction screening only);
 * The participant agrees to Corda Network participant terms of use.
 
-The Corda Network node can then use the participation certificate to register itself with the Network Map Service.
+The Corda Network node can then use the participation certificate to register itself with the Network Map.
 
 
-Network Map Service
-------------------- 
-The Network Map Service accepts digitally signed documents describing network routing and identifying information from 
-nodes, based on the participation certificates signed by the Identity Service, and makes this information available to all 
+## Network Map
+
+The Network Map accepts digitally signed documents describing network routing and identifying information from 
+nodes, based on the participation certificates signed by the Identity Manager, and makes this information available to all 
 Corda Network nodes.
 
 
-Notary Service
---------------
-Corda design separates correctness consensus from uniqueness consensus, and the latter is provided by one or more Notary 
-Services. The Notary will digitally sign a transaction presented to it, provided no transaction referring to 
+## Notary
+
+Corda design separates correctness consensus from uniqueness consensus, and the latter is provided by one or more Notaries. The Notary will digitally sign a transaction presented to it, provided no transaction referring to 
 any of the same inputs has been previously signed by the Notary, and the transaction timestamp is within bounds. 
 
 Business network operators and network participants may choose to enter into legal agreements which rely on the presence 
@@ -37,9 +33,9 @@ of such digital signatures when determining whether a transaction to which they 
 otherwise rely, is to be treated as 'confirmed' in accordance with the terms of the underlying agreement. 
 
 
-Support Service 
----------------
-The Support Service is provided to participants and business network operators to manage and resolve inquiries and incidents 
-relating to the Identity Service, Network Map Service and Notary Services.
+## Support 
 
-If you have questions about any of the above, and can't find your answer on this site, [contact us](../about/contact.html)!
+Support is provided to participants and business network operators to manage and resolve inquiries and incidents 
+relating to the Identity Manager, Network Map and Notary.
+
+If you have questions about any of the above, and can't find your answer on this site, [contact us](/about/contact)!

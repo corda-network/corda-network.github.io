@@ -1,12 +1,10 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
-
 # Production Environment Service Level Agreement
 
-This document is correct as of 25th November 2019. 
+This document is correct as of 25th November 2019.
 
 Please note that the terms of this Service Level Agreement (SLA) are subject to change. Participants will be notified of any material changes via the contact contained in the Certificate Signing Request for each node unless alternative contact details are advised.
 
-## Contents <!-- omit in toc -->
+## Contents
 
 - [1. Definitions](#1-definitions)
 - [2. Introduction](#2-introduction)
@@ -38,14 +36,14 @@ Please note that the terms of this Service Level Agreement (SLA) are subject to 
 
 ## 1. Definitions
 
-| Term | Description |
-| --- | --- |
-| Business Network Operator | A Business Network Operator may set-up and operate its own business network for groups or companies that wish to transact together on the Corda Network. Depending on their size, Business Network Operators may also wish to on-board, off-board their members. |
-| Corda Network Foundation | A not-for-profit legal entity type known as a Stichting residing in the Netherlands. The Foundation governs the Corda Network and enables Network participants to be involved with, and also understand, how decisions are made (including around issues of identity and permission), building trust and engagement from a wide range of stakeholders. |
-| CorDapp | Applications designed to interact with the Corda Network, built on the Corda platform. |
-| Network Operator | The network operator appointed by the Corda Foundation who undertakes all day-to-day activities associated with delivering the network services outlined within Section 2 of this document. |
-| Participant | A legal entity participating in Corda Network and using one or more of the services provided by the Foundation. |
-| Production network | The network operated by the Corda Foundation for participants to transact using ‘Live’, real world information and data. This environment is not for development/sandboxing purposes. |
+| Term                      | Description                                                                                                                                                                                                                                                                                                                                            |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Business Network Operator | A Business Network Operator may set-up and operate its own business network for groups or companies that wish to transact together on the Corda Network. Depending on their size, Business Network Operators may also wish to on-board, off-board their members.                                                                                       |
+| Corda Network Foundation  | A not-for-profit legal entity type known as a Stichting residing in the Netherlands. The Foundation governs the Corda Network and enables Network participants to be involved with, and also understand, how decisions are made (including around issues of identity and permission), building trust and engagement from a wide range of stakeholders. |
+| CorDapp                   | Applications designed to interact with the Corda Network, built on the Corda platform.                                                                                                                                                                                                                                                                 |
+| Network Operator          | The network operator appointed by the Corda Foundation who undertakes all day-to-day activities associated with delivering the network services outlined within Section 2 of this document.                                                                                                                                                            |
+| Participant               | A legal entity participating in Corda Network and using one or more of the services provided by the Foundation.                                                                                                                                                                                                                                        |
+| Production network        | The network operated by the Corda Foundation for participants to transact using ‘Live’, real world information and data. This environment is not for development/sandboxing purposes.                                                                                                                                                                  |
 
 ## 2. Introduction
 
@@ -83,7 +81,7 @@ This document applies only to the Production Network and its constituent service
 
 The service levels contained within this section will apply during the term of Participants’ membership agreement of Corda Network.
 
-The most up to date, detailed information about the services which Corda Network Foundation provides can be found [here](/about/concepts.html).
+The most up to date, detailed information about the services which Corda Network Foundation provides can be found [here](/about/concepts).
 
 Please note that some services are guaranteed on a business hours basis. Business hours is defined as Monday to Friday from 00:30 UTC+0 to 21:30 UTC+0, excluding weekends and public holidays, in the territories of the United Kingdom, United States and Singapore.
 
@@ -93,23 +91,20 @@ The following services will operate with >99% availability on a business hours b
 
 - **Identity Operator**
 
-   >The Identity Operator service is considered available if it is able to successfully receive requests for new certificates submitted for the Corda Network.
-
-   *This is measured by monitoring the service endpoint to ensure a valid status code is returned, and checking that the underlying worker process is running.*
+  > The Identity Operator service is considered available if it is able to successfully receive requests for new certificates submitted for the Corda Network.
+  > _This is measured by monitoring the service endpoint to ensure a valid status code is returned, and checking that the underlying worker process is running._
 
 - **Network Map**
 
-    >The Network Map service is considered available if it is able to provide a network map upon request.
-
-    *This is measured by monitoring the service endpoint to ensure a valid status code is returned, and checking that the underlying worker process is running.*
+  > The Network Map service is considered available if it is able to provide a network map upon request.
+  > _This is measured by monitoring the service endpoint to ensure a valid status code is returned, and checking that the underlying worker process is running._
 
 The following services will operate with >99% availability on a 24/7/365 basis during each calendar month. Definitions of availability for each service are included below.
 
 - **Notary**
 
-    >The Notary service is considered available if it is able to successfully receive, process and notarise transactions.
-
-    *This is measured by monitoring test transactions to ensure they are being received and processed as expected by the notary.*
+  > The Notary service is considered available if it is able to successfully receive, process and notarise transactions.
+  > _This is measured by monitoring test transactions to ensure they are being received and processed as expected by the notary._
 
 The following exclusions apply for service availability:
 
@@ -121,8 +116,7 @@ The following exclusions apply for service availability:
 The completion of a Certificate Signing Request (CSR) is measured from the time of receipt of a correctly formatted signing request by the Foundation Identity Manager to the time at which a response is submitted to the requesting node. The Identity Manager process can handle multiple certificate signing requests in parallel.
 
 > 95% of valid CSRs will be completed within 2 business working days each calendar month, excluding wait time for responses to confirmation or clarification requests from the Participant or Business Network Operator. Guidelines for submitting a CSR request can be found on the Foundation website [here](/trust-root/certificate-practices.html).
-
-Unless the Participant is being sponsored onto the Corda Production Network by a Business Network Operator with whom such agreement is in place with the Foundation, the Identity Manager process requires the Participant to respond to a confirmation request. Service levels quoted here for turnaround time specifically exclude the duration of such Participant response.
+> Unless the Participant is being sponsored onto the Corda Production Network by a Business Network Operator with whom such agreement is in place with the Foundation, the Identity Manager process requires the Participant to respond to a confirmation request. Service levels quoted here for turnaround time specifically exclude the duration of such Participant response.
 
 The Identity Manager may reject the certificate signing request if the data is not constructed according to the standards set out in the User Guide. Amended CSRs will be subject to the same SLAs as new certificate signing requests.
 
@@ -141,8 +135,7 @@ The completion time for transaction notarisation requests is measured from the t
 Notarisation requests are treated individually, in sequence of receipt, by the notary working from an inbound queue.
 
 > The average time taken to process notarisation requests as measured over a five (5)-minute* interval will be <240 seconds for 99% of each calendar month.
-
-*\*Each five-minute interval for measuring notarisation requests is approximate. Each interval is distinct, with a new five-minute measurement interval beginning once the previous one ends. Measurements are not taken as a five-minute rolling average. This means there are approximately 12 measured intervals per hour.*
+> *\*Each five-minute interval for measuring notarisation requests is approximate. Each interval is distinct, with a new five-minute measurement interval beginning once the previous one ends. Measurements are not taken as a five-minute rolling average. This means there are approximately 12 measured intervals per hour.\*
 
 ## 4. Change Management
 
@@ -158,7 +151,7 @@ Any changes that require service impacting system downtime will be subject to th
 
 ### 4.2. Network Infrastructure Patching
 
-Infrastructure patches are applied on a recurring monthly schedule.  These activities are usually low risk and non-service impacting. Details of the change, including the relevant change windows, will be communicated a **minimum of five (5) business days in advance** via the Network Operator’s service dashboard.
+Infrastructure patches are applied on a recurring monthly schedule. These activities are usually low risk and non-service impacting. Details of the change, including the relevant change windows, will be communicated a **minimum of five (5) business days in advance** via the Network Operator’s service dashboard.
 
 ### 4.3. Emergency Maintenance
 
@@ -194,7 +187,7 @@ Many types of update processes will be entirely transparent to users and can be 
 
 The update process incorporates a node polling activity that ensures all node operators see the requested changes in advance and can choose to accept/not accept. The Foundation will consult with customers should there be disagreement over the proposed changes but reserves the right to progress if the majority of Participants are in agreement that it should go ahead, and reasonable attempts have been made to address any concerns of Participants rejecting the change.
 
-Further details can be found on the Corda Network website [here](/policy/network-params-update.html) and within the Corda documentation [here](https://docs.corda.net/network-map.html#network-parameters).
+Further details can be found on the Corda Network website [here](/policy/network-params-update) and within the Corda documentation [here](https://docs.corda.net/network-map.html#network-parameters).
 
 Where the update may require significant Participant action, for example where the minimum platform version is increased and certain Participants need to upgrade to meet the new minimum, a minimum of three (3) months notice will be given. Full instructions will be communicated to node operators via the Network Operator’s service dashboard.
 
@@ -273,10 +266,10 @@ In the event of SLA breaches impacting individual customers they will be entitle
 
 A breach is defined as an instance where an individual service target is not met within the measurement intervals specified within this document. Multiple breaches cannot be claimed against a single service target within the same measurement interval.
 
-| Number of breaches | Service Credit |
-| --- | --- |
-| >9 and <20 within a calendar year | 25% of fees for affected service |
-| >19 and <40 within a calendar year | 50% of fees for affected service |
-| >39 within a calendar year | 100% of fees for affected service |
+| Number of breaches                 | Service Credit                    |
+| ---------------------------------- | --------------------------------- |
+| >9 and <20 within a calendar year  | 25% of fees for affected service  |
+| >19 and <40 within a calendar year | 50% of fees for affected service  |
+| >39 within a calendar year         | 100% of fees for affected service |
 
 Any Participant requesting service credits should report details of each breach with reasonable evidence in writing. Requests can be submitted via email to <info@corda.network>.

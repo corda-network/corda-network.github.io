@@ -1,0 +1,1 @@
+The Network Map accepts digitally signed documents describing network routing and identifying information from nodes, based on the participation certificates signed by the Identity Manager, and makes this information available to all Corda Network nodes.

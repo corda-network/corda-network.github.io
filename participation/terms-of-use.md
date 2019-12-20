@@ -1,9 +1,6 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Network Terms of Use
 
-Network Terms of Use
-====================
-
-Firstly, have a look the [steps for joining Corda Network](https://corda.network/participation/index.html). 
+Firstly, have a look the [steps for joining Corda Network](/participation/index). 
 
 One of the steps to join Corda Network is to sign a legal Terms of Use document. 
 

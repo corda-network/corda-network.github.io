@@ -1,25 +1,22 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
-
-The Corda Network Certification Practice Statement
-==================================================
+# The Corda Network Certification Practice Statement
 
 5th October 2018
 
 Corda Network Certification Practice Statement 0.9
 
-Document Classification
------------------------
+## Document Classification
+
 In current state, this document is classified PUBLIC.
 
-External Distribution
----------------------
+## External Distribution
+
 This document is made available for public examination and dissemination. 
 
-1 Introduction
-==============
+## 1 Introduction
 
-1.1 Overview
-------------
+
+### 1.1 Overview
+
 The Corda Network Public Key Infrastructure (Corda Network PKI) has been established by the 
 Corda Network Foundation to enable reliable and secure identity authentication of nodes in 
 the Corda Network, and to facilitate the preservation of confidentiality and integrity of data in 
@@ -27,20 +24,20 @@ electronic transactions within that network. This document is issued by Corda Ne
 and procedures that the Operator employs in its role as Corda Network Certification 
 Authority, issuing certificates on behalf of the Corda Network Foundation.
 
-1.2 Name and Identification
----------------------------
+### 1.2 Name and Identification
+
 This document is the Corda Network Certification Practice Statement (CPS). It has been published 
 in response to the Corda Network Certificate Policy (CP).
 
-1.2.1 Revisions
----------------
+#### 1.2.1 Revisions
+
 See Appendix C
 
-1.3 PKI Participants
---------------------
+### 1.3 PKI Participants
 
-1.3.1 Certification Authority
------------------------------
+
+#### 1.3.1 Certification Authority
+
 The term Certification Authority (CA) refers to the collection of hardware, software and operating 
 personnel that create, sign, and issue public key certificates to subscribers.
 
@@ -120,8 +117,8 @@ Corda Network Doorman CA
  Valid until: Jan 18, 2038
 ```
 
-1.3.2 Registration Authorities
-------------------------------
+#### 1.3.2 Registration Authorities
+
 A Registration Authorities (RA) collects and verifies each subscriber’s identity and information that 
 is to be entered into the subscriber’s public key certificate
 
@@ -130,16 +127,16 @@ RA functions for the Corda Network may be provided by the CA or by Corda Network
 The CA will accept assertion of identity from Sponsors and issue certificates to relevant sponsored 
 subscribers under defined conditions and where a Sponsor agreement is in place.
 
-1.3.3 Trusted Agents
---------------------
+#### 1.3.3 Trusted Agents
+
 A Trusted Agent is an entity who satisfies all the appointment requirements for an RA and who 
 performs identity proofing as a proxy for the RA. The Trusted Agent records information from, and 
 verifies presented credentials for, an applicant’s identity on behalf of the RA. Future versions of this 
 CPS may identify the parties responsible for providing such services, and the mechanisms for determining their 
 trustworthiness.
 
-1.3.4 Subscribers
------------------
+#### 1.3.4 Subscribers
+
 In the Corda Network PKI, a subscriber is an individual or organization that is capable of using - 
 and is authorized to use - the private key corresponding to the public key listed in a Corda Network 
 certificate, and that: (1) is named in a certificate’s “subject” field; (2) has agreed to the terms of 
@@ -154,32 +151,32 @@ be used to represent that entity only and therefore, for the purposes of this po
 CA status upon the subscriber for any purposes other than the generation of subordinate certificates, bound to its own 
 identity.
 
-1.3.5 Relying Parties
----------------------
+#### 1.3.5 Relying Parties
+
 A Relying Party is an entity that relies on the validity of the binding of the Subscriber’s name to a 
 public key. The Relying Party uses a Subscriber’s certificate to verify or establish the identity and 
 status of a system or device. A Relying Party is responsible for deciding whether or how to check 
 the validity of the certificate by checking the appropriate certificate status information. A Relying 
 Party may use information in the certificate to determine the suitability of the certificate for a particular use.
 
-1.3.6 Network Participants
---------------------------
+#### 1.3.6 Network Participants
+
 As all entities in the Corda Network other than CAs or RAs will be both subscribers and relying 
 parties, this policy often uses the term “network participant”, or more simply, “participant” to refer 
 to those entities.
 
-1.4 Certificate Usage
----------------------
+### 1.4 Certificate Usage
 
-1.4.1 Appropriate Certificate Uses
-----------------------------------
+
+#### 1.4.1 Appropriate Certificate Uses
+
 
 Certificates issued by the Doorman CA will be used by Subscribers to further generate certificates 
 for authenticated peer-to-peer messaging across The Corda Network by Corda Nodes, in addition 
 to certificates for use in individual transactions (as described in 1.3.4).
 
-1.4.2 Prohibited Certificate Uses
----------------------------------
+#### 1.4.2 Prohibited Certificate Uses
+
 Certificates issued by the CA are not proof of the trustworthiness of the Network Participant, nor 
 do they indicate the Participants compliance with any law. By issuing a certificate, the CA merely 
 confirms that it has used reasonable means to verify the information in the certificate before it was 
@@ -187,25 +184,24 @@ issued.
 
 Certificates issued under this CPS are not intended for use outside of the Corda Network.
 
-1.5 Policy Administration
--------------------------
+### 1.5 Policy Administration
 
-1.5.1 Organization Administering the Document
----------------------------------------------
+#### 1.5.1 Organization Administering the Document
+
 The Corda Network Security Team is responsible for the drafting, maintenance and interpretation 
 of this CPS.
 
-1.5.2 Contact Person
---------------------
+#### 1.5.2 Contact Person
+
 Corda Network Security Team 
 security@r3.com
 
-1.5.3 Person Determining CPS Suitability for the Policy
--------------------------------------------------------
+#### 1.5.3 Person Determining CPS Suitability for the Policy
+
 The Policy Authority of the Corda Network Foundation determines the suitability and applicability of this CPS.
 
-1.5.4 CPS Approval Procedures
------------------------------
+#### 1.5.4 CPS Approval Procedures
+
 The CA may change this CPS as deemed necessary. Changes that, in the judgement of the CA, 
 will have no or minimal effect on the participants in the Corda Network may be made without 
 consultation or notification.
@@ -216,12 +212,11 @@ prior notice to network participants.
 
 Changes to the CPS will be published at https://trust.corda.network/.
 
-1.6 Definitions and Acronyms
-----------------------------
+### 1.6 Definitions and Acronyms
+
 See appendix A
 
-2 Publication and Repository Responsibilities
-=============================================
+## 2 Publication and Repository Responsibilities
 
 The CAs listed in this CPS are operated by:
 
@@ -231,71 +226,69 @@ Floor 8
 New York 
 New York, 10036
 
-2.1 Repositories
-----------------
+### 2.1 Repositories
+
 The CA maintains a repository which comprises its root and non-constrained subordinate certificates, Doorman 
 certificate, current CP and CPS, and the most recent revocation information for 
 certificates that it has issued.
 
 The repository can be accessed at https://trust.corda.network/.
 
-2.2 Publication of Certification Information
---------------------------------------------
+### 2.2 Publication of Certification Information
 
-2.2.1 Publication of Certificates and Certificate Status
---------------------------------------------------------
+#### 2.2.1 Publication of Certificates and Certificate Status
+
 The repository system shall be designed and implemented so as to provide 99% availability overall 
 and limit scheduled down-time to 0.5% annually. Where applicable, the certificate status server 
 (CSS) shall be designed and implemented so as to provide 99% availability overall and limit scheduled down-time to 
 0.5% annually.
 
-2.2.2 Publication of CPS Information
-------------------------------------
+#### 2.2.2 Publication of CPS Information
+
 The CPS shall be made freely available to network participants.
 
-2.3 Time or Frequency of Publication
-------------------------------------
+### 2.3 Time or Frequency of Publication
+
 An updated version of the CPS will be made available to network participants within thirty days of 
 the incorporation of changes.
 
-2.4 Access Controls on Repositories
------------------------------------
+### 2.4 Access Controls on Repositories
+
 The repository is available to all network participants. The CA operates appropriate security controls to protect the 
 repository from unauthorised modification or deletion.
 
-3 Identification and Authentication
-===================================
+## 3 Identification and Authentication
 
-3.1 Naming
-----------
+### 3.1 Naming
 
-3.1.1 Types of Names
---------------------
+#### 3.1.1 Types of Names
+
 The CA shall assign an X.50 1 Distinguished Name (DN) to each subscriber, which will be contained 
 in the Subject name field of Corda Network node certificates.
-Names must conform to the Corda Network [Allowable Entity Names policy|https://corda.network/policy/allowable-names.html] [1].
+Names must conform to the Corda Network [Allowable Entity Names policy](/policy/allowable-names) [1].
 
-3.1.2 Need for Names to Be Meaningful
--------------------------------------
+
+#### 3.1.2 Need for Names to Be Meaningful
+
 Names used in certificates must represent an unambiguous identifier for the subscriber. Names 
 should be meaningful enough for a human to identify the named entity.
 
-3.1.3 Anonymity or Pseudonymity of Subscribers
-----------------------------------------------
+#### 3.1.3 Anonymity or Pseudonymity of Subscribers
+
 The CA shall not issue anonymous or pseudonymous certificates.
 
-3.1.4 Rules for Interpreting Various Name Forms
------------------------------------------------
+#### 3.1.4 Rules for Interpreting Various Name Forms
+
 No stipulation.
 
-3.1.5 Uniqueness of Names
--------------------------
+#### 3.1.5 Uniqueness of Names
+
 The CA must ensure that each of its subscribers is identifiable by a unique name. This is accomplished using the X.50 1 
 DN which is assigned to the subscriber by the CA and recorded in the 
 Subject name field of the issued certificate.
 
-3.1.6 Recognition, Authentication, and Role of Trademarks
----------------------------------------------------------
+#### 3.1.6 Recognition, Authentication, and Role of Trademarks
+
 The Corda Network is currently targeted at organisational applications, and therefore subscribers 
 will therefore, at least in the initial life of the network, be associated with an organization, legal 
 entity name, trade name or trademark.
@@ -303,18 +296,17 @@ entity name, trade name or trademark.
 The CA will ensure that the X.501 DN of any subscriber certificate issued accurately reflects the 
 legal entity name of the subscriber as recorded in the applicable local registry.
 
-3.2 Initial Identity Validation
--------------------------------
+### 3.2 Initial Identity Validation
 
-3.2.1 Method to Prove Possession of Private Key
------------------------------------------------
+#### 3.2.1 Method to Prove Possession of Private Key
+
 The CA will only accept certificate signing requests from Corda nodes. Nodes will always format 
 signing requests according to PKCS#10. All requests will include a digital signature on the request, 
 created using the private key that corresponds to the public key in the Certificate Signing Request 
 (CSR).
 
-3.2.2 Authentication of Organization Identity
----------------------------------------------
+#### 3.2.2 Authentication of Organization Identity
+
 Requests for subscriber certificates shall include the subscriber name, address, and documentation of the existence of 
 the subscriber.
 
@@ -347,17 +339,17 @@ Where authorised sponsors are involved, the CA shall undertake:
 2. Uniqueness checking against all previously issued subscriber certificates. Any CSRs with 
  identical information to existing subscriber certificates will be rejected.
 
-3.2.3 Authentication of Individual Identity
--------------------------------------------
+#### 3.2.3 Authentication of Individual Identity
+
 The Corda Network is currently targeted at organisational applications, and no applications from 
 individual subscribers will be accepted.
 
-3.2.4 Non-Verified Subscriber Information
------------------------------------------
+#### 3.2.4 Non-Verified Subscriber Information
+
 Information that is not verified shall not be included in certificates.
 
-3.2.5 Validation of Authority
------------------------------
+#### 3.2.5 Validation of Authority
+
 Before issuing a certificate, the CA shall validate the applicant’s authority to act in the name of 
 the organization.
 
@@ -372,15 +364,14 @@ This check will be performed by ensuring that the applicant named on the CSR is 
  reasonable checks to ensure that the 
  endorsing contact at the subscriber is a current employee with relevant role.
 
-3.2.6 Criteria for Interoperation
----------------------------------
+#### 3.2.6 Criteria for Interoperation
+
 No stipulation
 
-3.3 Identification and Authentication for Re-key Requests
----------------------------------------------------------
+### 3.3 Identification and Authentication for Re-key Requests
 
-3.3.1 Identification and Authentication for Routine Requests
-------------------------------------------------------------
+#### 3.3.1 Identification and Authentication for Routine Requests
+
 Subscriber certificates, as defined by their unique elements (subject DN and public key) can only 
 be issued once. If a subscriber for any reason needs a new certificate they will need to revoke the 
 existing certificate and re-apply for a replacement in the normal way (see section 4.9). The subject 
@@ -388,21 +379,20 @@ DN and existing key pair may be retained in specified circumstances (See Section
 the CA ensures that there is only ever one certificate for the subscriber in operation at any one 
 time (ignoring subordinate subscriber certificates such as TLS and Identity certificates).
 
-3.3.2 Identification and Authentication for Re-key after Revocation
--------------------------------------------------------------------
+#### 3.3.2 Identification and Authentication for Re-key after Revocation
+
 In the event of certificate revocation, issuance of a new certificate shall always require that the 
 party complete the initial registration process per Section 3.2 above.
 
-3.4 Identification and Authentication for Revocation Request
-------------------------------------------------------------
+### 3.4 Identification and Authentication for Revocation Request
+
 Revocation requests must be authenticated in the same manner as the original Certificate Signing Request. Once a 
 certificate is revoked, it cannot be reinstated.
 
-4 Certificate Life-Cycle Operational Requirements
-=================================================
+## 4 Certificate Life-Cycle Operational Requirements
 
-4.1 Certificate Application
----------------------------
+### 4.1 Certificate Application
+
 The certificate application process must provide sufficient information to:
 
 * Establish the applicant’s authorization (by the subscriber or sponsoring organization) to obtain a certificate. (per 
@@ -432,32 +422,31 @@ of this CPS, the CA holds no accountability for the consequences of misrepresent
 The CA is responsible for ensuring that sponsored applications are only accepted from sponsors 
 with whom a valid and current contractual relationship exists with the CA or Corda Network Foundation.
 
-4.2 Certificate Application Processing
---------------------------------------
+### 4.2 Certificate Application Processing
+
 Information in certificate applications must be verified as accurate before certificates are issued.
 
-4.2.1 Performing Identification and Authentication Functions
-------------------------------------------------------------
+#### 4.2.1 Performing Identification and Authentication Functions
+
 The identification and authentication of the subscriber must meet the requirements specified for 
 subscriber authentication as specified in Sections 3.2 and 3.3.
 
-4.2.2 Approval or Rejection of Certificate Applications
--------------------------------------------------------
+#### 4.2.2 Approval or Rejection of Certificate Applications
+
 Any certificate application that is received by a CA for which the identity and authorization of the 
 applicant has been validated, will be duly processed. However, the CA will reject any application 
 for which such validation cannot be completed, or when the CA has cause to lack confidence 
 in the application or certification process.
 
-4.2.3 Time to Process Certificate Applications
-----------------------------------------------
+#### 4.2.3 Time to Process Certificate Applications
+
 Certificate applications will be processed as soon as practicable and in accordance with the 
 performance criteria set out in the published service level agreement.
 
-4.3 Certificate Issuance
-------------------------
+### 4.3 Certificate Issuance
 
-4.3.1 CA Actions during Certificate Issuance
---------------------------------------------
+#### 4.3.1 CA Actions during Certificate Issuance
+
 Upon receiving the request, the CA or RA will:
 
 * Verify the identity of the subscriber as specified in Section 3.2;
@@ -474,8 +463,8 @@ satisfaction.
 All authorization and other attribute information received from a prospective subscriber shall be 
 verified by the CA or RA before inclusion in a certificate.
 
-4.3.2 Notification to Subscriber by the CA of Issuance of Certificate
----------------------------------------------------------------------
+#### 4.3.2 Notification to Subscriber by the CA of Issuance of Certificate
+
 The CA shall inform the subscriber (or other certificate subject) of the creation of a certificate and 
 make the certificate available to the subscriber. Such notification is achieved by the CA node 
 (‘the Doorman node’) responding to the subscriber node with a signed subscriber certificate 
@@ -491,33 +480,33 @@ authorisation checks), the CA staff will contact the named contact on
 the CSR (which will be a sponsor contact in the case of sponsored nodes) to update them with 
 the status of the request.
 
-4.4 Certificate Acceptance
---------------------------
+### 4.4 Certificate Acceptance
+
 Subscriber nodes will authenticate the received CA certificate by validating that the CA signature 
 resolves back to the Trust Root published by the Corda Network Foundation. It is the responsibility of the subscriber 
 to ensure this check is carried out and not use any certificate which fails 
 this check.
 
-4.4.1 Conduct Constituting Certificate Acceptance
--------------------------------------------------
+#### 4.4.1 Conduct Constituting Certificate Acceptance
+
 Failure to object to the certificate or its contents shall constitute acceptance of the certificate.
 
-4.4.2 Publication of the Certificate by the CA
-----------------------------------------------
+#### 4.4.2 Publication of the Certificate by the CA
+
 As specified in Section 2.1, all CA certificates shall be published in repositories.
 
 This policy makes no stipulation regarding publication of subscriber certificates.
 
-4.4.3 Notification of Certificate Issuance by the CA to Other Entities
-----------------------------------------------------------------------
+#### 4.4.3 Notification of Certificate Issuance by the CA to Other Entities
+
 The Policy Authority must be notified whenever a CA operating under this policy issues a CA or 
 subscriber certificate.
 
-4.5 Key Pair and Certificate Usage
-----------------------------------
+### 4.5 Key Pair and Certificate Usage
 
-4.5.1 Subscriber Private Key and Certificate Usage
---------------------------------------------------
+
+#### 4.5.1 Subscriber Private Key and Certificate Usage
+
 The intended scope of usage for a private key is specified though certificate extensions, including 
 the key usage extensions, in the associated certificate.
 
@@ -533,8 +522,8 @@ authorised Corda Network subscribers. Such TLS certificates
  business between respective entities on the ledger, including any commercial contracts 
  in place and relevant jurisdictional laws and regulations.
 
-4.5.2 Relying Party Public Key and Certificate Usage
-----------------------------------------------------
+#### 4.5.2 Relying Party Public Key and Certificate Usage
+
 Relying parties use subscriber certificates and associated public keys to secure connections and 
 authenticate messages from other Corda Network subscribers. Certificates may specify restrictions 
 on use though critical certificate extensions, including the basic constraints and key usage extensions.
@@ -543,13 +532,13 @@ The CA shall issue CRLs specifying the current status of all unexpired certifica
 PKI scheme. It is a condition of use of Corda Network that relying parties process and comply with 
 this information whenever using certificates in a transaction.
 
-4.6 Certificate Renewal
------------------------
+### 4.6 Certificate Renewal
+
 Certificate renewal will result in the creation of a new certificate with the same name, key, and 
 other information as the old one, but with a new, extended validity period and a new serial number.
 
-4.6.1 Circumstance for Certificate Renewal
-------------------------------------------
+#### 4.6.1 Circumstance for Certificate Renewal
+
 Corda Network subscriber certificates are intended to be long-lasting, in line with the identities on 
 the ledger they are representing. Renewals will be processed as for the original certificate, with 
 verification of the identity details as per the original application and initiated by a CSR.
@@ -557,32 +546,32 @@ verification of the identity details as per the original application and initiat
 It expected that other events will have led to the revocation of a certificate (see section 4.9) 
 before its validity period expires.
 
-4.6.2 Who May Request Renewal
------------------------------
+#### 4.6.2 Who May Request Renewal
+
 Any subscriber whose certificate is close to expiry or has expired may request renewal.
 
-4.6.3 Processing Certificate Renewal Requests
----------------------------------------------
+#### 4.6.3 Processing Certificate Renewal Requests
+
 Certificate renewal requests will be processed in the same way as original certificate signing requests.
 
-4.6.4 Notification of New Certificate Issuance to Subscriber
-------------------------------------------------------------
+#### 4.6.4 Notification of New Certificate Issuance to Subscriber
+
 New certificate issuance notification will take place as per issuance of the original certificate.
 
-4.6.5 Conduct Constituting Acceptance of a Renewal Certificate
---------------------------------------------------------------
+#### 4.6.5 Conduct Constituting Acceptance of a Renewal Certificate
+
 As per acceptance of the original certificate.
 
-4.6.6 Publication of the Renewal Certificate by the CA
-------------------------------------------------------
+#### 4.6.6 Publication of the Renewal Certificate by the CA
+
 As per publication of the original certificate.
 
-4.6.7 Notification of Certificate Issuance by the CA to Other Entities
-----------------------------------------------------------------------
+#### 4.6.7 Notification of Certificate Issuance by the CA to Other Entities
+
 As per notification of the original certificate issuance to other entities.
 
-4.7 Certificate Re-key
-----------------------
+### 4.7 Certificate Re-key
+
 Re-keying a certificate consists of creating replacement certificate, containing an updated public key and serial number 
 while retaining the remaining contents of the old certificate that describe 
 the subject. The new certificate may be assigned a different validity period, key identifiers, specify 
@@ -593,13 +582,13 @@ is equivalent to a revocation and reissue (See section 4.9). Original certificat
 revoked to ensure that subscribers are only ever represented by a single subscriber certificate and 
 key pair.
 
-4.8 Certificate Modification
-----------------------------
+### 4.8 Certificate Modification
+
 As per re-key requests, any modification to a subscriber certificate requires revocation of the original (see section 4.9) 
 and reissue of a new subscriber certificate.
 
-4.9 Certificate Revocation and Suspension
------------------------------------------
+### 4.9 Certificate Revocation and Suspension
+
 Certificate Revocation in the Corda Network is still being finalised, and aspects could change in 
 the future. In particular it is likely that revocation of Corda certificates could be implemented by 
 an entirely separate mechanism to the CRL facility provided by X.509 certificates.
@@ -616,8 +605,8 @@ Revocation requests must be authenticated. See Section 3.2 for more details.
 
 Certificate suspension is not supported by this CPS.
 
-4.9.1 Circumstances for Revocation
-----------------------------------
+#### 4.9.1 Circumstances for Revocation
+
 Corda Network subscriber certificates are intended to be long-lived, and revocation only used in 
 specific circumstances:
 
@@ -659,13 +648,13 @@ Whenever any of the above circumstances occur, the associated certificate shall 
 and placed on the CRL. Revoked certificates shall be included on all new publications of the 
 certificate status information until the certificates expire.
 
-4.9.2 Who Can Request Revocation
---------------------------------
+#### 4.9.2 Who Can Request Revocation
+
 Within the Corda Network, certificate revocation can be requested either by the CA, the Corda 
 Network Governing Body, a subscriber or its sponsor.
 
-4.9.3 Procedure for Revocation Request
---------------------------------------
+#### 4.9.3 Procedure for Revocation Request
+
 Due to the impact of revocation on the assets held under the certificate being revoked, the conditions under which such 
 revocations can occur will be precisely defined in contractual agreements between the parties concerned. This CPS 
 assumes that the relevant conditions have been 
@@ -678,8 +667,8 @@ Where the CA is revoking a certificate on request from the subscriber, adequate 
 taken to authenticate the request, including verifying that the requester is suitably authorised 
 within the subscriber entity to make the request.
 
-4.9.4 Procedure for Revocation Request
---------------------------------------
+#### 4.9.4 Procedure for Revocation Request
+
 Requests to revoke a certificate must be made via the published channel of the CA and shall:
 
 1. Identify the certificate to be revoked;
@@ -694,63 +683,57 @@ Revocation requests must be endorsed by at least two officers of the company and
 be provided to demonstrate the grounds for revocation including satisfaction of all relevant contractual conditions, 
 proof that all procedures to remedy have completed their course and to ensure legal validity of the action.
 
-4.9.5 Revocation Request Grace Period
--------------------------------------
+#### 4.9.5 Revocation Request Grace Period
+
 There is no grace period for revocation under this policy.
 
-4.9.6 Time within which CA must Process the Revocation Request
---------------------------------------------------------------
+#### 4.9.6 Time within which CA must Process the Revocation Request
+
 CAs will revoke certificates as quickly as practical upon receipt of a proper revocation request. 
 Revocation requests shall be processed before the next CRL is published, excepting those requests 
 received within two hours of CRL issuance.
 
-4.9.7 Revocation Checking Requirements for Relying Parties
-----------------------------------------------------------
+#### 4.9.7 Revocation Checking Requirements for Relying Parties
+
 It is the responsibility of relying parties to ensure that they regularly download and check the CRL, 
 and any activity conducted by them with parties appearing on the list is at their own risk.
 
-4.9.8 CRL Issuance Frequency
-----------------------------
+#### 4.9.8 CRL Issuance Frequency
+
 CRLs shall be issued periodically by the CA. Certificate status information may be issued more 
 frequently than the issuance frequency described below. Certificate status information shall be 
 published no later than the next scheduled update, this will facilitate the local caching of certificate status 
 information.
 
-For the status of Doorman-issued Node Certificates: the CRL is updated and reissued at least once every seven (7) days,
-and the value of the nextUpdate field is not more than ten (10) days beyond the value of the thisUpdate field.
+For the status of Doorman-issued Node Certificates: the CRL is updated and reissued at least once every seven (7) days, and the value of the nextUpdate field is not more than ten (10) days beyond the value of the thisUpdate field.
 
-For the status of node TLS certificates: the CRL is updated and reissued at least once every seven (7) days,
-and the value of the nextUpdate field is not more than ten (10) days beyond the value of the thisUpdate field.
+For the status of node TLS certificates: the CRL is updated and reissued at least once every seven (7) days, and the value of the nextUpdate field is not more than ten (10) days beyond the value of the thisUpdate field.
 
-For the status of all other certificates issued by the Corda Network Operator: the CRL will be issued at least (i) once
-every twelve (12) months and (ii) within 24 hours after revoking a certificate. The value of the nextUpdate field is not
-more than twelve months beyond the value of the thisUpdate field.
+For the status of all other certificates issued by the Corda Network Operator: the CRL will be issued at least (i) once every twelve (12) months and (ii) within 24 hours after revoking a certificate. The value of the nextUpdate field is not more than twelve months beyond the value of the thisUpdate field. Circumstances related to emergency CRL issuance are specified in section 4.9.12.
 
-Circumstances related to emergency CRL issuance are specified in section 4.9.12.
+#### 4.9.9 Maximum Latency for CRLs
 
-4.9.9 Maximum Latency for CRLs
-------------------------------
 Following certificate revocation, the Certificate Revocation List will be updated according to the 
 SLAs published at the time.
 
 Irrespective of the above each CRL shall be published no later than the time specified in the _nextUpdate_ field of the 
 previously issued CRL for same scope.
 
-4.9.10 On-Line Revocation/Status Checking Availability
-------------------------------------------------------
+#### 4.9.10 On-Line Revocation/Status Checking Availability
+
 On-line certificate status protocol (OCSP) is not currently supported.
 
-4.9.11 On-line Revocation Checking Requirements
------------------------------------------------
+#### 4.9.11 On-line Revocation Checking Requirements
+
 No stipulation.
 
-4.9.12 Other Forms of revocation Advertisements Available
----------------------------------------------------------
+#### 4.9.12 Other Forms of revocation Advertisements Available
+
 The CA may also use other methods to publicize the certificates it has revoked. Details of alternative forms of 
 revocation advertisement will be provided through updates to this CPS.
 
-4.9.13 Special Requirements Related to Key Compromise
------------------------------------------------------
+#### 4.9.13 Special Requirements Related to Key Compromise
+
 Due to the significance of private keys in the Corda Network, holders of such keys are expected 
 to take measures, appropriate to the value of assets that the keys control, to ensure their confidentiality. Should a 
 party suspect that a private key has been subject to unauthorised disclosure , 
@@ -775,75 +758,75 @@ Aside from the above, there are no special requirements relating to key compromi
 of the certificate, at the discretion of the subscriber and at a time of their choosing may be accomplished according 
 to the previous sections of this document.
 
-4.9.14 Circumstances for Suspension
------------------------------------
+#### 4.9.14 Circumstances for Suspension
+
 Suspension of certificates is not currently supported.
 
-4.9.15 Who Can Request Suspension
----------------------------------
+#### 4.9.15 Who Can Request Suspension
+
 Not applicable.
 
-4.9.16 Procedure for Suspension Request
----------------------------------------
+#### 4.9.16 Procedure for Suspension Request
+
 Not applicable.
 
-4.9.17 Limits on Suspension Period
-----------------------------------
+#### 4.9.17 Limits on Suspension Period
+
 Not applicable.
 
-4.9.18 Circumstances for Restoration
-------------------------------------
+#### 4.9.18 Circumstances for Restoration
+
 Not applicable.
 
-4.9.19 Who Can Request Restoration
-----------------------------------
+#### 4.9.19 Who Can Request Restoration
+
 Not applicable.
 
-4.9.20 Procedure for Restoration Request
-----------------------------------------
+#### 4.9.20 Procedure for Restoration Request
+
 Not applicable.
 
-4.10 Certificate Status Services
---------------------------------
+### 4.10 Certificate Status Services
+
 Certificate status is provided by the CA via published CRLs.
 
-4.11 End of Subscription
-------------------------
+### 4.11 End of Subscription
+
 Subscriber certificates are either renewed at the end of their life or allowed to expire as all assets 
 under their control have been transferred. In each case, the action to be taken is at the discretion 
 of the subscriber, provided relevant contractual arrangements are continued.
 
-4.12 Key Escrow and Recovery
-----------------------------
+### 4.12 Key Escrow and Recovery
+
 Escrow of private keys is not supported. Subscribers are responsible for the custody and security of 
 their private keys at all times.
 
-4.12.1 Key Escrow and Recovery Policy and Practices
----------------------------------------------------
+#### 4.12.1 Key Escrow and Recovery Policy and Practices
+
 Not supported.
 
-4.12.2 Session Key Encapsulation and Recovery Policy and Practices
-------------------------------------------------------------------
+#### 4.12.2 Session Key Encapsulation and Recovery Policy and Practices
+
 Session key encapsulation and recovery is not supported.
 
-5 Facility, Management, and Operational Controls
-================================================
+## 5 Facility, Management, and Operational Controls
 
-5.1 Physical Controls
----------------------
+
+### 5.1 Physical Controls
+
 The CA infrastructure is located in a secure facility within the Interxion London Campus and in 
 Microsoft’s Azure data centres. Critical CA functions (such as certificate signing activities) are carried out on 
 dedicated infrastructure. Detailed security procedures have been put in place and 
 are followed the CA and by supplier organisations, that prohibit unauthorized access and entry 
 into the areas of the facilities in which the CA systems reside.
 
-5.1.1 Site Location and Construction
-------------------------------------
+#### 5.1.1 Site Location and Construction
+
 Site locations that contain dedicated CA infrastructure have been assessed by the CA for their 
 physical security. All buildings are solidly constructed to prevent unauthorised entry.
 
-5.1.2 Physical Access
----------------------
+#### 5.1.2 Physical Access
+
 The CA has in place appropriate physical security controls to restrict access to facilities providing 
 CA services.
 
@@ -857,32 +840,32 @@ Physical access to hardware and software that provides a supporting capability t
 controlled according to the information security control environment documented by the infrastructure provider 
 (Microsoft Azure).
 
-5.1.3 Power and Air Conditioning
---------------------------------
+#### 5.1.3 Power and Air Conditioning
+
 The CA facilities are connected to UPS and emergency power generator and are equipped with 
 cooling systems.
 
-5.1.4 Water Exposures
----------------------
+#### 5.1.4 Water Exposures
+
 The CA facilities are equipped with controls which protect CA systems from damage resulting from 
 water leakage.
 
-5.1.5 Fire Prevention and Protection
-------------------------------------
+#### 5.1.5 Fire Prevention and Protection
+
 The CA facilities are equipped with fire detection alarms and protection equipment.
 
-5.1.6 Media Storage
--------------------
+#### 5.1.6 Media Storage
+
 No stipulation.
 
-5.1.7 Waste Disposal
---------------------
+#### 5.1.7 Waste Disposal
+
 The CA takes reasonable steps to ensure that all media used for the storage of sensitive information such as keys, 
 activation data or configuration information is appropriately purged or destroyed according to a defined data 
 destruction standard before being released for disposal
 
-5.1.8 Off-Site Backup
----------------------
+#### 5.1.8 Off-Site Backup
+
 The CA will maintain a backup facility for its CA infrastructure, which will also hold copies of the 
 CA private keys for redundancy. The backup facilities will have security controls which are equivalent to those 
 operated at the primary.
@@ -891,17 +874,17 @@ The CA maintains sharded, encrypted backups of the CA private keys at multiple s
 storage facilities. Access to multiple facilities is required to recover key material and the backups can survive total 
 loss of 33% of the storage facilities.
 
-5.2 Procedural Controls
------------------------
+### 5.2 Procedural Controls
 
-5.2.1 Trusted Roles
--------------------
+
+#### 5.2.1 Trusted Roles
+
 All personnel who have access to, or control over cryptographic operations of the CA that affect 
 the issuance, use, and management of certificates are considered as serving in a trusted role. 
 Such personnel include, but are not limited to, members of the Corda Network
 
-5.2.2 Number of Persons Required per Task
------------------------------------------
+#### 5.2.2 Number of Persons Required per Task
+
 Where multi-party control is required, all participants shall hold a trusted role. Multi-party control 
 shall not be achieved using personnel that serve in a Security Auditor role with the exception of 
 audit functions. The following tasks shall require two or more persons:
@@ -913,8 +896,8 @@ audit functions. The following tasks shall require two or more persons:
 * Archiving or deleting CA audit logs; _or_
 * Physical access to CA equipment.
 
-5.2.3 Identification and Authentication for Each Role
------------------------------------------------------
+#### 5.2.3 Identification and Authentication for Each Role
+
 Individuals holding trusted roles shall identify themselves and be authenticated by the CA before 
 being permitted to perform any actions set forth above for that role or identity. CA Operations 
 Staff shall authenticate using a credential that is distinct from any credential they use to perform 
@@ -951,8 +934,8 @@ The CA shall have the minimum number of accounts that are necessary to its opera
 access shall be locked after an appropriate number of unsuccessful login attempts. Restoration 
 of access shall be performed by a different person who holds a trusted role.
 
-5.2.4 Roles requiring separation of duties
-------------------------------------------
+#### 5.2.4 Roles requiring separation of duties
+
 Doorman CA roles
 
 Day to day operations of the Corda Network Doorman CA requires three trusted roles to be segregated. Persons holding 
@@ -986,11 +969,11 @@ multi-person control.
 
 An individual that performs any trusted role shall only have one identity when accessing CA equipment.
 
-5.3 Personnel Controls
-----------------------
+### 5.3 Personnel Controls
 
-5.3.1 Qualifications, Experience, and Clearance Requirements
-------------------------------------------------------------
+
+#### 5.3.1 Qualifications, Experience, and Clearance Requirements
+
 The CA has implemented policies for verifying the identity and trustworthiness of its personnel. Furthermore, the CA 
 evaluates the performance of its staff to ensure that they perform their duties in 
 a satisfactory manner.
@@ -1006,8 +989,8 @@ All individuals appointed to any trusted role must meet the following requiremen
  section 5.2.1; _and_
 * Have not been previously relieved of trusted role duties for reasons of negligence or non performance of duties.
 
-5.3.2 Background Check Procedures
----------------------------------
+#### 5.3.2 Background Check Procedures
+
 **Note to reviewer:** Background checks have not historically been conducted to this level for CA 
 personnel. This will be changed in the near future and background checks for all CA personnel 
 will be brought into line with this, and retrospective background checks will be carried out for all 
@@ -1025,8 +1008,8 @@ laws) which will include a reasonable subset of the following:
 * Check of credit/financial records; _and_
 * Identity verification
 
-5.3.3 Training Requirements
----------------------------
+#### 5.3.3 Training Requirements
+
 All personnel performing duties with respect to the operation of the CA personnel shall receive 
 comprehensive training. Training shall be conducted in the following areas:
 
@@ -1036,25 +1019,25 @@ comprehensive training. Training shall be conducted in the following areas:
 * Disaster recovery and business continuity procedures; _and_
 * Stipulations of these practices and any specific policies to which the role is subject.
 
-5.3.4 Retraining Frequency and Requirements
--------------------------------------------
+#### 5.3.4 Retraining Frequency and Requirements
+
 All personnel in trusted roles are required to maintain skill levels consistent with the tasks assigned 
 to them. As such, the CA requires those personnel to undergo retraining at least annually and also
 
 when the systems they operate, or the security control environment, is subject to significant 
 change.
 
-5.3.5 Job Rotation Frequency and Sequence
------------------------------------------
+#### 5.3.5 Job Rotation Frequency and Sequence
+
 No stipulation.
 
-5.3.6 Sanctions for Unauthorized Actions
-----------------------------------------
+#### 5.3.6 Sanctions for Unauthorized Actions
+
 The CA will impose sanctions on personnel if they perform unauthorized acts, abuse their authority 
 or for other appropriate reasons, at the discretion of the CA management.
 
-5.3.7 Independent Contractor Requirements
------------------------------------------
+#### 5.3.7 Independent Contractor Requirements
+
 Independent contractors assuming trusted roles shall be subject to all requirements stipulated in 
 this document.
 
@@ -1062,16 +1045,16 @@ Independent contractors who have not completed or passed the background check pr
 specified above must be escorted and directly supervised by a person holding trusted role at all 
 times when present at CA facilities.
 
-5.3.8 Documentation Supplied to Personnel
------------------------------------------
+#### 5.3.8 Documentation Supplied to Personnel
+
 Documentation sufficient to define duties and procedures for each role shall be provided to the 
 personnel filling that role.
 
-5.4 Audit Logging Procedures
-----------------------------
+### 5.4 Audit Logging Procedures
 
-5.4.1 Types of Events Recorded
-------------------------------
+
+#### 5.4.1 Types of Events Recorded
+
 The following events are recorded:
 
 * CA key lifecycle management events 
@@ -1112,75 +1095,75 @@ Log entries include the following elements:
 Logging is automated wherever possible. Where necessary, manual logging and record keeping 
 methods may be used.
 
-5.4.2 Frequency of Processing Log
----------------------------------
+#### 5.4.2 Frequency of Processing Log
+
 Audit logs are reviewed on an as-required basis.
 
-5.4.3 Retention Period for Audit Logs
--------------------------------------
+#### 5.4.3 Retention Period for Audit Logs
+
 The CA retains audit logs for a period of seven years, or longer, if required by law.
 
-5.4.4 Protection of Audit Log
------------------------------
+#### 5.4.4 Protection of Audit Log
+
 Multiple copies of audit logs are stored in geographically separate locations, protected by appropriate physical and 
 logical access controls.
 
-5.4.5 Audit Log Backup Procedures
----------------------------------
+#### 5.4.5 Audit Log Backup Procedures
+
 Audit logs and audit summaries are be backed up on a defined schedule.
 
-5.4.6 Audit Collection System (Internal vs. External)
------------------------------------------------------
+#### 5.4.6 Audit Collection System (Internal vs. External)
+
 No stipulation.
 
-5.4.7 Notification to Event-Causing Subject
--------------------------------------------
+#### 5.4.7 Notification to Event-Causing Subject
+
 There is no requirement to notify a subject that an event was audited. Events that are deemed 
 security critical will be escalated to the CA’s incident response team.
 
-5.4.8 Vulnerability Assessments
--------------------------------
+#### 5.4.8 Vulnerability Assessments
+
 The CA operates a vulnerability assessment program that combines regular in-house testing using 
 commercial vulnerability assessment tools, internal security code reviews and external vulnerability 
 and penetration testing.
 
-5.5 Records Archival
---------------------
+### 5.5 Records Archival
 
-5.5.1 Types of Events Archived
-------------------------------
+
+#### 5.5.1 Types of Events Archived
+
 Records that should be archived are specified in section 5.4.1.
 
-5.5.2 Retention Period for Archive
-----------------------------------
+#### 5.5.2 Retention Period for Archive
+
 Archive records must be retained for the lifetime of the Corda Network at the CA’s discretion. The 
 CA retains audit logs for a period of seven years, or longer, if required by law.
 
-5.5.3 Protection of Archive
----------------------------
+#### 5.5.3 Protection of Archive
+
 A backup of archive information is retained in a geographically separate location with similar 
 security and availability protection as the primary environment.
 
-5.5.4 Archive Backup Procedures
--------------------------------
+#### 5.5.4 Archive Backup Procedures
+
 Backup and recovery procedures exist to recover systems in the event of loss or destruction of the 
 primary archives.
 
-5.5.5 Requirements for Time-Stamping of records
------------------------------------------------
+#### 5.5.5 Requirements for Time-Stamping of records
+
 Archive records are automatically time-stamped as they are created. Where practical, accuracy of timestamps will be 
 ensured by synchronizing the hosts to a network time source.
 
-5.5.6 Archive Collection System (Internal or External)
-------------------------------------------------------
+#### 5.5.6 Archive Collection System (Internal or External)
+
 Archive data may be collected in any expedient manner.
 
-5.5.7 Procedures to Obtain and Verify Archive Information
----------------------------------------------------------
+#### 5.5.7 Procedures to Obtain and Verify Archive Information
+
 No stipulation.
 
-5.6 Key Changeover
-------------------
+### 5.6 Key Changeover
+
 The Corda Network Subordinate CAs and the Corda Network Doorman CA will only be rotated in 
 extremis. Changeover of intermediate certificates will involve a re-enactment of the initial key 
 generation ceremony, in which the Corda Network Foundation’s root key will be required to 
@@ -1191,11 +1174,11 @@ originally used to provide the operational certificate.
 
 CA’s signing key shall have a validity period as described in section 6.3.2.
 
-5.7 Compromise and Disaster Recovery
-------------------------------------
+### 5.7 Compromise and Disaster Recovery
 
-5.7.1 Incident and Compromise Handling Procedures
--------------------------------------------------
+
+#### 5.7.1 Incident and Compromise Handling Procedures
+
 If a disaster causes the CA to become inoperative, the CA will re-initiate its operations on replacement hardware at a 
 similarly secure facility after verifying the integrity and confidentiality of the 
 CA systems.
@@ -1222,8 +1205,8 @@ The CA shall notify the Corda Network Foundation if any of the following occur:
  o the CSS certificate has a lifetime of more than <72> hours; and 
  o the CSS certificate cannot be revoked
 
-5.7.2 Computing Resources, Software, and/or Data Are Corrupted
---------------------------------------------------------------
+#### 5.7.2 Computing Resources, Software, and/or Data Are Corrupted
+
 When computing resources, software, and/or data are corrupted, the CA shall respond as follows:
 
 * Notify Corda Network Foundation as soon as possible.
@@ -1236,8 +1219,8 @@ When computing resources, software, and/or data are corrupted, the CA shall resp
  risk is deemed substantial, re-establish CA operations as quickly as possible, giving priority 
  to the generation of a new CA signing key pair.
 
-5.7.3 Entity (CA) Private Key Compromise Procedures
----------------------------------------------------
+#### 5.7.3 Entity (CA) Private Key Compromise Procedures
+
 In the event that the private key of a CA is compromised, the CA will:
 
 * Notify the Corda Network Foundation;
@@ -1251,8 +1234,8 @@ Once the compromised key material has been replaced, and secure operation of the
 the CA may issue replacement certificates, following the procedure for 
 initially providing the certificates.
 
-5.7.4 Business Continuity Capabilities after a Disaster
--------------------------------------------------------
+#### 5.7.4 Business Continuity Capabilities after a Disaster
+
 The CA maintains a Facility Specific Disaster Recovery Plan for its facilities.
 
 In the case of a disaster in which the CA equipment is damaged and inoperative, the CA operations shall be 
@@ -1268,8 +1251,8 @@ revoke the certificate associated with that key. The CA installation shall then 
 by re-establishing the CA equipment, generating new private and public keys and being re-certified. Finally, all 
 Participant certificates will be re-issued.
 
-5.8 CA or RA Termination
-------------------------
+### 5.8 CA or RA Termination
+
 If it becomes necessary to terminate operations of a CA before all certificates have expired, the 
 CA will:
 
@@ -1283,14 +1266,13 @@ certificates issued by the CA expire;
 * If a Root CA is terminated, the Root CA shall use secure means to notify the subscribers to 
  delete all trust anchors representing the terminated CA.
 
-6 Technical controls
-====================
+## 6 Technical controls
 
-6.1 Key Pair Generation and Installation
-----------------------------------------
+### 6.1 Key Pair Generation and Installation
 
-6.1.1 Key Pair Generation
--------------------------
+
+#### 6.1.1 Key Pair Generation
+
 Key pairs for CAs are generated in \[FIPS 140\] Level 3 validated Hardware Security Modules (HSM). 
 Formal key generation procedures are observed during the creation of all key material. Private 
 keys cannot be exported from the HSM in plaintext. Multi-party control is required for CA key pair 
@@ -1306,46 +1288,46 @@ enough to show that appropriate role separation was used. The CA has engaged an 
 third party to validate the execution of the key generation procedures by witnessing the key generation ceremony for 
 the root and subordinate keys and certificates.
 
-6.1.2 Private Key Delivery to Subscriber
-----------------------------------------
+#### 6.1.2 Private Key Delivery to Subscriber
+
 Not applicable.
 
-6.1.3 Public Key Delivery to Certificate Issuer
------------------------------------------------
+#### 6.1.3 Public Key Delivery to Certificate Issuer
+
 Network participants provide their public key to the CA through a PKCS#10 CSR, transferred 
 over TLS
 
-6.1.4 CA Public Key Delivery to Relying Parties
------------------------------------------------
+#### 6.1.4 CA Public Key Delivery to Relying Parties
+
 The public keys of Corda Network Subordinate CAs are signed by the Corda Network Root CA. 
 Both Subordinate and Root are included in the Corda Node software distribution. In addition, CA 
 public keys are made available from the online repository at: [http://trust.corda.network/](http://trust.corda.network/)
 
-6.1.5 Key Sizes
----------------
+#### 6.1.5 Key Sizes
+
 CAs use key sizes and cryptographic protocols which adhere to NIST recommendations and to the applicable provisions of 
 the CP.
 
-6.1.6 Public Key Parameters Generation and Quality Checking
------------------------------------------------------------
+#### 6.1.6 Public Key Parameters Generation and Quality Checking
+
 Elliptic Curve public key parameters shall always be selected from the set specified in section 7.1.3.
 
-6.1.7 Key Usage Purposes (as per X.509 v3 Key Usage Field)
-----------------------------------------------------------
+#### 6.1.7 Key Usage Purposes (as per X.509 v3 Key Usage Field)
+
 No stipulation.
 
-6.2 Private Key Protection and Cryptographic Module Engineering Controls
-------------------------------------------------------------------------
+### 6.2 Private Key Protection and Cryptographic Module Engineering Controls
 
-6.2.1 Cryptographic Module Standards and Controls
--------------------------------------------------
+
+#### 6.2.1 Cryptographic Module Standards and Controls
+
 The CA shall use a \[FIPS 140\] Level 3 or higher validated hardware cryptographic module for signing operations.
 
 CA private keys are kept in physically secure locations and are never stored unencrypted outside 
 of their Hardware Security Modules.
 
-6.2.2 Private Key (N of M) Multi-Person Control
------------------------------------------------
+#### 6.2.2 Private Key (N of M) Multi-Person Control
+
 A single person shall not be permitted to activate or access any cryptographic module that contains the complete CA 
 signing key. CA signing keys may be backed up only under two-person 
 control. Access to CA signing keys backed up for disaster recovery shall be under at least two-person control. The 
@@ -1356,24 +1338,24 @@ All CA key pairs are generated in pre-planned key generation ceremonies. Upon fi
 the ceremony, all individuals sign off on the successful completion of the script and thoroughly 
 describe any exceptions that may have been applied in the process.
 
-6.2.3 Private Key Escrow
-------------------------
+#### 6.2.3 Private Key Escrow
+
 CA private keys are never escrowed.
 
-6.2.4 Private Key Backup
-------------------------
+#### 6.2.4 Private Key Backup
+
 The CA private signature keys are backed up under the same multiparty control as the original 
 signature key. Encrypted copies of the private signature keys are store offsite. All copies of the CA 
 private signature key are accounted for and protected in the same manner as the original.
 
 Backup procedures form part of the CAs cryptographic material handling procedures.
 
-6.2.5 Private Key Archival
---------------------------
+#### 6.2.5 Private Key Archival
+
 Private keys belonging to CAs are not archived by parties other than the CA.
 
-6.2.6 Private Key Transfer into or from a Cryptographic Module
---------------------------------------------------------------
+#### 6.2.6 Private Key Transfer into or from a Cryptographic Module
+
 CA private keys are exported from the cryptographic module only as a result of CA key backup 
 procedures as described in Section 6.2.4.1. At no time shall the CA private key exist in plaintext 
 outside the cryptographic module.
@@ -1381,12 +1363,12 @@ outside the cryptographic module.
 All transfers of private keys to and from an HSM are performed in accordance with the procedures 
 specified by the HSM vendor and by the CA’s cryptographic material handling procedures.
 
-6.2.7 Private Key Storage on Cryptographic Module
--------------------------------------------------
+#### 6.2.7 Private Key Storage on Cryptographic Module
+
 Private keys are store in accordance with the applicable instruction specified by the HSM vendor.
 
-6.2.8 Method of Activating Private Key
---------------------------------------
+#### 6.2.8 Method of Activating Private Key
+
 All CA private keys are activated in accordance with the HSM vendor instructions.
 
 Multi-factor authentication is required for all private key activation.
@@ -1394,28 +1376,28 @@ Multi-factor authentication is required for all private key activation.
 Subordinate or Issuing CA private keys require (N of M) multi person control as described in section 
 6.2.2.
 
-6.2.9 Method of Deactivating Private Key
-----------------------------------------
+#### 6.2.9 Method of Deactivating Private Key
+
 All CA private keys are deactivated in accordance with the HSM vendor instructions.
 
-6.2.10 Method of Destroying Private Key
----------------------------------------
+#### 6.2.10 Method of Destroying Private Key
+
 Private keys are destroyed in accordance with applicable instructions specified by the HSM manufacturer. In addition, 
 the CA’s data destruction procedures must be followed.
 
-6.2.11 Cryptographic Module Rating
-----------------------------------
+#### 6.2.11 Cryptographic Module Rating
+
 See section 6.2.1.
 
-6.3 Other Aspects of Key Pair Management
-----------------------------------------
+### 6.3 Other Aspects of Key Pair Management
 
-6.3.1 Public Key Archival
--------------------------
+
+#### 6.3.1 Public Key Archival
+
 No stipulation.
 
-6.3.2 Certificate Operational Periods and Key Usage Periods
------------------------------------------------------------
+#### 6.3.2 Certificate Operational Periods and Key Usage Periods
+
 Certificates are valid starting at the moment of signing, unless otherwise specified in the certificate 
 validity structure, until the ned noted in the certificate expiration time.
 
@@ -1425,42 +1407,41 @@ The usage period for the Network Operator subject certificates is a maximum of 2
 
 The usage period for Network Participant certificates is a maximum of 20 years.
 
-6.4 Activation Data
--------------------
+### 6.4 Activation Data
 
-6.4.1 Activation Data Generation and Installation
--------------------------------------------------
+
+#### 6.4.1 Activation Data Generation and Installation
+
 No stipulation
 
-6.4.2 Activation Data Protection
---------------------------------
+#### 6.4.2 Activation Data Protection
+
 HSM keys (the HSM master backup keys) are stores in the HSM and can only be used by authorised 
 CA administrators upon presentation of two factor authentication (smartcard and PIN). Multi-party 
 (M of N) authentication is required to activate private keys. Physical tokens should be protected 
 and secured, local tokens (PINs, passwords etc.) must be memorised or stored in an encrypted 
 form.
 
-6.4.3 Other Aspects of Activation Data
---------------------------------------
+#### 6.4.3 Other Aspects of Activation Data
+
 No stipulation.
 
-6.5 Computer Security Controls
-------------------------------
+### 6.5 Computer Security Controls
 
-6.5.1 Specific Computer Security Technical Requirements
--------------------------------------------------------
+
+#### 6.5.1 Specific Computer Security Technical Requirements
+
 CA systems are protected from unauthorised access through a combination of physical, logical 
 and technical security controls, which are documented in the CA’s Information Security Management System (”ISMS”).
 
-6.5.2 Computer Security Rating
-------------------------------
+#### 6.5.2 Computer Security Rating
+
 No stipulation.
 
-6.6 Life Cycle Technical Controls
----------------------------------
+### 6.6 Life Cycle Technical Controls
 
-6.6.1 System Development Controls
----------------------------------
+#### 6.6.1 System Development Controls
+
 System development controls address various aspects related to the development and change 
 of the CA system through aspects of its life-cycle.
 
@@ -1471,14 +1452,14 @@ unless the change has gone through the change control process as defined for the
 In order to prevent incorrect or improper changes to the CA system, the CA system shall require 
 multi-party control for access to the CA system when changes are made.
 
-6.6.2 Security Management Controls
-----------------------------------
+#### 6.6.2 Security Management Controls
+
 The CA has established an Information Security Organisation, which operates physical, logical and 
 technical security controls, to protect the integrity, confidentiality of CA systems. The internal security control 
 environment for the CA is documented in the CA’s ISMS.
 
-6.6.3 Life Cycle Security Controls
-----------------------------------
+#### 6.6.3 Life Cycle Security Controls
+
 The CA has a set of lifecycle security controls for its systems that together make up and integrated 
 security assurance plan.
 
@@ -1501,22 +1482,22 @@ assessment and penetration testing is carried out not less than yearly. Threat m
 carried out whenever systems are subject to significant 
 change and are reviewed on a yearly basis to ensure that they are current.
 
-6.7 Network Security Controls
------------------------------
+### 6.7 Network Security Controls
+
 The networked components of the CA are located behind firewall devices that logically segregate the components of a 
 system into zones, isolating those components according to their value 
 and the need to provide access to those services to network participants and administrators. The 
 principle of least privilege is used throughout.
 
-6.8 Time-Stamping
------------------
+### 6.8 Time-Stamping
+
 All logs contain synchronized time stamps.
 
-7 Certificate, CRL, and OCSP Profiles
-=====================================
+## 7 Certificate, CRL, and OCSP Profiles
 
-7.1 Certificate Profile
------------------------
+
+### 7.1 Certificate Profile
+
 **Note to reviewer:** The certificate, CRL and OCSP profiles used by Corda nodes and supporting 
 infrastructure has not been finalised. At present, the PKI in which the nodes operate runs a uniform 
 version of the Corda code and therefore the interoperability requirements satisfied by these profiles do not exist. It 
@@ -1524,17 +1505,17 @@ is recognised that this will not always be the case and that said profiles will 
 required in the future to facilitate interoperability between heterogeneous nodes and supporting 
 infrastructure. Appropriate profiles will be included in this certificate policy at that time.
 
-7.1.1 Version Number (s)
-------------------------
+#### 7.1.1 Version Number (s)
+
 Certificates MUST be of type X.509 v3.
 
-7.1.2 Serial Numbers
---------------------
+#### 7.1.2 Serial Numbers
+
 CAs SHALL generate non-sequential Certificate serial numbers greater than zero (0) containing at 
 least 64 bits of output from a CSPRNG.
 
-7.1.3 Certificate Cipher Suite and Algorithms
----------------------------------------------
+#### 7.1.3 Certificate Cipher Suite and Algorithms
+
 The Corda Root CA and Subordinate CA Certificates shall sign with the following algorithms:
 
  Certificate Algorithm Parameters Lifetime
@@ -1548,8 +1529,8 @@ The Corda Root CA and Subordinate CA Certificates shall sign with the following 
 
 TLS certificates must follow the TLSv1.2 standard.
 
-7.1.4 Certificate Role Extension
---------------------------------
+#### 7.1.4 Certificate Role Extension
+
 Corda certificates have a custom X.509 v3 extension that specifies the role the certificate relates 
 to. This extension has the OID 1.3.6.1.4.1.50530.1.1 and is non-critical, so implementations outside 
 of Corda nodes can safely ignore it. The extension contains a single ASN.1 integer identifying the 
@@ -1577,8 +1558,8 @@ identity type the certificate is for:
  Confidential Identity 7
  
 
-7.1.5 Root CA Certificate
--------------------------
+#### 7.1.5 Root CA Certificate
+
  Extension Status Constraints
  
 
@@ -1606,8 +1587,8 @@ identity type the certificate is for:
  Extended Key Usage NOT PRESENT This extension MUST NOT be present
  
 
-7.1.6 Subordinate “Issuing” CA Certificate
-------------------------------------------
+#### 7.1.6 Subordinate “Issuing” CA Certificate
+
  Field Status Constraint
  
 
@@ -1695,8 +1676,8 @@ identity type the certificate is for:
  [RFC5280] or both values MUST be present**
  
 
-7.1.7 Certificate Policy Object Identifier
-------------------------------------------
+#### 7.1.7 Certificate Policy Object Identifier
+
 A Root CA Certificate SHOULD NOT contain the certificatePolicies extension
 
 A Subordinate CA SHALL represent, in its CP and/or CPS, that all Certificates containing a policy 
@@ -1709,20 +1690,20 @@ the reserved policy OIDs in such Certificates. The issuing CA SHALL document in 
 Practice Statement that the Certificates it issues containing the specified policy 
 identifier(s) are managed in accordance with these Requirements
 
-7.1.8 Usage of Policy Constraints Extension
--------------------------------------------
+#### 7.1.8 Usage of Policy Constraints Extension
+
 No stipulation.
 
-7.1.9 Policy Qualifiers Syntax and Semantics
---------------------------------------------
+#### 7.1.9 Policy Qualifiers Syntax and Semantics
+
 No stipulation.
 
-7.1.10 Processing Semantics for the Critical Certificate Policies
------------------------------------------------------------------
+#### 7.1.10 Processing Semantics for the Critical Certificate Policies
+
 No stipulation.
 
-7.2 CRL Profile
----------------
+### 7.2 CRL Profile
+
 Certificate Revocation in the Corda Network is still being finalised and aspects could change in 
 the future. In particular it is likely that revocation of Corda certificates could be implemented by 
 an entirely separate mechanism to the CRL facility provided by X.509 certificates. Corda certificates will still define 
@@ -1737,16 +1718,16 @@ An entry in the CRL MUST NOT be removed until the expiration date of the certifi
 words, once revoked, the certificate must remain in the CRL during its 
 validity period.
 
-7.2.1 Version Number(s)
------------------------
+### 7.2.1 Version Number(s)
+
 No stipulation.
 
-7.2.2 CRL and CRL Entry Extensions
-----------------------------------
+#### 7.2.2 CRL and CRL Entry Extensions
+
 No stipulation.
 
-7.3 OCSP Profile
-----------------
+### 7.3 OCSP Profile
+
 Certificate Revocation in the Corda Network is still being finalised and aspects could change in 
 the future. In particular it is likely that revocation of Corda Nodes could be implemented by an 
 entirely separate mechanism to the OCSP facility provided by X.509 certificates. Corda Network 
@@ -1758,23 +1739,22 @@ The Subordinate CA MAY contain an Authority Information Access extension. The Ac
 MAY be set to On-line Certificate Status Protocol. The Authority Key Identifier MAY identity a revocation key issued by 
 the Root CA.
 
-7.3.1 Version Number(s)
------------------------
+#### 7.3.1 Version Number(s)
+
 No stipulation.
 
-7.3.2 OCSP Extensions
----------------------
+#### 7.3.2 OCSP Extensions
+
 No stipulation.
 
-8 Compliance, Audit and Other Assessments
-=========================================
+## 8 Compliance, Audit and Other Assessments
 
-8.1 Frequency or Circumstances of Assessment
---------------------------------------------
+### 8.1 Frequency or Circumstances of Assessment
+
 The CA will undertake compliance audits of its security control environment at least annually.
 
-8.2 Qualifications of Assessor
-------------------------------
+### 8.2 Qualifications of Assessor
+
 Compliance audits of the CA will be performed by a public accounting firm that possesses the 
 following qualifications and skills
 
@@ -1783,13 +1763,13 @@ following qualifications and skills
 tools and techniques, information technology and security audit ing and the third-party attestation function; and
 3. Bound by law, government regulation, or a professional code of ethics.
 
-8.3 Assessor’s Relationship to Assessed Entity
-----------------------------------------------
+### 8.3 Assessor’s Relationship to Assessed Entity
+
 Compliance audits of the CA are performed by a public accounting firm that is independent of 
 the subject of audit.
 
-8.4 Topics Covered by Assessment
---------------------------------
+### 8.4 Topics Covered by Assessment
+
 Compliance audits of the CA cover a validation of controls relevant to the proper operation of 
 the CA.
 
@@ -1799,130 +1779,130 @@ Certificate Policy.
 The compliance audits will provide an assessment of the design and effectiveness the CA’s security control environment 
 and will include validation of “agreed upon procedures”, based on selected controls from a standard such as SOC 2 or ISO 27001.
 
-8.5 Actions Taken as a Result of Deficiency
--------------------------------------------
+### 8.5 Actions Taken as a Result of Deficiency
+
 Significant deficiencies identified during a compliance audit will result in a determination of actions to be taken by 
 the CA management. These decisions are made with input from the auditor 
 and implemented within a commercially reasonable period of time.
 
-8.6 Communication of Results
-----------------------------
+### 8.6 Communication of Results
+
 A copy of the service auditor’s statement will be provided to Corda Network participants when 
 requested by them to support trust in the CA.
 
-9 Other Business and Legal Matters
-==================================
+## 9 Other Business and Legal Matters
 
-9.1 Fees
---------
 
-9.1.1 Certificate Issuance or Renewal Fees
-------------------------------------------
+### 9.1 Fees
+
+
+#### 9.1.1 Certificate Issuance or Renewal Fees
+
 Certificate issuance and renewal fees will be decided by the Corda Network Foundation 
 (CNF) and may be included in a single network access fee. Such fee schedules to be published 
 by the CNF from time to time.
 
-9.1.2 Certificate Access Fees
------------------------------
+#### 9.1.2 Certificate Access Fees
+
 Certificate access fees will be decided by the CNF and may be included in a single network 
 access fee. Such fee schedules to be published by the CNF from time to time.
 
-9.1.3 Revocation or Status Information Access Fees
---------------------------------------------------
+#### 9.1.3 Revocation or Status Information Access Fees
+
 Revocation or status information access fees will be decided by the CNF and may be included 
 in a single network access fee. Such fee schedules to be published by the CNF from time to 
 time.
 
-9.1.4 Fees for other Services
------------------------------
+#### 9.1.4 Fees for other Services
+
 Other service fees are not envisioned at this time but may be introduced by the CNF in the future 
 and may or may not be included in a single network access fee. Such fee schedules to be published by the CNF from time 
 to time.
 
-9.1.5 Refund Policy
--------------------
+#### 9.1.5 Refund Policy
+
 Refund policy will be determined and published by the CNF.
 
-9.2 Financial Responsibility
-----------------------------
+### 9.2 Financial Responsibility
 
-9.2.1 Insurance Coverage
-------------------------
+
+#### 9.2.1 Insurance Coverage
+
 The CA maintains general liability insurance proportionate to the specific risks of the service being 
 offered.
 
-9.2.2 Other Assets
-------------------
+#### 9.2.2 Other Assets
+
 No stipulation.
 
-9.2.3 Insurance or Warranty Coverage for End-Entities
------------------------------------------------------
+#### 9.2.3 Insurance or Warranty Coverage for End-Entities
+
 No stipulation.
 
-9.3 Confidentiality of Business Information
--------------------------------------------
+### 9.3 Confidentiality of Business Information
 
-9.3.1 Scope of Confidential Information
----------------------------------------
+
+#### 9.3.1 Scope of Confidential Information
+
 Information, including names of business entities and routing information, is procured for the express purpose of 
 making such information available to other subscribers and relying parties within 
 the Corda Network and is not considered confidential.
 
-9.3.2 Information not within the Scope of Confidential Information
-------------------------------------------------------------------
+#### 9.3.2 Information not within the Scope of Confidential Information
+
 No stipulation.
 
-9.3.3 Responsibility to Protect Confidential Information
---------------------------------------------------------
+#### 9.3.3 Responsibility to Protect Confidential Information
+
 No stipulation.
 
-9.4 Privacy of Personal Information
------------------------------------
+### 9.4 Privacy of Personal Information
 
-9.4.1 Privacy Plan
-------------------
+
+#### 9.4.1 Privacy Plan
+
 The CA will comply with all relevant data protection legislation in the jurisdictions within which it 
 operates.
 
-9.4.2 Information Treated as Private
-------------------------------------
+#### 9.4.2 Information Treated as Private
+
 Any personally identifiable information (PII) relating to subscribers, relying parties or Registration 
 Authorities and their employees to which the CA has access or control must be treated as private.
 
-9.4.3 Information not Deemed Private
-------------------------------------
+#### 9.4.3 Information not Deemed Private
+
 IP addresses of Corda nodes are not considered private information relating to individual persons 
 unless the node is operated by, and certificated to, a named individual rather than a corporate 
 entity will not be deemed private.
 
-9.4.4 Responsibility to Protect Private Information
----------------------------------------------------
+#### 9.4.4 Responsibility to Protect Private Information
+
 The CA will comply with all relevant data protection legislation in the jurisdictions within which they 
 operate.
 
-9.4.5 Notice and Consent to Use Private Information
----------------------------------------------------
+#### 9.4.5 Notice and Consent to Use Private Information
+
 The CA will comply with all relevant data protection legislation in the jurisdictions within which it 
 operates.
 
-9.4.6 Disclosure Pursuant to Judicial or Administrative Process
----------------------------------------------------------------
+#### 9.4.6 Disclosure Pursuant to Judicial or Administrative Process
+
 No stipulation.
 
-9.4.7 Other Information Disclosure Circumstances
-------------------------------------------------
+#### 9.4.7 Other Information Disclosure Circumstances
+
 No stipulation.
 
-9.5 Intellectual Property Rights
---------------------------------
+### 9.5 Intellectual Property Rights
+
 The CA will not knowingly violate intellectual property rights held by others.
 
-9.6 Representations and Warranties
-----------------------------------
+### 9.6 Representations and Warranties
+
 No stipulation.
 
-9.6.1 Representations and Warranties
-------------------------------------
+#### 9.6.1 Representations and Warranties
+
 The CA makes the below warranties to subscribers and relying parties (‘network participants’) 
 making valid use of such certificates as defined in the Participant Agreement of the Corda Network:
 
@@ -1957,12 +1937,12 @@ that the information contained in the Certificate would not
 be responsible for the performance and warranties of the Subordinate CA, their compliance with this policy, and for 
 all liabilities and indemnities of the Sub ordinate CA under this policy.
 
-9.6.2 RA Representations and Warranties
----------------------------------------
+#### 9.6.2 RA Representations and Warranties
+
 No stipulation.
 
-9.6.3 Subscriber Representations and Warranties
------------------------------------------------
+#### 9.6.3 Subscriber Representations and Warranties
+
 Prior to the issuance of any Certificate, the CA shall ensure that the subscriber requesting the Certificate has 
 accepted the Terms of Use of the Corda Network as in force at the time of request
 
@@ -2000,20 +1980,20 @@ otherwise requested by the CA in connection with the issuance of the Certificate
  CA discovers that the Certificate is being used to enable criminal activities such as phishing 
  attacks, fraud, or the distribution of malware.
 
-9.6.4 Relying Parties Representations and Warranties
-----------------------------------------------------
+#### 9.6.4 Relying Parties Representations and Warranties
+
 No stipulation.
 
-9.6.5 Representations and Warranties of Other Subscribers
----------------------------------------------------------
+#### 9.6.5 Representations and Warranties of Other Subscribers
+
 No stipulation.
 
-9.7 Disclaimers of Warranties
------------------------------
+### 9.7 Disclaimers of Warranties
+
 No stipulation.
 
-9.8 Limitations of Liability
-----------------------------
+### 9.8 Limitations of Liability
+
 For delegated tasks, the CA and any third party may divide liability between themselves contractually, but the CA will 
 remain fully responsible for the performance of all parties in accordance 
 with this Policy, as if the tasks had not been delegated.
@@ -2029,91 +2009,90 @@ the cause of action or legal theory involved, for any and all claims, losses or
 damages suffered as a result of the use or reliance on such Certificate by any appropriate means 
 that the CA desires.
 
-9.9 Indemnities
----------------
+### 9.9 Indemnities
+
 No stipulation.
 
-9.10 Term and Termination
--------------------------
+### 9.10 Term and Termination
 
-9.10.1 Term
------------
+
+#### 9.10.1 Term
+
 No Stipulation
 
-9.10.2 Termination
-------------------
+#### 9.10.2 Termination
+
 No stipulation
 
-9.10.3 Effect of Termination and Survival
------------------------------------------
+#### 9.10.3 Effect of Termination and Survival
+
 No stipulation
 
-9.11 Individual Notices and Communications with Subscribers
------------------------------------------------------------
+### 9.11 Individual Notices and Communications with Subscribers
+
 The CA shall establish appropriate procedures for communications with the Corda Network Foundation to ensure that 
 this CPS complies with the Governing Body’s CP via contracts or memoranda of agreement as applicable.
 
 For all other communications, there is no stipulation.
 
-9.12 Amendments
----------------
+### 9.12 Amendments
 
-9.12.1 Procedure for Amendment
-------------------------------
+
+#### 9.12.1 Procedure for Amendment
+
 The CA shall review this CPS at least once every year. Corrections, updates, or changes to this CPS 
 shall be publicly available. Suggested changes to this CPS shall be communicated to the contact 
 in section 1.5.2; such communication must include a description of the change, a change justification, and contact 
 information for the person requesting the change.
 
-9.12.2 Notification Mechanism and Period
-----------------------------------------
+#### 9.12.2 Notification Mechanism and Period
+
 No stipulation.
 
-9.12.3 Circumstances under which OID must be Changed
-----------------------------------------------------
+#### 9.12.3 Circumstances under which OID must be Changed
+
 No stipulation
 
-9.13 Dispute Resolution Provisions
-----------------------------------
+### 9.13 Dispute Resolution Provisions
+
 A dispute resolution mechanism may be operated by the Corda Network Foundation.
 
-9.14 Governing Law
-------------------
+### 9.14 Governing Law
+
 No stipulation.
 
-9.15 Compliance with Applicable Law
------------------------------------
+### 9.15 Compliance with Applicable Law
+
 No stipulation.
 
-9.16 Miscellaneous Provisions
------------------------------
+### 9.16 Miscellaneous Provisions
 
-9.16.1 Entire Agreement
------------------------
+
+#### 9.16.1 Entire Agreement
+
 No stipulation.
 
-9.16.2 Assignment
------------------
+#### 9.16.2 Assignment
+
 No stipulation.
 
-9.16.3 Severability
--------------------
+#### 9.16.3 Severability
+
 No stipulation
 
-9.16.4 Enforcement (Attorneys’ Fees and Waiver of Rights)
----------------------------------------------------------
+#### 9.16.4 Enforcement (Attorneys’ Fees and Waiver of Rights)
+
 No stipulation.
 
-9.16.5 Force Majeure
---------------------
+#### 9.16.5 Force Majeure
+
 No stipulation.
 
-9.17 Other Provisions
----------------------
+### 9.17 Other Provisions
+
 No stipulation.
 
-Appendix A: Acronyms
-====================
+## Appendix A: Acronyms
 
 Selected acronyms and abbreviations that may be used in the guide are defined below.
 
@@ -2202,13 +2181,11 @@ UUID Universal Unique Identifier
 
 VPN Virtual Private Network
 
-Appendix B: References
-======================
+## Appendix B: References
 
-1. [Allowable Identity Names|https://corda.network/policy/allowable-names.html] (Corda Network technical policies): 
+1. [Allowable Identity Names] (/policy/allowable-names) (Corda Network technical policies): 
 
 Appendix C: Document History
-============================
 
  Version Date Author Change Details
  

@@ -1,18 +1,16 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Articles of Association
 
-Articles of Association
-=======================
 
 Informal translation in the English language of the substance of the original notarial deed of incorporation of Corda 
 Network Foundation Stichting in the Dutch language. In this translation an attempt has been made to be as literal as 
 possible, without jeopardising the overall continuity. Inevitably, differences may occur in the translation, and if so, 
 the Dutch text will govern.
 
-INCORPORATION OF A FOUNDATION (STICHTING)
-----------------------------------------
 
-CORDA NETWORK FOUNDATION STICHTING
-----------------------------------
+## INCORPORATION OF A FOUNDATION (STICHTING)
+
+
+### CORDA NETWORK FOUNDATION STICHTING
 
 On the fourth day of December two thousand eighteen appeared before me, Mr. Maarten Jan Christiaan Arends, civil law 
 notary (notaris) in Amsterdam, The Netherlands:
@@ -28,14 +26,18 @@ this deed (Schedule 1).
 The person appearing has declared that the Founder incorporates a foundation (stichting) (the "Foundation") with the 
 following articles of association:
 
-ARTICLES OF ASSOCIATION
------------------------
 
-## 1.	NAME, SEAT
+## ARTICLES OF ASSOCIATION
+
+
+### 1.	NAME, SEAT
+
 1.1	The name of the Foundation is: Corda Network Foundation Stichting.
 1.2	The seat (statutaire zetel) of the Foundation is in the municipality of Amsterdam, The Netherlands. 
 
-## 2.	OBJECTIVES
+
+### 2.	OBJECTIVES
+
 The Founder has released open source distributed ledger platform software, available for use pursuant to an Apache License available at github.com/corda/ (“Corda Open Source”). The Founder (or one of the Founder’s affiliates) may also license its enterprise distributed ledger platform software (“Corda Enterprise”), which may incorporate portions of Corda Open Source. Corda Open Source and Corda Enterprise are collectively referred herein as “Corda”.  
 
 The objectives of the Foundation are:
@@ -67,7 +69,9 @@ and in all matters related or conducive to the above, with the objectives to be 
 interpretation. The objectives of the Foundation do not explicitly provide for the making of profit and/or the 
 pursuit of commercial interests.
 
-## 3.	BOARD: COMPOSITION, APPOINTMENT, RETIREMENT
+
+### 3.	BOARD: COMPOSITION, APPOINTMENT, RETIREMENT
+
 3.1	The Foundation shall be managed by a board consisting of a minimum of two (2) and a maximum of eleven (11) directors 
 (or such other maximum as the Participants Community (as defined in clause 8.5 herein) may determine from time to time) 
 and, in case the Participants Community is not established, the board has the right to determine the number of board 
@@ -95,7 +99,9 @@ the following events:
 3.6.7	appointment of an administrator for a director pursuant to any statutory provision; and . 
 3.6.8	a director being absent at three (3) consecutive board meetings.   
 
-## 4.	DUTIES OF THE BOARD
+
+### 4.	DUTIES OF THE BOARD
+
 4.1	Subject to the restrictions imposed by these articles of association, the board is charged with the management of 
 the Foundation in accordance with its objectives.  
 4.2	The board shall not be authorised to resolve to enter into agreements to acquire, sell or encumber real estate 
@@ -103,7 +109,9 @@ property assets.
 4.3	The board shall not be authorised to resolve to enter into agreements whereby the Foundation acts as guarantor or 
 joint and several co-debtor, or guarantees or secures the debts of a third party.  
 
-## 5.	BOARD MEETINGS
+
+### 5.	BOARD MEETINGS
+
 5.1	Each year, within six (6) months after the end of the financial year, a meeting of the board shall be held in order 
 to discuss and adopt the balance sheet and the statement of income and expenses of the Foundation.  
 5.2	Other meetings of the board will be held not less than every six (6) months and not more than every two (2) months, 
@@ -126,7 +134,8 @@ such other way.
 Such power of attorney may only be valid in connection with the meeting specified therein, and provided no director may 
 represent more than one additional director at each meeting.  
 
-## 6.	DECISION MAKING PROCESS
+### 6.	DECISION MAKING PROCESS
+
 6.1	Each director shall have one vote. If no larger majority is prescribed by these articles of association or the 
 By-Laws, all resolutions of the board shall be adopted in a meeting by an absolute majority of the votes cast.   
 6.2	If all of the directors are present or represented at a board meeting, valid resolutions can be adopted on all 
@@ -140,14 +149,18 @@ reasonable grounds, to this manner of decision making process.
 6.4	The board may adopt board regulations setting out further rules regarding, amongst other things the composition, 
 meeting and decision making processes of the board (the "By-Laws").   
 
-## 7.	REPRESENTATION
+
+### 7.	REPRESENTATION
+
 7.1	The board is authorised to represent the Foundation. Two (2) directors of the board acting jointly are also 
 authorised to represent the Foundation.     
 7.2	Clause 7.1 also applies in the event of a conflict of interest between the Foundation and one or more directors.     
 7.3	The board shall be authorised to grant a power of attorney on behalf of the Foundation to a director or third 
 parties to represent the Foundation within the limits laid down in the power of attorney.   
 
-## 8.	PARTICIPANTS
+
+### 8.	PARTICIPANTS
+
 8.1	Participants are legal entities and/or their representatives who have entered into (or will enter into) a 
 participation agreement referred to as "Participant Terms of Use" with the Foundation (together referred to as the 
 "Participants").  
@@ -165,7 +178,9 @@ the Participant in question agrees to receive all notices and communications in 
 composition, meeting and decision making processes of the Participants (the "Participant Community) and (ii) rules 
 regarding the responsibilities of any other committees of the Foundation.  
 
-## 9.	INDEMNIFICATION OF DIRECTORS
+
+### 9.	INDEMNIFICATION OF DIRECTORS
+
 9.1	The Foundation (including its successors and assigns) shall indemnify any person (including by paying the fees and 
 expenses of the director's attorney directly to such adviser) who is or was a director and who was or is a party or is 
 threatened to be made a party to any threatened, pending or completed action, suit or proceeding, whether civil, 
@@ -204,7 +219,9 @@ director and shall also inure to the benefit of the heirs, executors, administra
 person.  
 9.5	The Foundation may purchase and maintain insurance on behalf of the director.  
 
-## 10.	FINANCIAL YEAR, ANNUAL ACCOUNTS
+
+### 10.	FINANCIAL YEAR, ANNUAL ACCOUNTS
+
 10.1	The financial year of the Foundation shall be the calendar year.   
 10.2	The board shall administer the financial condition of the Foundation and everything relating to its activities 
 as such activities may require, and keep the books, records and other database pertaining thereto in such manner that 
@@ -216,7 +233,9 @@ Accounts").
 10.5	The board shall retain the books, records and other database referred to in clauses 10.2 and 10.3 for seven (7) 
 years.  
 
-## 11.	AMENDMENT TO ARTICLES OF ASSOCIATION 
+
+### 11.	AMENDMENT TO ARTICLES OF ASSOCIATION 
+
 11.1	The board shall be authorised to amend these articles of association pursuant to   
 11.1.1	a resolution of the board adopted in a meeting by a three-fourths (3/4) majority, of the votes cast in a meeting 
 where at least two-thirds (2/3) of all directors are present or represented; or . 
@@ -225,7 +244,9 @@ where at least two-thirds (2/3) of all directors are present or represented; or 
 executed. Each individual director as well as any person authorised by the board thereto shall be authorised to execute 
 such deed.  
 
-## 12.	WINDING-UP AND LIQUIDATION
+
+### 12.	WINDING-UP AND LIQUIDATION
+
 12.1	The board shall be authorised to wind up the Foundation pursuant to a resolution of the board adopted in a 
 meeting by a three-fourths (3/4) majority, including at least one R3 director, of the votes cast in a meeting where at 
 least two-thirds (2/3) of all directors are present or represented.  
@@ -242,7 +263,9 @@ one or more other persons for that purpose.
 extent possible.   
 12.6	The liquidation shall furthermore be subject to the provisions of Title 1, Book 2 of the Dutch Civil Code.  
 
-## 13.	FINAL PROVISION
+
+### 13.	FINAL PROVISION
+
 The first financial year of the Foundation shall end on the thirty-first day of December, two thousand and nineteen 
 (2019). This provision shall lapse after the end of the first financial year.  
 

@@ -1,10 +1,7 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Port Ranges Policy
 
-Port Ranges Policy
-==================
+## 1 Policy
 
-1 Policy
---------
 Outbound connectivity for Corda nodes must support all possible ports allowed by the TCP specification. This does not 
 imply opening all ports on the inbound path – node operators may select a single port for their node and open only that 
 port on network-level firewalls.
@@ -12,8 +9,8 @@ port on network-level firewalls.
 We recommend but do not require that nodes advertise port 31337 in the network map, if node operators have no other 
 preference.
  
-2 Rationale
------------
+## 2 Rationale
+
 It is common for firewall operators to dislike the idea of opening more ports than the minimum. Therefore picking a 
 single port on which Corda nodes may establish outbound connections may make it slightly easier to get through firewall 
 bureaucracies at large institutions.
@@ -29,8 +26,9 @@ web server via TLS to download data from an external provider.
 If we picked a static port like 31337 - [a favourite](https://www.urbandictionary.com/define.php?term=31337) - then we’d lose the ability to host multiple identities on 
 a single IP address pre-SNI, and installing apps would become harder, because they’d often start out blocked.
  
-3 Possible Future Evolutions
-----------------------------
+
+## 3 Possible Future Evolutions
+
 Whilst non-P2P connections made by apps may be restricted in future to reduce the trust needed in app developers, this 
 would be a feature of a node implementation and not something that affects network level policy.
  

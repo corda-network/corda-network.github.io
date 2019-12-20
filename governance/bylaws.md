@@ -1,10 +1,7 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
-	
-CORDA NETWORK FOUNDATION STICHTING BY-LAWS
-=========================================
+# CORDA NETWORK FOUNDATION STICHTING BY-LAWS
 
-INTRODUCTION
-------------
+
+## INTRODUCTION
 
 (1)	These By-Laws are established pursuant to clause 6.4 of the Articles of Association and, together with the Articles 
 of Association, provide a framework for the Foundation's board and Participant Community to steer and govern the Corda 
@@ -20,8 +17,7 @@ Definitions attached as Annex I and where capitalised terms are not set forth in
 defined as per the Articles of Association.
 
 
-1.MISSION
-----------
+## 1.MISSION
 
 1.1	The Foundation is a not-for-profit entity created exclusively to achieve the vision of Corda, whereby the state of 
 transactions and agreements of business partners can be recorded in a single global database, ending the need for costly 
@@ -73,8 +69,7 @@ Network continues to be updated to the then current Corda protocol version.
 * 1.3.8	Balancing the divergent interests of a wide range of stakeholders, including Business Network operators, Corda customers and developers.
 
 
-2.STRUCTURE OF THE FOUNDATION
------------------------------
+## 2.STRUCTURE OF THE FOUNDATION
 
 The board shall ensure that after each of the below has been instituted for the first time, the Foundation shall at all times retain:
 
@@ -91,8 +86,7 @@ The board shall ensure that after each of the below has been instituted for the 
 Any other committees that are deemed conducive to the realisation of the Foundation's mission by the board from time to time.
 
 
-3.ESTABLISHMENT OF THE BOARD
-----------------------------
+## 3.ESTABLISHMENT OF THE BOARD
 
 3.1	Initial Board Composition and R3 Appointment 
 Without prejudice to the provisions of the Articles of Association, to ensure rapid progress on the implementation of the Network by the Foundation, the board shall, from the incorporation of the Foundation until the date that falls four (4) weeks after the commencement of the Transition Period, consist of two (2) directors. Each such director shall be appointed by R3 for a three (3) year term. R3 has the right, at any time and in its sole discretion, to replace any director appointed by it without elections being held.
@@ -125,8 +119,7 @@ Without prejudice to the provisions of the Articles of Association, to ensure ra
 * 3.3.7	Other than as set out in clause 3.6 of the Articles of Association or after expiry of their term, directors can be removed from the board through a Mandatory Governance Event. Any board seat that becomes vacant prior to the end of a non-R3 director's term will be filled by a candidate elected during the next yearly board election.
 
 
-4.BOARD COMPOSITION CRITERIA
-----------------------------
+## 4.BOARD COMPOSITION CRITERIA
 
 4.1	The board shall at all times be composed so as to ensure that the board's diversity in geography, culture, skills, experience and perspective is fostered and that the abilities and interests of directors are aligned with those of Corda. The following guidelines, that are only applicable after the first election pursuant to Clause 3.3.1, shall thereby be considered: 
 
@@ -150,8 +143,7 @@ should serve on the board at any given time.
 * 4.2.3	demonstrate a professional standard of written and spoken English.
 
 
-5.CHAIR OF THE BOARD 
---------------------
+## 5.CHAIR OF THE BOARD 
 
 5.1	The Chair of the board will be appointed for a one (1) year term and in accordance with clause 3.3 of the Articles of Association.
 
@@ -166,8 +158,7 @@ should serve on the board at any given time.
 * 5.2.4	consulting on an ad hoc basis with members of the board regarding their respective tasks.
 
 
-6.RESPONSIBLITIES OF THE BOARD
-------------------------------
+## 6.RESPONSIBLITIES OF THE BOARD
 
 6.1	The board is charged with the management of the Foundation and to ensure the Foundation achieves the objectives of Corda, which means, among other things, that it is responsible for achieving the Foundation's mission, objectives and strategy. The board is accountable for these matters to the Participant Community. The responsibility for the management of the Foundation is vested collectively in the board.
 
@@ -186,8 +177,7 @@ should serve on the board at any given time.
 6.8	During meetings of the board or at any other time as deemed necessary, each director must inform the other directors in a clear and timely manner about the way in which he or she has used delegated powers and about major developments in the area of his or her responsibilities.
 
 
-7.MEETINGS OF THE BOARD
------------------------
+## 7.MEETINGS OF THE BOARD
 
 7.1	Without prejudice to the below, the board shall convene and meet in accordance with the Articles of Association.
 
@@ -202,8 +192,7 @@ should serve on the board at any given time.
 7.6	Participants who do not have representation on the board may request an observer to be present at a board meeting. This is subject to a lottery held one (1) week prior to the meeting, a limit of 20 (twenty) observer places, and a limit of one (1) observer per unrepresented Participant. Observers may participate in discussions but shall not participate in any board vote and may be asked to join by video-conference if there are logistical constraints.
 
 
-8.GOVERNANCE EVENTS
--------------------
+## 8.GOVERNANCE EVENTS
 
 Any formal changes to the Network and the Foundation shall constitute a formal Governance Event pursuant to this Article 8, and the right to initiate this shall be held by all Participants.
 
@@ -302,16 +291,14 @@ Disputes between Participants arising from the operation of a Corda application 
 Certain Network incidents, which impact one or more Network Participants and that would be the subject of Mandatory Governance Events or Advisory Governance Events, shall require immediate resolution. In these cases, the Operator may make emergency changes, but these shall be subject to post-event evaluation and standard Governance Event processing. Areas of control that are the subject of Mandatory Governance Events are not expected to require emergency remediation, but the Operator shall be entitled to make emergency changes to preserve the stability and integrity of the Network.
 
 
-9.DECISION-MAKING WITHIN THE BOARD
-----------------------------------
+## 9.DECISION-MAKING WITHIN THE BOARD
 
 9.1	The board shall follow the decision-making rules and process as set forth in the Articles of Association.
 
 9.2	Where unanimity cannot be reached and applicable law, the Articles of Association, or these By-Laws do not prescribe a larger majority, all resolutions of the board are adopted by an absolute majority of the votes validly cast. If there is a tie of votes the Chair shall decide.
 
 
-10.SPECIAL QUORUM AND MAJORITY RESOLUTIONS
-------------------------------------------
+## 10.SPECIAL QUORUM AND MAJORITY RESOLUTIONS
 
 10.1	Governance Events
 
@@ -339,8 +326,7 @@ The following resolutions by the board may only be adopted by an absolute majori
 * 10.2.5	Selling the Foundation.
 
 
-11.PARTICIPANT COMMUNITY
-------------------------
+## 11.PARTICIPANT COMMUNITY
 
 11.1	General Membership
 
@@ -406,8 +392,7 @@ The Governance Advisory Committee shall have a limited membership appointed dire
 * 11.8.5	Complaints and Whistleblowing.
 
 
-12.PARTICIPANT FEES
--------------------
+## 12.PARTICIPANT FEES
 
 12.1	Participants shall pay and be responsible for any fees that may be charged by the Foundation from time to time in accordance with the term of their respective Participant Terms of Use. Transaction notary fees will be charged separately, to reflect the variable cost of notary services and based on transaction volumes.
 
@@ -422,8 +407,7 @@ The Governance Advisory Committee shall have a limited membership appointed dire
 12.6	The fee applies even if the Participant chooses not to operate a Corda node on the Network. Therefore, Participants can be either active or inactive on the Network.
 
 
-13.OPERATOR
------------
+## 13.OPERATOR
 
 13.1	The board shall ensure that the Foundation at all times has a network Operator. 
 
@@ -436,36 +420,31 @@ The Governance Advisory Committee shall have a limited membership appointed dire
 13.5	 The Operator may undertake any other activities as agreed upon between the Foundation and the Operator from time to time.
 
 
-14.RELATIONSHIP OF THE BOARD WITH THE PARTICIPANT COMMUNITY
------------------------------------------------------------
+## 14.RELATIONSHIP OF THE BOARD WITH THE PARTICIPANT COMMUNITY
 
 14.1	The board shall timely provide the Participant Community with the information reasonably required to exercise its powers.
 
 14.2	The board shall provide the Participant Community with all requested information in a timely manner, unless this would be contrary to an overriding interest of the Foundation. If the board invokes such an overriding interest, it shall state the reasons.
 
 
-15.RELATIONSHIP OF THE BOARD WITH THE OPERATOR
-----------------------------------------------
+## 15.RELATIONSHIP OF THE BOARD WITH THE OPERATOR
 
 It is the duty of the board to monitor the Operator's performance to ensure that the Network operates in an effective, efficient and ethical manner. The board will also be responsible for overseeing the Operator in the development of the Network's strategic and tactical plans, ensuring that they will result in sustainable outcomes. The Operator is responsible to the board for the execution of day-to-day operations, and the implementation of strategic and tactical change.
 
 
-16.RELATION WITH BUSINESS NETWORKS
-----------------------------------
+## 16.RELATION WITH BUSINESS NETWORKS
 
 16.1	The global Network shall support the operation of Business Networks by industry-specific operators on top of the Network. The board shall ensure that there is a clear separation between areas of governance for the Foundation and Network outlined in this document and the Articles of Association, and for individual Business Networks.
 
 16.2	The structure and control processes defined for the Foundation shall be documented and made available under a Creative Commons license, both for reuse by Business Network operators if Business Networks need a similar governance structure and so that such governance layers are complementary and not contradictory.
 
 
-17.RELATION WITH OTHERS
------------------------
+## 17.RELATION WITH OTHERS
 
 Corda was created and is maintained through a collaborative effort, and part of the Foundation's mission is to help create and foster a technical community that will benefit all Corda solution providers and users. As such, the Foundation will work to encourage further participation of leading members of the ecosystem, including developers, service and solution providers and end users. This community shall work towards furthering the adoption of Corda, and contribute to the specific capabilities identified in the technical white paper. The Corda technical community shall be broad and open, encouraging participation and active conversations on the technology and applications.
 
 
-18.CONFLICTS OF INTERESTS OF DIRECTORS
---------------------------------------
+## 18.CONFLICTS OF INTERESTS OF DIRECTORS
 
 18.1	Any form of conflict of interest between the Foundation and the members of its board shall be prevented. To avoid conflicts of interest, adequate measures shall be taken. 
 
@@ -492,40 +471,34 @@ Corda was created and is maintained through a collaborative effort, and part of 
 19.3	All transactions in which there are conflicts of interest with the directors shall be agreed on terms that are customary in the market. 
 
 
-20.NON-DISCRIMINATION
----------------------
+## 20.NON-DISCRIMINATION
 
 20.1	The board shall not seek to exclude any Participant based on any criteria, requirements or reasons other than those that are reasonable and applied on a non-discriminatory basis to all Participants.
 
 20.2	The board shall encourage open participation from any organization able to meet the membership requirements, regardless of different competitive interests amongst Participants.
 
 
-21.REASONABLE EXPENSES
-----------------------
+## 21.REASONABLE EXPENSES
 
 Directors will not be remunerated by the Foundation. Appropriate expenses connected with board activities will be paid to directors upon submission of a claim to the Operator, subject to an expense policy agreed by the board. 
 
 
-22.FINANCIAL REPORTING AND ANNUAL ACCOUNTS
-------------------------------------------
+## 22.FINANCIAL REPORTING AND ANNUAL ACCOUNTS
 
 The Foundation's annual financial accounts shall be prepared by a certified accountant. These shall be approved by the board on an annual basis and made available to the relevant stakeholders as determined by the board.
 
 
-23.CONFIDENTIALITY
-------------------
+## 23.CONFIDENTIALITY
 
 No director shall, during his membership of the board or afterwards, disclose in any way whatsoever to anyone whomsoever any information of a confidential nature regarding the business of the Foundation, R3, Corda, the Operator or the Network that came to his or her knowledge in the capacity of his or her work for the Foundation and which he or she knows or should know to be of a confidential nature, unless required by law. A board director is allowed to disclose the above information to the other directors and to staff members of the Foundation, who, in view of their activities for the Foundation, should be informed of the information concerned. A director shall not in any way whatsoever utilise the information referred to above for his personal benefit.
 
 
-24.WEBSITE OF THE FOUNDATION
-----------------------------
+## 24.WEBSITE OF THE FOUNDATION
 
 The Foundation shall post and update information which is relevant to the Participants on its website at https://corda.network/, or any successor website redirected from there.
 
 
-25.MISCELLANEOUS
-----------------
+## 25.MISCELLANEOUS
 
 25.1	Acceptance by directors
 Anyone who is appointed as a director must, upon assuming office, declare in writing to the Foundation that he accepts and agrees to the contents of these By-Laws and pledge to the Foundation that he will comply with the provisions of these By-Laws.
@@ -549,11 +522,9 @@ These By-Laws are complementary to the provisions governing the board as contain
 If one or more provisions of these By-Laws are or become invalid, this shall not affect the validity of the remaining provisions. The board may replace the invalid provisions by provisions that are valid and the effect of which, given the contents and purpose of these By-Laws, is to the greatest extent possible, similar to that of the invalid provisions.
 
 
-ANNEX I
-=======
+## ANNEX I
 
-LIST OF DEFINITIONS
--------------------
+### LIST OF DEFINITIONS
 
 1.In these By-Laws the following terms have the following meanings:
 
@@ -605,23 +576,19 @@ LIST OF DEFINITIONS
 (c)	a reference to a statutory provision counts as a reference to this statutory provision including all its amendments, additions and replacing legislation that may apply from time to time.
 
 3.	Headings of articles and other headings in these By-Laws are inserted for ease of reference and do not form part of the By-Laws concerning the purpose of interpretation.
- 
-
-ANNEX II: INDUSTRY CLASSIFICATION MATRIX
-========================================
 
 
-|        |                                                                                                                                                                  | 
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
-| Number | Description                                                                                                                                                      | 
-| 1      | Agriculture, Forestry, Fishing and Hunting, Mining, Quarrying, and Oil and Gas Extraction                                                                        | 
-| 2      | Utilities                                                                                                                                                        | 
-| 3      | Construction, Real Estate and Rental and Leasing, Accommodation and Food Services                                                                                | 
-| 4      | Manufacturing, Transportation and Warehousing                                                                                                                    | 
-| 5      | Trade                                                                                                                                                            | 
-| 6      | Finance                                                                                                                                                          | 
-| 7      | Insurance                                                                                                                                                        | 
-| 8      | Professional, Scientific, and Technical Services                                                                                                                 | 
-| 9      | Public Administration, Educational Services, Arts, Entertainment, and Recreation, Health Care and Social Assistance                                              | 
-| 10     | Other Services (except Public Administration), Management of Companies and Enterprises, Administrative and Support and Waste Management and Remediation Services | 
+## ANNEX II: INDUSTRY CLASSIFICATION MATRIX
 
+| Number | Description                                                                                                                                                      |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1      | Agriculture, Forestry, Fishing and Hunting, Mining, Quarrying, and Oil and Gas Extraction                                                                        |
+| 2      | Utilities                                                                                                                                                        |
+| 3      | Construction, Real Estate and Rental and Leasing, Accommodation and Food Services                                                                                |
+| 4      | Manufacturing, Transportation and Warehousing                                                                                                                    |
+| 5      | Trade                                                                                                                                                            |
+| 6      | Finance                                                                                                                                                          |
+| 7      | Insurance                                                                                                                                                        |
+| 8      | Professional, Scientific, and Technical Services                                                                                                                 |
+| 9      | Public Administration, Educational Services, Arts, Entertainment, and Recreation, Health Care and Social Assistance                                              |
+| 10     | Other Services (except Public Administration), Management of Companies and Enterprises, Administrative and Support and Waste Management and Remediation Services |

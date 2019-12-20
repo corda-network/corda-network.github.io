@@ -1,26 +1,23 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Mandatory Governance Event 0007
 
-Mandatory Governance Event 0007
-===============================
 
-Approve Segregated Sub-Zone Pricing
-===================================
+## Approve Segregated Sub-Zone Pricing
 
-Proposal
---------
+### Proposal
+
 Approve pricing for SSZs for 2020 and beyond.
 
-Reason
-------
+###Reason
+
 SSZs have a real, ongoing operational cost in terms of setup, management, patching, and monitoring, and one principle of 
 Corda Network is participants pay for costs they incur.
 The exact cost of operating a SSZ is hard to ascertain, but the cost model for our infrastructure indicates a cost of 
 10K per zone.
 
-Impact
-------
+### Impact
+
 High. New SSZ operators must be informed of the fee.
 
-Decision
---------
+### Decision
+
 Approved by a vote.

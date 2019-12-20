@@ -1,14 +1,10 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
-
-Preparing to Join
-=================
+# Preparing to Join
 
 Before joining Corda Network, would-be Participants should:
 
 * Be familiar with the objectives, policies and standards of the Corda Network as described on https://corda.network .
 
-* Have conducted the appropriate project management and operational activities within their organisation to authorise 
-the set up and operation of the Node for live business use and to to agree commercial terms and sign the Corda Network Terms of Use
+* Have conducted the appropriate project management and operational activities within their organisation to authorise the set up and operation of the Node for live business use and to to agree commercial terms and sign the Corda Network Terms of Use.
 
 * Be familiar with Corda and key Corda concepts as described in the Corda documentation (https://docs.corda.net)
 
@@ -16,13 +12,11 @@ the set up and operation of the Node for live business use and to to agree comme
 
 * Have access to at least one CorDapp that they wish to deploy in Corda Network.
 
-* Have a look at the Network's [Service Level Agreements](/participation/production-sla.html)
+* Have a look at the Network's [Service Level Agreements](/policy/production-sla)
 
-* Be able to supply a dedicated IP address for communications with their node - typical network configurations are 
-described at Corda Firewall. 
+* Be able to supply a dedicated IP address for communications with their node - typical network configurations are described at Corda Firewall. 
 
-Pre-onboarding questionnaire
-============================
+## Pre-onboarding questionnaire
 
 All on boarding projects MUST supply the below information before start date can be scheduled and certificates granted.
 
@@ -40,8 +34,7 @@ For Corda 3 environments, new projects will require a Network Parameter Update t
 
 *The stipulations above do not apply to nodes on boarding to existing projects already live on the network.*
 
-On-boarding Information Required:
---------------------------------
+### On-boarding Information Required:
 
 1. Is the client joining with a consortium of potential other participants, or a separate entity such as a bespoke network operator? If as part of a consortium...
 
@@ -52,11 +45,11 @@ On-boarding Information Required:
 4. Is the BNO operating its own Corda node in the business network (signing its own transactions)?
 
 5. Will the BNO operate any of the below sponsoring strategies for their members or choose the participants to interact directly?
-* Identity - conducting identity verification on behalf of the Corda Network Operator
-* CSRs - submitting Certificate Signing Requests on behalf of business network participants
-* TOU - acting as the sole intermediary for the business network in all relations with Corda Network and signing the Participant Terms of Use (legal doc) on behalf of all members of the business network
-* Fees - billing will take place via the BNO for all business network participants?
-* Support - what role will the BNO play in support requests from the business network?
+    * Identity - conducting identity verification on behalf of the Corda Network Operator
+    * CSRs - submitting Certificate Signing Requests on behalf of business network participants
+    * TOU - acting as the sole intermediary for the business network in all relations with Corda Network and signing the Participant Terms of Use (legal doc) on behalf of all members of the business network
+    * Fees - billing will take place via the BNO for all business network participants?
+    * Support - what role will the BNO play in support requests from the business network?
 
 6. What version of Corda would the BNO like to launch with (and use in UAT)? 
 Incl: Corda Enterprise or Corda Open Source?
@@ -72,14 +65,14 @@ Incl: Corda Enterprise or Corda Open Source?
 11. How is the BNO intending to manage its own business network membership (entries and exits?)
 
 12. How many participant nodes will be joining (estimate):
-- At launch
-- By the end of the first quarter 
-- By the end of the first year 
+    * At launch
+    * By the end of the first quarter 
+    * By the end of the first year 
 
 13. How many different legal entities will be joining (if different from nodes)
-- At launch
-- By the end of the first quarter 
-- By the end of the first year 
+    * At launch
+    * By the end of the first quarter 
+    * By the end of the first year 
 
 14. What notary will be used when issuing new assets onto the ledger?
 
