@@ -67,7 +67,7 @@ Please put the trust root file for the correct environment in your certificates 
 
 ## Step 4: Deploy the node
 
-Follow these instructions to [deploy the node]((https://docs.corda.net/deploying-a-node.html). Where applicable, with help from a Corda representative.
+Follow these instructions to [deploy the node](https://docs.corda.net/deploying-a-node.html). Where applicable, with help from a Corda representative.
 
 ## Step 5: Configure the node
 
