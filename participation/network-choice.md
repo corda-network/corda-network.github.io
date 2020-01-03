@@ -1,6 +1,6 @@
 # Deciding on the right Network choice
 
-For anyone using Corda, there are 3 network choices available – Corda Network, a Segregated Network - off Corda Network, but which uses the same Trust Root; and a Private Network - using Corda Enterprise Network Manager, with a **separate Trust Root**.
+For anyone using Corda, there are 3 network choices available – Corda Network, a Segregated Network - off Corda Network, but which uses the same Trust Root; and a Private Network - using Corda Enterprise Network Manager, with a *separate* Trust Root.
 
 ## Corda Network
 
