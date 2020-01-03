@@ -65,19 +65,19 @@ Please put the trust root file for the correct environment in your certificates 
 
 [Production Network](https://github.com/corda-network/corda-network.github.io/blob/master/assets/trustroots/production/network-root-truststore.jks)
 
-## Step 4: [Deploy the node](https://docs.corda.net/deploying-a-node.html)
+## Step 4: Deploy the node
 
-Where applicable, with help from a Corda representative.
+Follow these instructions to [deploy the node]((https://docs.corda.net/deploying-a-node.html). Where applicable, with help from a Corda representative.
 
-## Step 5: [Configure the node](https://docs.corda.net/corda-configuration-file.html)
+## Step 5: Configure the node
 
-A node.conf file must be included in the root directory of every Corda node.
+Follow these instructions to [configure your node](https://docs.corda.net/corda-configuration-file.html). A node.conf file must be included in the root directory of every Corda node.
 
 **Step 5.1: Specifying URLs For Initial Registration**
 
-**!!!WARNING!!!**
+The below networkmapurls are for the Corda Network mainnet, so if you start up your node and connect with this url, you will join the mainnet. 
 
-Please note if you are joining a SSZ, you need to request your unique **networkMapURL** from info@corda.network for pre-production or info@corda.network for the production network. The below networkmapurls are for the public zones, so if you start up your node and connect with this url, you will join the public zone. This is a problem that can easily be corrected if you do it accidentally, but your node's identity will appear on the network map for a period of time, and if you want to keep your node's identity 100% private, you need to take care not to accidentally join a public zone.
+N.B.: If you are joining a **Segregated Network**, you need to request your *unique* networkMapURL from info@corda.network for the pre-production or  production network. If you join the mainnet by accident, this is a problem that can easily be corrected, but your node's identity will appear on the network map for a period of time.
 
 ### Pre-Production Network
 
