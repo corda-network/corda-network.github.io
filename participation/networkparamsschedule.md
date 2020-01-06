@@ -12,6 +12,8 @@ Network parameters specify things like Minimum Platform Version and whitelisted 
 
 The network parameter upgrade schedule for 2020 can be found on our [StatusPage](https://cordanetwork.statuspage.io). 
 
+
+
 The following are to be provided by participants:
 
 If participants wish to change any network parameters, including a new public notary, they must give notice to the Operator (cordanetwork.ops@r3.com) *20 business days* in advance of the scheduled Network Parameter window, or else they will have to wait for the next window.
