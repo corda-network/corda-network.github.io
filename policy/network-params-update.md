@@ -44,27 +44,19 @@ The Foundation shall apply a structured process to the creation of new Network P
 6. The Network Operator shall provide forward notice of planned parameters updates.
 
 
-Addition of new parameters and updates to existing  parameters
+Network Parameters Update Schedule
 --------------------------------------------------------------
 
-Every 2 months for the Production environment, the Network Operator will announce the changes ahead of time and execute the changes for a maintenance window on Saturday mornings. This shall commence at 10am UTC. 
+The schedueled Network Parameter Update window can be found on our [Network Parameters Update Schedule](https://corda.network/participation/networkparamsschedule.html) page.
 
-For 2019, Network Parameter update Windows will be run, on the following Saturdays:
-* June 29th
-* August 31st
-* October 26th
-* December 14th
+If participants wish to change any network parameters, including a new public notary, they must give notice to the Operator (cordanetwork.ops@r3.com) 20 business days in advance of the scheduled Network Parameter Update window, or else they will have to wait for the next window.
 
-The planned annual dates will also be communicated by the Network Operator to all participants in advance on [https://corda.network/](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcorda.network%2F&data=02%7C01%7C%7C7b5adf5bd9674a65dc7708d697159e1a%7Ca4be1f2e2d10419587cd736aca9b672c%7C0%7C0%7C636862516429066085&sdata=K6T%2Bxp7TvdYAwXtr5QQvIAnv2wUalGOkjzRSIvvtQ4A%3D&reserved=0), and if anything needs to change, reasonable advance notice to all participants will be uploaded onto this website.  
-
-If participants wish to update any network parameter, they must give notice to the Operator 20 business days in advance of the scheduled Network Parameter window.
-
-This should be sent to: cordanetwork.ops@r3.com
+If they have contracts for whitelisting, this must be provided no later than the Monday preceding the change window at 1200 UTC.
 
 Please note:
 ------------
 
-Due to the importance of the new features in Corda 4  (in particular signature constraints), the Foundation will be aiming to complete the update to Minimum Platform Version v4 within 6 months of the release of the Corda Enterprise version.
+Due to the importance of the new features in Corda 4 (in particular signature constraints), the Foundation will be aiming to complete the update to Minimum Platform Version v4 within 6 months of the release of the Corda Enterprise version.
 
 Generally, the Minimum Platform Version will be updated within 15 months of the release of each major new release of the open source version of Corda.
 
