@@ -49,7 +49,7 @@ Network Parameters Update Schedule
 
 The schedueled Network Parameter Update window can be found on our [Network Parameters Update Schedule](https://corda.network/participation/networkparamsschedule.html) page.
 
-If participants wish to change any network parameters, including a new public notary, they must give notice to the Operator (cordanetwork.ops@r3.com) 20 business days in advance of the scheduled Network Parameter Update window, or else they will have to wait for the next window.
+If participants wish to change any network parameters, including a new public notary, they must give notice to the Operator (cordanetwork.ops@r3.com) *20 business days* in advance of the scheduled Network Parameter Update window, or else they will have to wait for the next window.
 
 If they have contracts for whitelisting, this must be provided no later than the Monday preceding the change window at 1200 UTC.
 
