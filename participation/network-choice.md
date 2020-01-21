@@ -8,7 +8,9 @@ A shared, permissioned, global network – which business networks may join and 
 
 ## Segregated Network
 
-A partitioned sub-network off the Corda Network mainnet, which enables membership privacy (only members of the segregated network are visible to each other) and complete control over its own software upgrade schedule. It uses the same Trust Root as Corda Network, but in all other respects is separate (has own notary, network map, network parameters). Participants using a Segregated Network must run their own notary. The annual cost for a Segregated Network (including either or both Pre-Production and Production networks) will be $10,000 per year. 
+A partitioned sub-network off the Corda Network mainnet, which enables membership privacy (only members of the segregated network are visible to each other) and complete control over its own software upgrade schedule. It uses the same Trust Root as Corda Network, but in all other respects is separate (has own notary, network map, network parameters). Participants using a Segregated Network must run their own notary. 
+
+New Pricing being introduced: the annual cost for a Segregated Network (including a Seg Network in either *or both* the Pre-Production and Production networks) will be $10,000 per year. In other words, this standard price will get you a Seg Network in one or both environments, and there is no lower price for a Seg Network in just one environment.
 
 ## Private Networks
 
