@@ -4,11 +4,11 @@ For anyone using Corda, there are 3 network choices available – Corda Network,
 
 ## Corda Network
 
-A shared, permissioned, global network – which business networks may join and operate within. Part of the original design of Corda, its envisioned as an internet of Corda nodes,’ with nodes transacting seamlessly across many CorDapps and business networks.
+A shared, permissioned, global network – which business networks may join and operate within. Part of the original design of Corda, its envisioned as an internet of Corda nodes,’ with nodes transacting seamlessly across many CorDapps and business networks. Although 3rd party notaries will be on the network in late 2020, at the moment only the main Corda Network notary is available on the mainnet.
 
 ## Segregated Network
 
-A partitioned sub-network off the Corda Network mainnet, which enables membership privacy (only members of the segregated network are visible to each other) and complete control over its own software upgrade schedule. It uses the same Trust Root as Corda Network, but in all other respects is separate (has own notary, network map, network parameters).
+A partitioned sub-network off the Corda Network mainnet, which enables membership privacy (only members of the segregated network are visible to each other) and complete control over its own software upgrade schedule. It uses the same Trust Root as Corda Network, but in all other respects is separate (has own notary, network map, network parameters). Participants using a Segregated Network must run their own notary. The annual cost for a Segregated Network (including either or both Pre-Production and Production networks) will be $10,000 per year. 
 
 ## Private Networks
 
