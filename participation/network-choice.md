@@ -16,4 +16,4 @@ A business network operating and being governed entirely independently, using th
 
 For more information on how to choose between these options, please reference this 12-page paper:
 
-[Link to paper - attached PDF](https://github.com/corda-network/corda-network.github.io/blob/master/assets/Corda_Networks_-_guiding_note_Final.pdf)
+[Link to paper - attached PDF](https://github.com/corda-network/corda-network.github.io/blob/change/site-handover/assets/Corda%20Networks%20-%20guiding%20note_Final.pdf)
