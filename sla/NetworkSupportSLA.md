@@ -20,8 +20,8 @@ First Response times
 * SEV 4 - 2 business days
 	
 ## Things to note
-##a. Information collection: In order to facilitate the analysis and troubleshooting the issue, please provide as many information as possible on the ticket, including screenshots, all relevant logs, operating system and version, Corda platform version number, etc. to the Corda Network support engineers.
-##b. Statuspage: Before raising a ticket, please make sure to check the StatusPage (https://cordanetwork.statuspage.io) for scheduled maintenance works, housekeeping and incidents. 
-##c. Support Team Hours: The Support Team operate on a 24/5 basis (Monday to Friday) using a follow-the-sun model. On-site support coverage starts at 23:00 on Sunday and ends at 23:00 on Friday, UTC. 
+a. Information collection: In order to facilitate the analysis and troubleshooting the issue, please provide as many information as possible on the ticket, including screenshots, all relevant logs, operating system and version, Corda platform version number, etc. to the Corda Network support engineers.\
+b. Statuspage: Before raising a ticket, please make sure to check the StatusPage (https://cordanetwork.statuspage.io) for scheduled maintenance works, housekeeping and incidents.\
+c. Support Team Hours: The Support Team operate on a 24/5 basis (Monday to Friday) using a follow-the-sun model. On-site support coverage starts at 23:00 on Sunday and ends at 23:00 on Friday, UTC. 
 
  
