@@ -4,7 +4,7 @@ The support model of Corda Network follows the same process as that of Corda Ent
 While the Corda Network Support Service Handbook is working in progress, you may refer to the below for a high level guidance.
 
 ## Procedure to flag an issue related to Corda Network
-* If you are raising a support issue for the first time, send an email to info@corda.network to register to gain access to the Corda Network support portal (support.r3.com). You should provide the email addresses of all the individuals requiring access to the portal.
+* If you are raising a support issue for the first time, send an email to info@corda.network to register and gain access to the Corda Network support portal (support.r3.com). You should provide the email addresses of all the individuals requiring access to the portal.
 
 ## Raise a ticket
 * Any issues related to Corda Network should be raised through the Corda Network support portal (support.r3.com), or an email sent to cordanetworksupport@r3-cev.atlassian.net. 
