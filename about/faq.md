@@ -1,12 +1,12 @@
 # Frequently Asked Questions
 
-## Choosing a Sponsoring or Direct Model
+## Choosing a Corporate Sponsor or Direct Model
 
 ### What are the main differences between these two models?
 
-|                                            | **Direct Model (DEFAULT)**           | **Sponsor Model**                                                    |                     |
+|                                            | **Direct Model (DEFAULT)**           | **Corporate Sponsor Model**                                                    |                     |
 |--------------------------------------------|--------------------------------------|----------------------------------------------------------------------|---------------------|
-|                                            | Direct Participant                   | Sponsor Participant                                                  | Sponsee Participant |
+|                                            | Direct Participant                   | Sponsor                                                  | Sponsee Participant |
 | Signs legal agreement with the Foundation? | Yes                                  | Yes, and for their Sponsees _but accessing the Sponsor CorDapp only_ | No                  |
 | Covers billing?                            | Yes                                  | Yes, and for their Sponsees                                          | No                  |
 | Provides support?                          | Gets it directly from the Foundation | Yes, and for their Sponsees                                          | No                  |
@@ -22,7 +22,7 @@ You can use the same node OR different nodes in each one. This should be a decis
 
 ### I’m interested for several legal entities within my Corporate Group to join Corda Network, via several nodes. Do they all have to sign legal agreements?
 
-You can sign a Sponsor agreement which covers access for all for them. This needs to be signed by an authorised signatory from one legal entity.
+You can sign a Corporate Sponsor agreement which covers access for all for them. This needs to be signed by an authorised signatory from one legal entity.
 
 ---
 
@@ -46,7 +46,7 @@ Email info@corda.network. We will be introducing web functionality later to help
 
 ### Can a Business Network have both sponsored and direct participants ?
 
-Yes
+Yes.
 
 ---
 
