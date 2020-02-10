@@ -16,7 +16,7 @@ Realistic test data is therefore expected to be used and may include data copied
 
 The Pre-Production Network is also governed by the Corda Network Foundation. It is operated by the Network Operator, currently R3, on behalf of the Foundation. 
 
-[Testnet](https://testnet.corda.network/) is a separate network run and paid for by R3. This is for users at early stages.
+[Testnet](https://marketplace.r3.com/network) is a separate network run and paid for by R3. This is for users at early stages.
 
 ## How to join?
 
