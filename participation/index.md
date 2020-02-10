@@ -14,9 +14,9 @@ The Terms of Use for direct signing are available through contacting info@corda.
 
 The Terms of Use for direct signing are available through contacting info@corda.network. Shortly, this will be available as a click-through.
 
-### 1.2 Sponsored Model
+### 1.2 Corporate Sponsored Model
 
-Business Network Operators acting as Sponsors need to ensure their participants have signed the Terms of Use before they can receive a participation certificate. If BNOs prefer to organise acceptance themselves, then they must forward appropriate documentary evidence for each participant (either a signed hard copy with wet signature or a scan of such hard copy). You must specify the precise Distinguished Names in order to confirm that the correct entity has signed and an accurate certificate can be issued. They must also sign a Sponsored Terms of Use Agreement (available both for Pre-Production and Production), which can be requested through an r3 representative, or via info@corda.network.
+An entity looking to onboard multiple entities within the same group or rolls up to the same parent company to the Corda Network may choose to sign a Corporate Sponsored Terms of Use with Corda Network Foundation. They must ensure the appropriate legal entity name is specified in the Distinguished Name of all its participants. The Sponsoring entity is responsible to communicate with Corda Network Foundation for registering, specifying the precise Distingished Names, submitting Certificate Signing Requests for itself and other participating entities. Corporate Sponsors are responsible for handling customer support and billing for its participants. They must also sign a Corporate Sponsored Terms of Use Agreement (available both for Pre-Production and Production), which can be requested through an r3 representative, or via info@corda.network.
 
 ## Step 2: Pre-approval of CSR information
 
@@ -152,6 +152,6 @@ Business Network Operators should co-ordinate any post-install tests that may in
 
 ## Participation fee
 
-Billing details will be gathered, for a participation fee invoice, during this process. This will depend on if they are part of the **Sponsor** or **Direct model**.
+Billing details will be gathered, for a participation fee invoice, during this process. This will depend on if they are part of the **Corporate Sponsor** or **Direct model**.
 
 For further questions on this process, please [contact us](/about/contact) - preferably on the [mailing list](https://groups.io/g/corda-network).
