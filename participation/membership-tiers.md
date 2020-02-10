@@ -1,8 +1,8 @@
 # Pricing
 
-## 1. Annual Participation (Membership) Fee
+## 1. Annual Participation Fee
 
-In general, the term 'participation' rather than 'membership' is used, as this is the terminology used for a Dutch Stichting in the laws governing it. At present, participation in Corda Network is for legal entities only.
+In general, the term 'participation' rather than 'membership' is used, as this is the terminology used for a Dutch Stichting in the laws governing it. At present, participation in Corda Network is for legal entities only. The invoice is sent directly to Direct Participant and Sponsors, and managed by Sponsors for Sponsee participants.
 
 ### Participation Certificate
 
@@ -11,7 +11,7 @@ In general, the term 'participation' rather than 'membership' is used, as this i
 * Has voting rights for how the Foundation is governed
 * Can stand for the Foundation's Board of Directors
 
-Pricing: Free until December 2021
+Pricing: Free until December 2021.
 
 ## 2. Transaction Fees
 
@@ -33,8 +33,7 @@ for identity-only participants, and sent direct to full members.
 ### Model 2. Up-front Package
 
 This is designed to provide assurance over notarisation costs. It is invoiced prospectively at the start of the year. 
-As with participation fees, the invoice is managed by Sponsors for identity-only participants, and sent direct to full 
-members. 
+As with participation fees, the invoice is managed by Sponsors for identity-only participants.
 
 | Number of transactions per year | Cost $ |
 |---------------------------------|-------:|
