@@ -56,7 +56,7 @@ data where the identity has been removed (anonymous data).
 We may collect, use, store and transfer different kinds of personal
 data about you which we have grouped together as follows:
 
-1.  **Identity Data**includes first name, maiden name, last name,
+1.  **Identity Data** includes first name, maiden name, last name,
     username or similar identifier, company, title,
 
 2.  **Contact Data** includes email address and telephone numbers.
