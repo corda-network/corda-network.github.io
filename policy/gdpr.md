@@ -344,7 +344,7 @@ rapid resolution of any queries, complaints, or disputes about privacy.
 If you have submitted information to Corda Network and you would like to
 have it deleted from our databases or corrected, or if you have any
 other questions or comments regarding our privacy practices, please
-email us at info\@corda.network for more information.
+email us at info@corda.network for more information.
 
 If you are a resident in the UK, you have the right to make a complaint
 at any time to the Information Commissioner's Office (ICO), the UK
