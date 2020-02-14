@@ -188,8 +188,15 @@ purposes:
     defending our legal rights, or protecting others.
 
 All information we collect may be aggregated and merged or enhanced with
-data from other sources, such as third parties. We may also collect and
-store information locally on your device using mechanisms such as
+data from other sources, such as third parties. 
+
+| **Authorised Sub-processor** | **Application** | **Purpose** | **Legal Basis** |
+| --- | --- | --- | --- |
+| Microsoft | Azure | Corda node registration | Performance of contractual obligations to Participant |
+| Atlassian | Jira | Certificate signing request, Corda Network Support | Performance of contractual obligations to Participant |
+
+
+We may also collect and store information locally on your device using mechanisms such as
 browser web storage (including HTML 5) and application data caches.
 
 The below table describes our use of your **personal data, and the legal
