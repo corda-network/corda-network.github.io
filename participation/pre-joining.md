@@ -12,7 +12,7 @@ Before joining Corda Network, would-be Participants should:
 
 * Have access to at least one CorDapp that they wish to deploy in Corda Network.
 
-* Have a look at the Network's [Service Level Agreements](/policy/production-sla)
+* Have a look at the Network's [Service Level Agreements](/service-levels/network-services-sla-production)
 
 * Be able to supply a dedicated IP address for communications with their node - typical network configurations are described at Corda Firewall. 
 
