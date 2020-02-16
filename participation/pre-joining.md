@@ -12,7 +12,7 @@ Before joining Corda Network, would-be Participants should:
 
 * Have access to at least one CorDapp that they wish to deploy in Corda Network.
 
-* Have a look at the Network's [Service Level Agreements](/service-levels/network-services-sla-production)
+* Have a look at the Network's [Service Level Agreements](https://corda.network/service-levels/network-services-sla-production)
 
 * Be able to supply a dedicated IP address for communications with their node - typical network configurations are described at Corda Firewall. 
 
@@ -30,7 +30,7 @@ To allow time for:
 
 If using the Corda Network notary, we must be able to ensure that capacity is added should the projected incremental load on the notary be out of the normal headroom we maintain
 
-For Corda 3 environments, new projects will require a Network Parameter Update to implement their contract (zone) constraints. Production environment runs Network Parameter Updates on a pre-defined 2 monthly schedule - see here: https://corda.network/networkparamsschedule
+For Corda 3 environments, new projects will require a Network Parameter Update to implement their contract (zone) constraints. Production environment runs Network Parameter Updates on a pre-defined 2 monthly schedule - see here: https://corda.network/participation/networkparamsschedule
 
 *The stipulations above do not apply to nodes on boarding to existing projects already live on the network.*
 
@@ -43,13 +43,6 @@ For Corda 3 environments, new projects will require a Network Parameter Update t
 3. Is the BNO hosting other participant nodes in the business network?
 
 4. Is the BNO operating its own Corda node in the business network (signing its own transactions)?
-
-5. Will the BNO operate any of the below sponsoring strategies for their members or choose the participants to interact directly?
-    * Identity - conducting identity verification on behalf of the Corda Network Operator
-    * CSRs - submitting Certificate Signing Requests on behalf of business network participants
-    * TOU - acting as the sole intermediary for the business network in all relations with Corda Network and signing the Participant Terms of Use (legal doc) on behalf of all members of the business network
-    * Fees - billing will take place via the BNO for all business network participants?
-    * Support - what role will the BNO play in support requests from the business network?
 
 6. What version of Corda would the BNO like to launch with (and use in UAT)? 
 Incl: Corda Enterprise or Corda Open Source?
