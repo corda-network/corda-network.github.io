@@ -116,7 +116,7 @@ The following exclusions apply for service availability:
 The completion of a Certificate Signing Request (CSR) is measured from the time of receipt of a correctly formatted signing request by the Foundation Identity Manager to the time at which a response is submitted to the requesting node. The Identity Manager process can handle multiple certificate signing requests in parallel.
 
 > 95% of valid CSRs will be completed within 2 business working days each calendar month, excluding wait time for responses to confirmation or clarification requests from the Participant or Business Network Operator. Guidelines for submitting a CSR request can be found on the Foundation website [here](/trust-root/certificate-practices.html).
-> Unless the Participant is being sponsored onto the Corda Production Network by a Business Network Operator with whom such agreement is in place with the Foundation, the Identity Manager process requires the Participant to respond to a confirmation request. Service levels quoted here for turnaround time specifically exclude the duration of such Participant response.
+> Unless the Participant is being sponsored onto the Corda Production Network, the Identity Manager process requires the Participant to respond to a confirmation request. Service levels quoted here for turnaround time specifically exclude the duration of such Participant response.
 
 The Identity Manager may reject the certificate signing request if the data is not constructed according to the standards set out in the User Guide. Amended CSRs will be subject to the same SLAs as new certificate signing requests.
 
