@@ -14,13 +14,13 @@ The Terms of Use for direct signing are available through contacting info@corda.
 
 The Terms of Use for direct signing are available through contacting info@corda.network. Shortly, this will be available as a click-through.
 
-### 1.2 Corporate Sponsored Model
+### 1.2 Intergroup Sponsor Model
 
-An entity looking to onboard multiple entities within the same Group or parent company to the Corda Network may choose to sign a Corporate Sponsored Terms of Use with Corda Network Foundation. They must ensure the appropriate legal entity name is specified in the Distinguished Name of all its participants. The Sponsoring entity is responsible to communicate with Corda Network Foundation for registering, specifying the precise Distingished Names, submitting Certificate Signing Requests for itself and other participating entities. Corporate Sponsors are responsible for handling customer support and billing for its participants. They must also sign a Corporate Sponsored Terms of Use Agreement (available both for Pre-Production and Production), which can be requested through an r3 representative, or via info@corda.network.
+An entity looking to onboard multiple entities within the same Group or parent company to the Corda Network may choose to sign a Intergroup Sponsor Participant Terms of Use with Corda Network Foundation. They must ensure the appropriate legal entity name is specified in the Distinguished Name of all its participants. The Sponsoring entity is responsible to communicate with Corda Network Foundation for registering, specifying the precise Distingished Names, submitting Certificate Signing Requests and handling customer support and billing for itself and other participating entities. They must also sign a Intergroup Sponsor Participant Terms of Use Agreement (available both for Pre-Production and Production), which can be requested through an r3 representative, or via info@corda.network.
 
 ## Step 2: Pre-approval of CSR information
 
-To expedite your certificate signing request (CSR) to join CN, please follow these steps in order.
+To expedite your certificate signing request (CSR) to join Corda Network, please follow these steps in order.
 Steps i-iv are pre-approval steps, to ensure when the CSR is submitted (below, in Step 6), all values are populated correctly.
 
 i. The node operator fills out fields in bold in the table below, for every node to be onboarded (you may submit as many nodes as you like). Send this email of nodes to info@corda.network.
@@ -152,6 +152,6 @@ Business Network Operators should co-ordinate any post-install tests that may in
 
 ## Participation fee
 
-Billing details will be gathered, for a participation fee invoice, during this process. This will depend on if they are part of the **Corporate Sponsor** or **Direct model**.
+Billing details will be gathered, for a participation fee invoice, during this process. This will depend on if they are part of the **Intergroup Sponsor** or **Direct model**.
 
 For further questions on this process, please [contact us](/about/contact) - preferably on the [mailing list](https://groups.io/g/corda-network).
