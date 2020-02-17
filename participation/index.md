@@ -12,11 +12,11 @@ The Terms of Use for direct signing are available through contacting info@corda.
 
 #### Production Network
 
-The Terms of Use for direct signing are available here[assets/Corda Network - Participant Terms of Use - 01-30-20 (Execution Version).pdf]. Shortly, this will be available as a click-through.
+The Terms of Use for direct signing are available [here](assets/Corda Network - Participant Terms of Use - 01-30-20 (Execution Version).pdf). Shortly, this will be available as a click-through.
 
 ### 1.2 Intergroup Sponsor Model
 
-An entity looking to onboard multiple entities within the same Group or parent company to the Corda Network may choose to sign a Intergroup Sponsor Participant Terms of Use with Corda Network Foundation. They must ensure the appropriate legal entity name is specified in the Distinguished Name of all its participants. The Sponsoring entity is responsible to communicate with Corda Network Foundation for registering, specifying the precise Distingished Names, submitting Certificate Signing Requests and handling customer support and billing for itself and other participating entities. They must also sign a Intergroup Sponsor Participant Terms of Use Agreement (available both for Pre-Production and Production), which are available here[assets/Corda Network - Intergroup Sponsor Terms of Use - Clean - 02-11-20.pdf].
+An entity looking to onboard multiple entities within the same Group or parent company to the Corda Network may choose to sign a Intergroup Sponsor Participant Terms of Use with Corda Network Foundation. They must ensure the appropriate legal entity name is specified in the Distinguished Name of all its participants. The Sponsoring entity is responsible to communicate with Corda Network Foundation for registering, specifying the precise Distingished Names, submitting Certificate Signing Requests and handling customer support and billing for itself and other participating entities. They must also sign a Intergroup Sponsor Participant Terms of Use Agreement (available both for Pre-Production and Production), which are available [here](assets/Corda Network - Intergroup Sponsor Terms of Use - Clean - 02-11-20.pdf).
 
 ## Step 2: Pre-approval of CSR information
 
