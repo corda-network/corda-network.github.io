@@ -36,14 +36,14 @@ Please note that the terms of this Service Level Agreement (SLA) are subject to 
 
 ## 1. Definitions
 
-| Term                      | Description                                                                                                                                                                                                                                                                                                                                            |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Business Network Operator | A Business Network Operator may set-up and operate its own business network for groups or companies that wish to transact together on the Corda Network. Depending on their size, Business Network Operators may also wish to on-board, off-board their members.                                                                                       |
+| Term | Description |
+| -- |  -- | 
+| Business Network Operator | A Business Network Operator may set-up and operate its own business network for groups or companies that wish to transact together on the Corda Network. Depending on their size, Business Network Operators may also wish to on-board, off-board their members. |
 | Corda Network Foundation  | A not-for-profit legal entity type known as a Stichting residing in the Netherlands. The Foundation governs the Corda Network and enables Network participants to be involved with, and also understand, how decisions are made (including around issues of identity and permission), building trust and engagement from a wide range of stakeholders. |
-| CorDapp                   | Applications designed to interact with the Corda Network, built on the Corda platform.                                                                                                                                                                                                                                                                 |
-| Network Operator          | The network operator appointed by the Corda Foundation who undertakes all day-to-day activities associated with delivering the network services outlined within Section 2 of this document.                                                                                                                                                            |
-| Participant               | A legal entity participating in Corda Network and using one or more of the services provided by the Foundation.                                                                                                                                                                                                                                        |
-| Production network        | The network operated by the Corda Foundation for participants to transact using ‘Live’, real world information and data. This environment is not for development/sandboxing purposes.                                                                                                                                                                  |
+| CorDapp | Applications designed to interact with the Corda Network, built on the Corda platform. |
+| Network Operator | The network operator appointed by the Corda Foundation who undertakes all day-to-day activities associated with delivering the network services outlined within Section 2 of this document |
+| Participant | A legal entity participating in Corda Network and using one or more of the services provided by the Foundation. |
+| Production network | The network operated by the Corda Foundation for participants to transact using ‘Live’, real world information and data. This environment is not for development/sandboxing purposes. |
 
 ## 2. Introduction
 
