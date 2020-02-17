@@ -12,11 +12,11 @@ The Terms of Use for direct signing are available through contacting info@corda.
 
 #### Production Network
 
-The Terms of Use for direct signing are available [here](/assets/Corda Network - Participant Terms of Use - 01-30-20 (Execution Version).pdf). Shortly, this will be available as a click-through.
+The Terms of Use for direct signing are available [here](https://github.com/corda-network/corda-network.github.io/blob/change/site-handover/assets/Corda%20Network%20-%20Participant%20Terms%20of%20Use%20-%2001-30-20%20(Execution%20Version).pdf). Shortly, this will be available as a click-through.
 
 ### 1.2 Intergroup Sponsor Model
 
-An entity looking to onboard multiple entities within the same Group or parent company to the Corda Network may choose to sign a Intergroup Sponsor Participant Terms of Use with Corda Network Foundation. They must ensure the appropriate legal entity name is specified in the Distinguished Name of all its participants. The Sponsoring entity is responsible to communicate with Corda Network Foundation for registering, specifying the precise Distingished Names, submitting Certificate Signing Requests and handling customer support and billing for itself and other participating entities. They must also sign a Intergroup Sponsor Participant Terms of Use Agreement (available both for Pre-Production and Production), which can be requested through an r3 representative, or via info@corda.network. The Terms of Use to join Production are available [here](/assets/Corda%20Network%20-%20Intergroup%20Sponsor%20Terms%20of%20Use%20-%20Clean%20-%2002-11-20.pdf).
+An entity looking to onboard multiple entities within the same Group or parent company to the Corda Network may choose to sign a Intergroup Sponsor Participant Terms of Use with Corda Network Foundation. They must ensure the appropriate legal entity name is specified in the Distinguished Name of all its participants. The Sponsoring entity is responsible to communicate with Corda Network Foundation for registering, specifying the precise Distingished Names, submitting Certificate Signing Requests and handling customer support and billing for itself and other participating entities. They must also sign a Intergroup Sponsor Participant Terms of Use Agreement (available both for Pre-Production and Production), which can be requested through an r3 representative, or via info@corda.network. The Terms of Use to join Production are available [here](https://github.com/corda-network/corda-network.github.io/blob/change/site-handover/assets/Corda%20Network%20-%20Intergroup%20Sponsor%20Terms%20of%20Use%20-%20Clean%20-%2002-11-20.pdf).
 
 ## Step 2: Pre-approval of CSR information
 
