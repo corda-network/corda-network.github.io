@@ -37,12 +37,22 @@ pages:
         url: /about/index.html
       - title: 06 December 2019
         url: /minutes/20191206.html
-      - title: 0001 UAT Governance
+      - title: 13 February 2020
+        url: /minutes/20200213.html
+      - title: 0001 - UAT Governance
         url: /minutes/event-0001.html
-      - title: M007 SSZ Pricing
+      - title: 0003 - Participation Pricing
+        url: /minutes/event-0001.html
+      - title: 0004 - X500 Name Length
+        url: /minutes/event-0004.html
+      - title: 0005 - Joining Fees
+        url: /minutes/event-0005.html
+      - title: 0007 - SSZ Pricing
         url: /minutes/event-0007.html
-      - title: M008 2019 Budget Review
+      - title: 0008 - 2019 Budget Review
         url: /minutes/event-0008.html
+      - title: 0009 - Push out Election
+        url: /minutes/event-0009.html
   - title: Preparing to Join
     children:
     - title: Pre-requisites to join 
