@@ -5,7 +5,7 @@ Corda Network has it's own [Trust Root](/trust-root/index) -- the single, long-t
 
 ## Identity Manager
 
-The Identity Manager admits new participants onto Corda Network. The service receives certificate signing requests (CSRs) from prospective network participants (sometimes via a [Corporate Sponsor](/participation/join-directly-or-as-sponsor)) and reviews the information submitted. 
+The Identity Manager admits new participants onto Corda Network. The service receives certificate signing requests (CSRs) from prospective network participants (sometimes via a [Intergroup Sponsor](/participation/join-directly-or-as-sponsor)) and reviews the information submitted. 
 
 A digitally signed participation certificate (based on the Corda Network Trust Root) is returned if:
 
