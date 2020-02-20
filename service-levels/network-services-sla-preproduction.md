@@ -4,7 +4,7 @@ This document is correct as of 20th February 2020.
 
 Please note that the terms of this Service Level Agreement (SLA) are subject to change. Participants will be notified of any material changes via the contact contained in the Certificate Signing Request for each node unless alternative contact details are advised.
 
-## Contents <!-- omit in toc -->
+## Contents
 
 - [1. Definitions](#1-definitions)
 - [2. Introduction](#2-introduction)
