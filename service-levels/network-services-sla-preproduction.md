@@ -95,9 +95,11 @@ The most up to date, detailed information about the services which Corda Network
 
 ### 3.1. Availability
 
-The following services will operate with 99% availability on a UK business hours basis during each calendar month. Definitions of availability for each service are included below.
+Definitions of availability for each service are included below.
 
 #### 3.1.1. Identity Manager
+
+The Identity Manager service will operate with 99% availability on a UK business hours basis during each calendar month.
 
 >The Identity Manager service is considered available if it is able to successfully receive requests for new certificates submitted for the Corda Network.
 
@@ -105,11 +107,15 @@ The following services will operate with 99% availability on a UK business hours
 
 #### 3.1.2. Network Map
 
+The Network Map service will operate with 99% availability on a UK business hours basis during each calendar month.
+
 >The Network Map service is considered available if it is able to provide a network map upon request.
 
 *This is measured by monitoring the service endpoint to ensure a valid status code is returned, and checking that the underlying worker process is running.*
 
 #### 3.1.3. Notary
+
+The Notary service will operate with 99% availability on a UK business hours basis during each calendar month.
 
 >The Notary service is considered available if it is able to successfully receive, process and notarise transactions.
 
@@ -121,7 +127,7 @@ The following services will operate with 99% availability on a UK business hours
 
 The completion of a Certificate Signing Request (CSR) is measured from the time of receipt of a correctly formatted signing request by the Foundation Identity Manager to the time at which a response is submitted to the requesting node. The Identity Manager process can handle multiple certificate signing requests in parallel.
 
-> 95% of valid CSRs will be completed within 2 business working days each calendar month, excluding wait time for responses to confirmation or clarification requests from the Participant or Business Network Operator. Guidelines for submitting a CSR request can be found on the Foundation website [here](/trust-root/certificate-practices.html).
+> 95% of valid CSRs will be completed within 2 business working days each calendar month, excluding wait time for responses to confirmation or clarification requests from the Participant or Business Network Operator. Guidelines for submitting a CSR request can be found on the Foundation website [here](/trust-root/certificate-practices).
 
 Unless the Participant is being sponsored onto the Corda Pre-Production Network by a Business Network Operator with whom such agreement is in place with the Foundation, the Identity Manager process requires the Participant to respond to a confirmation request. Service levels quoted here for turnaround time specifically exclude the duration of such Participant response.
 
@@ -147,7 +153,7 @@ Notarisation requests are treated individually, in sequence of receipt, by the n
 
 ### 3.3. Exclusions
 
-The following exclusions apply for service availability:
+The following exclusions apply for service availability and performance targets:
 
 - Network connectivity problems or hardware/software failure outside of the Foundation’s control affecting the connectivity of Participant nodes or any other Participant hardware/software to the Network services i.e. Participant node, network or system failures.
 - Planned system downtime required for essential maintenance of Corda Network service components.
@@ -202,7 +208,7 @@ Many types of update processes will be entirely transparent to users and can be 
 
 The update process incorporates a node polling activity that ensures all node operators see the requested changes in advance and can choose to accept/not accept. The Foundation will consult with Participants should there be disagreement over the proposed changes but reserves the right to progress if the majority of Participants are in agreement that it should go ahead, and reasonable attempts have been made to address any concerns of Participants rejecting the change.
 
-Further details can be found on the Corda Network website [here](/policy/network-params-update.html) and within the Corda documentation [here](https://docs.corda.net/network-map.html#network-parameters).
+Further details can be found on the Corda Network website [here](/policy/network-params-update) and within the Corda documentation [here](https://docs.corda.net/network-map.html#network-parameters).
 
 Where the update may require significant Participant action, for example where the minimum platform version is increased and certain Participants need to upgrade to meet the new minimum, a minimum of three (3) months notice will be given. Full instructions will be communicated to node operators via the Network Operator’s service dashboard.
 
