@@ -1,10 +1,7 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Access Control and User Access Management Policy
 
-Access Control and User Access Management Policy
-================================================
+## 1 Purpose
 
-1 Purpose
----------
 This policy documents the principles that govern the provision of access to sensitive Corda Network Foundation systems
 and information, and the uses to which they may be put. Access will be granted in accordance with minimum necessary
 required by the role of the individual or system requiring access. The purpose of this policy is to comply with legal
@@ -12,8 +9,8 @@ and regulatory requirements, to protect the Foundation’s reputation i, to ensu
 network participants and to meet contractual commitments by ensuring that access control requirements are appropriately
 defined.
 
-2 Risks Addressed
------------------
+## 2 Risks Addressed
+
 Inappropriately restrictive access controls may result in excessive costs for the protection of low value information or
 systems, or loss of productivity as a result of an overly complex security regime. Alternatively, absent or
 inappropriately permissive access controls may expose the Foundation to unavailability, disclosure, modification or loss
@@ -21,23 +18,23 @@ of high-value information. Access controls will therefore be applied in a manner
 Foundation’s contractual, legal and regulatory obligations and is appropriate to the sensitivity of the information and
 systems under consideration.
 
-3 Control Objectives
---------------------
+## 3 Control Objectives
+
 The objectives of this policy are to ensure that the principle of least privilege is observed (and can be shown to be
 observed) when granting access to all sensitive information and systems. This will be achieved by clear and unambiguous
 definition of the rules under which access is granted.
 
-4 Who Does This Policy Apply To?
---------------------------------
+## 4 Who Does This Policy Apply To?
+
 This policy applies to employees and contractors, consultants, temporaries, and other workers at the Foundation. This
 group is referred to as “users” throughout this policy.
 
-5 Scope
--------
+## 5 Scope
+
 All information and information systems developed, operated or used by or on behalf of the Foundation.
 
-6 Mandatory Controls
---------------------
+## 6 Mandatory Controls
+
 Information or systems must be treated as information assets if the Foundation is sensitive to their loss,
 unauthorised modification or disclosure.
 
@@ -56,6 +53,7 @@ information assets or groups of like information assets, along with important at
 distribution list, retention period and the frequency at which user access rights to the asset should be reviewed.
 
 ### 6.1 Access Control Principles
+
 The following policy statements describe mandatory controls for Foundation information assets.
 
 Foundation production systems must be logically segregated from office and development systems.
@@ -110,6 +108,7 @@ compensating controls such as password protected screensavers or terminal locks.
 The Foundation Management Team holds final responsibility for the protection of information assets.
 
 ### 6.2 User Access Management
+
 The following policy statements apply equally to Foundation managed systems or to those operated on the Foundation's
 behalf by external vendors. This policy may delegate to further operational policies and procedures for the details of
 granting, modification, revocation and review of user access rights.
@@ -142,8 +141,8 @@ Information owners must ensure that user access permissions for information asse
 user’s role and responsibilities. This requires the review of access permissions on a periodic basis as indicated by the
 asset’s catalogue entry.
 
-7 Compliance
-------------
+## 7 Compliance
+
 Assessments may be carried out for compliance against this policy. Any violation of this policy will be investigated and
 if the cause is found due to wilful disregard or negligence, it will be treated as a disciplinary offence. All
 disciplinary proceedings are coordinated through the Human Resources Department. the Foundation reserves the right to

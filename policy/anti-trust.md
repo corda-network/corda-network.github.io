@@ -1,10 +1,7 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Anti-Trust
 
-Anti-Trust
-==========
+## 1 Introduction
 
-1 Introduction
---------------
 Organizations such as the Foundation and its Participants (as well as the Operator which applies its own Antitrust 
 Guidelines), which may be current or potential competitors, are subject to close scrutiny under antitrust laws in the 
 European Union, the U.S. and other jurisdictions.  These laws generally prohibit express or implied agreements among 
@@ -24,8 +21,8 @@ exhaustive; rather they are intended to provide and serve as general guidance.
 Antitrust Counsel should be consulted in the event of any questions concerning the meaning or implementation of these 
 guidelines or their application in a particular instance.
 
-2 Practices to Follow
----------------------
+## 2 Practices to Follow
+
 * Matters bearing on competitive relations between or among the Participants, or other competitively sensitive information 
 of the Participants, should not be discussed between or among the Participants or at any Participant, Board or Board 
 Committee meetings.
@@ -44,8 +41,8 @@ the activities of the Foundation.
 relating to the activities of the Foundation.
 * Advise Antitrust Counsel or Chairman of the Board, as applicable, of any possible violations of these guidelines.
 
-3 Conduct to Avoid
-------------------
+## 3 Conduct to Avoid
+
 The matters identified below should not be discussed or be the subject of informational exchanges, whether seriously or 
 in jest, and no agreements should be made with respect to any such matters, at any meeting of the Participants, the 
 Board or a Board Committee, at any other gathering incidental to a meeting any of the foregoing, or by any other means:
@@ -79,8 +76,8 @@ procured from the Operator and the latter's pricing at arm's length thereof.
 In addition, any unilateral exchange of information between a Participant, on the one hand, and the Foundation, on the 
 other hand, which may contain competitively sensitive information should be reviewed with Antitrust Counsel. 
 
-4 Antitrust and Standardisation
--------------------------------
+## 4 Antitrust and Standardisation
+
 Antitrust rules recognize that standardisation may give rise to antitrust concerns in circumstances where:
 1. Standardisation could result in restrictions on price competition (e.g. through illegal information exchange amongst 
 competitors – see section 3)

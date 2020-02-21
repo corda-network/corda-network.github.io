@@ -1,18 +1,15 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Code of Conduct
 
-Code of Conduct
-===============
+## 1 Introduction
 
-1 Introduction
---------------
 The Corda Network Foundation (“Foundation”) was created to govern Corda Network in a transparent and democratic manner, 
 and to facilitate stable operations with a long-term perspective, over and above the interest of any individual or 
 organization. 
 
-2 Policy
---------
-The Governing Board[1], is committed to the widespread adoption of Corda Network across all industries and upholding 
-the [Corda Network Foundation Governing Guidelines](../governance/governance-guidelines.md).  
+## 2 Policy
+
+The Governing Board(1), is committed to the widespread adoption of Corda Network across all industries and upholding 
+the [Corda Network Foundation Governing Guidelines](/governance/governance-guidelines).  
 
 The Governing Board of the Corda Foundation is committed to:
 
@@ -42,6 +39,6 @@ liability.
 affiliated with the Corda Network Foundation has engaged in inappropriate behavior, escalate the situation. Those who 
 report illegal or improper activity in good faith will be protected from retaliation.
 
-[1] The Governing Board includes individuals in active and observer roles who may participate in strategic Board 
+(1) The Governing Board includes individuals in active and observer roles who may participate in strategic Board 
 decisions or committees.
 

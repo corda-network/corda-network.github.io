@@ -1,23 +1,20 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Physical Security Policy
 
-Physical Security Policy
-==========================
+## 1 Purpose
 
-1 Purpose
----------
 The purpose for this policy is to establish the minimum requirements for the physical security of the Corda Network
 Foundation's systems and facilities.  
 
-2 Risks Addressed
------------------
+## 2 Risks Addressed
+
 Failure to comply with this policy may expose the Foundation to loss of intellectual property or other confidential
 information or disruption of Foundation operated services.
 
 Furthermore, failure to comply with this policy may constitute a breach of the Foundation’s legislative, regulatory and
 or contractual obligations.
 
-3 Who Does the Policy Apply To?
--------------------------------
+## 3 Who Does the Policy Apply To?
+
 This policy applies to employees and contractors, consultants, temporaries, and other workers at the Foundation,
 including all personnel affiliated with third parties. This group is referred to as *"team members"* throughout this
 policy.
@@ -25,13 +22,14 @@ policy.
 This policy also applies to all services provided to the Foundation by other entities, such as the Corda Network
 Operator.
 
-4 Scope
--------
+## 4 Scope
+
 All facilities used by Foundation or its Operator's team members or that support Corda Network systems.
 
-5 Mandatory Controls
---------------------
+## 5 Mandatory Controls
+
 ### Generally applicable controls
+
 Appropriate physical access control systems must be implemented for all facilities critical to the operation of the
 Foundation and the Corda Network. Physical access controls will be implemented according the to the sensitivity and
 criticality of activities conducted within those facilities.
@@ -52,6 +50,7 @@ All team members are required to observe the Foundation clean desk policy, irres
 they are working.
 
 ### Controls specific to Foundation leased or owned facilities
+
 A facility security manager and deputy must be assigned for each Foundation leased or owned facility.
 
 The facility security manager will, under the guidance of the information security manager, ensure that an
@@ -68,6 +67,7 @@ plan shall include provision for:
 and facility security manager deem appropriate for that particular facility, and the information processed there.
 
 ### Controls specific to cloud service providers
+
 Cloud service providers exhibit specific problems regarding policy compliance, as they are unlikely to provide bespoke
 security capabilities. It will therefore be necessary for the service owner and information security manager to together
 evaluate the provider's stated security physical security controls in the context of the classification of the
@@ -119,8 +119,8 @@ generator tests etc.).
 manager and service owner that are appropriate for that particular facility, and for the information processed within
 it.
 
-6 Compliance
-------------
+## 6 Compliance
+
 Regular assessments are carried out for compliance against this policy. Any violation of this policy will be
 investigated and if the cause is found due to wilful disregard or negligence, it will be treated as a disciplinary
 offence. All disciplinary proceedings are coordinated through the Human Resources Department.

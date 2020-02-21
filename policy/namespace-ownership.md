@@ -1,10 +1,7 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Namespace Ownership Policy
 
-Namespace Ownership Policy
-==========================
+## 1 Introduction
 
-1 Introduction
---------------
 Corda implements a decentralised database that can be unilaterally extended with new data types and logic by its users, 
 without any involvement by the closest equivalent we have to administrators (the “Operator”). 
 Even informing them is not required.
@@ -13,8 +10,8 @@ This design minimises the power the Operator has and ensures deploying new apps 
 only by the speed with which the users themselves can move. But it introduces problematic levels of namespace 
 complexity which can make programming securely harder than in regular non-decentralised programming.
 
-2 Policy
---------
+## 2 Policy
+
 Any organization will be able to claim a Java package name in the next network parameters refresh, by either:
  
 * Sending a DKIM protected email with an attached self-signed certificate to claim@corda-network (when set up)from an 
@@ -26,9 +23,9 @@ If the Network Operator fully automates this process, they are expected to filte
 webmail domains using e.g. [this list](https://webmail.wiki/list-of-webmail-domains/).
  
 The start date for this policy will be later in 2019.
- 
-3 Rationale
------------
+
+## 3 Rationale
+
 [Package namespace ownership](https://docs.corda.net/head/design/data-model-upgrades/package-namespace-ownership.html) 
 is a new optional feature arriving in Corda 4. You can read the design document to learn 
 the details but briefly, links between Java package namespaces and public keys in the 
@@ -37,7 +34,7 @@ network parameters will be published. For example:
 * com.r3.* -> secp256k1:12345….7890
 * net.corda.* -> secp256k1:9876….54321
 * com.megacorp.foobarapp.* -> rsa:123456789abcdef00
- 
+
 This has two purposes:
  
 Eliminate some surprising degrees of freedom in Corda’s design, to more closely align developers’ mental model of the 

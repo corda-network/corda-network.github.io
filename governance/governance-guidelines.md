@@ -1,13 +1,9 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
-
-Governance Guidelines
-=====================
+# Governance Guidelines
 
 This is a set of governance guidelines for the Corda Network Foundation. It provides a framework for the Foundation’s 
 Board, to steer and govern Corda Network effectively to realise its potential. It is not a set of binding legal obligations.
 
-1 Background to Corda and the Network
-=====================================
+## 1 Background to Corda and the Network
 
 Corda allows multiple independent applications and private networks to coexist, each with their own business models and 
 membership criteria, yet linked by the same underlying network (‘Corda Network’). This Network enables interoperability, 
@@ -18,8 +14,8 @@ Corda Network operates the protocol of Corda currently, and is always expected t
 specified in the Corda Open Source Project codebase, but later may be formalised in a protocol specification document, 
 which then will become canonical.
 
-1.1	Reason for a Corda Network Foundation
------------------------------------------
+### 1.1	Reason for a Corda Network Foundation
+
 R3 has set up and governs by default Corda Network currently (along with Corda). This includes making key decisions 
 around establishing, maintaining and updating standards, policies, and procedures for participation in, and use of, 
 Corda Network.
@@ -36,11 +32,10 @@ bring about the best decisions and outcomes for the Network’s long-term succes
 In other words, to achieve the community's objective of Corda ubiquity,  it is necessary to put in place a governance 
 structure which explicitly limits R3’s control of Corda Network, and enables this ubiquity. 
 
-2 The Corda Network Foundation
-==============================
+## 2 The Corda Network Foundation
 
-2.1	Mission and Values
-----------------------
+### 2.1	Mission and Values
+
 Following on from the Corda introduction and technical white papers, we see the mission of the Corda Network Foundation 
 to achieve the vision of Corda - whereby the state of transactions and agreements of business partners can be recorded 
 in a single global database, ending the need for costly reconciliation and error correction, while maintaining privacy. 
@@ -80,8 +75,8 @@ developers, service and solution providers and end users.
 * Balance the divergent interests of a wide range of stakeholders, including business network operators, Corda 
 customers, open source developers, and R3’s shareholders.
 
-2.2	Structure of the Foundation
--------------------------------
+### 2.2	Structure of the Foundation
+
 The Foundation shall be a not-for-profit entity created exclusively to execute the mission set out in this Constitution. 
 With the advice of international lawyers, this is a ‘Stichting’ domiciled in Holland – a legal entity suited for 
 governance activities, able to act commercially, with limited liability but no shareholders, capital or dividends.
@@ -107,11 +102,10 @@ and with privileges and responsibilities as set out in section 6.
 
 Any change to the structure of the Foundation is a constitutional change, described in section 5.1.
 
-3 Governing Board
-=================
+## 3 Governing Board
 
-3.1	Role of the Board
----------------------
+### 3.1	Role of the Board
+
 The goal of the Board is primarily to ensure the stable and secure operation of the Network, as well as to achieve the 
 vision of Corda laid out in section 2.1. The fundamental responsibility of directors appointed to the Board is to 
 exercise their business judgement to act in what they believe to be the best interests of the Network, taking account 
@@ -119,23 +113,24 @@ of the interests of the Network community as a whole (rather than any one indivi
 
 Directors are expected to comply with the Conflict of Interest policy, which includes a responsibility to disclose 
 promptly any conflicts that may arise, and meet the expected standards specified in the 
-[Code of Conduct Guidelines](../policy/code-conduct.md) for 
+[Code of Conduct Guidelines](/policy/code-conduct) for 
 ethical conduct and breach reporting.
 
 The Board is the formal decision-making authority of the Foundation, and actions of the Board reflect its collective 
 decision making.
 
-3.2	Relationship of the Board with the Operator
------------------------------------------------
+### 3.2	Relationship of the Board with the Operator
+
 It is the duty of the Board to monitor the Operator’s performance to ensure that the Network operates in an effective, 
 efficient and ethical manner. The Board will also be responsible for overseeing the Operator in the development of the 
 Network’s strategic and tactical plans, ensuring that they will result in broad and open adoption of Corda. The Operator 
 is responsible to the Board for the execution of day to day operations, and the implementation of strategic and tactical 
 change.
 
-3.3	Composition and Establishment of the Board
-----------------------------------------------
-### 3.3.1 Size
+### 3.3	Composition and Establishment of the Board
+
+#### 3.3.1 Size
+
 The Board shall consist of 11 voting members (‘Directors’) in total, to allow broad representation but maintain an agile 
 decision-making ability. The selection process (using the Participant Community) is intended to ensure that the Board is 
 composed of members who display diversity in geography, culture, skills, experience and perspective, and that the 
@@ -151,6 +146,7 @@ The Chair of the board will be elected for a one year term by a vote of the Dire
 meeting following the Board election.
 
 #### 3.3.2 Participation Criteria
+
 Participants shall be directed to vote to ensure that the Board is composed of Directors who in the aggregate produce 
 the broadest diversity on the Board, consistent with meeting the other criteria. In addition, the Board is to be 
 comprised of individuals who can demonstrate to Participants they meet the following requirements:
@@ -173,12 +169,16 @@ Europe/Africa and Asia, to ensure geographic diversity.
 100,000 employees.
 * Directors may hold a maximum of 4 terms. There is no restriction on re-election of the Chair of the Board, who holds a one-year term.
 
-### 3.3.3 Establishment of the Board
-#### 3.3.3.1 Pre-Foundation 
+#### 3.3.3 Establishment of the Board
+
+##### 3.3.3.1 Pre-Foundation 
+
 Initially R3 shall govern the Network to ensure rapid progress on its implementation. Once the Foundation is set-up and 
 at least three business networks are conducting live transactions using the network with at least three Participants each, the 
 'transition period' of one year will commence.
-#### 3.3.3.2	Transition: Initial set-up of Foundation Board: 
+
+##### 3.3.3.2	Transition: Initial set-up of Foundation Board: 
+
 For the transition year, the first three business networks shall have the right to choose three Participants, to 
 represent the interests of the business network. One of each of these must be based in the Americas, Europe/Africa and 
 Asia, to ensure geographic diversity, if the pool of Participants allows.  Each selected Participant will appoint a 
@@ -190,7 +190,9 @@ For the first election only, of the nine vacant seats, three will be for a durat
 three for three years. This will introduce a staggered board, so there is greater continuity at the end of each term. 
 Candidates with the most votes will fill the three-year seats first, followed by two-year and then one-year seats. In all other 
 respects, the first election will follow the steady state process.
-#### 3.3.3.3	Steady-State
+
+##### 3.3.3.3	Steady-State
+
 1. Participants may nominate candidates for Director election. Appointments to the nine rotating seats of the Board will be 
 by vote of the Participants, with three seats up for election each year. Any seats vacated mid-term will also be 
 elected at the same time. R3 may not put forward candidates for the nine rotating seats, and these may not be held by 
@@ -203,13 +205,15 @@ will be appointed as Directors.
 diversity criteria in section 3.3.2, the candidate will be allocated to it. This may mean that occasionally a less 
 popular candidate fills a seat instead of a more popular one.
 6. R3 shall appoint Directors to the two remaining seats, when appropriate.
+
 #### 3.3.4	Removal from the Board and Re-election.
+
 Apart from the three-year expiry, Directors can otherwise leave the Board by resignation, prolonged non-attendance of 
 board meetings of more than six months, death, or if necessary, removal by a Mandatory Governance Event. In any case, a 
 vacant seat will be contested at the next annual election.
 
-3.4	Conduct of Board Meetings
------------------------------
+### 3.4	Conduct of Board Meetings
+
 Attendance may be in person or by video-conference.
 
 The Board shall meet not less than every six months, and may meet on the request of any Director, but not more than every 
@@ -232,8 +236,7 @@ This is subject to a lottery held one week prior to the meeting, a limit of 20 o
 observer per unrepresented Participant. Observers may participate in discussions but shall not participate in any Board 
 vote, and may be asked to join by video-conference if there are logistical constraints. 
 
-4	Relation of the Foundation to Business Networks
-===================================================
+## 4	Relation of the Foundation to Business Networks
 
 The global Network shall support the operation of any business networks which may be formed by industry-specific 
 operators on top of the Network. The Board shall ensure that there is a clear separation between areas of governance 
@@ -243,15 +246,14 @@ Additionally, the structure and control processes defined for the Foundation sha
 under a Creative Commons license, both for reuse by business network operators if business networks need a similar 
 governance structure, and so that such governance layers are complementary and not contradictory.
 
-5	Governance Events
-=====================
+## 5	Governance Events
 
 All formal changes to the Network and the Foundation shall be controlled through a formal Governance Event process, and 
 the right to initiate this shall be held by all Directors and Participants. In the event of disruptive behaviour by an 
 individual Participant or group of Participants, this right may be curtailed, as described in 5.2.5.
 
-5.1	Types of Governance Events
-------------------------------
+### 5.1	Types of Governance Events
+
 There are three types of change that affect the Network and the Foundation, which require a controlled change process 
 and a vote described in 5.5, and are defined as Governance Events:
 
@@ -276,9 +278,10 @@ Advisory Committee to provide due diligence and make a recommendation for implem
 
 For all Governance Events, decisions and the rationale for the decision shall be published transparently. 
 
-5.2	Mandatory Governance Events
--------------------------------
-### 5.2.1 Access Standards
+### 5.2	Mandatory Governance Events
+
+#### 5.2.1 Access Standards
+
 The Corda system can be accessed by using software which implements the set of technical protocols which define 
 compatibility (see 5.3.1) above). The reference implementation of this software is open source and freely accessible at 
 [www.corda.net](https://www.corda.net).
@@ -304,6 +307,7 @@ participant no longer meets the standards set forth) shall be managed through an
 5.4. 
 
 #### 5.2.2	Budget, Expenditure and Participation Fees
+
 The Board shall annually prepare and approve a budget for the operations of the Foundation, taking into account the 
 not-for-profit status of the Foundation and the mission to promote the Corda Ecosystem.
 
@@ -315,6 +319,7 @@ and Operator-provided notary services. The Operator may also provide fee-based s
 needed to participate on the Network.
 
 #### 5.2.3 Change of Network Operator
+
 For three years upon establishment of the Foundation, R3 will undertake the role of Operator. Annually thereafter, the 
 Board will approve the appointment of the Operator, which may be changed with a Mandatory Governance Event and vote. 
 As noted, the Foundation shall hold the Trust Root, and the Operator and any services they operate shall be provisioned 
@@ -323,11 +328,13 @@ appointment, so that existing certificates continue to work, certificate revocat
 there is no disruption to Participants if the Operator is changed.
 
 #### 5.2.4 Change Management Process
+
 The Network will periodically require participating nodes to implement change. A change notification and management 
 process shall be defined and communicated; and any change to the change management process shall be the subject of a 
 Mandatory Governance Event.
 
 #### 5.2.5 Other Mandatory Governance Events
+
 Restrictions on individual Participants or a group to initiate Governance Events; in the event of disruptive behaviour.
 
 Audit: the Board may request an audit of the activities and services provided by the Operator, no more frequently than 
@@ -343,9 +350,10 @@ Change to the arbitration and dispute resolution process shall be the subject of
 
 Policies covering areas of operation not covered by the Constitution (e.g. code of conduct for Board Directors).
 
-5.3	Advisory Governance Events
-------------------------------
+### 5.3	Advisory Governance Events
+
 #### 5.3.1	Technical Standards
+
 There is a set of technical standards, such as ‘network parameters’, which all Corda Network nodes need to comply with 
 in order to guarantee technical compatibility to other nodes and services within the Network. While Corda has stability 
 and backwards compatibility as key design goals, there may be circumstances under which these standards will need to 
@@ -361,6 +369,7 @@ Corda implementations and distributions can vary in their internal details, but 
 implementation must conform to this standard to be compatible with the Network. 
 
 #### 5.3.2	Consensus Standards
+
 The Foundation shall set minimum standards for notary clusters, to allow their use across different business 
 applications. The Operator shall ensure that standards are followed by notary service providers, and shall operate a 
 framework of audit and assessment, review, feedback, and certification, covering the following:
@@ -376,20 +385,21 @@ crash or Byzantine fault tolerant (BFT) consensus algorithm, with nodes provided
 independent entities. 
 
 #### 5.3.3	Dispute Resolution Process
+
 Disputes between Participants arising from the operation of a Corda application are anticipated to be resolved by the 
 business network operator, or directly if no business network is involved. If necessary, Participants may escalate to 
 the Board by creating an Advisory Governance Event.
 
-5.4	Emergency Governance Events
--------------------------------
+### 5.4	Emergency Governance Events
+
 Certain Network incidents, which could impact one or more Network participants and that would be the subject of 
 Mandatory or Advisory Governance Events, shall require immediate resolution. In these cases, the Operator may make 
 emergency changes, but these shall be subject to post-event evaluation and standard Governance Event processing. Areas 
 of control that are the subject of Mandatory Governance Events are not expected to require emergency remediation, but 
 the Operator shall be entitled to make emergency changes to preserve the stability and integrity of the Network.
 
-5.5	Voting
-----------
+### 5.5	Voting
+
 All Constitutional, Mandatory and Advisory Governance Events outlined in sections 5.2 and 5.3 shall be presented to the 
 Board for voting. The representatives of the Board shall vote on a one vote per Director basis to approve or reject the 
 Governance Event.
@@ -412,11 +422,10 @@ The Foundation may chose to implement the tracking and voting for Governance Eve
 in an attempt to simplify governance, provide transparency and lower costs, provided the application has been tested 
 thoroughly and has sufficient manual override controls.
 
-6 Participation
-=================
+## 6 Participation
 
-6.1	General Membership
-----------------------
+### 6.1	General Membership
+
 Participation is open to any potential participant on the Network, subject to meeting normal Network access conditions 
 described in section 5.2.1, and paying a nominal annual participation fee to cover both the operational costs of Network 
 services and the Foundation, and to ensure that its activities are sufficiently resourced.
@@ -433,8 +442,8 @@ costs will depend on the individual event.
 7. Receive an identity necessary to operate a Corda node on the Network.
 8. Use the Network for live business activities running 'in production'.
 
-6.2	Technical Advisory Committee
---------------------------------
+### 6.2	Technical Advisory Committee
+
 The Technical Advisory Committee shall have limited participants appointed directly by the Board. Its mandate and 
 charter will be set by the Board. It shall act directly on the instructions of the Board or the Operator, which shall 
 set expected deliverables and timelines. It shall focus on specific technical topics and may have responsibility for 
@@ -448,8 +457,8 @@ the operation of the Network.
 5. Contributing to the Corda open source community from a Network perspective, to ensure that Corda retains a coherent, 
 elegant and practical system design
 
-6.3	Governance Advisory Committee
----------------------------------
+### 6.3	Governance Advisory Committee
+
 The Governance Advisory Committee shall have limited participants appointed directly by the board. Its purpose is to 
 recommend actions to the Board for approval on non-technical matters, where additional support is helpful. This may 
 include decisions on:
@@ -460,8 +469,7 @@ include decisions on:
 4. Interacting with Regulators
 5. Complaints and Whistle-blowing
 
-7 The Corda Network Operator
-============================
+## 7 The Corda Network Operator
 
 In order to pursue the mission of the Foundation as set out in section 1, there will need to be a set of operational 
 activities, including technical activities such as hosting services, marketing activities, community management and 
@@ -476,11 +484,10 @@ have been designed to be highly cacheable, and low-cost in operation.
 
 For the first three years, R3 shall act as the Operator. 
  
-8 Costs and Participation Fees
-==============================
+## 8 Costs and Participation Fees
 
-8.1 Costs
----------
+### 8.1 Costs
+
 In line with the mission and values of the Foundation, the Network Foundation is not a profit seeking entity. But the 
 Foundation needs to provide governance and technical services, and these will incur costs. The Foundation maintains these 
 cost principles, as ideals but not contractual standards:
@@ -492,8 +499,8 @@ of all of its own administration, governance and technical services.
 4. Costs of one service should not be subsidised by another.
 5. The Foundation's cost model should be public, to demonstrate that the costs could not reasonably be lower.
 
-8.2 Participation Fee
----------------------
+### 8.2 Participation Fee
+
 The Foundation shall meet costs by levying a participation fee and notary fee for all Participants. The participation 
 fee will be independent of organisation size and number of transactions on Corda, to reflect the underlying cost of 
 identity issuance. 
@@ -516,14 +523,14 @@ subsidiary individually.
 The fee applies even if the Participants chooses not to operate a Corda node on the Network. Therefore, Participants 
 can be potential or active participants.
 
-8.3 Notary Fee
---------------
+### 8.3 Notary Fee
+
 Transaction notary fees will be charged separately, on a per-use basis. This reflects the variable cost of providing 
 notary services, with a wide orders-of-magnitude disparity between frequent and infrequent participant transaction 
 volumes. As a principle, notary fees shall not subsidise participation fees, nor vice versa.
 
-9 Community
-===========
+## 9 Community
+
 Corda is a collaborative effort, and part of the Foundation’s mission is to help create and foster a technical community 
 that will benefit all Corda solution providers and users. As such, the Foundation will work to encourage further 
 participation of leading Participants of the ecosystem, including developers, service and solution providers and end 
@@ -533,8 +540,8 @@ identified in the technical white paper.
 The Corda technical community should be broad and open, encouraging participation and active conversations on the 
 technology and applications, but this cannot be mandated by the Foundation.
 
-9.1	Non-Discrimination
-----------------------
+### 9.1	Non-Discrimination
+
 The Foundation will welcome any organization able to meet the Participation criteria, regardless of competitive 
 interests with other Participants. The Board shall not seek to exclude any Participant for any reasons other than those 
 that are reasonable, explicit and applied on a non-discriminatory basis to all Participants.

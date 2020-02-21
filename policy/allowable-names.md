@@ -1,10 +1,7 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Allowable Identity Names
 
-Allowable Identity Names
-========================
+## 1 Proposed Policy
 
-1 Proposed Policy
------------------
 Legal names registered with the Corda network must be submitted in the form of an X.500 name with at least the 
 organisation, locality and country attributes present. They must be sorted in the order specified in the Corda protocol. 
 The zone operator will ensure each component meets the following requirements:
@@ -53,8 +50,8 @@ legitimately include stopwords will be handled via manual review.
 
 The Corda Network uses Unicode version 6.2
 
-2 Rationale
------------
+## 2 Rationale
+
 English benefits from a very simple alphabet. Many languages have more complex writing systems and this frequently 
 leads to a cascade of bugs and security holes when working with so-called "international text". Despite the decades of 
 excellent work done by the Unicode Consortium on creating a global system for computerized text, it is still a complex 
@@ -108,8 +105,8 @@ good in user interfaces!
 
 The selected Unicode version is the one supported by Java 8.
 
-3 Developer Notes
------------------
+## 3 Developer Notes
+
 Handling international text is a remarkably difficult task, filled with pitfalls for new and experienced engineers 
 alike. For best results follow these recommendations:
 * Do not be tempted to perform "looks alike" conversion into ASCII when attempting to inter-operate with legacy systems. If you 
@@ -144,8 +141,8 @@ behaviours here.
 Please note that these guidelines are not exhaustive. R3 employees can find a tech talk that explores Unicode security 
 further on our wiki.
 
-4 Potential Future Evolutions
------------------------------
+## 4 Potential Future Evolutions
+
 * Support for more alphabets like Chinese and its variants, Japanese, Thai, Arabic, Hebrew. This implies allowing 
 right-to-left text in names and consequent policies designed to detect abuse.
 * Allowing commas and quote characters for e.g. Irish names, name of law firms etc.

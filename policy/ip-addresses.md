@@ -1,10 +1,7 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Node IP Connectivity Policy
 
-Node IP Connectivity Policy
-===========================
+## 1 IP Policy
 
-1 IP Policy
------------
 1. Nodes may advertise IPv6 addresses, however all nodes in the main zone must advertise at least one IPv4 address.
 2. IPv6 only nodes will not be allowed before at least 2022.
 3. Node P2P ports must be globally reachable via the internet, from any part of the internet. By implication you may not 
@@ -12,10 +9,10 @@ use TCP/IP firewall rules to block who connects to your node. Instead, access co
 using TLS termination and membership rule checking at the start of flow logic (i.e. before any code other than session 
 setup runs).
 
-2 Rationale
------------
-The world has run out of IPv4 addresses. IPv6 is clearly the future. Unfortunately 
-[adoption is currently only at 25%](https://www.google.com/intl/en/ipv6/statistics.html) and whilst it’s growing, so 
+## 2 Rationale
+
+The world has run out of IPv4 addresses. IPv6 is clearly the future. Unfortunately
+[adoption is currently only at 25%](https://www.google.com/intl/en/ipv6/statistics.html) and whilst it’s growing, so 
 too is the disparity between weekend and weekday IPv6 traffic. This is because workplaces are slower to adopt IPv6 than 
 consumer ISPs.
 
@@ -33,8 +30,8 @@ around doing so. If Corda nodes were to be firewalled at the TCP/IP level, the n
 members of a business network would experience multi-month delays whilst all the firewalls on all the other nodes were 
 reconfigured. This would make Corda essentially useless.
 
-Therefore, nodes should be protected with cryptographic firewalls. This is more secure as it is resistant to BGP 
-hijacks and other forms of IP address takeover. TLS handshaking is used to verify the peer identity. Access control can 
+Therefore, nodes should be protected with cryptographic firewalls. This is more secure as it is resistant to BGP 
+hijacks and other forms of IP address takeover. TLS handshaking is used to verify the peer identity. Access control can 
 be enforced by node configuration and/or at the app level. This reflects the intended configuration of a node that 
 supports multiple collaborating apps in dynamic business networks, each of which may have its own notion of which 
 counterparties are members.

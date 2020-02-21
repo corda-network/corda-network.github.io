@@ -1,24 +1,20 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Mandatory Governance Event 0008
 
-Mandatory Governance Event 0008
-===============================
+## Approve 2019 Budget and 2020 Plan
 
-Approve 2019 Budget and 2020 Plan
-=================================
+### Proposal
 
-Proposal
---------
 Approve 2019 Budget and 2020 Plan.
 
-Reason
-------
+### Reason
+
 Financial planning for the year.
 
-Impact
-------
+### Impact
+
 Low.
 
-Decision
---------
+### Decision
+
 Not approved. Board decided to wait for formal prepared accounts from the accountant, and approve those in January 2020 
 when available, with an email-based governance event.
