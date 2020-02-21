@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8258b20c.chunk.css",
+    "main.js": "/static/js/main.1bb5ed71.chunk.js",
+    "main.js.map": "/static/js/main.1bb5ed71.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.afce222f.js",
+    "runtime~main.js.map": "/static/js/runtime~main.afce222f.js.map",
+    "static/css/2.39017165.chunk.css": "/static/css/2.39017165.chunk.css",
+    "static/js/2.2f28a913.chunk.js": "/static/js/2.2f28a913.chunk.js",
+    "static/js/2.2f28a913.chunk.js.map": "/static/js/2.2f28a913.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5c981244ab95314bb3e849daa1f5d64d.js": "/precache-manifest.5c981244ab95314bb3e849daa1f5d64d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.39017165.chunk.css.map": "/static/css/2.39017165.chunk.css.map",
+    "static/css/main.8258b20c.chunk.css.map": "/static/css/main.8258b20c.chunk.css.map",
+    "static/media/HeroSection.scss": "/static/media/jj-ying-7JX0-bfiuxQ-unsplash.2ba25893.jpg",
+    "static/media/index.scss": "/static/media/rubik-latin-900italic.5b173e43.woff"
+  }
+}

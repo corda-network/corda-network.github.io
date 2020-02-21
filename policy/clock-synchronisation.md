@@ -1,10 +1,7 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Clock Synchronisation Policy
 
-Clock Synchronisation Policy
-============================
+## 1 Proposed policy
 
-1 Proposed policy
------------------
 Members of a notary cluster in the Corda network must maintain clock synchronisation to leap-smeared UTC within a 
 tolerance of 100 milliseconds. Leap seconds are not visible, as during a leap the length of each second is adjusted 
 from noon-to-noon, bringing Corda time temporarily out of alignment with UTC for a 24 hour period centred around the 
@@ -33,9 +30,10 @@ As the tzdata announcement and attachment mechanisms are not implemented in Cord
 forward looking. It will activate no more than 90 days after the release of a new version of Corda that supports tzdata 
 announcement.
 
-2 Rationale
------------
+## 2 Rationale
+
 ### Leap second handling
+
 UTC is the global reference timezone. From an engineering perspective it has many desirable properties, for example, it 
 doesn't change due to political decisions and it doesn't have daylight savings adjustments. It is also calculable using 
 a simple offset in seconds from International Atomic Time (TIA), a feed of which is available via GPS satellites and 
@@ -85,6 +83,7 @@ e.g. Linux kernel target timeslicing latency is 6 msec by default, so if toleran
 apps could really use it without expert tuning.
 
 ### Interaction with MiFiD 2
+
 The EU MiFiD2 regulation imposes certain synchronisation tolerances on 'trading venues'. The Corda network is probably 
 not a trading venue in the classical sense and is not intended to run a high-traffic centralised market infrastructure 
 directly (perhaps OTC markets are a better fit). See the section "Market infrastructure" in the tech white paper for 
@@ -99,6 +98,7 @@ may be required to bring the synchronisation tolerance down to 1 millisecond. As
 latency of > 1 millisecond the microsecond granularity requirements of MiFiD2 will not be triggered.
 
 ### Which nodes must synchronise
+
 The policy specifies no clock sync policies for non-notary nodes. Notaries verify that their local clock is reading a 
 time within the specified time window on a transaction (which is optional and can be open-ended) and they only sign if 
 the time matches. In a BFT fault tolerant notary, a node that drifts out of alignment with the rest may refuse to sign 
@@ -111,8 +111,8 @@ transactions that use time windows they may experience notarisation failures if 
 size of the window. Some use cases may not require transaction timestamps at all and imposing arduous sync requirements 
 on those nodes would be unnecessary.
 
-3 Time zone data
-----------------
+## 3 Time zone data
+
 In an ideal world people would tell the time using nanoseconds since the UNIX epoch, like all good programmers do.
 
 In the real world business agreements specify times and dates in local timezones. Those timezone definitions may 
@@ -128,8 +128,8 @@ timezones were in effect when this transaction was made" but doesn't help you wi
 This should be a feature of the platform and the zone operator can act as an oracle for this data, as it simply involves 
 propagating IANA tzdata across the network.
 
-4 Possible future evolutions
-----------------------------
+## 4 Possible future evolutions
+
 1. Notary clock sync may be made more aggressive to enable "trading venue" classifications under MiFiD 2.
 2. tzdata distribution endpoints may be specified.
 3. NTP's peer to peer mode and time signing features may be researched as a way to spread a secure time feed through 

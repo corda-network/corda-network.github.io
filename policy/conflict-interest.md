@@ -1,10 +1,7 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Conflict of Interest Policy
 
-Conflict of Interest Policy
-===========================
+## 1 Introduction
 
-1 Introduction
---------------
 The Corda Network is committed to the highest levels of integrity, ethics and trust. The purpose of this policy is to 
 prevent any conflicts of interest, or appearance of a conflict of interest, from affecting any decisions made involving 
 the Corda Network, to ensure that the decisions made benefit the Corda community, as a whole, and to protect the Corda 
@@ -12,8 +9,8 @@ Network’s interest when the Corda Network is contemplating entering into a tra
 approving a policy program or other matter that might benefit the personal interests of a Board member or an individual 
 with controlling influence over management or policies.
 
-2 Policy
---------
+## 2 Policy
+
 The Governing Board, individuals with controlling influence over management or policies, individuals serving as 
 back-ups, observers or who participate on any Corda Network advisory or sub-committees, and others in commercially 
 sensitive positions (“Covered Person”) must sign a Code of Conduct and periodically confirm in writing their compliance 
@@ -29,7 +26,7 @@ respect to the proposed transaction, contract, arrangement, policy, program or o
 Operator is appointed by the Governing Board. Please see the Article of Association for more information). Potential 
 conflicts must be treated as a direct conflict until the doubt is removed and the matter is determined by the Operator 
 as not a conflict.
-3.  A Covered Person shall disclose a list of all organizations in which he or she has material financial interest, is 
+3.  A Covered Person shall disclose a list of all organizations in which he orц she has material financial interest, is 
 being employed by (including as a consultant), serving on the board, as either a decision maker or observer, or seeking 
 to do business with, where the firm is competing with the Corda Network.
 4.  Actions determined to be conflicts of interest by the Operator must be reported to the Governing Board or a 
@@ -50,29 +47,29 @@ of the individual with the conflict in question) can remove the non-disclosing i
 with the Corda Network Bylaws. It is the Covered Person’s responsibility to report any actual or potential conflict that 
 may exist between them (or an immediate family member) and R3.
 
-3 Anti Bribery and Anti Corruption
-----------------------------------
+## 3 Anti Bribery and Anti Corruption
+
 Covered Persons are prohibited from making payments to government officials, other than published fees and other fees 
 paid directly to government agencies, even when the purpose of the payment is merely to expedite or secure performance 
 of a routine governmental action such as obtaining official documents, processing governmental papers, or providing 
 postal or utility services.
 
-Global laws and Foundation policies prohibit Covered Personal and Operators to offer, make, receive, directly or 
+Global laws and Foundation policies prohibit Covered Personal and Operators to offer, make, receive, directly or 
 indirectly, anything of value (i.e., payments, goods or services), for the purpose of gaining an improper competitive 
 advantage or inducing or rewarding the improper performance of a relevant function or activity. Everyone must comply 
 with global anti-bribery and anti-corruption regulations.
 
-4 Gifts and Entertainment
--------------------------
+## 4 Gifts and Entertainment
+
 Covered Persons will not offer or give gifts, entertainment or favors that may create a potential, perceived, or actual 
 conflict of interest of business advantage related to the Corda Network. Gifts, entertainment, and other favors means 
 anything of value including meals, lodging, discounts, travel, money in any form (including crypto-currency), stock or 
-products.  
+products.
 
-5 Rationale
------------
+## 5 Rationale
+
 Any conflict of interest by a Covered Person can be seriously damaging to the Corda Network and the Corda Platform. The 
-Operator shall monitor compliance with this Policy.  The Operator is responsible for the following:
+Operator shall monitor compliance with this Policy. The Operator is responsible for the following:
 
 *   Maintaining an updated list of all Covered Persons
 *   Communicating any changes to the Covered Persons list to the Governing Board or appropriate Sub-committee

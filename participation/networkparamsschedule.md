@@ -1,12 +1,7 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Network Parameter Updates
 
 
-Network Parameter Updates
-=========================
-
-
-Addition of new and updates to existing parameters
--------------------------------------------------------------
+## Addition of new and updates to existing parameters
 
 Network parameters specify things like Minimum Platform Version and whitelisted notaries which, although not expected to change frequently, nevertheless will need to be updated over time. [Our docs site](https://docs.corda.net/network-map.html#network-parameters) has more detail.
 

@@ -1,7 +1,4 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
-
-Governance Structure
-====================
+# Governance Structure
 
 It is critically important that a commercial entity should not control Corda Network going forwards, and that it should 
 be governed transparently, with a fair and representative structure that can deliver a stable operating environment for 
@@ -30,4 +27,4 @@ Operating on behalf of:
 alliance membership.
 
 For more information about the intended governance of the network, please refer to the [Corda Network Foundation : 
-Governance Guidelines](governance-guidelines.md) document.
+Governance Guidelines](/governance/governance-guidelines) document.

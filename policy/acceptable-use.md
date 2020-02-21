@@ -1,10 +1,7 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Acceptable Use Policy
 
-Acceptable Use Policy
-=====================
+## 1 Purpose
 
-1 Purpose
----------
 Information and Communication Technology (ICT) resources, both in-house and externally operated, are essential to the
 operation of the Corda Network Foundation. Innovative use of ICT by Foundation team members is encouraged
 where such use supports Foundation objectives. The intention in publishing this policy is not to impose restrictions
@@ -15,40 +12,43 @@ responsible and cognisant of the needs of the Foundation and network participant
 requiring the active support of all. We all have a responsibility to understand the requirements of this policy and to
 conduct ourselves accordingly.
 
-2 Risks Addressed
------------------
+## 2 Risks Addressed
+
 This policy addresses the following risks:
 * Damage to the Foundation’s reputation or exposure of the Foundation to legal action as a result of deliberate or
 inadvertent misuse of Foundation ICT resources.
 * Compromise of the security of Foundation information or systems by their deliberate or inadvertent misuse.
 * Financial loss incurred in responding and recovering from security incidents that may result from such an eventuality.
 
-3 Who Does This Policy Apply To?
---------------------------------
+## 3 Who Does This Policy Apply To?
+
 This policy applies to workers at the Foundation (employees and contractors, consultants, temporaries, and others)
 including all personnel affiliated with third parties. This group is referred to throughout this policy as
 *"team members"*.
 
-4 Scope
--------
+## 4 Scope
+
 This policy takes into account the increasing pace of change in the corporate ICT environment, the widespread deployment
 of smartphone devices, cloud services and the trend towards consumerisation of corporate IT. The scope of the policy
 therefore includes any ICT system used to conduct Foundation business, regardless of its location, operator or owner and
 the means by which it is accessed. Users of third party or personally owned devices that the Foundation may permit to
 access its ICT systems must comply with this policy in the same way as users of Foundation supplied equipment.
 
-5 Mandatory Controls
---------------------
+## 5 Mandatory Controls
+
 ### 5.1 Note on the wording of this policy
+
 This policy is intended to provide day-to-day guidance for Foundation team members. Policy clauses are therefore
 presented throughout in the second person (you). This presentation has been chosen deliberately to make plain that
 responsibility lies with all team members to observe the controls listed herein.
 
 ### 5.2 Personal use of Foundation systems
+
 You are responsible for exercising good judgment regarding the reasonableness of personal use of Foundation systems.
 Team members must be guided by the employee handbook and any departmental policies on personal use.
 
 ### 5.3 Ownership of data and resources
+
 ICT resources provided to staff by the Foundation remain the property of the Foundation, and are intended to serve
 the interests of the Foundation and its customers.
 
@@ -58,6 +58,7 @@ collaborative tools used at the Foundation. Although not obliged to monitor traf
 choose to do so without prior notice and at any time.
 
 ### 5.4 Access control
+
 You are granted access to ICT resources appropriate to your role.  Access to resources over and above those
 explicitly granted must be requested via your line manager. Any attempt to bypass or otherwise subvert security controls
 in order to obtain additional or elevated access to ICT resources is prohibited.
@@ -65,6 +66,7 @@ in order to obtain additional or elevated access to ICT resources is prohibited.
 Access to other team members’ ICT resources without specific authorisation by that employee’s manager is prohibited.
 
 ### 5.5 Introduction of new technologies and services
+
 The Foundation recognises that it thrives through the use of new technologies and services, and is keen not to stifle
 innovation or unnecessarily limit productivity. With this in mind, you are responsible for exercising good judgement
 with regards the introduction of technology into the workplace. As an example, it may not be necessary for a developer
@@ -79,6 +81,7 @@ are required to use these services, rather than seek out new ones. Where existin
 you must raise this as an issue with your line manager, who will be able to provide guidance as to how to proceed.
 
 ### 5.6 Use of personal identities and accounts
+
 A personal identity or account is one which you have created for use in your private life outside of the work
 environment. The Foundation does not, in general permit the use of such identities or accounts for transacting
 Foundation business. Whilst there are generally accepted exceptions to this rule (such as the use of high value
@@ -95,6 +98,7 @@ With the exception of the exclusions noted in this section, you must be prepared
 passwords, PINs etc. that you may create in conjunction with your work at the Foundation to the Foundation upon request.
 
 ### 5.7 Specific unacceptable use examples
+
 Under no circumstances may you use any ICT resources provided by the Foundation to engage in any activity that is
 illegal or otherwise unlawful.
 
@@ -151,18 +155,20 @@ authority has been obtained.
 procedures.
 
 ### 5.8 General notes
+
 Whilst a specific use or behaviour may not be called out in this document, its absence does automatically not mark
 it as acceptable. If you are uncertain as to whether of a particular activity might comply with the intent of this
 policy, you should seek guidance from your supervisor or information security manager.
 
 ### 5.9 Reporting potential violations of this policy
+
 If you believe that this policy has been breached, the Foundation provides a facility for you to raise concerns
 anonymously, whether these concern breaches of policies such as this one, financial, behavioural or other misconduct.
 You may report suspicious circumstances on an anonymous basis, without fear of retaliation, 24 hours a day, 7 days a
 week.
 
-6 Compliance
-------------
+## 6 Compliance
+
 Assessments may be carried out for compliance against this policy. Any violation of this policy will be investigated and
 if the cause is found due to wilful disregard or negligence, it will be treated as a disciplinary offence. All
 disciplinary proceedings are coordinated through the Human Resources Department.

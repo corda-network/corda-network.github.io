@@ -1,42 +1,41 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Organisation of Information Security Policy
 
-Organisation of Information Security Policy
-===========================================
+## 1 Purpose
 
-1 Purpose
----------
 This policy defines the governance structure for the conduct of information security activities by the Corda Network
 Foundation.
 
-2 Control Objectives
---------------------
+## 2 Control Objectives
+
 The objectives of this policy are to ensure the effective governance of information security activities by the
 Foundation, such that:
 
   * All members of the organisation understand their information security responsibilities. 
   * An effective security management program is established, that appropriately directs company resources to protect information assets and address current and emerging information security (cyber) risks.
 
-3 Who Does the Policy Apply to?
--------------------------------
+## 3 Who Does the Policy Apply to?
+
 This policy applies to employees and contractors, consultants, temporaries, and other workers at the Foundation. This
 group is referred to as “employees and associates” throughout this policy.
 
 Information security controls and obligations placed upon external suppliers are addressed by a separate supplier risk
 management policy.
 
-4 Scope
--------
+## 4 Scope
+
 All employees and associates are required to implement the principles outlined in this policy and to carry out their
 responsibilities as defined.
 
-5 Roles and Responsibilities
-----------------------------
+## 5 Roles and Responsibilities
+
 ### The Management Team
+
 The Foundation management team holds overall responsibility for the protection of information assets at the
 Foundation. The management team will exercise this responsibility through its participation in the Information Security
 Committee and associated activities.
 
 ### Chief Information Security Officer
+
 The Chief Information Security Officer (CISO) provides management team sponsorship for the information security
 function and owns the information security issues at the executive level. The CISO role may be carried out by an
 appropriately qualified management team member. Information Security Manager
@@ -54,18 +53,21 @@ manage information security risk to the Foundation. The Information Security Man
   business as required.
 
 ### Information Owners
+
 Information owners are Foundation team members with specific responsibilities for the protection of Foundation
 information or systems. Information owners understand the information in their area of the business and its usage. They
 are therefore responsible for operational decision making regarding the protection and use of that information.
 Information owners may participate in the Information Security Committee or Security Operations Group.
 
 ### Employees and associates
+
 Employees and associates are responsible for the day to day protection of Foundation information assets. In
 particular they are required to be aware of, and to abide by, the Foundation's information security policies, and to
 maintain the controls appropriate for their individual area of responsibility. All employees and associates may be
 called upon to provide subject matter expertise to information security program activities as required.
 
 ### The Information Security Program
+
 The information security program includes the following main elements:
 
   * An *Information Security Committee* that defines and monitors the Foundation’s desired security posture and provides
@@ -83,6 +85,7 @@ The information security program includes the following main elements:
   Portfolio and monitors the performance of the Foundation's security controls.
 
 ### The Information Security Committee
+
 The Information Security Committee will provide oversight and direction for the Security Management and Security
 Operations portfolios though Committee meetings and associated activities. The Committee will:
 
@@ -109,6 +112,7 @@ The Information Security Committee will have executive level sponsorship.
 The Information Security Committee will meet at a frequency to be determined, but not less than biannually.
 
 ### The Security Management Portfolio
+
 The Security Management Portfolio is a collection of major security initiatives that either have foundation-wide
 impact, or that require significant resources to execute. The portfolio will be managed by the Information Security
 Manager and will include:
@@ -129,6 +133,7 @@ Performance metrics for the Security Management Portfolio will be developed and 
 Security Manager and presented to the Information Security Committee.
 
 ### Security Operations Portfolio
+
 The Security Operations Portfolio is a collection of ongoing operational security activities and smaller scale,
 short duration, projects. The Security Operations Portfolio will be managed by the Information Security Manager and
 will include:
@@ -148,6 +153,7 @@ Performance metrics for the Security Operations Portfolio will be developed and 
 Security Manager, reviewed by the Security Operations Group, and presented to the Information Security Committee.
 
 ### The Security Operations Group
+
 The Security Operations Group will provide resources and governance for the Security Operations Portfolio and
 security “business as usual” activities. The group will ensure that:
 
@@ -173,6 +179,7 @@ Security Management Portfolio.
 The Security Operations Group will meet at a frequency to be determined, but not less than every two months.
 
 ### Compliance
+
 Regular assessments are carried out for compliance against this policy. Any violation of this policy will be 
 investigated and if the cause is found due to wilful disregard or negligence, it will be treated as a disciplinary 
 offence. All disciplinary proceedings are coordinated through the Human Resources Department.

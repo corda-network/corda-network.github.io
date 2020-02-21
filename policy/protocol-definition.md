@@ -1,22 +1,19 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Protocol Definition
 
-Protocol Definition
-===================
+## 1 Proposed Policy
 
-1 Proposed Policy
------------------
-Zone members agree that their nodes will understand the Corda protocol as defined by the open source reference 
-implementation, of at least the version specified in the network parameters' minPlatformVersion field or higher. Note 
+Zone members agree that their nodes will understand the Corda protocol as defined by the open source reference 
+implementation, of at least the version specified in the network parameters' minPlatformVersion field or higher. Note 
 that the "platform version" may not always be aligned with the major version number of the Corda open source release, 
 although at the time of writing it is.
 
-Nodes may additionally support and use extended versions of the protocol, however they must not reject traffic from 
+Nodes may additionally support and use extended versions of the protocol, however they must not reject traffic from 
 nodes that are using the regular protocol.
 
-2 Rationale
------------
+## 2 Rationale
+
 There is currently no written specification of the Corda protocol. Therefore the Corda protocol is defined as whatever 
-the Corda software itself does.
+the Corda software itself does.
 
 One day, if the project continues to be successful, there will be a need to write such a specification so other 
 node implementations can be written (or more likely, less general programs that speak a subset of the protocol). At 
@@ -25,8 +22,8 @@ open source implementation doesn't do that, then the open source implementation 
 
 The Corda protocol is designed to be specifiable - it's largely AMQP over TLS with extensions, and of course is heavily 
 based on Java which is itself a standard with a formal specification. But it also sits on top of a very large pyramid of 
-technologies, so any specification would run to hundreds of pages. So, writing a detailed enough specification for this 
-to happen is a large undertaking which doesn't directly sell software, therefore it will have to wait until there is 
+technologies, so any specification would run to hundreds of pages. So, writing a detailed enough specification for this 
+to happen is a large undertaking which doesn't directly sell software, therefore it will have to wait until there is 
 sufficient demand.
 
 Until then, an implementation or modification to the open source implementation in incompatible ways will be deemed to 

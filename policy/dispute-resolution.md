@@ -1,10 +1,7 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
+# Dispute Resolution Policy
 
-Dispute Resolution Policy
-=========================
+## 1 Introduction
 
-1 Introduction
---------------
 Disputes between participants on the Corda Network shall be resolved in a hierarchical fashion, moving from the most 
 cost- and time-effective through to the most expensive.
 
@@ -36,8 +33,8 @@ knowledgeable in the field in which the dispute is raised. The arbitrator review
 the applicable rules and law, and renders a decision that is legally binding on both sides and enforceable in the courts 
 of law. 
 
-2 Rationale
------------
+## 2 Rationale
+
 Most agreements today, including common Master agreements, have clauses stating the dispute resolution approach to be 
 used in the event of conflict. There is a split between those that use arbitration and those that use the courts of law 
 (although Schedules to those Master agreements could override the default approach), but in both cases it does not 
@@ -46,6 +43,7 @@ We believe that to enable swift resolution of disputes arising from the use of d
 in some deployments of DLT a tailored dispute resolution approach would be beneficial.
 
 ### 2.1 Why is dispute resolution required?
+
 In order to deliver certainty in contracts, we need to cater for the edge case of disputes. Although distributed ledger 
 technology promises to increase reliability of transactions and reduce the frequency of disputes, those that remain may 
 be bigger and more complicated. Furthermore, confidence in DLT and smart contracts is strongly dependent on knowing that 
@@ -60,6 +58,7 @@ unforeseen use of the code. An agreed dispute resolution process may have provid
 which those who have had Ether taken can initiate discussions to get their assets returned.
 
 ### 2.2 How can disputes arise?
+
 All agreements are subject to conflict and smart agreements (contracts) are no exception. For the purposes of this 
 policy the scope of dispute resolution is limited to disputes relating to, or arising from, the use of the Network and 
 applications running on top of it. This would imply that disputes arising before the smart contract has been implemented 
@@ -107,8 +106,8 @@ lower level trading agreements. This may become difficult to manage where a trad
 different User Agreements and potentially different dispute resolution processes - the potential for discrepancy will 
 need to be carefully assessed as inter-operating ledgers are implemented.
 
-3 What Options Exist for Dispute Resolution?
---------------------------------------------
+## 3 What Options Exist for Dispute Resolution?
+
 With any contract, relying on litigation (e.g. courts of law) to resolve a dispute is typically a costly and 
 time-consuming exercise for both parties to the contract. Therefore, having an agreed dispute resolution process in 
 place for CorDapps, which does not involve immediate hand-off to litigation, could provide benefits by eliminating 

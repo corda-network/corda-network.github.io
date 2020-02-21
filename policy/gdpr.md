@@ -1,4 +1,3 @@
-|Corda Network Foundation|[Document history]({{ site.github.repository_url }}/blame/master/{{page.path}})|
 # Full Privacy Statement
 
 Corda Network respects your concerns about privacy and values the
@@ -57,7 +56,7 @@ data where the identity has been removed (anonymous data).
 We may collect, use, store and transfer different kinds of personal
 data about you which we have grouped together as follows:
 
-1.  **Identity Data**includes first name, maiden name, last name,
+1.  **Identity Data** includes first name, maiden name, last name,
     username or similar identifier, company, title,
 
 2.  **Contact Data** includes email address and telephone numbers.
@@ -189,18 +188,25 @@ purposes:
     defending our legal rights, or protecting others.
 
 All information we collect may be aggregated and merged or enhanced with
-data from other sources, such as third parties. We may also collect and
-store information locally on your device using mechanisms such as
+data from other sources, such as third parties. 
+
+| **Authorised Sub-processor** | **Application** | **Purpose** | **Legal Basis** |
+| --- | --- | --- | --- |
+| Microsoft | Azure | Corda node registration | Performance of contractual obligations to Participant |
+| Atlassian | Jira | Certificate signing request, Corda Network Support | Performance of contractual obligations to Participant |
+
+
+We may also collect and store information locally on your device using mechanisms such as
 browser web storage (including HTML 5) and application data caches.
 
 The below table describes our use of your **personal data, and the legal
 bases relied on, as well as** our legitimate interests where
 appropriate.
 
-| ﻿Purpose/Activity                                                                                                                                         | Type of data                                  | Lawful basis for processing including basis of legitimate interest                                                                                                                                          |
+| Purpose/Activity                                                                                                                                         | Type of data                                  | Lawful basis for processing including basis of legitimate interest                                                                                                                                          |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| To manage our relationship with you which will include: Maintaining your information to notify you about updates and events related to the Corda Network | (a)Identity (b)Contact                       | (a) Necessary to comply with a legal obligation                                                                                                                                                             |
-| To deliver relevant website content and advertisements to you and measure or understand the effectiveness of the advertising we serve to you             | (a)Identity (b)Contact (c)Usage (d)Technical | Necessary for our legitimate interests (to study how customers use our products/services, to develop them, to grow our business and to inform our marketing strategy)                                       |
+| To manage our relationship with you which will include: Maintaining your information to notify you about updates and events related to the Corda Network | (a)Identity (b)Contact                        | (a) Necessary to comply with a legal obligation                                                                                                                                                             |
+| To deliver relevant website content and advertisements to you and measure or understand the effectiveness of the advertising we serve to you             | (a)Identity (b)Contact (c)Usage (d)Technical  | Necessary for our legitimate interests (to study how customers use our products/services, to develop them, to grow our business and to inform our marketing strategy)                                       |
 | To use data analytics to improve our website, services, marketing, customer relationships and experiences                                                | (a)Technical (b) Usage                        | Necessary for our legitimate interests (to define types of customers for our products and services, to keep our website updated and relevant, to develop our business and to inform our marketing strategy) |
   
 We will only use your personal data for the purposes for which we
@@ -212,7 +218,7 @@ purpose is compatible with the original purpose, please contact us.
 If we need to use your personal data for an unrelated purpose, we will
 notify you and we will explain the legal basis which allows us to do so.
 
- Please note that we may process your personal data without your
+Please note that we may process your personal data without your
 knowledge or consent, in compliance with the above rules, where this is
 required or permitted by law.
 
@@ -266,14 +272,14 @@ one of the following safeguards is implemented:
     data by the European Commission. For further details, see
     [*European Commission: Adequacy of the protection of personal data
     in non-EU
-    countries*](https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu/adequacy-protection-personal-data-non-eu-countries_en)**.**
+    countries*](https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu/adequacy-protection-personal-data-non-eu-countries_en).
 
 -   Where we use certain service providers, we may use specific
     contracts approved by the European Commission which give personal
     data the same protection it has in Europe. For further details,
-    see[*European Commission: Model contracts for the transfer of
+    see [*European Commission: Model contracts for the transfer of
     personal data to third
-    countries*](https://ec.europa.eu/info/strategy/justice-and-fundamental-rights/data-protection/data-transfers-outside-eu/model-contracts-transfer-personal-data-third-countries_en)**.**
+    countries*](https://ec.europa.eu/info/strategy/justice-and-fundamental-rights/data-protection/data-transfers-outside-eu/model-contracts-transfer-personal-data-third-countries_en).
 
 **Please contact us if you want further information on the specific
 mechanism used by us when transferring your personal data out of the
@@ -292,7 +298,7 @@ other transmission you send through the Internet cannot be completely
 protected against unauthorized interception.
 
 We have also put in place procedures to deal with any suspected
-**personal** **data** breach and will notify you and any applicable
+**personal data** breach and will notify you and any applicable
 regulator of a breach where we are legally required to do so.
 
 ## 7. What Choices Do I Have?
@@ -336,7 +342,7 @@ therefore have the following rights:
 
 Please note that these rights are not absolute and certain exemptions
 apply. If you wish to exercise any of the rights set out above, please
-contact us. 
+contact us.
 
 ## 9. How Can I Contact Corda Network?
 
@@ -345,7 +351,7 @@ rapid resolution of any queries, complaints, or disputes about privacy.
 If you have submitted information to Corda Network and you would like to
 have it deleted from our databases or corrected, or if you have any
 other questions or comments regarding our privacy practices, please
-email us at info\@corda.network for more information.
+email us at info@corda.network for more information.
 
 If you are a resident in the UK, you have the right to make a complaint
 at any time to the Information Commissioner's Office (ICO), the UK
