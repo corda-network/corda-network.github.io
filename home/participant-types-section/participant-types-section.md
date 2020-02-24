@@ -189,9 +189,9 @@
     </g>
     </svg>
 
--   ### Corporate Sponsor
+-   ### Intergroup Sponsor
 
--   A corporate sponsoring participant may onboard other nodes that are under the same organisation (or rolling up to the same parent company) onto the network. They sign a legal agreement on behalf of all their nodes and handle any fees on behalf of all.
+-   An intergroup sponsoring participant may onboard other nodes that are under the same organisation (or rolling up to the same parent company) onto the network. They sign a legal agreement on behalf of all their nodes and handle any fees on behalf of all.
 
 <!-- Box  -->
 
