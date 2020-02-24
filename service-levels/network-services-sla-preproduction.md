@@ -1,6 +1,6 @@
 # Pre-Production (UAT) Environment Service Level Agreement
 
-This document is correct as of 17th February 2020.
+This document is correct as of 20th February 2020.
 
 Please note that the terms of this Service Level Agreement (SLA) are subject to change. Participants will be notified of any material changes via the contact contained in the Certificate Signing Request for each node unless alternative contact details are advised.
 
@@ -13,9 +13,14 @@ Please note that the terms of this Service Level Agreement (SLA) are subject to 
   - [2.3. Support](#23-support)
 - [3. Service Levels](#3-service-levels)
   - [3.1. Availability](#31-availability)
-  - [3.2. Identity Operator](#32-identity-operator)
-  - [3.3. Network Map Service](#33-network-map-service)
-  - [3.4. Notary](#34-notary)
+    - [3.1.1. Identity Manager](#311-identity-manager)
+    - [3.1.2. Network Map](#312-network-map)
+    - [3.1.3. Notary](#313-notary)
+  - [3.2. Performance](#32-performance)
+    - [3.2.1. Identity Manager](#321-identity-manager)
+    - [3.2.2. Network Map Service](#322-network-map-service)
+    - [3.2.3. Notary](#323-notary)
+  - [3.3. Exclusions](#33-exclusions)
 - [4. Change Management](#4-change-management)
   - [4.1. Ongoing Maintenance](#41-ongoing-maintenance)
   - [4.2. Network Infrastructure Patching](#42-network-infrastructure-patching)
@@ -90,50 +95,53 @@ The most up to date, detailed information about the services which Corda Network
 
 ### 3.1. Availability
 
-The following services will operate with 99% availability on a UK business hours basis during each calendar month. Definitions of availability for each service are included below.
+Definitions of availability for each service are included below.
 
-- **Identity Operator**
+#### 3.1.1. Identity Manager
 
-   >The Identity Operator service is considered available if it is able to successfully receive requests for new certificates submitted for the Corda Network.
+The Identity Manager service will operate with 99% availability on a UK business hours basis during each calendar month.
 
-   *This is measured by monitoring the service endpoint to ensure a valid status code is returned, and checking that the underlying worker process is running.*
+>The Identity Manager service is considered available if it is able to successfully receive requests for new certificates submitted for the Corda Network.
 
-- **Network Map**
+*This is measured by monitoring the service endpoint to ensure a valid status code is returned, and checking that the underlying worker process is running.*
 
-    >The Network Map service is considered available if it is able to provide a network map upon request.
+#### 3.1.2. Network Map
 
-    *This is measured by monitoring the service endpoint to ensure a valid status code is returned, and checking that the underlying worker process is running.*
+The Network Map service will operate with 99% availability on a UK business hours basis during each calendar month.
 
-- **Notary**
+>The Network Map service is considered available if it is able to provide a network map upon request.
 
-    >The Notary service is considered available if it is able to successfully receive, process and notarise transactions.
+*This is measured by monitoring the service endpoint to ensure a valid status code is returned, and checking that the underlying worker process is running.*
 
-    *This is measured by monitoring test transactions to ensure they are being received and processed as expected by the notary.*
+#### 3.1.3. Notary
 
-The following exclusions apply for service availability:
+The Notary service will operate with 99% availability on a UK business hours basis during each calendar month.
 
-- Network connectivity problems or hardware/software failure outside of the Foundation’s control affecting the connectivity of Participant nodes or any other Participant hardware/software to the Network services i.e. Participant node, network or system failures.
-- Planned system downtime required for essential maintenance of Corda Network service components.
+>The Notary service is considered available if it is able to successfully receive, process and notarise transactions.
 
-### 3.2. Identity Operator
+*This is measured by monitoring test transactions to ensure they are being received and processed as expected by the notary.*
 
-The completion of a Certificate Signing Request (CSR) is measured from the time of receipt of a correctly formatted signing request by the Foundation Identity Operator to the time at which a response is submitted to the requesting node. The Identity Operator process can handle multiple certificate signing requests in parallel.
+### 3.2. Performance
 
-> 95% of valid CSRs will be completed within 2 business working days each calendar month, excluding wait time for responses to confirmation or clarification requests from the Participant or Business Network Operator. Guidelines for submitting a CSR request can be found on the Foundation website [here](/trust-root/certificate-practices.html).
+#### 3.2.1. Identity Manager
 
-Unless the Participant is being sponsored onto the Corda Pre-Production Network by a Business Network Operator with whom such agreement is in place with the Foundation, the Identity Operator process requires the Participant to respond to a confirmation request. Service levels quoted here for turnaround time specifically exclude the duration of such Participant response.
+The completion of a Certificate Signing Request (CSR) is measured from the time of receipt of a correctly formatted signing request by the Foundation Identity Manager to the time at which a response is submitted to the requesting node. The Identity Manager process can handle multiple certificate signing requests in parallel.
 
-The Identity Operator may reject the certificate signing request if the data is not constructed according to the standards set out in the User Guide. Amended CSRs will be subject to the same SLAs as new certificate signing requests.
+> 95% of valid CSRs will be completed within 2 business working days each calendar month, excluding wait time for responses to confirmation or clarification requests from the Participant or Business Network Operator. Guidelines for submitting a CSR request can be found on the Foundation website [here](/trust-root/certificate-practices).
+
+Unless the Participant is being sponsored onto the Corda Pre-Production Network by a Business Network Operator with whom such agreement is in place with the Foundation, the Identity Manager process requires the Participant to respond to a confirmation request. Service levels quoted here for turnaround time specifically exclude the duration of such Participant response.
+
+The Identity Manager may reject the certificate signing request if the data is not constructed according to the standards set out in the User Guide. Amended CSRs will be subject to the same SLAs as new certificate signing requests.
 
 Participants requesting re-certification, either to generate new keys, or to amend information on an existing and valid certificate, will start a new node and request a new certificate in exactly the same way as the original certificate and this will be subject to the same service levels. The Distinguished Name of the new identity must be unique (not the same as the previous identity). Details such as the IP address of the node can be changed without re-certification by sending a new configuration file directly to the Network Map server.
 
-### 3.3. Network Map Service
+#### 3.2.2. Network Map Service
 
-The network map signing service regularly signs the network map to reflect the latest updates on a Corda Network zone; for example, the registration of a new participant node on a zone, or a node changing its IP address. As such, Network Map Service performance is measured by how frequently network maps are signed.
+The network map signing service regularly signs the network map to reflect the latest updates on a Corda Network zone; for example, the registration of a new participant node on a zone, or a node changing its IP address. As such, Network Map Service performance is measured by how frequently network maps are signed successfully.
 
 > 95% of Network Map signing events on the Pre-Production environment will be completed successfully each calendar month.
 
-### 3.4. Notary
+#### 3.2.3. Notary
 
 The completion time for transaction notarisation requests is measured from the time the inbound request is received on a Pre-Production Network notary to the point at which the outbound reply leaves the same Pre-Production Network notary. This metric assumes that correctly formatted and structured notarisation requests are received only.
 
@@ -142,6 +150,13 @@ Notarisation requests are treated individually, in sequence of receipt, by the n
 > The average time taken to process notarisation requests as measured over a five (5)-minute* interval will be <240 seconds for 95% of each calendar month.
 
 *\*Each five-minute interval for measuring notarisation requests is approximate. Each interval is distinct, with a new five-minute measurement interval beginning once the previous one ends. Measurements are not taken as a five-minute rolling average. This means there are approximately 12 measured intervals per hour.*
+
+### 3.3. Exclusions
+
+The following exclusions apply for service availability and performance targets:
+
+- Network connectivity problems or hardware/software failure outside of the Foundation’s control affecting the connectivity of Participant nodes or any other Participant hardware/software to the Network services i.e. Participant node, network or system failures.
+- Planned system downtime required for essential maintenance of Corda Network service components.
 
 ## 4. Change Management
 
@@ -193,7 +208,7 @@ Many types of update processes will be entirely transparent to users and can be 
 
 The update process incorporates a node polling activity that ensures all node operators see the requested changes in advance and can choose to accept/not accept. The Foundation will consult with Participants should there be disagreement over the proposed changes but reserves the right to progress if the majority of Participants are in agreement that it should go ahead, and reasonable attempts have been made to address any concerns of Participants rejecting the change.
 
-Further details can be found on the Corda Network website [here](/policy/network-params-update.html) and within the Corda documentation [here](https://docs.corda.net/network-map.html#network-parameters).
+Further details can be found on the Corda Network website [here](/policy/network-params-update) and within the Corda documentation [here](https://docs.corda.net/network-map.html#network-parameters).
 
 Where the update may require significant Participant action, for example where the minimum platform version is increased and certain Participants need to upgrade to meet the new minimum, a minimum of three (3) months notice will be given. Full instructions will be communicated to node operators via the Network Operator’s service dashboard.
 
@@ -221,7 +236,7 @@ The Corda Network has a disaster recovery policy which is reviewed and tested se
 
 Regular backups are taken at a one (1) hour interval for the following Corda Network services:
 
-- Identity Operator
+- Identity Manager
 - Network Map
 
 Daily database backups are taken at a regular twenty-four (24) hour interval for the following Corda Network services:
@@ -232,7 +247,7 @@ Daily database backups are taken at a regular twenty-four (24) hour interval for
 
 The data retention policy for the Corda Network is as follows:
 
-- Business data created in the Corda Network environment as a result of Participant activities under this agreement will be held by Participant nodes and the Corda Network databases supporting the Identity Operator, Network Map and Notary services.
+- Business data created in the Corda Network environment as a result of Participant activities under this agreement will be held by Participant nodes and the Corda Network databases supporting the Identity Manager, Network Map and Notary services.
 - The Corda Network Foundation reserves the right to delete test data from Corda Network Services on the completion of testing on the Pre-Production environment.
 - At the end of the term of Corda Network membership for a Participant, the Foundation shall remove such data held in its own databases, unless a Participant requests otherwise at least thirty (30) days in advance of the end of the membership period. Any extended period of retention of data shall be at Foundation’s sole discretion and subject to a separate commercial agreement clarifying applicable storage costs and resulting fees payable by the Participant.
 
@@ -247,14 +262,14 @@ The recovery time objective excludes any time required for Participants to compl
 
 In the event of a failure of the following Corda Network services, the recovery time objective will be eight (8) hours (within normal business hours) from the point of detection:
 
-- Identity Operator
+- Identity Manager
 - Network Map
 
 ### 5.4. Recovery Point Objective
 
 In the event of a failure of the following Corda Network services, the recovery point objective will be one (1) hour from the point of failure:
 
-- Identity Operator
+- Identity Manager
 - Network Map
 
 In the event of a failure of the following Corda Network services, the recovery point objective will be twenty-four (24) hours from the point of failure:
