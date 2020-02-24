@@ -1,6 +1,6 @@
 # Production Environment Service Level Agreement
 
-This document is correct as of 19th February 2020.
+This document is correct as of 24th February 2020.
 
 Please note that the terms of this Service Level Agreement (SLA) are subject to change. Participants will be notified of any material changes via the contact contained in the Certificate Signing Request for each node unless alternative contact details are advised.
 
@@ -20,6 +20,7 @@ Please note that the terms of this Service Level Agreement (SLA) are subject to 
     - [3.2.1. Identity Manager](#321-identity-manager)
     - [3.2.2. Network Map Service](#322-network-map-service)
     - [3.2.3. Notary](#323-notary)
+  - [3.3. Exclusions](#33-exclusions)
 - [4. Change Management](#4-change-management)
   - [4.1. Ongoing Maintenance](#41-ongoing-maintenance)
   - [4.2. Network Infrastructure Patching](#42-network-infrastructure-patching)
@@ -117,11 +118,6 @@ The Notary service will operate with >99% availability on a 24/7/365 basis durin
 
 *This is measured by monitoring test transactions to ensure they are being received and processed as expected by the notary.*
 
-The following exclusions apply for service availability:
-
-- Network connectivity problems or hardware/software failure outside of the Foundation’s control affecting the connectivity of Participant nodes or any other Participant hardware/software to the Network services i.e. Participant node, network or system failures.
-- Planned system downtime required for essential maintenance of Corda Network service components.
-
 ### 3.2. Performance
 
 #### 3.2.1. Identity Manager
@@ -151,6 +147,13 @@ Notarisation requests are treated individually, in sequence of receipt, by the n
 
 *\*Each five-minute interval for measuring notarisation requests is approximate. Each interval is distinct, with a new five-minute measurement interval beginning once the previous one ends. Measurements are not taken as a five-minute rolling average. This means there are approximately 12 measured intervals per hour.*
 
+### 3.3. Exclusions
+
+The following exclusions apply for service availability and performance targets:
+
+- Network connectivity problems or hardware/software failure outside of the Foundation’s control affecting the connectivity of Participant nodes or any other Participant hardware/software to the Network services i.e. Participant node, network or system failures.
+- Planned system downtime required for essential maintenance of Corda Network service components.
+
 ## 4. Change Management
 
 All changes to Corda Network infrastructure are communicated via the Network Operator’s [service dashboard](https://cordanetwork.statuspage.io/), which will automatically send notifications for the scheduling and progress of each change to node operators via the contact contained in the CSR for each node unless alternative contact details are advised.
@@ -173,14 +176,14 @@ On occasion, emergency maintenance may be required in response to a real or perc
 
 ### 4.4. Platform Upgrades
 
-It is important that Corda Network is able to take advantage of new releases without undue delay and so the normal mode of operation is for services to be regularly upgraded to the latest Corda platform version. Corda Network platform version upgrades will not normally require customer nodes to upgrade and in the majority of cases will be non-service impacting for node operators.
+It is important that Corda Network is able to take advantage of new releases without undue delay and so the normal mode of operation is for services to be regularly upgraded to the latest Corda platform version. Corda Network platform version upgrades will not normally require Participant nodes to upgrade and in the majority of cases will be non-service impacting for node operators.
 
 Planned platform upgrades that do not require action from node operators will be communicated a **minimum of five (5) business days in advance**.
 
 However, there may be certain upgrade scenarios that do require action from Participants:
 
 - Corda Network upgrades that require action from Corda Network Participants to accept new network parameters are subject to the change process and timelines defined for the Network Parameter Updates process [below](#45-network-parameter-updates).
-- In the event that an upgrade does require customer nodes to upgrade, the Network Operator will post intention to upgrade Corda Network services a **minimum of three (3) calendar months in advance of the event** and will conduct its own testing in a separate environment before making the upgrade. Customers will be invited to support such testing by operating test nodes in such an environment. It may not be possible to test with every CorDapp, nor should it be necessary.
+- In the event that an upgrade does require Participant nodes to upgrade, the Network Operator will post intention to upgrade Corda Network services a **minimum of three (3) calendar months in advance of the event** and will conduct its own testing in a separate environment before making the upgrade. Participants will be invited to support such testing by operating test nodes in such an environment. It may not be possible to test with every CorDapp, nor should it be necessary.
 
 In the rare event of issues arising, any issue will be treated as an incident and managed according to the service levels defined in the Corda Network Support Handbook.
 
@@ -199,7 +202,7 @@ Updates will be required whenever the following scenarios occur:
 
 Many types of update processes will be entirely transparent to users and can be executed during normal working hours. Updates will be advertised at least **ten (10) business days in advance**.
 
-The update process incorporates a node polling activity that ensures all node operators see the requested changes in advance and can choose to accept/not accept. The Foundation will consult with customers should there be disagreement over the proposed changes but reserves the right to progress if the majority of Participants are in agreement that it should go ahead, and reasonable attempts have been made to address any concerns of Participants rejecting the change.
+The update process incorporates a node polling activity that ensures all node operators see the requested changes in advance and can choose to accept/not accept. The Foundation will consult with Participants should there be disagreement over the proposed changes but reserves the right to progress if the majority of Participants are in agreement that it should go ahead, and reasonable attempts have been made to address any concerns of Participants rejecting the change.
 
 Further details can be found on the Corda Network website [here](/policy/network-params-update) and within the Corda documentation [here](https://docs.corda.net/network-map.html#network-parameters).
 
@@ -240,8 +243,8 @@ Daily database backups are taken at a regular twenty-four (24) hour interval for
 
 The data retention policy for the Corda Network is as follows:
 
-- Business data created in the Corda Network environment as a result of customer activities under this agreement will be held by customer nodes and the Corda Network databases supporting the Identity Manager, Network Map and Notary services.
-- At the end of the term of Corda Network membership for a Participant, the Foundation shall remove such data held in its own databases, unless customer requires otherwise at least thirty (30) days in advance of the end of the membership period. Any extended period of retention of data shall be at Foundation’s sole discretion and subject to a separate commercial agreement clarifying applicable storage costs and resulting fees payable by customer.
+- Business data created in the Corda Network environment as a result of Participant activities under this agreement will be held by Participant nodes and the Corda Network databases supporting the Identity Manager, Network Map and Notary services.
+- At the end of the term of Corda Network membership for a Participant, the Foundation shall remove such data held in its own databases, unless a Participant requires otherwise at least thirty (30) days in advance of the end of the membership period. Any extended period of retention of data shall be at Foundation’s sole discretion and subject to a separate commercial agreement clarifying applicable storage costs and resulting fees payable by the Participant.
 
 ### 5.3. Recovery Time Objective
 
@@ -272,11 +275,11 @@ In the event of a failure of the following Corda Network services, the recovery 
 
 ### 6.1. Reporting
 
-Performance against SLAs defined in this document will be reported on the Corda Network Foundation website **within five (5) business working days** of the end of each calendar month. Reporting will not be Participant specific and will not include any identifiable customer details.
+Performance against SLAs defined in this document will be reported on the Corda Network Foundation website **within five (5) business working days** of the end of each calendar month. Reporting will not be Participant specific and will not include any identifiable Participant details.
 
 ### 6.2. Service Credits
 
-In the event of SLA breaches impacting individual customers they will be entitled to repatriation of fees for the specific service affected.
+In the event of SLA breaches impacting individual Participants they will be entitled to repatriation of fees for the specific service affected.
 
 A breach is defined as an instance where an individual service target is not met within the measurement intervals specified within this document. Multiple breaches cannot be claimed against a single service target within the same measurement interval.
 
