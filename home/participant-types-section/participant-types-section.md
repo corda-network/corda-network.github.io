@@ -189,9 +189,9 @@
     </g>
     </svg>
 
--   ### Sponsor
+-   ### Intergroup Sponsor
 
--   A sponsoring participant may onboard other nodes onto the network as part of their Business Network. They sign a legal agreement on behalf of all their nodes and handle any fees on behalf of all. (However, if a sponsee node chooses to join another Business Network / use another CorDapp, it must then change from being Sponsored to a Direct participant).
+-   An intergroup sponsoring participant may onboard other nodes that are under the same organisation (or rolling up to the same parent company) onto the network. They sign a legal agreement on behalf of all their nodes and handle any fees on behalf of all.
 
 <!-- Box  -->
 
