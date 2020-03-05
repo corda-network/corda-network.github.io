@@ -77,7 +77,7 @@ Follow these instructions to [configure your node](https://docs.corda.net/corda-
 
 The below networkmapurls are for the Corda Network mainnet, so if you start up your node and connect with this url, you will join the mainnet. 
 
-N.B.: If you are joining a **Segregated Network**, you need to request your *unique* networkMapURL from info@corda.network for the pre-production or  production network. If you join the mainnet by accident, this is a problem that can easily be corrected, but your node's identity will appear on the network map for a period of time.
+N.B.: If you are joining a **Segregated Network**, you need to request it according to the instructions on [this page](/participation/network-choice). To deploy your Segregated Network you will need to use your *unique* and *private* networkMapURL (for pre-production and/or production network). If you join the mainnet by accident, this is a problem that can easily be corrected, but your node's identity will appear on the network map for a period of time.
 
 ### Pre-Production Network
 
