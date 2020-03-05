@@ -44,6 +44,10 @@ As with participation fees, the invoice is managed by Sponsors for identity-only
 Any 'unused' transactions at the year-end are not carried forwards or reimbursed. Additional transaction 
 packages can be purchased at any time, but previous purchases that year are ignored in calculating the cost.
 
+## 3. (Optional) Segregated Networks
+
+The annual fee for a segregated network in both Pre-Production and Production is $10,000 per year. This includes us running a network map and a certificate issuance service. You must run your own notary in a segregated network. For more information, see this [sub-site](https://corda.network/participation/membership-tiers).
+
 ## Third-party Notaries
 
 Notary fees for third-party notaries are at the sole discretion of the corresponding notary provider, and invoicing is managed by them. There are no Corda Network fees for running your own notary. See [Notary Considerations](/participation/notary-considerations).
