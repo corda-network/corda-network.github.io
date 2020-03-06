@@ -1,4 +1,5 @@
-# Governance Events
+Governance Events
+-------------------
 
 News of governance events will be noted on this page.
 
