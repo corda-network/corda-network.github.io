@@ -1,5 +1,13 @@
 # Corda Network News
 
+## 2020-03-06
+
+Thinking about different types of interoperability - Corda Network enables 'intrachain' transactions. Latest article from Richard Gendal Brown in [Forbes](https://www.forbes.com/sites/richardgendalbrown/2020/03/05/whipping-up-your-market-with-the-five-ingredients-of-interoperability/#73fa92bd7432).
+
+## 2020-03-05
+
+[Contour](https://www.contour.network/) and [TradeCloud](https://tradecloud.sg/) partnering together on a Letter of Credit offering, ontop of Corda Network.
+
 ## 2019-12-03
 
 [HQLAx](https://www.hqla-x.com/), a Business Network, starts the first live trades on Corda Network, between Credit 
