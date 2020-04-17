@@ -22,14 +22,9 @@ verification with an EV SSL cert.
 If the Network Operator fully automates this process, they are expected to filter out emails coming from large 
 webmail domains using e.g. [this list](https://webmail.wiki/list-of-webmail-domains/).
  
-The start date for this policy will be later in 2019.
-
 ## 3 Rationale
 
-[Package namespace ownership](https://docs.corda.net/head/design/data-model-upgrades/package-namespace-ownership.html) 
-is a new optional feature arriving in Corda 4. You can read the design document to learn 
-the details but briefly, links between Java package namespaces and public keys in the 
-network parameters will be published. For example:
+Package namespace ownership is an optional feature available from Corda 4. It links between Java package namespaces and public keys in the network parameters will be published. For example:
  
 * com.r3.* -> secp256k1:12345….7890
 * net.corda.* -> secp256k1:9876….54321
