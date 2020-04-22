@@ -1,5 +1,9 @@
 # Corda Network News
 
+## 2020-04-17
+
+SBI in Japan using the Production Corda Network, for foreign exchange margin transactions in [Ledger Insights](https://www.ledgerinsights.com/sbi-enterprise-blockchain-corda-group-forex-transactions/)
+
 ## 2020-03-06
 
 Thinking about different types of interoperability - Corda Network enables 'intrachain' transactions. Latest article from Richard Gendal Brown in [Forbes](https://www.forbes.com/sites/richardgendalbrown/2020/03/05/whipping-up-your-market-with-the-five-ingredients-of-interoperability/#73fa92bd7432).
