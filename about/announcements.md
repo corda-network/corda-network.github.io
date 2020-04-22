@@ -12,15 +12,17 @@ Thank you!
 
 
 ### Rules
-**Applications**
-- Individuals considering to stand for the Board should send a short application by 10th May 2020 - 7 weeks in advance of the vote. The vote is intended to take place on 30 June 2020 (further details to follow). 
+**Application Process**
+- Individuals considering to stand for the Board should send a short application by **10th May 2020** - 7 weeks in advance of the vote. The vote is intended to take place on 30 June 2020 (further details to follow). 
+- As detailed in Section 3.3.4 of the Foundation's [By-Laws](https://corda.network/governance/bylaws), the application should contain an updated CV, personal statement and short biography of the nominee
+- The list will be circulated to the Board and Participant Community by 17th May
 
 **Eligibility**
 - A legal entity must have 1 node (Open Source / Enterprise) on the Production Network, by Tues 23 June 2020, to 1)	vote for or 2) stand for, the Board
 - The legal entity is that found in the [x500 cert](https://corda.network/participation/distinguishedname.html/). The node operator or Sponsor, if applicable, are not relevant.
-- All eligible legal entities get to vote for 3 Directors out of 9. If your legal entity has 2 nodes, it will have 2 opportunities to vote. 
-- Any live legal entities may nominate up to 3 individuals.
-- If you are not live yet by the application deadline, you can still send in the application. It will not be considered eligible until the node is live on or before 23rd June.
+- All eligible legal entities get to vote for 3 Directors out of 9. If a legal entity has 2 nodes, it will have 2 opportunities to vote. 
+- Any live legal entities may nominate up to 3 individuals for the Board, however in the end its likely only one will get through, according to the diversity criteria in the By-Laws (see [Section 4](https://corda.network/governance/bylaws)).
+- If you are not live yet by the application deadline, you can still send in the application. However, the application will not be considered eligible until the node is live - on or before 23rd June.
 - Existing Foundation [Transition Board](https://corda.network/governance/board-election/) directors are eligible to stand again. 
 
 **Staggered Board Design**
