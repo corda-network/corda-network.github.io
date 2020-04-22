@@ -4,7 +4,7 @@
 
 The election for the new Corda Network Foundation Board is taking place on **30th June 2020**. 
 
-Any legal entity who is live on the Production Network is eligible to vote for, or nominate an individual from their organization to stand for, the Board. Detailed rules below (pulled from Section 3 of the Foundation's [By-Laws](https://corda.network/governance/bylaws). 
+Any legal entity who is live on the Production Network is eligible to vote for, or nominate an individual from their organization to stand for, the Board. Detailed rules below - from Section 3 of the Foundation's [By-Laws](https://corda.network/governance/bylaws). 
 
 For any questions, please contact info@corda.network. 
 
