@@ -4,15 +4,13 @@
 
 The election for the new Corda Network Foundation Board is taking place on **30th June 2020** ! 
 
-Any legal entity who is live on the Production Network (with at least one node) is eligible to vote for, or nominate an individual from their organization to stand for, the Board. Rules below. 
+Any legal entity who is live on the Production Network (with at least one node) is eligible to vote for, or nominate an individual from their organization to stand for, the Board. Detailed rules below (pulled from Section 3 of the Foundation's [By-Laws](https://corda.network/governance/bylaws). 
 
 For any questions, please contact info@corda.network. Thank you!
 
 
 ### Rules
-- A legal entity must have 1 node (Open Source / Enterprise) on the Production Network, by Tue 23 June 2020, to:
-1.	Vote for
-2.	Stand for, the Board
+- A legal entity must have 1 node (Open Source / Enterprise) on the Production Network, by Tues 23 June 2020, to 1)	Vote for or 2) Stand for, the Board
 - The legal entity is that found in the [x500 cert](https://corda.network/participation/distinguishedname.html/). The node operator or Sponsor, if applicable, are not relevant.
 - All eligible legal entities get to vote for 3 Directors out of 9. If your legal entity has 2 nodes, it will have 2 opportunities to vote. 
 - Individuals considering to stand for the Board should send a short application by 17th May 2020 - 6 weeks in advance of the vote. The vote is intended to take place on 30 June 2020 (further details to follow). 
