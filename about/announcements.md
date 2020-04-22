@@ -1,6 +1,6 @@
- ## Announcements of Corda Network Foundation
+ ## Announcements 
 
-### 22nd April 2020
+### Announcement 1: 22nd April 2020
 
 The election for the new Corda Network Foundation Board is taking place on **30th June 2020**. 
 
