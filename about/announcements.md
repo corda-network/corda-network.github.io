@@ -26,14 +26,14 @@ Thank you!
 - Existing Foundation [Transition Board](https://corda.network/governance/board-election/) directors are eligible to stand again. 
 
 **Staggered Board Design**
-1.	The 3 Directors with the most votes will get 3-year terms (July 2020 - July 2023)
-2.	The 3 Directors with the middle amount of votes will get 2-year terms (July 2020 - July 2022)
-3.	The 3 Directors with the lowest amount of votes will get 1-year terms (July 2020 - July 2021)
+1. The 3 Directors with the most votes will get 3-year terms (July 2020 - July 2023)
+2. The 3 Directors with the middle amount of votes will get 2-year terms (July 2020 - July 2022)
+3. The 3 Directors with the lowest amount of votes will get 1-year terms (July 2020 - July 2021)
 4.	This is by design, to enable a staggered board. As such, from July 2021 onwards, on an annual basis, 3 directors' seats will become available on an ongoing basis
 
-Notes
-1. All of these rules are in the By-Laws of the Foundation. See Section 3.3 at https://corda.network/governance/bylaws
-2. There is a small chance this will be delayed slightly, if a long list of candidates are proposed.
+**Notes**
+- All of these rules are in the By-Laws of the Foundation. See Section 3.3 at https://corda.network/governance/bylaws
+- There is a small chance this will be delayed slightly, if a long list of candidates are proposed.
 
 ++++++++++++
 
