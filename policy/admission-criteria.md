@@ -82,3 +82,5 @@ For a US-based Operator, the following lists will be used:
 * FATF Financial Action Task Force         
 * Office of the Superintendent of Financial Institutions Consolidated List—Canada
 * Consolidated list of Persons, Groups and Entities subject to EU Financial Sanctions
+* [Section 311 of the USA Patriot Act](https://home.treasury.gov/policy-issues/terrorism-and-illicit-finance/311-actions)
+* [Office of the Comptroller of the Currency (OCC) Unauthorized Banking List](https://www.occ.treas.gov/news-issuances/alerts/2010/alert-2010-12.html)
