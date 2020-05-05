@@ -24,7 +24,6 @@ To expedite your certificate signing request (CSR) to join Corda Network, please
 Steps i-iv are pre-approval steps, to ensure when the CSR is submitted (below, in Step 6), all values are populated correctly.
 
 i. The node operator fills out fields in bold in the table below, for every node to be onboarded (you may submit as many nodes as you like). Send this email of nodes to info@corda.network.
-Useful tip: If you email this to us from the ‘node operator email address’ (specific below), step iii is not required!
 
 "O" - Organisation should usually be the same Legal Entity as what you have filled out in your Terms of Use (Step 1), which is also the owner of the assets being used on Corda Network. For guidance on which legal entity name to pick for your node, see [here](/participation/legalentity).
 
