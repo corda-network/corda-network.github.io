@@ -46,7 +46,7 @@ packages can be purchased at any time, but previous purchases that year are igno
 
 ## 3. (Optional) Segregated Networks
 
-The annual fee for a segregated network in both Pre-Production and Production is $10,000 per year. This includes us running a network map and a certificate issuance service. You must run your own notary in a segregated network. For more information, see this [sub-site](https://corda.network/participation/membership-tiers).
+The annual fee for a segregated network in both Pre-Production and Production is $10,000 per year. This includes us running a network map and a certificate issuance service. You must run your own notary in a segregated network. 
 
 ## Third-party Notaries
 
