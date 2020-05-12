@@ -139,7 +139,9 @@ Start polling server for certificate signing approval.
 
 Important: the Request ID given in the above should be noted and kept safe for future reference.
 
-## Step 7: Confirmation
+## Step 8: Confirmation
+
+**Step 8.1: Certificate Released and Node Restart**
 
 Once approved, a signed node CA certificate will be released by the Operator to the node. A node in polling mode will automatically download and install the certificate in its local trust store. It will also automatically generate additional identity and TLS certificates from the node CA certificate, which are required for subsequent operation of the node.
 
@@ -148,6 +150,12 @@ At this point, the node will terminate and will need to be restarted. Type “ja
 Confirming your implementation - Installation and configuration of your Corda applications must be undertaken by the node operator. Instructions to install CorDapps can be found on https://docs.corda.net. Specifics on application usage or installation should be available from your CorDapp provider.
 
 Business Network Operators should co-ordinate any post-install tests that may involve a small number of low value transactions on the business network to assure themselves of the correct setup of their node. Node operators should co-ordinate with their Business Network Operator in this regard. All node-initiated activity on the network from the point of connection is the responsibility of the node operator.
+
+**Step 8.2: Subscribe to StatusPage**
+
+We currently communicate system maintenance schedule, disruptions and other important operational announcements related to the Corda Network services on our [Statuspage](https://cordanetwork.statuspage.io/#). Please ensure all individuals and/or groups responosible for technical operation of your network / node have subscribed to these updates so that they will be automatically sent to the relevant email addresses. 
+
+Please also ensure that the relevant lists are being subscribed - each subscriber can choose which service(s) (notary, network map and identity operator) and enviornement(s) (Pre-production and Production) to subscribe to. **We strongly recommend that at least the node operator email address should subscribe to all services in your operating environment. You should also ensure you update your subscription list when you onboard to a new environment - such as ensuring you subscribe to all Production updates of as you onboarded to the Production environment).**
 
 ## Participation fee
 
