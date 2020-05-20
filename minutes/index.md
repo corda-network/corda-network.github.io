@@ -6,6 +6,7 @@ Minutes of previous meetings are available:
 
 1. [2019/12/06 - December](/minutes/20191206).
 2. [2020/02/13 - February](/minutes/20200213).
+3. [2020/05/13 - May](/minutes/20200513).
 
 ## Governance Events
 
