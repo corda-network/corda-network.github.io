@@ -40,13 +40,13 @@ The Foundation shall apply a structured process to the creation of new Network P
 
 The schedueled Network Parameter Update window can be found on our [Network Parameters Update Schedule](https://corda.network/participation/networkparamsschedule.html) page.
 
-If participants wish to change any network parameters, including a new public notary, they must give notice to the Operator (cordanetwork.ops@r3.com) *20 business days* in advance of the scheduled Network Parameter Update window, or else they will have to wait for the next window.
+If participants wish to change any network parameters, including a new public notary, they must give notice to the Operator by emailing cordanetwork.ops@r3.com or by raising a ticket via Corda Network [Support portal](https://r3-cev.atlassian.net/servicedesk/customer/portal/7) *20 business days* in advance of the scheduled Network Parameter Update window, or else they will have to wait for the next window.
 
 The planned annual dates will also be communicated by the Network Operator to all participants in advance on [https://corda.network/](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcorda.network%2F&data=02%7C01%7C%7C7b5adf5bd9674a65dc7708d697159e1a%7Ca4be1f2e2d10419587cd736aca9b672c%7C0%7C0%7C636862516429066085&sdata=K6T%2Bxp7TvdYAwXtr5QQvIAnv2wUalGOkjzRSIvvtQ4A%3D&reserved=0), and if anything needs to change, reasonable advance notice to all participants will be uploaded onto this website.
 
 If participants wish to update any network parameter, they must give notice to the Operator 20 business days in advance of the scheduled Network Parameter window.
 
-This should be sent to: cordanetwork.ops@r3.com
+This should be sent to: cordanetwork.ops@r3.com or raised as a ticket in Corda Network [Support portal](https://r3-cev.atlassian.net/servicedesk/customer/portal/7)
 
 ### Please note:
 
