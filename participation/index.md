@@ -72,6 +72,9 @@ Follow these instructions to [deploy the node](https://docs.corda.net/deploying-
 
 Follow these instructions to [configure your node](https://docs.corda.net/corda-configuration-file.html). A node.conf file must be included in the root directory of every Corda node.
 
+Use default passwords on the node configuration file to unlock the Trust Store file and Keystore file containing the Corda Network root certificate. This is a non-secret value required for your initial registration. 
+trustStorePassword: trustpass
+
 **Step 5.1: Specifying URLs For Initial Registration**
 
 The below networkmapurls are for the Corda Network mainnet, so if you start up your node and connect with this url, you will join the mainnet. 
