@@ -1,6 +1,7 @@
 # Corda Network Foundation Transition Board
 
-As outlined in the [Governance Guidelines](/governance/governance-guidelines), the Foundation will first be governed by a 1-year 'Transition Board', after which steady-state elections will commence.
+As outlined in the [Governance Guidelines](/governance/governance-guidelines), the Foundation will first be governed by a 1-year 'Transition Board', after which steady-state elections will commence. The Transition Board is effective from 1 March 2019 until 30 June 2020.
+
 ## Corda Network Foundation Transition Board 
 
 The Corda Network Foundation's Transition Board has been appointed (press release: April 2019). 
