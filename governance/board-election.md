@@ -9,10 +9,10 @@ The Board includes 9 senior figures from external companies across financial ser
 1. Andrei Ilchenko: Head of IT Wholesale Banking Channels, ING, Europe
 2. Alain Verschueren: Head of Innovation & DLT, Trade Finance Competence Centre, BNP Paribas, Europe
 3. Masayuki Miyashita: Head of Structured Trade Group, Global Trade Finance Department,Sumitomo Mitsui Banking Corporation, Asia
-4. Joshua Kroeker: Director, Blockchain Lead for Global Commercial Banking, HSBC, Asia
+4. Yong Xia, Chief Architect, China, HSBC. Yong was nominated by HSBC to replace Joshua Kroeker on 8th May for the remainding sitting of the Board. Joshua Kroeker was Director, Blockchain Lead for Global Commercial Banking, HSBC, Asia and has moved to Contour as Chief Product Officer.
 5. Andrew Speers: Director, Product and Innovation, NatWest, Europe
 6. Jordane Rollin: Executive Director & Head, Digital Transformation, Trade Finance Global Products, Standard Chartered, Asia
-7. Markus Tradt: Chief Technology Officer, B3i, Europe
+7. Alessandro Spadoni, Chief Architect, B3i. Alessandro was nominated by B3i to replace Markus Tradt, Chief Technology Officer, who left B3i on 1st May to return to Munich Re.
 8. Greg Crow: Global Head of Architecture, AXA XL, Europe
 9. Chris Madsen, Head of Global Underwriting Center, Aegon, Europe - Chris was nominated by B3i and voted in by the Board, during a Mandatory governance event in July 2019 as a replacement for Edwin Oversteeg, who resigned for personal reasons. 
 
