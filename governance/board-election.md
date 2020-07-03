@@ -26,7 +26,7 @@ The Corda Network Foundation's Governing Board was elected in June 2020. The Boa
 
 
 In addition, the board has two directors employed by R3: 
-10. James Carlyle
+10. James Carlyle and
 11. Carolyne Quinn.
 
 To implement a staggered Board design during the first steady-state seating  as outlined in 2.1. [Governance Guidelines](/governance/governance-guidelines), three of the nine Directors have been appointed for
