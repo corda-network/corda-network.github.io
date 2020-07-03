@@ -63,13 +63,15 @@ All eligible legal entities get to vote for 3 Directors out of 9. If a legal ent
 Any live legal entities may nominate up to 3 individuals for the Board, however in the end its likely only one will get through, according to the diversity criteria in the By-Laws (see Section 4).
 If you are not live yet by the application deadline, you can still send in the application. However, the application will not be considered eligible until the node is live - on or before 23rd June.
 Existing Foundation Transition Board directors are eligible to stand again.
-Staggered Board Design
+
+**Staggered Board Design**
 
 The 3 Directors with the most votes will get 3-year terms (July 2020 - July 2023)
 The 3 Directors with the middle amount of votes will get 2-year terms (July 2020 - July 2022)
 The 3 Directors with the lowest amount of votes will get 1-year terms (July 2020 - July 2021)
 This is by design, to enable a staggered board. As such, from July 2021 onwards, on an annual basis, 3 directors' seats will become available on an ongoing basis
-Notes
+
+**Notes**
 
 All of these rules are in the By-Laws of the Foundation. See Section 3.3 at https://corda.network/governance/bylaws
 There is a small chance this will be delayed slightly, if a long list of candidates are proposed.
