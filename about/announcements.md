@@ -7,11 +7,11 @@ The Participants of Corda Network have voted in a new Board of Directors for Cor
 
 - Nicholas Barnes, Manager, Marco Polo Business Network, TradeIX
 
-- Richard Crook, Cordite Society Limited 
+- Richard Crook, Director, Cordite Society Limited 
 
 - Robert Crozier, Chief Architect Customer Platforms & Head of Global Blockchain Centre of Competence, Allianz Technology
 
-- Hans Huber, DLT Trade Finance Innovation PM, Commerzbank
+- Hans Huber, DLT Trade Finance Innovation Project Manager, Commerzbank
 
 - Richard Phipps, Senior Project & Delivery Lead, Underwriting, Swiss Re
 
@@ -23,9 +23,8 @@ The Participants of Corda Network have voted in a new Board of Directors for Cor
 
 - Yong Xia, China Chief Architect, HSBC
 
-New Directors join James Carlyle and Carolyne Quinn who represent the Corda software developer R3.
 
-Current Chairman Mr. James Carlyle stated: “_Quote_”
+They join James Carlyle and Carolyne Quinn who represent the Corda software developer R3. Current Chairman Mr. James Carlyle stated: “_Quote_”
 
 New Directors bring a wealth of expertise and experience to the next phase Corda Network’s growth to reach its full potential and deliver frictionless global interoperability for businesses. We are grateful for the significant contribution made by the Foundation's Transition Board. Achieving a 73% turnout of the elections demonstrates its success in establishing a vibrant Corda Network community.
 
