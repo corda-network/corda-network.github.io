@@ -1,10 +1,10 @@
 # Corda Network Foundation Board
 
-The first Foundation’s steady-state Board was voted in by the Participants of Corda Network in June 2020, replacing the 15-month Transition Board.
+The first Corda Network Foundation's Governing Board was voted in by the Participants of Corda Network in June 2020, replacing the 15-month Transition Board. 
 
 ## Corda Network Foundation Governing Board 
 
-Corda Network Foundation's Governing Board has been elected (press release: July 2020). The Board includes 9 senior figures from external companies across financial services as well as representatives from blockchain technology companies building on Corda. 
+The Corda Network Foundation's Governing Board was elected in June 2020. The Board includes 9 senior figures from external companies across financial services as well as representatives from blockchain technology companies building on Corda. 
 
 1. Nicholas Barnes, Manager, Marco Polo Business Network, TradeIX
 
