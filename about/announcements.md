@@ -37,6 +37,8 @@ Corda Network Foundation is a non-profit organisation that governs the Corda Net
 For more information please contact info@corda.network. 
 
 
+
+
 ### 22nd April 2020
 **The election for the new Corda Network Foundation Board is taking place on 30th June 2020**
 
@@ -46,13 +48,14 @@ For any questions, please contact info@corda.network.
 
 Thank you!
 
-Rules
-Application Process
+
+**Application Process**
 
 Individuals considering to stand for the Board should send a short application by 10th May 2020 - 7 weeks in advance of the vote. The vote is intended to take place on 30 June 2020 (further details to follow).
 As detailed in Section 3.3.4 of the Foundation's By-Laws, the application should contain an updated CV, personal statement and short biography of the nominee
 The list will be circulated to the Board and Participant Community by 17th May
-Eligibility
+
+**Eligibility**
 
 A legal entity must have 1 node (Open Source / Enterprise) on the Production Network, by Tues 23 June 2020, to 1) vote for or 2) stand for, the Board
 The legal entity is that found in the x500 cert. The node operator or Sponsor, if applicable, are not relevant.
