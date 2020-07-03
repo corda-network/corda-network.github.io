@@ -1,11 +1,49 @@
-# Corda Network Foundation Transition Board
+# Corda Network Foundation Board
 
-As outlined in the [Governance Guidelines](/governance/governance-guidelines), the Foundation will first be governed by a 1-year 'Transition Board', after which steady-state elections will commence. The Transition Board is effective from 1 March 2019 until 30 June 2020.
+The first Foundation’s steady-state Board was voted in by the Participants of Corda Network in June 2020, replacing the 15-month Transition Board.
+
+## Corda Network Foundation Governing Board 
+
+Corda Network Foundation's Governing Board has been elected (press release: July 2020). The Board includes 9 senior figures from external companies across financial services as well as representatives from blockchain technology companies building on Corda. 
+
+1. Nicholas Barnes, Manager, Marco Polo Business Network, TradeIX
+
+2. Richard Crook, Director, Cordite Society Limited 
+
+3. Robert Crozier, Chief Architect Customer Platforms & Head of Global Blockchain Centre of Competence, Allianz Technology
+
+4. Hans Huber, DLT Trade Finance Innovation Project Manager, Commerzbank
+
+5. Richard Phipps, Senior Project & Delivery Lead, Underwriting, Swiss Re
+
+6. Olivier Relandeau, DLT Product Manager, Standard Chartered Bank 
+
+7. Aaron Seabrook, Chief Operating Officer, Contour
+
+8. Alessandro Spadoni, Chief Architect & Platform Fluidity Product Owner, B3i
+
+9. Yong Xia, China Chief Architect, HSBC
+
+
+In addition, the board has two directors employed by R3: 
+10. James Carlyle
+11. Carolyne Quinn.
+
+To implement a staggered Board design during the first steady-state seating  as outlined in 2.1. [Governance Guidelines](/governance/governance-guidelines), three of the nine Directors have been appointed for
+
+- a duration of one year
+
+- two years, and
+
+- three years.
+
+There will subsequently be three seats up for election each year. Appointments to the rotating Board seats will be for three-year terms. Any seats vacated mid-term will also be elected at the same time. R3 may not put forward candidates for the nine rotating seats, and these may not be held by R3 employees.
+
+
 
 ## Corda Network Foundation Transition Board 
 
-The Corda Network Foundation's Transition Board has been appointed (press release: April 2019). 
-The Board includes 9 senior figures from external companies across financial services as well as representatives from blockchain technology companies building on Corda.
+The Corda Network Foundation's Transition Board governed from April 2019 to June 2020. 
 
 1. Andrei Ilchenko: Head of IT Wholesale Banking Channels, ING, Europe
 2. Alain Verschueren: Head of Innovation & DLT, Trade Finance Competence Centre, BNP Paribas, Europe
@@ -17,7 +55,7 @@ The Board includes 9 senior figures from external companies across financial ser
 8. Greg Crow: Global Head of Architecture, AXA XL, Europe
 9. Chris Madsen, Head of Global Underwriting Center, Aegon, Europe - Chris was nominated by B3i and voted in by the Board, during a Mandatory Governance Event in July 2019 as a replacement for Edwin Oversteeg, who resigned for personal reasons. 
 
-In addition, the board has two directors employed by R3: 
+In addition, the board had two directors employed by R3: 
 10. James Carlyle
 11. Carolyne Quinn.
 
