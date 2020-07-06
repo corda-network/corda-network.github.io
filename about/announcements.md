@@ -3,7 +3,7 @@
 **Corda Network Foundation announces a new Board of Directors** 
 
 
-The Participants of Corda Network have voted in a new board of directors for Corda Network Foundation, replacing the 15-month transition board which has been in place since March 2019. We are delighted to announce the nine directors who will steer the future of Corda Network:
+The Participants of Corda Network have voted in a new board of directors for Corda Network Foundation, replacing the 15-month Transition Board which has been in place since March 2019. We are delighted to announce the nine directors who will steer the future of Corda Network:
 
 - Nicholas Barnes, Manager, Marco Polo Business Network, TradeIX
 
@@ -23,12 +23,11 @@ The Participants of Corda Network have voted in a new board of directors for Cor
 
 - Yong Xia, China Chief Architect, HSBC
 
-
-The newly elected board members join James Carlyle and Carolyne Quinn who represent the Corda software developer R3. 
+The 9 new directors bring a wealth of expertise to help steer the next phase of Corda Network’s growth, as well as to drive the Network to enable seamless transactions between businesses across a wide and diverse network. They join James Carlyle and Carolyne Quinn who represent the Corda software developer R3.  
 
 Current Chairman James Carlyle stated: “_I am extremely pleased to welcome the new directors to the board of the Corda Network Foundation. The number of business networks using Corda Network is growing, and new participants are joining those groups all the time, so the need for effective governance in order to uphold the Corda promise of interoperability across business applications is greater than ever. Governance of distributed ledger networks is new, and the board members will get a real chance to shape it for the entire industry.”_
 
-New directors bring a wealth of expertise and experience to the next phase of Corda Network’s growth to reach its full potential and deliver frictionless global interoperability for businesses. We are grateful for the significant contribution made by the Foundation's transition board. Achieving a 73% turnout of the elections demonstrates its success in establishing a vibrant Corda Network community.
+These new directors replace the outgoing Transition Board. We are grateful for the significant contribution made by the Foundation's Transition Board who helped steer the Network from its inception.
 
 **About Corda Network** 
 
