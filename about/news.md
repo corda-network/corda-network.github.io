@@ -2,7 +2,7 @@
 
 ## 2020-07-16
 
-[SEBA](https://www.seba.swiss/) plans to tokenize digital securities [using the Corda Network](https://www.ledgerinsights.com/seba-tokenize-digital-securities-using-corda-network-dasl/)
+[SEBA](https://www.seba.swiss/) plans to tokenize digital securities using the live [DASL CorDapp](https://lab577.io/wp-content/uploads/2020/05/DASL_for_CorDapp_Builders_and_Capital_Markets_Firms.pdf) (built by LAB577) on [Corda Network](https://www.ledgerinsights.com/seba-tokenize-digital-securities-using-corda-network-dasl/)
 
 ## 2020-04-17
 
