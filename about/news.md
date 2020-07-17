@@ -1,5 +1,9 @@
 # Corda Network News
 
+## 2020-07-16
+
+[SEBA](https://www.seba.swiss/) plans to tokenize digital securities [using the Corda Network](https://www.ledgerinsights.com/seba-tokenize-digital-securities-using-corda-network-dasl/)
+
 ## 2020-04-17
 
 SBI in Japan using the Production Corda Network, for foreign exchange margin transactions in [Ledger Insights](https://www.ledgerinsights.com/sbi-enterprise-blockchain-corda-group-forex-transactions/)
