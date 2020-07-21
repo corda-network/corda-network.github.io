@@ -330,11 +330,11 @@ The following resolutions by the board may only be adopted by an absolute majori
 
 11.1	General Membership
 
-11.2	Participants are legal entities and/or their representatives who have entered into (or will enter into) the Participant Terms of Use with the Foundation. Participants can only be admitted as a Participant once the Operator has verified that the Participation Criteria have been met by that Participant. Depending on the commercial agreements signed with the Operator, it is possible that different classes of Participants with different voting rights and levels of participation are introduced by the Foundation.
+11.2	Participants are legal entities and/or their representatives who have entered into (or will enter into) the Participant Terms of Use with the Foundation or that have been issued identity certificates to participate on the Network by the Operator or another authorized identity manager. Participants can only be admitted as a Participant once the Operator or a sponsoring third party has verified that the Participation Criteria have been met by that Participant. The Foundation may provide for different classes of Participants will have different voting rights and levels of participation.
 
 11.3	Participants with voting rights may be consulted in writing or at a meeting – as decided by the board – about matters determined by the board, with the provision that the board may also limit such consultation to specific categories of Participants.
 
-11.4	A legal entity shall cease to be a Participant:
+11.4	A legal entity's Participant Terms of Use shall terminate:
 * a.	if that legal entity ceases to exist;
 * b.	if that legal entity is declared bankrupt, applies for court protection from creditors (moratorium), or applies for a debt payment program under the statutory debt arrangement scheme as defined in the Dutch Bankruptcy and Insolvency Act (Faillissementswet), or an equivalent scheme under foreign law which is applicable to the Participant in question;
 * c.	if that legal entity loses the right to freely dispose of its assets;
@@ -343,7 +343,7 @@ The following resolutions by the board may only be adopted by an absolute majori
 * f.	if that legal entity conducts legal proceedings against the Foundation and/or its (former) directors,
 	or as otherwise set forth in the Participant Terms of Use.
 
-11.5	Notice of termination of participation as referred to in Clause 11.4(d) above may be given with effect from the end of a financial year only and the period for giving such notice is two (2) months. However, a Participant or the board may terminate a Participant's participation as referred to in Clauses 11.4(d) and (e) above with immediate effect if the Participant or the board cannot reasonably be required to continue the Participant's participation in the Foundation. A Participant may also terminate his participation as referred to in Clause 11.4(d) above with immediate effect within one (1) month of the date on which it becomes aware of or is informed of a resolution resulting in an increase in the financial obligations of that Participant. In that case, such resolution shall not apply to such Participant. A resolution as referred to in Clause 11.4(e) above may be passed only by the board by a majority of at least two thirds (2/3) of the votes cast at a meeting at which at least two thirds (2/3) of all the directors are present of represented.
+11.5	Notice of termination of participation as referred to in Clause 11.4(d) above may be given with effect from the end of a financial year only and the period for giving such notice is two (2) months. However, a Participant or the board may terminate a Participant's Participant Terms of Use as referred to in Clauses 11.4(d) and (e) above with immediate effect if the Participant or the board cannot reasonably be required to continue the Participant's participation in the Foundation. A Participant may also terminate their Participant Terms of Use as referred to in Clause 11.4(d) above with immediate effect within one (1) month of the date on which it becomes aware of or is informed of a resolution resulting in an increase in the financial obligations of that Participant. In that case, such resolution shall not apply to such Participant. A resolution as referred to in Clause 11.4(e) above may be passed only by the board by a majority of at least two thirds (2/3) of the votes cast at a meeting at which at least two thirds (2/3) of all the directors are present of represented.
 
 11.6	The Participant Community has the right to:
 
@@ -394,7 +394,7 @@ The Governance Advisory Committee shall have a limited membership appointed dire
 
 ## 12.PARTICIPANT FEES
 
-12.1	Participants shall pay and be responsible for any fees that may be charged by the Foundation from time to time in accordance with the term of their respective Participant Terms of Use. Transaction notary fees will be charged separately, to reflect the variable cost of notary services and based on transaction volumes.
+12.1	Participants shall, or shall have paid on their behalf, any fees that may be charged by the Foundation from time to time for use of the Network. Transaction notary fees will be charged separately, to reflect the variable cost of notary services and based on transaction volumes.
 
 12.2	The fee shall be based on the number of Participants divided by an estimate of the cost of running the Foundation. There may be variance in the fee amount depending on the amount of service which the Participant chooses from the Network.
 
@@ -559,6 +559,8 @@ If one or more provisions of these By-Laws are or become invalid, this shall not
 **"Participant Community"** has the same meaning as in clause 8.5 of the Articles of Association.
 
 **"Participant Terms of Use"** means the participation agreement entered into by the Participants and the Foundation pursuant to Article 8 of the Articles of Association.
+
+**"Participation Criteria"** means any criteria set forth by the Foundation that need to be met in order to be admitted as a Participant.
 
 **"R3"** means R3 LLC, a limited liability company incorporated under the laws of Delaware, having its office address at 11 West 42nd Street, floor 8, New York, NY 10036 and registered with the State of Delaware under number 5971617.
 
