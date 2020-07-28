@@ -1,28 +1,5 @@
 # Articles of Association
 
-Informal translation in the English language of the substance of the original notarial deed of incorporation of Corda
-Network Foundation Stichting in the Dutch language. In this translation an attempt has been made to be as literal as
-possible, without jeopardising the overall continuity. Inevitably, differences may occur in the translation, and if so,
-the Dutch text will govern.
-
-## INCORPORATION OF A FOUNDATION (STICHTING)
-
-### CORDA NETWORK FOUNDATION STICHTING
-
-On the fourth day of December two thousand eighteen appeared before me, Mr. Maarten Jan Christiaan Arends, civil law
-notary (notaris) in Amsterdam, The Netherlands:
-Mr Tom Smeele, in this matter with residence at the offices of Clifford Chance LLP, Droogbak 1a, 1013 GE Amsterdam, The
-Netherlands, born in Eindhoven, The Netherlands on the twelfth day of April nineteen hundred ninety, in this respect
-acting as attorney-in-fact, duly authorised in writing, of:
-R3 LLC, a limited liability company incorporated under the laws of Delaware, having its office address at 11 West 42nd
-Street, floor 8, New York, NY 10036 and registered with the State of Delaware under number 5971617 (the "Founder" or
-"R3").
-The authorisation of the person appearing appears from one (1) written power of attorney, which shall be attached to
-this deed (Schedule 1).
-
-The person appearing has declared that the Founder incorporates a foundation (stichting) (the "Foundation") with the
-following articles of association:
-
 ## ARTICLES OF ASSOCIATION
 
 ### 1. NAME, SEAT
@@ -152,18 +129,17 @@ parties to represent the Foundation within the limits laid down in the power of 
 ### 8. PARTICIPANTS
 
 8.1 Participants are legal entities and/or their representatives who have entered into (or will enter into) a
-participation agreement referred to as "Participant Terms of Use" with the Foundation (together referred to as the
+participation agreement referred to as "Participant Terms of Use" with the Foundation, or that have otherwise been issued identity certificates to participate on the Network by the Operator or another authorized identity manager (together referred to as the
 "Participants").  
-8.2 Particpants that are admitted to the Foundation by the board of the Foundation become either Participants with
+8.2 Participants that are admitted to the Network become either Participants with
 voting rights in the Participant Community or Participants without voting rights in the Participant Community, all in
 accordance with Clause 8.3 and with the By-Laws.  
 8.3 The board may at its own discretion determine which Participant, or a specific category of Participants, is (i)
 allowed to cast a vote in the Participants Community or not, and (ii) under an obligation to the Foundation to pay such
 a contribution as shall be set each year by the board, all in accordance with the relevant Participant Terms of Use.  
 8.4 The board shall keep an up-to-date register in which the names, the addresses and the voting rights of all the
-Participants shall be reflected. Each Participant shall be required to provide his or her electronic address to the
-board in writing. The notification of an electronic address for entry in the register of Participants shall imply that
-the Participant in question agrees to receive all notices and communications in electronic form.  
+Participants that have entered into a Participant Terms of Use with the Foundation shall be reflected. Each such Participant shall be required to provide their electronic address to the board in writing. The notification of an electronic address for entry in the register of Participants shall imply that
+the Participant in question agrees to receive all notices and communications in electronic form and agrees to pass such notices on to any other Participants that have been introduced to the Network by such Participant.  
 8.5 The board may adopt in the By-Laws regulations, setting out further, amongst other things: (i) rules regarding the
 composition, meeting and decision making processes of the Participants (the "Participant Community) and (ii) rules
 regarding the responsibilities of any other committees of the Foundation.
@@ -253,16 +229,3 @@ extent possible.
 
 The first financial year of the Foundation shall end on the thirty-first day of December, two thousand and nineteen
 (2019). This provision shall lapse after the end of the first financial year.
-
-FINAL STATEMENT .
-Finally, the person appearing made the following statements:  
-(i) the board shall consist of two (2) directors;  
-(ii) the first directors are:  
-James William George Carlyle, residing at {redacted}, London, United Kingdom and born on 17 June 1966; and
-Carolyne Quinn, residing at {redacted}, London, United Kingdom and born on 12 April 1984.  
-THIS DEED, was executed in Amsterdam on the date first above written.  
-The person appearing is known to me, civil law notary.  
-The essential contents of this deed were communicated and explained to the person appearing. The identity of the person
-appearing has been established by me, civil law notary, by way of a document meant for that purpose. The person
-appearing then declared to have noted and approved the contents and did not want a full reading thereof. Thereupon,
-after limited reading, this deed was signed by the person appearing and by me, civil law notary.
