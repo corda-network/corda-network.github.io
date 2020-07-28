@@ -1,5 +1,13 @@
 # Corda Network News
 
+## 2020-07-27
+
+Bitstamp Backs BCB’s SWIFT Alternative for Instant Cash-Crypto Settlements. BLINC is also integrated with a token issuance and settlement system called the Digital Asset Shared Ledger (DASL), built on Corda Network – [CoinDesk](https://www.coindesk.com/bitstamp-backs-bcbs-swift-alternative-for-instant-cash-crypto-settlements)
+
+## 2020-07-27
+
+Japanese financial giant SBI Holdings launches ‘Digital Token Issuance Platform’ on Corda Network - [Cryptonews](https://cryptonews.com/news/sbi-launches-digital-token-issuance-platform-on-corda-blockc-7237.htm)  
+
 ## 2020-04-17
 
 SBI in Japan using the Production Corda Network, for foreign exchange margin transactions in [Ledger Insights](https://www.ledgerinsights.com/sbi-enterprise-blockchain-corda-group-forex-transactions/)
