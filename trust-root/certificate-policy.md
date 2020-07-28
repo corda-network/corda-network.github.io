@@ -216,7 +216,7 @@ available.
 
 #### 3.1.1 Types of Names
 
-The CA shall assign an X.50 0 Distinguished Name (DN) to each subscriber.
+The CA shall assign an X.500 Distinguished Name (DN) to each subscriber.
 
 #### 3.1.2 Need for Names to Be Meaningful
 

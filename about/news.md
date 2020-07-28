@@ -8,6 +8,10 @@ Bitstamp Backs BCB’s SWIFT Alternative for Instant Cash-Crypto Settlements. BL
 
 Japanese financial giant SBI Holdings launches ‘Digital Token Issuance Platform’ on Corda Network - [Cryptonews](https://cryptonews.com/news/sbi-launches-digital-token-issuance-platform-on-corda-blockc-7237.htm)  
 
+## 2020-07-16
+
+[SEBA](https://www.seba.swiss/) plans to tokenize digital securities using the live [DASL CorDapp](https://lab577.io/wp-content/uploads/2020/05/DASL_for_CorDapp_Builders_and_Capital_Markets_Firms.pdf) (built by LAB577) on [Corda Network](https://www.ledgerinsights.com/seba-tokenize-digital-securities-using-corda-network-dasl/)
+
 ## 2020-04-17
 
 SBI in Japan using the Production Corda Network, for foreign exchange margin transactions in [Ledger Insights](https://www.ledgerinsights.com/sbi-enterprise-blockchain-corda-group-forex-transactions/)
