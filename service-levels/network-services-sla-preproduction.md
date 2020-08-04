@@ -162,6 +162,18 @@ The following exclusions apply for service availability and performance targets:
 
 All changes to Corda Network infrastructure are communicated via the Network Operator’s [service dashboard](https://cordanetwork.statuspage.io/), which will automatically send notifications for the scheduling and progress of each change to node operators via the contact contained in the CSR for each node unless alternative contact details are advised.
 
+In summary, the notice period for different types of change management update are as follows:
+
+| Types of Update | What are these changes | Notice Period (Frequency) | 
+| --- | --- | --- | 
+| 4.1. Ongoing Maintenance | Low-risk platform changes | Non-service-impacting ongoing maintenance are not communicated to clients | 
+| 4.2. Network Infrastructure Patching | Low risk and non-service impacting changes | Min 5 business days in advance (recurring monthly schedule) | 
+| 4.3. Emergency Maintenance | Response to a real or perceived vulnerability, security threat or unexpected service disruption | ASAP | 
+| 4.4. Platform Upgrades | Upgrades to Corda platform version <br> 1. No action required from node operators <br> 2. Action required from node operators | 1. Min 5 business days in advance <br> 2. Min 3 calendar months in advance | 
+| 4.5. Network Parameter Updates | Changes in value of the common set of network-wide parameter(s) <br> 1. No significant action required from Participant <br> 2. Significant Participant action required | 1. Min 10 business days in advance <br> 2. Min 3 calendar months in advance | 
+| 4.6. Scheduled Downtime | Upgrades require a period of service impacting scheduled downtime | Min 1 calendar month in advance | 
+| 4.7. Unscheduled Downtime | Changes to mitigate real or perceived security threats; to prevent more severe disruption to services as the result of a service incident | ASAP | 
+
 ### 4.1. Ongoing Maintenance
 
 Regular system maintenance is required to ensure the ongoing performance, stability and security of the Corda Network. To maintain continual service improvement at velocity, the Network Operator adopts an Agile framework for the identification, development and deployment of changes. This means that small, low-risk platform changes that are non-service impacting are deployed as often as required. These types of changes do not require a maintenance window and will not be communicated via the Operator’s service dashboard.
