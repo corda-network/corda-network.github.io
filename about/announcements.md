@@ -1,3 +1,22 @@
+### 18 August 2020
+
+**Corda Network Statuspage is moving** 
+
+
+As of 2 September 2020, all Corda Network infrastructure maintenance and incident related announcements will be communicated via a new password-protected site at https://corda-network.statuspage.io/. Current Statuspage at https://cordanetwork.statuspage.io/ will be decommissioned as part of this development. 
+
+We are making these changes in order to deliver enhanced and more private communications around Corda Network infrastructure.
+
+All participants on Corda Pre-Production and Production Networks will receive a prompt from Statuspage to their node operator email address, asking to complete registration and create log in details to access the portal and receive automatic updates.
+
+Failure to complete registration means that you will no longer receive maintenance & incident-related updates.
+
+Please contact info@corda.network by Friday 28 August 2020 if you wish to register any additional subscribers from your (or your sponsee’s) organisation to use the new Statuspage.
+
+For more information please contact info@corda.network.
+
+
+
 ### 6 July 2020
 
 **Corda Network Foundation announces a new Board of Directors** 
