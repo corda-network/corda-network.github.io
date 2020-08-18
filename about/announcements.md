@@ -13,7 +13,7 @@ Failure to complete registration means that you will no longer receive maintenan
 
 Please contact info@corda.network by Friday 28 August 2020 if you wish to register any additional subscribers from your (or your sponsee’s) organisation to use the new Statuspage.
 
-For more information please contact info@corda.network.
+For more information please email info@corda.network.
 
 
 
