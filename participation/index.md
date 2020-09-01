@@ -156,7 +156,7 @@ Business Network Operators should co-ordinate any post-install tests that may in
 
 **Step 7.2: Subscribe to StatusPage**
 
-We currently communicate system maintenance schedule, disruptions and other important operational announcements related to the Corda Network services on our [Statuspage](https://cordanetwork.statuspage.io/#). Please ensure all individuals and/or groups responosible for technical operation of your network / node have subscribed to these updates so that they will be automatically sent to the relevant email addresses. 
+We currently communicate system maintenance schedule, disruptions and other important operational announcements related to the Corda Network services on our [Statuspage](https://corda-network.statuspage.io/#). Please ensure all individuals and/or groups responosible for technical operation of your network / node have subscribed to these updates so that they will be automatically sent to the relevant email addresses. 
 
 Please also ensure that the relevant lists are being subscribed - each subscriber can choose which service(s) (notary, network map and identity operator) and enviornement(s) (Pre-production and Production) to subscribe to. **We strongly recommend that at least the node operator email address should subscribe to all services in your operating environment. You should also ensure you update your subscription list when you onboard to a new environment - such as ensuring you subscribe to all Production updates of as you onboarded to the Production environment).**
 
