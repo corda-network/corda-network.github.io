@@ -139,7 +139,7 @@ Notarisation requests are treated individually, in sequence of receipt, by the n
 
 ## 4. Change Management
 
-All changes to Corda Network infrastructure are communicated via the Network Operator’s [service dashboard](https://cordanetwork.statuspage.io/), which will automatically send notifications for the scheduling and progress of each change to node operators via the contact contained in the CSR for each node unless alternative contact details are advised.
+All changes to Corda Network infrastructure are communicated via the Network Operator’s [service dashboard](https://corda-network.statuspage.io/), which will automatically send notifications for the scheduling and progress of each change to node operators via the contact contained in the CSR for each node unless alternative contact details are advised.
 
 ### 4.1. Ongoing Maintenance
 

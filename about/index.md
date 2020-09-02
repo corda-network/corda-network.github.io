@@ -18,4 +18,4 @@ The main benefit of Corda Network for participants is being able to move cash, d
 
 If you're interested to participate, visit [joining Corda Network](../participation/index.html).
 
-For all latest status updates on network upgrades and maintenance windows, visit the [Corda Network StatusPage](https://cordanetwork.statuspage.io).
+For all latest status updates on network upgrades and maintenance windows, visit the [Corda Network StatusPage](https://corda-network.statuspage.io).

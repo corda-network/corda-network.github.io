@@ -5,7 +5,7 @@
 
 Network parameters specify things like Minimum Platform Version and whitelisted notaries which, although not expected to change frequently, nevertheless will need to be updated over time. [Our docs site](https://docs.corda.net/network-map.html#network-parameters) has more detail.
 
-The Network Parameter Update windows can be found on our [StatusPage](https://cordanetwork.statuspage.io).
+The Network Parameter Update windows can be found on our [StatusPage](https://corda-network.statuspage.io).
 &nbsp;  
 &nbsp;  
 
