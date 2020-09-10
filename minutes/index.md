@@ -53,8 +53,6 @@ AI raised whether we could be careful around offering clients a Doormen cert wit
 
 ### 4. Financials 
 
-CQ gave an overview - as of April 2020 we have drawn down c. $3.8m out of a $8 million loan.
-
 AS asked for an overview of cost / revenue projections and if we are on track. CQ to send out in next few days via secure filesharing
 
  
