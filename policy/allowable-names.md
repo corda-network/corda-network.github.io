@@ -3,17 +3,18 @@
 ## 1 Proposed Policy
 
 Legal names registered with the Corda network must be submitted in the form of an X.500 name with at least the 
-organisation, locality and country attributes present. They must be sorted in the order specified in the Corda protocol. 
+organisation, organisational-unit, locality and country attributes present. They must be sorted in the order specified in the Corda protocol. 
 The zone operator will ensure each component meets the following requirements:
 
-* The organisation, locality and country attributes are present. The state, organisational-unit and common name attributes 
+* The organisation, organisational-unit, locality and country attributes are present. The state and common name attributes 
 are optional.
 * The fields of the name have the following maximum character lengths:
-    * Common name: 64
-    * Organisation: 128
+    * Organisation: 110
     * Organisation unit: 64
     * Locality: 64
+    * Country: 2
     * State: 64
+    * Common name: 64
 * The country attribute is a valid ISO 3166-1 two letter code in upper-case
 * The free text fields of the name obey the following constraints
 * Consist only of characters from the following Unicode code blocks: Basic Latin, Latin-1 Supplement, Latin Extended A, 
