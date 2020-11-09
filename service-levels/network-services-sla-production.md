@@ -275,7 +275,7 @@ In the event of a failure of the following Corda Network services, the recovery 
 
 ### 6.1. Reporting
 
-Performance against SLAs defined in this document will be reported on the Corda Network Foundation website **within five (5) business working days** of the end of each calendar month. Reporting will not be Participant specific and will not include any identifiable Participant details.
+Performance against SLAs defined in this document will be reported on the Corda Network Foundation website **within ten (10) business working days** of the end of each calendar month. Reporting will not be Participant specific and will not include any identifiable Participant details.
 
 ### 6.2. Service Credits
 
