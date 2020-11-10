@@ -50,8 +50,6 @@ iv. The network operator will give the all clear to node operator to submit thei
 
 - The email address used below should be an actively monitored mailbox. We will use this email address for all communications with the node, including those involved in identity verification. We recommend this is an ‘admin@’ or ‘info@’ generic email associated with the legal entity, to avoid key man risk.
 
-- The combination of O and OU are checked for uniqueness. If a CSR is submitted (or a certificate exists) with these two fields already in Corda Network, it will be rejected.
-
 - If you are unsure of how to populate any fields, please see the guidance at the end of the email or reply to this email with your specific questions.
 
 - If you are setting up a notary, there are additional considerations you need to keep in mind, please see the guidance you have received for setting up a notary.
