@@ -6,12 +6,6 @@ A summary of steps to join the Network (either the Pre-Production or Production 
 
 ### 1.1 Direct Model
 
-#### Pre-Production Network
-
-The Terms of Use for direct signing are available through contacting info@corda.network. Shortly, this will be available as a click-through.
-
-#### Production Network
-
 The Terms of Use for direct signing are available [here](https://github.com/corda-network/corda-network.github.io/blob/Update-Participant-Terms-of-Use-(Jul-2020)/assets/Corda%20Network%20-%20Participant%20Terms%20of%20Use%20-%20Direct%20-%2007-17-20.pdf). Shortly, this will be available as a click-through.
 
 ### 1.2 Intergroup Sponsor Model
