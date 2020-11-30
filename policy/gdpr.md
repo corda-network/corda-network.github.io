@@ -8,7 +8,7 @@ information, the choices available to you regarding our use of the
 information, and how you can contact us about our privacy practices.
 
 It is important that you read this **Privacy Statement** together with
-any other fair processing **policies or notices** we may provide on
+any other fair processing policies or notices we may provide on
 specific occasions when we are collecting or processing personal data
 about you so that you are fully aware of how and why we are using your
 data. This **Privacy Statement** supplements other policies and notices
@@ -40,7 +40,7 @@ interacting, you agree with the terms of our current Privacy Statement
 as posted here. If you do not agree with this Privacy Statement, you
 should not use our Website. We may update or modify this Privacy
 Statement from time to time at our sole discretion, and will note the
-date of last update on the top of this page. We encourage you to visit
+date of last update on the bottom of this page. We encourage you to visit
 this area frequently to stay informed, as your continued use of our
 website following the posting of changes to these terms means that you
 consent to such changes. It is also important that the information we
@@ -76,17 +76,17 @@ data about you which we have grouped together as follows:
     receiving marketing from us and our third parties and your
     communication preferences.
 
-We also collect, use and share Aggregated Data such as statistical or
-demographic data for any purpose. Aggregated Data could be derived from
+We also collect, use and share **Aggregated Data** such as statistical or
+demographic data for any purpose. **Aggregated Data** could be derived from
 your personal data but is not considered personal data in law as this
 data will not directly or indirectly reveal your identity. For example,
-we may aggregate your Usage Data to calculate the percentage of users
+we may aggregate your **Usage Data** to calculate the percentage of users
 accessing a specific website feature. However, if we combine or connect
-Aggregated Data with your personal data so that it can directly or
+**Aggregated Data** with your personal data so that it can directly or
 indirectly identify you, we treat the combined data as personal data
 which will be used in accordance with this Privacy Statement.
 
-We do not collect any Special Categories of Personal Data about you
+We do not collect any **Special Categories of Personal Data** about you
 (this includes details about your race or ethnicity, religious or
 philosophical beliefs, sex life, sexual orientation, political opinions,
 trade union membership, information about your health, and genetic and
@@ -99,7 +99,7 @@ We may obtain information about you from various sources. We may collect
 this information when you provide it on our website, in telephone or
 email communication, through third parties (such as when you provide
 employment application information to a third party), or at one of our
-events. When you visit the website, we may also collect certain
+events. When you visit the Website, we may also collect certain
 information about your device or usage by automated means or by using
 technologies such as cookies, web server logs, and web beacons, as
 described below.
@@ -190,28 +190,17 @@ purposes:
 All information we collect may be aggregated and merged or enhanced with
 data from other sources, such as third parties. 
 
-| **Authorised Sub-processor** | **Purpose** | **Legal Basis** |
-| --- | --- | --- | --- |
-| R3 LLC | Corda node registration, Certificate signing request, Corda Network Support | Performance of contractual obligations to Participant |
-| R3 Limited | Corda node registration, Certificate signing request, Corda Network Support | Performance of contractual obligations to Participant |
-| R3 LRC Singapore Pte. Ltd | Corda node registration, Certificate signing request, Corda Network Support | Performance of contractual obligations to Participant |
-
-| **Authorised Sub-sub-processor** | **Application** | **Purpose** | **Legal Basis** |
-| --- | --- | --- | --- |
-| Microsoft | Azure | Corda node registration | Performance of contractual obligations to Participant |
-| Atlassian | Jira | Certificate signing request, Corda Network Support | Performance of contractual obligations to Participant |
-
 
 We may also collect and store information locally on your device using mechanisms such as
 browser web storage (including HTML 5) and application data caches.
 
-The below table describes our use of your **personal data, and the legal
-bases relied on, as well as** our legitimate interests where
+The below table describes our use of your personal data, and the legal
+bases relied on, as well as our legitimate interests where
 appropriate.
 
 | Purpose/Activity                                                                                                                                         | Type of data                                  | Lawful basis for processing including basis of legitimate interest                                                                                                                                          |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| To manage our relationship with you which will include: Maintaining your information to notify you about updates and events related to the Corda Network | (a)Identity (b)Contact                        | (a) Necessary to comply with a legal obligation                                                                                                                                                             |
+| To manage our relationship with you which will include: Maintaining your information to notify you about updates and events related to the Corda Network | (a)Identity (b)Contact                        | (a) Necessary for our legitimate interests (to manage our relationship with you)                                                                                                                                                             |
 | To deliver relevant website content and advertisements to you and measure or understand the effectiveness of the advertising we serve to you             | (a)Identity (b)Contact (c)Usage (d)Technical  | Necessary for our legitimate interests (to study how customers use our products/services, to develop them, to grow our business and to inform our marketing strategy)                                       |
 | To use data analytics to improve our website, services, marketing, customer relationships and experiences                                                | (a)Technical (b) Usage                        | Necessary for our legitimate interests (to define types of customers for our products and services, to keep our website updated and relevant, to develop our business and to inform our marketing strategy) |
   
@@ -229,7 +218,7 @@ knowledge or consent, in compliance with the above rules, where this is
 required or permitted by law.
 
 Please contact us if you need details about the specific legal ground we
-are relying on to process your **personal data** where more than one
+are relying on to process your personal data where more than one
 ground has been identified.
 
 ## 5. How Does Corda Network Share My Information? 
@@ -267,7 +256,7 @@ Your information may be stored in databases maintained by Corda Network
 third parties for the purposes stated in this Privacy Statement, that
 are located within and outside the United States, including countries
 where privacy rules differ and may be less stringent than those of the
-country in which you reside.
+country in which you reside. If you visit our Websites from a country other than the United States, you consent to such cross-border transfers of personal data to the United States and to other countries around the world.
 
 Whenever we transfer your personal data out of the EEA, we ensure that
 a similar degree of protection is afforded to it by ensuring at least
@@ -287,9 +276,9 @@ one of the following safeguards is implemented:
     personal data to third
     countries*](https://ec.europa.eu/info/strategy/justice-and-fundamental-rights/data-protection/data-transfers-outside-eu/model-contracts-transfer-personal-data-third-countries_en).
 
-**Please contact us if you want further information on the specific
+Please contact us if you want further information on the specific
 mechanism used by us when transferring your personal data out of the
-EEA.**
+EEA.
 
 ## 6. Is My Information Secure?
 
@@ -307,7 +296,11 @@ We have also put in place procedures to deal with any suspected
 **personal data** breach and will notify you and any applicable
 regulator of a breach where we are legally required to do so.
 
-## 7. What Choices Do I Have?
+## 7. Does Corda Network Collect Information from Children?
+
+Corda Network does not intentionally collect information from children under 13 years of age, and children under age 13 should not submit any information to us.  If we become aware that a child has provided us with information without parental consent, or a parent or guardian of a child contacts us through the contact information provided below, we will use reasonable efforts to delete the child’s information from our databases.
+
+## 8. What Choices Do I Have?
 
 We only store data for as long as it is reasonably necessary to fulfil
 the purposes we collected it for, including for the purposes of
@@ -318,10 +311,16 @@ We may retain your **personal data** for a longer period in the event of
 a complaint or if we reasonably believe there is a prospect of
 litigation in respect to our relationship with you.
 
-## 8. What About my Rights under GDPR?
+## 9. I live in California – What About My California Privacy Rights?
+
+If you are a California resident, you have the right to request information from Corda Network regarding the manner in which Corda Network shares certain categories of your personal information with third parties, for the third parties’ direct marketing purposes. California law provides that you have the right to submit a request to Corda Network at its designated email address and receive the following information:
+•	The categories of information Corda Network disclosed to third parties for the third parties’ direct marketing purposes during the preceding calendar year; and
+•	The names and addresses of third parties that received such information, or if the nature of their business cannot be determined from the name, then examples of the products or services marketed.
+
+## 10. I live in the EU - What About my Rights under GDPR?
 
 As an EU Citizen, the processing of your personal information is subject
-to the EU General Data Protection Regulation (\"GDPR\"), and you
+to the EU General Data Protection Regulation ("GDPR"), and you
 therefore have the following rights:
 
 -   Right of access -- you have the right to request a copy of the data
@@ -350,7 +349,7 @@ Please note that these rights are not absolute and certain exemptions
 apply. If you wish to exercise any of the rights set out above, please
 contact us.
 
-## 9. How Can I Contact Corda Network?
+## 11. How Can I Contact Corda Network?
 
 Corda Network is committed to working with you to obtain a fair and
 rapid resolution of any queries, complaints, or disputes about privacy.
@@ -366,4 +365,4 @@ supervisory authority for data protection issues
 appreciate the chance to deal with your concerns before you approach the
 ICO so please contact us in the first instance.
 
-Effective Date: 5 August 2019
+Effective Date: 30 November 2020
