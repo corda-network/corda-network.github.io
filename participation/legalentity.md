@@ -1,4 +1,4 @@
-# Selecting the right Legal Entity for the "O" field in your X500 name
+# Corda Network Technical Policies Booklet
 
 According to existing Corda Network guidelines, every node on Corda Network should represent a different legal entity to best enable interoperability for future operations. The legal entity name picked should be the owner of the assets which would be  transacted. 
 

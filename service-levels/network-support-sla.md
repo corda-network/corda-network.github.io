@@ -1,4 +1,4 @@
-# Corda Network Support Service Handbook
+# Corda Network Support Handbook
 
 The support model of Corda Network follows the same process as that of Corda Enterprise. 
 While the Corda Network Support Service Handbook is being finalised, you may refer to the below for a high level guidance.

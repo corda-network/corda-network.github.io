@@ -1,4 +1,4 @@
-# Choosing the node's X.500 name
+# Corda Network Rulebook
 
 Any node on Corda Network must have a Distinguished Name (DN) or X.500 name in its [participation certificate](https://docs.corda.net/corda-network/index.html#identity-service). This must, at minimum, have 4 fields included (Organisation (O), Locality (L), Country (C), Organisation Unit (OU)). It may include up to 6 fields (optional 2 additional fields are: State (S), and Common Name(CN)). These 6 fields are explained below. For now, the maximum number of characters  in the whole X.500 name (across all 6 fields) is **128 characters**.
 
