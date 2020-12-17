@@ -55,8 +55,8 @@ Customers will be notified of any material changes via the contact contained in 
 | Customer | A Customer is a legal entity who has signed a Terms of Use with Corda Network Foundation, for access to network and notary services. |
 | Network Operator | The network operator appointed by the Corda Foundation who undertakes all day-to-day activities associated with delivering the network services outlined within Section 2 of this document. |
 | Node Operator Email | When onboarding to Corda Network, Customers will be required to designate a node operator email address on the node configuration file (“node.conf”). Network Operator  will use the designated email address for change management communications. |
-| Production network | The Production Corda Network is a network and notary service operated by the Corda Network Foundation for Participants to perform live business transactions with other legal entities. It uses the Trust Root / PKI owned by the Corda Network Foundation. |
-| Pre-Production Corda Network| The Pre-Production Corda Network is provided by the Corda Network Foundation for owners of tested CorDapps with a firm plan to launch them on the Production network. This environment is designed to enable testing of CorDapps in the network configuration they will experience on the Production environment, utilising relevant network services. |
+| Production Network | The Production Network is a network and notary service operated by the Corda Network Foundation for Participants to perform live business transactions with other legal entities. It uses the Trust Root / PKI owned by the Corda Network Foundation. |
+| Pre-Production Network| The Pre-Production Network is provided by the Corda Network Foundation for owners of tested CorDapps with a firm plan to launch them on the Production network. This environment is designed to enable testing of CorDapps in the network configuration they will experience on the Production environment, utilising relevant network services. |
 | Service Dashboard| All Corda Network infrastructure-related changes that impact Customers will be communicated via a Service Dashboard, (currently [StatusPage](https://corda-network.statuspage.io/), link may change from time to time), access to which is provided to Customers during their onboarding process. |
 | Support Portal| The primary method for Customers to request support. Customers will be provided with access to the Support Portal during their onboarding process. Current [link](https://r3-cev.atlassian.net/servicedesk/customer/portal/7); may change from time to time. |
 
@@ -64,7 +64,7 @@ Customers will be notified of any material changes via the contact contained in 
 
 ## 2. Introduction
 
-This Maintenance and Service Level Handbook defines service levels offered by the Foundation to customers for Corda Network Network Services on both the Pre-Production Network and the Production Network. Corda Network Network Services covered are: Identity Manager, Network Map and a shared Notary. Once any customer signs the Terms of Use with the Foundation (the “Agreement”) for Corda Network, they accept the service levels contained within this handbook.
+This Maintenance and Service Level Handbook defines service levels offered by the Foundation to Customers for Corda Network Network Services on both the Pre-Production Network and the Production Network. Corda Network Network Services covered are: Identity Manager, Network Map and a shared Notary. Once any customer signs the Terms of Use with the Foundation (the “Agreement”) for Corda Network, they accept the service levels contained within this handbook.
 
 As such, this handbook defines:
 -	Network services included on both the Pre-Production and the Production Corda Network.
