@@ -11,7 +11,7 @@
 
 ## 1. Network Choice
 
-## What are the Network options currently offered?
+### What are the Network options currently offered?
 
 1. Corda Network Mainnet - an internet of Corda nodes, envisioned to have many business networks interoperating.
 
@@ -20,7 +20,7 @@
 3. Private network - uses Corda Enterprise Network Manager, with a separate Trust Root and is not part of Corda Network.
 
 ---
-## What are the Pros and Cons of joining each of these Networks?
+### What are the Pros and Cons of joining each of these Networks?
 
 | NETWORK CHOICE        | PROS                                                                                                                                                                                                                          | CONS                                                                                                                                                                  |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -36,15 +36,15 @@ Typically this will be the Business Network Operator who decides, but usually in
 
 ---
 
-### If I have a node on a Segregated Network, can I transact with the mainnet?
+### If I have a node on a Segregated Network, can I transact with the Mainnet?
 
-No. For this to happen, the node and notary on the Segregated Network must merge with the mainnet.
+No, this is not possible today even though they share the same Trust Root.
 
 ---
 
 ## 2. Considerations When Joining Corda Network
 
-### What is the elibibility criteria for joining Corda Network?
+### What does Corda Network check before I can join?
 
 To be admitted to Corda Network you need to satisfy the following requirements:
 
@@ -54,11 +54,13 @@ To be admitted to Corda Network you need to satisfy the following requirements:
 
 ---
 
-## Choosing a Corporate Sponsor or Direct Model
+### What are the main differences between Sponsor and Direct Model models?
 
-### What are the main differences between these two models?
+Sponsor model is aimed at Business Network Operators who intend to onboard a significant number of nodes.
 
-|                                            | **Direct Model (DEFAULT)**           | **Corporate Sponsor Model**                                                    |                     |
+
+
+|                                            | **Direct Model (DEFAULT)**           | **Sponsor Model**                                                    |                     |
 |--------------------------------------------|--------------------------------------|----------------------------------------------------------------------|---------------------|
 |                                            | Direct Participant                   | Sponsor                                                  | Sponsee Participant |
 | Signs legal agreement with the Foundation? | Yes                                  | Yes, and for their Sponsees _but accessing the Sponsor CorDapp only_ | No                  |
@@ -80,16 +82,9 @@ Yes.
 
 ---
 
-
 ### My legal entity wants to be a member of more than one Business Network. Should I use only one node (the same node) in each one Business Network?
 
 You can use the same node OR different nodes in each one. This should be a decision your business makes, but Corda allows for either.
-
----
-
-### I’m interested for several legal entities within my Corporate Group to join Corda Network, via several nodes. Do they all have to sign legal agreements?
-
-You can sign a Corporate Sponsor agreement which covers access for all for them. This needs to be signed by an authorised signatory from one legal entity.
 
 ---
 
@@ -127,7 +122,7 @@ Yes. Corda supports more than one notary. There is currently only one notary, bu
 
 ---
 
-## Do I have to specify which notary I want to use?
+### Do I have to specify which notary I want to use?
 
 Yes, if your CorDapp is using the public Corda Network notary, you must ensure it obtains the preferred notary service X.500 name from the CorDapp config file.
 
@@ -201,6 +196,8 @@ NodeInfo objects are stored in the database that is determined at the time the n
 ### Does it make a difference if I use Corda Enterprise or Corda Open Source, on Corda Network?
 
 No
+
+---
 
 ### I’m not an Enterprise customer. Am I still entitled to Support?
 
