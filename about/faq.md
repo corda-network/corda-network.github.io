@@ -47,9 +47,9 @@ No, this is not possible today even though they share the same Trust Root.
 
 To be admitted to Corda Network you need to satisfy the following requirements:
 
-- Have signed any relevant legal agreements for participation
-- Your organisation is registered with an official trade / company registry
-- Your organisation is not on any sanctions lists
+- Have signed any relevant legal agreements for participation. 
+- Your organisation is registered with an official trade / company registry. 
+- Your organisation is not on any sanctions lists. 
 
 ---
 
@@ -194,7 +194,7 @@ NodeInfo objects are stored in the database that is determined at the time the n
 
 ### Does it make a difference if I use Corda Enterprise or Corda Open Source, on Corda Network?
 
-No
+No.
 
 ---
 
@@ -224,4 +224,4 @@ Corda Network infrastructure can be whitelisted using FQDN names but not IP addr
 
 In the future, Corda Network improvements will likely result in our Public IPs changing and that would negatively impact participants who would have to update their IP whitelisting rules. To avoid this we recommend using FQDN addresses of Network Map, Notary and Identity Manager services instead.
 
-For more information on whitelisting please contact info@corda.network
+For more information on whitelisting please contact info@corda.network 
