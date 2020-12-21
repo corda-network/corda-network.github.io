@@ -1,6 +1,5 @@
 # Frequently Asked Questions
 
-## Contents
 
 - [1. Network Choice](#1-network-choice)
 - [2. Considerations Before Joining](#2-considerations-before-joining)
