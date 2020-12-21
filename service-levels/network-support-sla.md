@@ -63,15 +63,22 @@ If the issue cannot be resolved with information provided on the Service Dashboa
 Network Operator uses Atlassian Jira Cloud to record all Support tickets and log all investigations. A web portal (“Support Portal”) provides an interface to the Jira Cloud for participants to raise Support tickets. Participant will be provided with a web link to the Support Portal which shall be the primary method for requesting Support.
 
 **1. Requesting first user’s access**
+
 - When onboarding to Corda Network, participants will be required to designate a Corda Network Node operator email address on the node configuration file (“node.conf”). Network Operator’s business operations team will contact the designated email address and ask for one (1) individual that should be granted to access the Support Portal. 
 - Alternatively, you can request the first user in your organisation with access to Support Portal via the following means: If you are a Corda Enterprise customer or have an R3 Account Manager, contact your R3 account manager for access. 
+
 **2. Registration Confirmation**
+
 - Once access is granted, the registering individuals) will receive an email which will include a link to sign-up and create a password. Network Operator does not manage nor record Support Portal passwords outside the Jira Cloud System. If an individual loses their password they should recover access to their account by clicking on the ‘Forgot Password’ link when logging onto the Support Portal.
+
 **3. Raising a Support ticket**
+
 – You may raise a Support ticket via our Support Portal or via email (note: only emails sent from email addresses with access to the Support Portal will be able to email the Support team):
 - Fill in the online form on the Support Portal (currently found at the following URL: https://r3-cev.atlassian.net/servicedesk/customer/portal/7; which may be moved from time to time), specify the Incident Severity (see Section 5: Incident Classifications and Response Targets for how to determine severity level) and attach any related documents on the dedicated web link to the Support Portal.
-- Send an email to cordanetworksupport@r3-cev.atlassian.net. All Support tickets raised for “Incidents” are automatically classified as Severity 3 (S3). 
+- Send an email to cordanetworksupport@r3-cev.atlassian.net. All Support tickets raised for “Incidents” are automatically classified as Severity 3 (S3).
+
 **4. Requesting access for different or additional users**
+
 - Access is granted per individual email address basis. If you need to replace the email address originally assigned or request access for one (1) additional individual, a Support ticket for replacement/additional email address(es) will need to be raised.
 
 The designated individual participant contact will be required to have the qualifications set forth in Section 7: Participant Obligations below. Support will only be provided to participant contacts. 
