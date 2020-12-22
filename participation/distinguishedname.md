@@ -65,7 +65,7 @@ standardization in the entity’s respective country, and that said country is r
 * ICANN: The name and contact information (including email address, physical address and contact phone number) for the 
 domain's registrant, administrative and billing contacts. * This is practical for the Corda Network.  
     
- ## 1.4. Addendum
+## 1.4. Addendum
 
 The Certificate Authority must screen potential participants against the following lists for all before allowing to become a Participant: 
 
@@ -316,7 +316,7 @@ to obtain this information in different ways, or to pay attention to the first n
 set exactMatch to false. Don't attempt to download the network map or a BNO membership list and do your own matching - 
 do the query first against the network map, then filter out members that are not in the BNO list. 
 
-The Corda Network will do fuzzy matching of names for you. This matching is likely to improve over time, at least in some 
+Corda will do fuzzy matching of names for you. This matching is likely to improve over time, at least in some 
 implementations, e.g. by introducing Soundex matching, Jaro-Winkler or Levenshtein distance computation, automatic NFKC 
 canonicalisation, Thai word breaking, spelling correction and so on. These tasks are extremely hard to do well in 
 JavaScript so web app authors should pay particular attention to this point.
