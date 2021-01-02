@@ -1,287 +1,242 @@
-# Production Environment Service Level Agreement
+# Corda Network Maintenance and Service Level Handbook
 
-This document is correct as of 24th February 2020.
+This document is correct as of 1 March 2021.
 
-Please note that the terms of this Service Level Agreement (SLA) are subject to change. Participants will be notified of any material changes via the contact contained in the Certificate Signing Request for each node unless alternative contact details are advised.
+Please note that the terms of this Maintenance and Service Level Handbook are subject to change. 
+
+
 
 ## Contents
 
-- [1. Definitions](#1-definitions)
-- [2. Introduction](#2-introduction)
-  - [2.1. Scope](#21-scope)
-  - [2.2. Assumptions](#22-assumptions)
-  - [2.3. Support](#23-support)
-- [3. Service Levels](#3-service-levels)
-  - [3.1. Availability](#31-availability)
-    - [3.1.1. Identity Manager](#311-identity-manager)
-    - [3.1.2. Network Map](#312-network-map)
-    - [3.1.3. Notary](#313-notary)
-  - [3.2. Performance](#32-performance)
-    - [3.2.1. Identity Manager](#321-identity-manager)
-    - [3.2.2. Network Map Service](#322-network-map-service)
-    - [3.2.3. Notary](#323-notary)
-  - [3.3. Exclusions](#33-exclusions)
-- [4. Change Management](#4-change-management)
-  - [4.1. Ongoing Maintenance](#41-ongoing-maintenance)
-  - [4.2. Network Infrastructure Patching](#42-network-infrastructure-patching)
-  - [4.3. Emergency Maintenance](#43-emergency-maintenance)
-  - [4.4. Platform Upgrades](#44-platform-upgrades)
-  - [4.5. Network Parameter Updates](#45-network-parameter-updates)
-  - [4.6. Scheduled Downtime](#46-scheduled-downtime)
-  - [4.7. Unscheduled Downtime](#47-unscheduled-downtime)
-  - [4.8. Change Freezes](#48-change-freezes)
-- [5. Business Continuity](#5-business-continuity)
-  - [5.1. Backups](#51-backups)
-  - [5.2. Data Retention](#52-data-retention)
-  - [5.3. Recovery Time Objective](#53-recovery-time-objective)
-  - [5.4. Recovery Point Objective](#54-recovery-point-objective)
-- [6. Reporting and Service Credits](#6-reporting-and-service-credits)
-  - [6.1. Reporting](#61-reporting)
-  - [6.2. Service Credits](#62-service-credits)
+- [1. Introduction](#1-introduction)
+  - [1.1. Pre-Production Network Assumptions](#11-pre-production-network-assumptions)
+- [2. Service Levels](#2-service-levels)
+  - [2.1. Availability](#21-availability)
+    - [2.1.1. Identity Manager](#211-identity-manager)
+    - [2.1.2. Network Map Service](#212-network-map-service)
+    - [2.1.3. Notary Service](#213-notary-service)
+  - [2.2. Performance](#22-performance)
+    - [2.2.1. Identity Manager](#221-identity-manager)
+    - [2.2.2. Network Map Service](#222-network-map-service)
+    - [2.2.3. Notary Service](#223-notary-service)
+  - [2.3. Exclusions](#23-exclusions)
+- [3. Maintenance](#3-maintenance)
+  - [3.1. Ongoing Maintenance](#31-ongoing-maintenance)
+  - [3.2. Emergency Maintenance](#32-emergency-maintenance)
+  - [3.3. Network Parameter Updates](#33-network-parameter-updates)
+  - [3.4. Scheduled Downtime](#34-scheduled-downtime)
+- [4. Business Continuity](#4-business-continuity)
+  - [4.1. Backups](#41-backups)
+  - [4.2. Data Retention](#42-data-retention)
+  - [4.3. Recovery Time Objective](#43-recovery-time-objective)
+  - [4.4. Recovery Point Objective](#44-recovery-point-objective)
+- [5. Service Credits](#5-service-credits)
+  - [5.1. Production Network](#51-production-network)
+  - [5.2. Pre-Production Network](#52-pre-production-network)
+- [6. Change Communication](#6-change-communication)
+  - [6.1. R3 Initiated Change Communication Table](#61-r3-initiated-change-communication-table)
+  - [6.2. Participant Initiated Change Communication Table](#62-participant-initiated-change-communication-table)
+  - [6.3. Amendments to Maintenance and Support Level Handbook](#63-amendments-to-maintenance-and-support-level-handbook) 
+  
 
-## 1. Definitions
 
-| Term | Description |
-| --- | --- |
-| Business Network Operator | A Business Network Operator may set-up and operate its own business network for groups or companies that wish to transact together on the Corda Network. Depending on their size, Business Network Operators may also wish to on-board, off-board their members. |
-| Corda Network Foundation | A not-for-profit legal entity type known as a Stichting residing in the Netherlands. The Foundation governs the Corda Network and enables Network participants to be involved with, and also understand, how decisions are made (including around issues of identity and permission), building trust and engagement from a wide range of stakeholders. |
-| CorDapp | Applications designed to interact with the Corda Network, built on the Corda platform. |
-| Network Operator | The network operator appointed by the Corda Foundation who undertakes all day-to-day activities associated with delivering the network services outlined within Section 2 of this document. |
-| Participant | A legal entity participating in Corda Network and using one or more of the services provided by the Foundation. |
-| Production network | The network operated by the Corda Foundation for participants to transact using ‘Live’, real world information and data. This environment is not for development/sandboxing purposes. |
 
-## 2. Introduction
+## 1. Introduction
 
-This document defines standard Service Levels offered by the Corda Network Foundation (the ‘Foundation’) for organisations operating on the Corda Production Network.
+This Maintenance and Service Level Handbook contains information on the maintenance of the Corda Network and Services and service levels for Services provided to you (“participant” or “you”) by R3 LLC (“R3”) pursuant to the terms of use (“Terms of Use”) entered into between you and R3. This handbook does not replace or amend in any way the contractual terms and conditions of the Terms of Use. Capitalized terms used herein but not otherwise defined shall have the meanings ascribed to them in the Terms of Use.
 
-The Corda Network operates under a single set of rules and policies set by the Foundation’s Board of Directors, which is comprised of its earliest customers. Further details are available at on the Corda Network website. The Foundation appoints a Network Operator, who undertakes all day-to-day activities associated with delivering the network services described in Section 2 of this document.
+This Maintenance and Service Level Handbook applies to the Pre-Production Network and Production Network, and not to any other environments operated by R3. 
 
-Users of CorDapps in any jurisdiction will need to ensure that their usage of the Corda Network complies with any local rules and legislation to which they are subject. Corda Network will support real-world assets, real-world identities and legally enforceable contracts between counterparties. Data will be long-lived and immutable. As such, the security model for Corda Network is consistent with the high value (and risk) of the activities being undertaken by its Participants.
 
-This document defines:
+### 1.1. Pre-Production Network Assumptions
 
-- Services included in the Corda Network.
-- The appropriate service levels for each service.
-- Actions on non-performance/remediation.
+- The Pre-Production Network is intended for testing of functionally complete and tested CorDapps in realistic network settings. The Pre-Production Network is not intended for participants’ full test cycles; it is expected that the majority of CorDapp testing will occur in other network configurations prior to testing on the Pre-Production Network.
+- R3 reserves the right to delete test data from the Pre-Production Network on the completion of testing.
 
-Corda Network Participants accept the service levels contained within this document upon signing of the Corda Network Terms of Use, unless otherwise stipulated in such Terms of Use.
 
-### 2.1. Scope
+## 2. Service Levels
 
-This document applies only to the Production Network and its constituent services as described in this document, and not to any other environments operated by the Foundation or the Network Operator.
+### 2.1. Availability
 
-### 2.2. Assumptions
+#### 2.1.1. Identity Manager
 
-- This agreement is available to all Participants of Corda Network – as defined on the [Corda Network website](https://corda.network).
-- Expected Participant and transaction volumes for the period of use have been previously communicated to the Foundation and agreed as suitable for this standard SLA.
-- A start date for usage of the Production Network services has been agreed at least four (4) weeks in advance.
-- Direct Participants, or Business Network Operators may operate more than one application within Corda Network and the Service Levels described here apply to each.
-- This Service Level Agreement excludes details of support processes and incident severity levels which can be found within the Corda Network Support Handbook on the [Corda Network website](https://corda.network).
+The Identity Manager is considered available if it can successfully receive requests for new Participation Certificates submitted for the Corda Network. This is measured by monitoring the service endpoint to ensure a valid status code is returned and checking that the underlying worker process is running.
 
-### 2.3. Support
+**Production Network:** The Identity Manager will operate with >99% availability during Normal Business Hours during each calendar month. “Normal Business Hours” are from Sunday 23:00 (GMT) to Friday 23:00 (GMT).
 
-- The Network Operator supports Corda Network Services according to the service levels documented in the Support Handbook found on the [Corda Network website](https://corda.network).
+**Pre-Production Network:** The Identity Manager will operate with 99% availability during UK Business Hours during each calendar month. “UK Business Hours” means 08:30 UTC+0 to 17:30 UTC+0 during Business Days (as calculated solely in the Office’s City of UK, and not New York or Singapore).
 
-## 3. Service Levels
 
-The service levels contained within this section will apply during the term of Participants’ membership agreement of Corda Network.
+#### 2.1.2. Network Map Service
 
-The most up to date, detailed information about the services which Corda Network Foundation provides can be found [here](/about/concepts).
+The Network Map Service is considered available if it is able to provide a network map upon request. This is measured by monitoring the service endpoint to return a valid status code and checking that the underlying worker process is running.
 
-Please note that some services are guaranteed on a business hours basis. Business hours is defined as Monday to Friday from 00:30 UTC+0 to 21:30 UTC+0, excluding weekends and public holidays, in the territories of the United Kingdom, United States and Singapore.
+**Production Corda Network:** The Network Map Service will operate with >99% availability during Normal Business Hours during each calendar month.
 
-### 3.1. Availability
+**Pre-Production Corda Network:** The Network Map Service will operate with 99% availability during UK Business Hours during each calendar month.
 
-Definitions of availability for each service are included below.
 
-#### 3.1.1. Identity Manager
 
-The Identity Manager service will operate with >99% availability on a business hours basis during each calendar month.
+#### 2.1.3. Notary Service
 
-> The Identity Manager service is considered available if it is able to successfully receive requests for new certificates submitted for the Corda Network.
+The Notary Service is considered available if it can successfully receive, process and notarize transactions. This is measured by monitoring R3 internal test transactions to ensure they are being received and processed as expected by the Notary.
 
-*This is measured by monitoring the service endpoint to ensure a valid status code is returned, and checking that the underlying worker process is running.*
+**Production Network:** The Notary Service will operate with >99% availability on a 24/7 basis during each calendar month.
 
-#### 3.1.2. Network Map
+**Pre-Production Network:** The Notary Service will operate with 99% availability during UK Business Hours during each calendar month.
 
-The Network Map service will operate with >99% availability on a business hours basis during each calendar month.
 
-> The Network Map service is considered available if it is able to provide a network map upon request.
+### 2.2. Performance
 
-*This is measured by monitoring the service endpoint to ensure a valid status code is returned, and checking that the underlying worker process is running.*
+#### 2.2.1. Identity Manager
 
-#### 3.1.3. Notary
+The completion of a Participation Certificate signing request (“CSR”) is measured from the time of receipt of a correctly formatted signing request by the Identity Manager to the time at which a response is submitted to the requesting Corda Network Node.
 
-The Notary service will operate with >99% availability on a 24/7/365 basis during each calendar month.
+95% of valid CSRs will be completed within two (2) Business Days during each calendar month, excluding time during which responses to confirmation or clarification requests from R3 are pending. This applies both for the Pre-Production Network and Production Network. “Business Day” means any day except (a) a Saturday or a Sunday in any Office’s City, (b) any other day on which commercial banking institutions based in any Office’s City are authorized or directed by applicable law to close, or (c) any bank holiday in any Office’s City. “Office’s City” means London, New York and Singapore.
 
-> The Notary service is considered available if it is able to successfully receive, process and notarise transactions.
+The Identity Manager may reject a CSR if the data is not constructed according to the standards set out in the Corda Network Rulebook. Amended CSRs will be subject to the same service levels as new CSRs.
 
-*This is measured by monitoring test transactions to ensure they are being received and processed as expected by the notary.*
+#### 2.2.2. Network Map Service
 
-### 3.2. Performance
+The Network Map Service regularly signs the network map to reflect the latest updates on the Pre-Production Network and Production Network; examples include the registration of a new Corda Network Node, or a Corda Network Node changing its IP address. As such, Network Map Service performance is measured by how frequently a network map is signed successfully.
 
-#### 3.2.1. Identity Manager
+At least 95% of Network Map Service signing events on the Pre-Production Network and Production Network will be completed successfully each calendar month.
 
-The completion of a Certificate Signing Request (CSR) is measured from the time of receipt of a correctly formatted signing request by the Foundation Identity Manager to the time at which a response is submitted to the requesting node. The Identity Manager process can handle multiple certificate signing requests in parallel.
+#### 2.2.3. Notary Service
 
-> 95% of valid CSRs will be completed within 2 business working days each calendar month, excluding wait time for responses to confirmation or clarification requests from the Participant or Business Network Operator. Guidelines for submitting a CSR request can be found on the Foundation website [here](/trust-root/certificate-practices.html).
-> Unless the Participant is being sponsored onto the Corda Production Network, the Identity Manager process requires the Participant to respond to a confirmation request. Service levels quoted here for turnaround time specifically exclude the duration of such Participant response.
+The completion time for transaction notarization requests is measured from the time the inbound request is received by the Notary Service to the point at which the outbound reply leaves the Notary Service. This metric assumes that correctly formatted and structured notarization requests are received only.
+Notarization requests are treated individually, in sequence of receipt, by the Notary working from an inbound queue.
 
-The Identity Manager may reject the certificate signing request if the data is not constructed according to the standards set out in the User Guide. Amended CSRs will be subject to the same SLAs as new certificate signing requests.
+**Production Network:** The average time taken to process notarization requests as measured over a five (5)-minute interval will be <240 seconds for 99% of each calendar month.
 
-Participants requesting re-certification, either to generate new keys, or to amend information on an existing and valid certificate, will start a new node and request a new certificate in exactly the same way as the original certificate and this will be subject to the same service levels. The Distinguished Name of the new identity must be unique (not the same as the previous identity). Details such as the IP address of the node can be changed without re-certification by sending a new configuration file directly to the Network Map server.
+**Pre-Production Network:** The average time taken to process notarisation requests as measured over a five (5)-minute interval will be <240 seconds for 95% of each calendar month.
 
-#### 3.2.2. Network Map Service
-
-The network map signing service regularly signs the network map to reflect the latest updates on a Corda Network zone; for example, the registration of a new participant node on a zone, or a node changing its IP address. As such, Network Map Service performance is measured by how frequently network maps are signed successfully.
-
-> 95% of Network Map signing events on the Production environment will be completed successfully each calendar month.
-
-#### 3.2.3. Notary
-
-The completion time for transaction notarisation requests is measured from the time the inbound request is received on a Production Network notary to the point at which the outbound reply leaves a Production Network notary. This metric assumes that correctly formatted and structured notarisation requests are received only.
-
-Notarisation requests are treated individually, in sequence of receipt, by the notary working from an inbound queue.
-
-> The average time taken to process notarisation requests as measured over a five (5)-minute* interval will be <240 seconds for 99% of each calendar month.
 
 *\*Each five-minute interval for measuring notarisation requests is approximate. Each interval is distinct, with a new five-minute measurement interval beginning once the previous one ends. Measurements are not taken as a five-minute rolling average. This means there are approximately 12 measured intervals per hour.*
 
-### 3.3. Exclusions
+### 2.3. Exclusions
 
-The following exclusions apply for service availability and performance targets:
+Exclusions to the service levels set forth in Sections 2.1 and 2.2 include:
 
-- Network connectivity problems or hardware/software failure outside of the Foundation’s control affecting the connectivity of Participant nodes or any other Participant hardware/software to the Network services i.e. Participant node, network or system failures.
-- Planned system downtime required for essential maintenance of Corda Network service components.
+- Network connectivity problems or hardware/software failure outside of R3’s control affecting the connectivity of participant Corda Network Node(s) to the Corda Network or Services.
+- Any scheduled maintenance and/or emergency maintenance.
+- Issues resulting from errors and/or bugs in participant’s software or hardware.
+- Security incidents outside of R3’s control, such as a result of participant actions, zero-day software or hardware vulnerabilities or as a result of participant’s security testing as permitted by R3.
+- Any service unavailability or degradation due to R3’s suspension of participant’s right to use the Services in accordance with the Terms of Use.
+- Failed transactions as a result of participant misconfigurations, such as incorrectly specified identities, addresses and hostnames for either participant Corda Network Nodes or the Corda Network Nodes of transacting counterparties.
+- Any service levels affected due to participant’s failure to install a minimum platform version and/or any Network Parameter Updates. “Network Parameter Updates” are those network parameters as communicated to participant by R3 from time to time that set forth the common network wide parameters to which all participants on the Corda Network must adhere.
 
-## 4. Change Management
 
-All changes to Corda Network infrastructure are communicated via the Network Operator’s [service dashboard](https://corda-network.statuspage.io/), which will automatically send notifications for the scheduling and progress of each change to node operators via the contact contained in the CSR for each node unless alternative contact details are advised.
+## 3. Maintenance
 
-### 4.1. Ongoing Maintenance
+Any necessary maintenance to the infrastructure of the Corda Network is communicated via the Service Dashboard, which will automatically send notifications for the scheduling and progress of each change to participant via the Node Operator Email unless alternative contact details are provided. “Service Dashboard” means a dashboard where Corda Network infrastructure-related changes that impact participants will be communicated by R3, currently located at StatusPage (and which may be moved from time to time), and access to which is provided to participants during their onboarding process. “Node Operator Email” means the email address of the Corda Network Node operator located in the node configuration file (“node.conf”).
 
-Regular system maintenance is required to ensure the ongoing performance, stability and security of the Corda Network. To maintain continual service improvement at velocity, the Network Operator adopts an Agile framework for the identification, development and deployment of changes. This means that small, low-risk platform changes that are non-service impacting are deployed as often as required. These types of changes do not require a maintenance window and will not be communicated via the Operator’s service dashboard.
+For any Network Parameter Updates for the Corda Network which would require action from participant, R3 will provide advance notice via the Dashboard as soon as practicable. Minimum notice periods for Network Parameter Updates on Corda Network are summarized in the Change Communication Table in Section 6. Any changes that impact system downtime will be subject to the process outlined in the ‘Scheduled Downtime’ section within this handbook.
 
-Larger changes with additional complexity, such as platform upgrades, will be subject to the process outlined in the [‘Platform Upgrades’](#44-platform-upgrades) section within this document.
+### 3.1. Ongoing Maintenance
 
-Any changes that require service impacting system downtime will be subject to the process outlined in the [‘Scheduled Downtime’](#46-scheduled-downtime) section within this document.
+Regular maintenance is required to provide for the ongoing performance, stability, and security of Corda Network. Small, low-risk platform changes to Services that are non-service impacting are deployed as often as required (“Ongoing Maintenance”). Accordingly, R3 will not communicate any Ongoing Maintenance to participant, and such Ongoing Maintenance shall not be posted on the Service Dashboard.
 
-### 4.2. Network Infrastructure Patching
 
-Infrastructure patches are applied on a recurring monthly schedule. These activities are usually low risk and non-service impacting. Details of the change, including the relevant change windows, will be communicated a **minimum of five (5) business days in advance** via the Network Operator’s service dashboard.
+### 3.2. Emergency Maintenance
 
-### 4.3. Emergency Maintenance
+On occasion, emergency maintenance may be required in response to a real or perceived vulnerability, security threat or unexpected service disruption. Emergency maintenance will be communicated as soon as practicable via the Service Dashboard.
 
-On occasion, emergency maintenance may be required in response to a real or perceived vulnerability, security threat or unexpected service disruption. Emergency maintenance will be communicated as soon as practicably possible via the Network Operator’s service dashboard.
+### 3.3. Network Parameter Updates
 
-### 4.4. Platform Upgrades
+The Corda Network uses a common set of network-wide parameters to which each Corda Network Node must adhere. On occasion these network parameters need updating to ensure the continued smooth operation of the Corda Network.
 
-It is important that Corda Network is able to take advantage of new releases without undue delay and so the normal mode of operation is for services to be regularly upgraded to the latest Corda platform version. Corda Network platform version upgrades will not normally require Participant nodes to upgrade and in the majority of cases will be non-service impacting for node operators.
+Network Parameter Updates will be required whenever the following scenarios occur:
 
-Planned platform upgrades that do not require action from node operators will be communicated a **minimum of five (5) business days in advance**.
+- A new Notary is added to the environment; this results in updating the allowed **notaries**.
+- The **maxTransactionSize** and / or **maxMessageSize** is increased.
+- The network **epoch** value is increased.
+- The **eventHorizon** is changed(i.e.,the amount of timea Corda Network Node can be uncontactable before being retired from the Corda Network).
+- Where **whitelistedContractImplementations** are changed.
+- The **minimumPlatformVersion** is upgraded (subject to prior three (3) month notice, as set forth below).
 
-However, there may be certain upgrade scenarios that do require action from Participants:
 
-- Corda Network upgrades that require action from Corda Network Participants to accept new network parameters are subject to the change process and timelines defined for the Network Parameter Updates process [below](#45-network-parameter-updates).
-- In the event that an upgrade does require Participant nodes to upgrade, the Network Operator will post intention to upgrade Corda Network services a **minimum of three (3) calendar months in advance of the event** and will conduct its own testing in a separate environment before making the upgrade. Participants will be invited to support such testing by operating test nodes in such an environment. It may not be possible to test with every CorDapp, nor should it be necessary.
+In the event that a Network Parameter Update is necessary, a restart of the specific Service will be required during a specified time window, which will be defined on the Service Dashboard, to provide the continued operation of the Service using the new network parameters.
 
-In the rare event of issues arising, any issue will be treated as an incident and managed according to the service levels defined in the Corda Network Support Handbook.
+Network Parameter Updates are scheduled for the Corda Network once per quarter. These update windows are scheduled a quarter in advance, and their contents will be advertised at least **ten (10) Business Days** in advance via the Service Dashboard.
 
-### 4.5. Network Parameter Updates
+The update process incorporates a Corda Network Node polling activity so that all Corda Network Node operators see the requested changes in advance and can choose to accept/not accept. R3 will consult with the participant that raised the request should there be disagreement over the proposed changes.
 
-All Corda Network Participants have agreed to operate with a common set of network-wide parameters that each node using the Corda Network downloads alongside the Network Map. From time to time these network parameters need updating to ensure the continued smooth operation of the network.
+**Updating Minimum Platform Version**
 
-Updates will be required whenever the following scenarios occur:
+- R3 will communicate a minimum of **three (3) calendar months** in advance of the need to update the minimum platform version of the Corda Software via the Service Dashboard. Participants may be invited to test the updates in a separate environment.
+- In the event of issues arising in connection with participant’s upgrade of the Corda Software on its Corda Network Node, such issues will be addressed in accordance with the Corda Network Support Handbook. Please contact info@corda.network if you do not have a copy of the most up to date version.
 
-- A new notary is added to the environment.
-- A Participant whitelists a new contract.
-- The minimum platform version is upgraded.
-- The maximum message and / or transaction sizes are increased.
-- The network epoch value is increased.
-- The event horizon is changed (the amount of time a node can be un-contactable before being retired from the network).
+**Participant-requested Network Parameter Change**
 
-Many types of update processes will be entirely transparent to users and can be executed during normal working hours. Updates will be advertised at least **ten (10) business days in advance**.
+Participants may request Network Parameter Updates, provided such request should be made no less than **twenty (20) Business Days** in advance of the scheduled quarterly window via the Support Portal. The “Support Portal” is a web portal that provides an interface to the Jira Cloud for participants to raise tickets for support services. Any Network Parameter Updates shall be implemented at R3’s sole discretion.
 
-The update process incorporates a node polling activity that ensures all node operators see the requested changes in advance and can choose to accept/not accept. The Foundation will consult with Participants should there be disagreement over the proposed changes but reserves the right to progress if the majority of Participants are in agreement that it should go ahead, and reasonable attempts have been made to address any concerns of Participants rejecting the change.
 
-Further details can be found on the Corda Network website [here](/policy/network-params-update) and within the Corda documentation [here](https://docs.corda.net/network-map.html#network-parameters).
+### 3.4. Scheduled Downtime
 
-Where the update may require significant Participant action, for example where the minimum platform version is increased and certain Participants need to upgrade to meet the new minimum, a minimum of three (3) months notice will be given. Full instructions will be communicated to node operators via the Network Operator’s service dashboard.
+Any scheduled maintenance of the Services shall be notified by R3 a minimum of **one (1) calendar month** in advance of the planned maintenance via the Service Dashboard. Any scheduled maintenance shall be excluded from the calculation of service levels pursuant to this handbook.
 
-### 4.6. Scheduled Downtime
+## 4. Business Continuity
 
-In the event that any platform maintenance or upgrades require a period of service impacting scheduled downtime, Participants will be notified by the Operator a **minimum of one (1) calendar month in advance** of the planned change window.
+The Corda Network has a disaster recovery policy which is reviewed and tested regularly. This is in addition to a security policy incorporating specific security incident management procedures to provide business continuity in the event of an unexpected incident or system failure.
 
-### 4.7. Unscheduled Downtime
 
-All reasonable attempts will be made to avoid such unscheduled downtime, however on occasion emergency system maintenance may be required. For example, this could be to mitigate real or perceived security threats requiring immediate action, or in order to prevent more severe disruption to services as the result of a service incident. Emergency maintenance will be communicated as soon as practicably possible via the Network Operator’s service dashboard.
+### 4.1. Backups
 
-Any unavailability of services during normal business hours will be treated as an incident and managed according to the service levels defined in the Corda Network Support Handbook.
+Regular backups are taken in line with R3’s disaster recovery targets for the Services.
 
-### 4.8. Change Freezes
+### 4.2. Data Retention
 
-To ensure the continued stability and performance of the Corda Network during periods where there are a number of public holidays worldwide, an annual change freeze will be implemented on the Corda Network. This change freeze will be in effect for **no more than one (1) month**, starting in December and ending in January the following year. Best endeavours will be made by the Network Operator to minimise the length of any change freezes, and these events will be announced via the Network Operator’s service dashboard.
+The data retention policy for the Production Network is as follows:
 
-Change freezes do not apply to an incident of [unscheduled downtime](#47-unscheduled-downtime) or [emergency maintenance](#43-emergency-maintenance).
+- Participant Data in the Production Network will be held by participant Corda Network Nodes and the Production Network databases supporting the Services.
+- Upon termination of the Terms of Use, R3 shall remove such data held in its own databases; provided if participant would like R3 to retain such data, participant shall provide R3 with notice at least **thirty (30) days** prior to such termination, and such retention may be subject to additional fees and a separate agreement to be entered into between R3 and participant. Any retention of data shall be agreed upon at R3’s sole discretion.
 
-## 5. Business Continuity
+### 4.3. Recovery Time Objective
 
-The Corda Network has a disaster recovery policy which is reviewed and tested semi-annually. This is in addition to a comprehensive security policy incorporating specific security incident management procedures to ensure business continuity in the event of an unexpected incident or system failure.
+Recovery time objective (“RTO”) is defined as the point at which the affected Service is either:
 
-### 5.1. Backups
+- Fully operational and able to interact with the rest of the Pre-Production Network and Production Network, as applicable, as it did before the incident; or
+- A temporary workaround has been applied to restore the affected Service, although further changes may be required to implement a permanent resolution.
 
-Regular backups are taken at a one (1) hour interval for the following Corda Network services:
+RTO is measured from the time R3 confirms that Service recovery is required, until the Service is restored.
 
-- Identity Manager
-- Network Map
+RTO applies **when a disaster is declared by R3** and the Services are not available to be operated.
 
-Daily database backups are taken at a regular twenty-four (24) hour interval for the following Corda Network services:
-
-- Notary
-
-### 5.2. Data Retention
-
-The data retention policy for the Corda Network is as follows:
-
-- Business data created in the Corda Network environment as a result of Participant activities under this agreement will be held by Participant nodes and the Corda Network databases supporting the Identity Manager, Network Map and Notary services.
-- At the end of the term of Corda Network membership for a Participant, the Foundation shall remove such data held in its own databases, unless a Participant requires otherwise at least thirty (30) days in advance of the end of the membership period. Any extended period of retention of data shall be at Foundation’s sole discretion and subject to a separate commercial agreement clarifying applicable storage costs and resulting fees payable by the Participant.
-
-### 5.3. Recovery Time Objective
-
-The recovery time objective is defined as the point at which the affected network service is either:
-
-- Fully operational and able to interact with the rest of the Corda Network as it did before the incident or;
-- A temporary workaround has been applied to restore the affected service, although further changes may be required to implement a permanent resolution.
-
-The recovery time objective excludes any time required for Participants to complete required actions as a part of any incident resolution steps i.e. if a Network Parameter Update is required as a part of service recovery, and Participants are required to accept these updates on their nodes to restore connectivity to the Corda Network. During any such incident, regular updates will be posted by the Network Operator to its service dashboard.
-
-In the event of a failure of the following Corda Network services, the recovery time objective will be four (4) hours (within normal business hours) from the point of detection:
+In the event of a failure of the following Services, the RTO from the point of detection (within Normal Business Hours) will be four (4) hours in the Production Network and eight (8) hours in the Pre- Production Network:
 
 - Identity Manager
-- Network Map
+- Network Map Service
+ 
+The Identity Manager’s primary function is to issue and revoke Participation Certificates, and it does not usually interact with Corda Network Nodes that have already been accepted onto the Corda Network. In addition, each live Corda Network Node on the Corda Network retains a cached version of the network map and can continue to interact with other active Corda Network Nodes during any Service recovery operations.
 
-### 5.4. Recovery Point Objective
+The RTO excludes any time required for participants to complete required actions as a part of any Incident (as defined in the Corda Network Support Handbook) resolution steps i.e., if a Network Parameter Update is required as a part of Service recovery, and participants are required to accept these updates on their Corda Network Nodes to restore connectivity to the Corda Network. During any such Incident, regular updates will be posted by R3 to the Service Dashboard.
 
-In the event of a failure of the following Corda Network services, the recovery point objective will be one (1) hour from the point of failure:
 
+### 4.4. Recovery Point Objective
+
+Recovery point objective (“RPO”) is defined as the maximum point-in-time that the Services will be recovered to, measured from the time that the failure occurred. RPO is measured as the time delta between the point-in-time that data is recovered to and the time R3 identified a Service failure as occurring.
+
+RPO applies **only once a disaster is declared by the R3 team.**
+
+In the event of a failure of the following Services (on either the Pre-Production Network or Production Network), the RPO will be one (1) hour from the point of failure:
+  
 - Identity Manager
-- Network Map
+- Network Map Service
 
-In the event of a failure of the following Corda Network services, the recovery point objective will be twenty-four (24) hours from the point of failure:
+In the event of a failure of the following Services, the RPO will be twenty-four (24) hours from the point of failure:
 
-- Notary
+- Notary Service
+ 
 
-## 6. Reporting and Service Credits
+## 5. Service Credits
 
-### 6.1. Reporting
+### 5.1. Production Network
 
-Performance against SLAs defined in this document will be reported on the Corda Network Foundation website **within ten (10) business working days** of the end of each calendar month. Reporting will not be Participant specific and will not include any identifiable Participant details.
+In the event of service level breaches impacting participants, participant will be entitled to a service credit as set forth below.
 
-### 6.2. Service Credits
+Multiple breaches cannot be claimed against a single Service target within the same measurement interval.
 
-In the event of SLA breaches impacting individual Participants they will be entitled to repatriation of fees for the specific service affected.
-
-A breach is defined as an instance where an individual service target is not met within the measurement intervals specified within this document. Multiple breaches cannot be claimed against a single service target within the same measurement interval.
 
 | Number of breaches                 | Service Credit                    |
 | ---------------------------------- | --------------------------------- |
@@ -289,4 +244,44 @@ A breach is defined as an instance where an individual service target is not met
 | >19 and <40 within a calendar year | 50% of fees for affected service  |
 | >39 within a calendar year         | 100% of fees for affected service |
 
-Any Participant requesting service credits should report details of each breach with reasonable evidence in writing. Requests can be submitted via email to <info@corda.network>.
+
+**How are service credits recorded and distributed?**
+
+R3 aims to provide monthly service level reporting to participants via an email to the Node Operator Email unless R3 and participant agree otherwise. Reporting will not be participant specific and will not include any identifiable participant details.
+
+To request a service credit, participants must raise a service credit request via emailing info@corda.network, providing reasonable evidence of a breach in writing. Requests must be submitted within two (2) calendar months after the end of a calendar year.
+
+### 5.2. Pre-Production Network
+
+Service credits will not apply for the Pre-Production Network.
+R3 will not distribute monthly service level reports for the Pre-Production Network.
+
+## 6. Change Communication 
+
+
+### 6.1. R3 Initiated Change Communication Table
+
+
+
+| CLAUSE                          | DESCRIPTION                                                                                                                       |    NOTICE & CHANNEL                                                                                                                   |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Emergency Maintenance (3.2)     | Response to a real or perceived vulnerability, security threat or unexpected service disruption                                   | **ASAP** via Service Dashboard                                                                                                            |
+| Network Parameter Updates (3.3) | 1. Non-service impacting changes <br>2. Significant customer action required                                                          | 1. Min **10 business days**; quarterly schedule via Service Dashboard   <br>2. Min **3 calendar months** via Service Dashboard |
+| Scheduled Downtime (3.4)        | Upgrades require a period of service impacting scheduled downtime                                                                 | Min **1 calendar month** via Service Dashboard                                                                                            |
+
+
+
+ ### 6.2. Participant Initiated Change Communication Table  
+ 
+                                                                                                    
+| CLAUSE                          | DESCRIPTION                                                                                                                       |    NOTICE & CHANNEL                                                                                                                   |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Network Parameter Updates (3.3.)  | Production Network participant requests                                                                   | Min **20 business days** via Support Portal                                                                             |
+| Data Retention (4.2)              | Requests for R3 to retain any customer data held in its databases after the end of the Agreement period.              | **30 calendar days** notice from participant                                                                                                                       |
+
+
+### 6.3. Amendments to Maintenance and Support Level Handbook
+
+R3 retains the right to amend this Corda Network Maintenance and Service Level Handbook. When amendments do not result in material degradation of existing Services, R3 will inform participants within **ten (10) Business Days** of implementing the change via the Node Operator Email (or another email address as may be agreed upon between R3 and participant in writing).
+
+If R3 determines that changes to this handbook may result in material degradation of existing Services, R3 will inform participants no less than **one (1) calendar month** prior to implementing the change via the Node Operator Email (or another email address as may be agreed upon between R3 and participant in writing).
