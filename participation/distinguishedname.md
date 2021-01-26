@@ -95,7 +95,7 @@ Any Node must have a unique Distinguished Name (DN) or X.500 name in its [partic
 
 X.500 names may include up to 6 fields (optional additional fields are State (S) and Common Name(CN)), explained in greater detail in section 1.2 below. Data fields in the X.500 name must be sorted in the order specified in the Corda protocol.
 
-The entire X.500 name is used for the uniqueness check. For now, the maximum number of characters in the whole X.500 name (across all 6 fields) is **128 characters**.
+The entire X.500 name is used for the uniqueness check. For now, the maximum number of characters of your X.500 name (including field names, such as "O=", "OU=", "L=" are is **128 characters**.
 
 ## 2.2. Choosing X500 Name for your Node
 
@@ -188,6 +188,8 @@ Please also refer to this page for a list of company registers: https://en.wikip
 
 ### 2.2.2. Constraints on Characters and Unicode
 
+Your identity name (including field names such as "O=", "OU=", "L=" are included in the 128 characters limit.
+
 The free text fields in the X.500 name must obey the following constraints:
 
 - Consist only of characters from the following Unicode code blocks: Basic Latin, Latin-1 Supplement, Latin Extended A, Latin Extended B. 
@@ -196,7 +198,7 @@ The free text fields in the X.500 name must obey the following constraints:
 - May not contain control characters.  
 - Must have at least two characters. 
 - Must be normalized to Unicode NFKC form. 
-- May not include the following forbidden characters: , , = , $ , " , ' , \
+- May not include the following forbidden characters: , , = , $ , " , ' , \, +
 - May not include trailing or leading whitespace. 
 - Must be encoded using UTF-8. 
 
@@ -210,14 +212,14 @@ The following rules may cause rejection if sufficient justification is not provi
 Stopwords are character sequences that may be the result of mistaken applications or intent to confuse. The  Certificate Authority may adjust the list of stopwords at any time. The Foundation may request a list of current or prior stopwords at any time.
 
 Examples of likely stopwords:
-1.	Corda
-2.	R3
-3.	Node
-4.	Server
-5.	Oracle (obviously this one is particularly special)
-6.	Ã
-7.	Â
-8.	test (in Corda Network Production environment)
+- Corda
+- R3
+- Node
+- Server
+- Oracle
+- Ã
+- Â
+- test (in Corda Network Production environment)
 
 The first five are intended to avoid confusing Node names or people creating names like "MegaCorp Corda Node" which would not be a valid legal name. The last two are intended to catch encoding mismatch errors. Cases where company names legitimately include stopwords will be handled via manual review.
 The Corda Network uses Unicode version 6.2.
