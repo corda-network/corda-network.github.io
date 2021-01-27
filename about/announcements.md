@@ -1,3 +1,20 @@
+### 27 January 2021
+
+**Update to Corda Network CRL** 
+
+
+As of 8 February 2021 the Corda Network’s CRL will be served from an Azure CDN endpoint in order to continue to improve both resiliency and availability of Corda Network. Note that Corda Network’s CRL will only be available from the published CRL endpoint i.e. **crl.corda.network**
+
+Please ensure that your Corda nodes are able to connect to Azure CDN endpoints or that connectivity to Azure CDN is not blocked by your Network Administrator by 8 February 2021.
+
+ - Your connection to CRL should not be disrupted if outbound connectivity to TCP port 80 in not blocked. Check that the node can reach the DNS “crl.corda.network“, or whitelist the DNS entry for “crl.corda.network” in your firewall.
+ - Ensure you have not IP whitelisted the current CRL endpoint (i.e. Doorman).
+ 
+
+For more information please email info@corda.network.
+
+
+
 ### 18 August 2020
 
 **Corda Network Statuspage is moving** 
