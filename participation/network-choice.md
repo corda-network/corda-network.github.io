@@ -12,7 +12,7 @@ A partitioned sub-network off the Corda Network mainnet, which enables membershi
 
 The annual cost for a Segregated Network (including a Segregated Network in either *or both* the Pre-Production and Production networks) will be $10,000 per year. In other words, this standard price will get you a Segregated Network in one or both environments, and there is no lower price for a Segregated Network in just one environment.
 
-Segregated Networks are built by the Network Operations Engineering Team. To request a Segregated Network, please fill in the [Segregated Network Request Form](https://github.com/corda-network/corda-network.github.io/blob/Updated-SN-request-form/assets/Segregated%20Network%20Request%20Form_2020.docx), and follow the instructions in the document.
+Segregated Networks are built by the Network Operations Engineering Team. To request a Segregated Network, please fill in the [Segregated Network Request Form](https://github.com/corda-network/corda-network.github.io/blob/Update-to-SN-request-form/assets/Segregated%20Network%20Request%20Form_2021.docx), and follow the instructions in the document.
 
 ## Private Networks
 
