@@ -7,15 +7,15 @@ As of 8 February 2021 the Corda Network’s CRL will be served from an Azure CDN
 
 Please ensure that your Corda nodes are able to connect to Azure CDN endpoints or that connectivity to Azure CDN is not blocked by your Network Administrator by 8 February 2021.
 
-1. About Azure CDN:
+1.  About Azure CDN:
  - Azure CDN endpoints are everywhere around the globe (Point of Presence/POP). It’s not a unique IP, rather a list of IPs.
  - Azure CDN uses the following FQDNs in order to retrieve the final destination IP (DNS A Record).
      - *.azureedge.net
      - *.trafficmanager.net
      - *.msedge.net
  - Ensure the destinations above are not blocked to access the CRL in the destination IP (DNS A Record)
-2. Your connection to CRL should not be disrupted if outbound connectivity to TCP port 80 in not blocked. Check that the node can reach the DNS “crl.corda.network“, or whitelist the DNS entry for “crl.corda.network” in your firewall.
-3. Ensure you have not IP whitelisted the current CRL endpoint (i.e. Doorman).
+2.  Your connection to CRL should not be disrupted if outbound connectivity to TCP port 80 in not blocked. Check that the node can reach the DNS “crl.corda.network“, or whitelist the DNS entry for “crl.corda.network” in your firewall.
+3.  Ensure you have not IP whitelisted the current CRL endpoint (i.e. Doorman).
  
 
 For more information please email info@corda.network.
