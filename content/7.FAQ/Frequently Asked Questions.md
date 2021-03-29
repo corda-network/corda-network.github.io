@@ -53,22 +53,6 @@ To be admitted to Corda Network you need to satisfy the following requirements:
 
 ---
 
-### What are the main differences between Sponsor and Direct Model models?
-
-Sponsor model is aimed at Business Network Operators who intend to onboard a significant number of nodes.
-
-
-
-|                                            | **Direct Model (DEFAULT)**           | **Sponsor Model**                                                    |                     |
-|--------------------------------------------|--------------------------------------|----------------------------------------------------------------------|---------------------|
-|                                            | Direct Participant                   | Sponsor                                                  | Sponsee Participant |
-| Signs legal agreement with R3?             | Yes                                  | Yes, and for their Sponsees _but accessing the Sponsor CorDapp only_ | No                  |
-| Covers billing?                            | Yes                                  | Yes, and for their Sponsees                                          | No                  |
-| Provides support?                          | Gets it directly from R3             | Yes, and for their Sponsees                                          | No                  |
-| Can be part of more > 1 BN?                | Yes                                  | No                                                                   | No                  |
-
----
-
 ### If I have a Sponsored Node on the Network, but now want to join another Business Network, how do I change my membership type?
 
 Email info@corda.network. 
