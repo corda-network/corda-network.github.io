@@ -62,9 +62,9 @@ Sponsor model is aimed at Business Network Operators who intend to onboard a sig
 |                                            | **Direct Model (DEFAULT)**           | **Sponsor Model**                                                    |                     |
 |--------------------------------------------|--------------------------------------|----------------------------------------------------------------------|---------------------|
 |                                            | Direct Participant                   | Sponsor                                                  | Sponsee Participant |
-| Signs legal agreement with the Foundation? | Yes                                  | Yes, and for their Sponsees _but accessing the Sponsor CorDapp only_ | No                  |
+| Signs legal agreement with R3?             | Yes                                  | Yes, and for their Sponsees _but accessing the Sponsor CorDapp only_ | No                  |
 | Covers billing?                            | Yes                                  | Yes, and for their Sponsees                                          | No                  |
-| Provides support?                          | Gets it directly from the Foundation | Yes, and for their Sponsees                                          | No                  |
+| Provides support?                          | Gets it directly from R3             | Yes, and for their Sponsees                                          | No                  |
 | Can be part of more > 1 BN?                | Yes                                  | No                                                                   | No                  |
 
 ---
@@ -93,12 +93,6 @@ No. This is strictly between your legal entity and that 3rd party, and is separa
 
 ---
 
-### Do you negotiate on the legal agreements provided in this website?
-
-No. These are standard agreements. The Foundation is a not for profit, which doesn’t have the resources to negotiate.
-
----
-
 ## 3. Understanding Corda Network Services
 
 ## Notary
@@ -109,7 +103,7 @@ It is a highly-available, non-validating notary cluster. It consists of multiple
 
 ---
 
-### Can the Foundation run a notary for me, on Corda Network?
+### Can R3 run a notary for me, on Corda Network?
 
 Today, all participants on the Corda Network Mainnet share a public notary and those who want to run their own notary can do so on a Segregated Network. If you are interested in having a dedicated notary run on your behalf on the Mainnet, please contact info@corda.network
 
@@ -128,8 +122,6 @@ Yes, if your CorDapp is using the public Corda Network notary, you must ensure i
 CorDapp code should not assume there is only one notary cluster (e.g. not use “notaries.single”) nor should it select a notary at random (e.g. not use “notaries.first”).
 
 The functionality of CorDapps using outdated syntax will be impaired in a multi-notary environment, which is why selecting a notary using the notary’s X.500 name is important for future-proofing CorDapps.
-
-More information about selecting a notary is available at https://corda.network/participation/notary-considerations/.
 
 ---
 
@@ -200,7 +192,7 @@ No.
 
 ### I’m not an Enterprise customer. Am I still entitled to Support?
 
-Yes, we have some support available for customers on network-related issues. We will be publishing the Handbook soon, but for now, please email info@corda.network.
+Yes, we have some support available for customers on network-related issues. Please visit the Support section of this website.
 
 ---
 
