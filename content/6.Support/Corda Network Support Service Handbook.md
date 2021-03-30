@@ -1,5 +1,6 @@
 # Corda Network Support Service Handbook
 
+This document is correct as of 1 April 2021.
 
 ## Contents
 
