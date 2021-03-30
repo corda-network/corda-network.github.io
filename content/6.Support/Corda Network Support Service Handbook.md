@@ -81,9 +81,9 @@ R3 uses Atlassian Jira Cloud to record all Support tickets and log all investiga
 
 **3. Raising a Support ticket**
 
-You may raise a Support ticket via our Support Portal or via email (*note: only emails sent from email addresses with access to the Support Portal will be able to email the Support team*):
-- Fill in the online form on the Support Portal (currently found at the following URL: https://r3-cev.atlassian.net/servicedesk/customer/portal/7, which may be moved from time to time), specify the Incident Severity (*see Section 5: Incident Classifications and Response Targets for how to determine severity level*) and attach any related documents on the dedicated web link to the Support Portal. 
-- Send an email to cordanetworksupport@r3-cev.atlassian.net. All Support tickets raised for “Incidents” are automatically classified as Severity 3 (S3).
+- You may raise a Support ticket via our Support Portal or via email (*note: only emails sent from email addresses with access to the Support Portal will be able to email the Support team*):
+    - Fill in the online form on the Support Portal (currently found at the following URL: https://r3-cev.atlassian.net/servicedesk/customer/portal/7, which may be moved from time to time), specify the Incident Severity (*see Section 5: Incident Classifications and Response Targets for how to determine severity level*) and attach any related documents on the dedicated web link to the Support Portal. 
+    - Send an email to cordanetworksupport@r3-cev.atlassian.net. All Support tickets raised for “Incidents” are automatically classified as Severity 3 (S3).
 
 **4. Requesting access for different or additional users**
 
