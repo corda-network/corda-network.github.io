@@ -191,7 +191,7 @@
 
 -   ### Via Business Network Operator
 
--   A Business Network Operator may onboard other nodes that are under a different organisation onto the network. They sign a legal agreement on behalf of all their nodes and handle any fees on behalf of all.
+-   A business network operator may onboard other nodes that are under a different organisation onto the network. They sign a legal agreement on behalf of all their nodes and handle any fees on behalf of all.
 
 <!-- Box  -->
 
