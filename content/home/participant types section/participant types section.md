@@ -1,4 +1,4 @@
-## Participant Types
+## Ways To Join
 
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
@@ -62,9 +62,9 @@
     </g>
     </svg>
 
--   ### Direct
+-   ### Directly
 
--   A direct participant's node can be a member of one or more business network. They will sign a Participant Terms of Use (as part of onboarding) directly with the Foundation; they will pay for any outstanding charges for using the network and will request a Participant Certificate themselves.
+-   A direct participant's node can be a member of one or more business network. They will sign a Participant Terms of Use (as part of onboarding) directly with R3; they will pay for any outstanding charges for using the network and will request a Participant Certificate themselves.
 
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
@@ -189,9 +189,9 @@
     </g>
     </svg>
 
--   ### Intergroup Sponsor
+-   ### Via Business Network Operator
 
--   An intergroup sponsoring participant may onboard other nodes that are under the same organisation (or rolling up to the same parent company) onto the network. They sign a legal agreement on behalf of all their nodes and handle any fees on behalf of all.
+-   A business network operator may onboard other nodes that are under a different organisation onto the network. They sign a legal agreement on behalf of all their nodes and handle any fees on behalf of all.
 
 <!-- Box  -->
 
