@@ -83,7 +83,7 @@ No. This is strictly between your legal entity and that 3rd party, and is separa
 
 ### What kind of notary does the network have?
 
-It is a highly-available, non-validating notary cluster. It consists of multiple worker nodes that are geographically distributed across different locations in Western Europe. For more information about what a notary is, see this website.
+It is a highly-available, non-validating notary cluster. It consists of multiple worker nodes that are geographically distributed across different locations in Western Europe. For more information about what a notary is, see [docs.corda](https://docs.corda.net/) website.
 
 ---
 
