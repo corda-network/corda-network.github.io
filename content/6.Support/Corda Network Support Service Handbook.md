@@ -27,7 +27,7 @@ This document is correct as of 1 April 2021.
 
 ## 1. Introduction and Scope
 
-This Support Handbook contains information on the onboarding and operational support services (“Support”) provided in connection with the Services provided to you (“participant” or “you”) by R3 LLC (“R3”) pursuant to the terms of use (“Terms of Use”) entered into between you and R3. This handbook does not replace or amend in any way the contractual terms and conditions of the Terms of Use. Capitalized terms used herein but not otherwise defined shall have the meanings ascribed to them in the Terms of Use.
+This Support Handbook contains information on the onboarding and operational support services (“Support”) provided in connection with the Services provided to you (“participant” or “you”) by R3 LLC (“R3”) and its Affiliate pursuant to the terms of use (“Terms of Use”) entered into between you and R3. This handbook does not replace or amend in any way the contractual terms and conditions of the Terms of Use. Capitalized terms used herein but not otherwise defined shall have the meanings ascribed to them in the Terms of Use.
 
 The Support consists of the following in connection with the Services:
 
