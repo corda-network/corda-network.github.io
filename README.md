@@ -21,8 +21,9 @@
     4.1 Site navigation \
     4.2 Site routing \
     4.3 Site pages
-5. Notes \
-    5.1. Sections and Pages should start with number, followed by dot and spaces between words. That way you can control the order in which they appear in the navigation, only hidden section or pages are exception may not follow this rule.
+5. You need to update `sitemap.xml` everytime page's URL is add, changed or deleted. This is needed for Google to properly list the pages in the search results. Edit the file simply by following already existing structure. It is good to validate `sitemap.xml` file content using free online XML validation tool. After that you should ping Google about the changes you made by clicking [here](https://www.google.com/ping?sitemap=https://raw.githubusercontent.com/corda-network/corda-network.github.io/master/sitemap.xml)
+6. Notes \
+    6.1. Sections and Pages should start with number, followed by dot and spaces between words. That way you can control the order in which they appear in the navigation, only hidden section or pages are exception may not follow this rule.
 
       Example for file name: 
       ```2.filename with multiple words.md```
@@ -30,19 +31,19 @@
       Example for folder name: 
       ```1.foldername with multiple words```
 
-    5.3. In case we want the url name for folder or page to be different from the file name, we should add the route url alternative in brackets, with dashes between words, if not we should leave it: \
+    6.3. In case we want the url name for folder or page to be different from the file name, we should add the route url alternative in brackets, with dashes between words, if not we should leave it: \
       Example for file name: 
       ```2.code of conduct (code-conduct).md```
 
       Example for folder name:
-      ```5.business policy (policy)```
+      ```6.business policy (policy)```
 
       Then the url for this those two examples will look like this:
       ```https://corda.network/policy/code-conduct```
 
-    5.2. The ```home``` folder at the root level of the content folder is exception of all the rules above and should stays as it is. It holds the markdown files served for the home page.
+    6.2. The ```home``` folder at the root level of the content folder is exception of all the rules above and should stays as it is. It holds the markdown files served for the home page.
 
-    5.3. If we want to add new file and this file to be at the top of submenu list of pages, we can add negative sign in from og the file name
+    6.3. If we want to add new file and this file to be at the top of submenu list of pages, we can add negative sign in from og the file name
 
       Example:
       ```-1.filename.md```
