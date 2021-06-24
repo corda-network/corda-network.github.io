@@ -55,7 +55,7 @@ To be admitted to Corda Network you need to satisfy the following requirements:
 
 ### If I have a Sponsored Node on the Network, but now want to join another Business Network, how do I change my membership type?
 
-Email info@corda.network. 
+Please contact your R3 Account Manager. 
 
 ---
 
@@ -89,7 +89,7 @@ It is a highly-available, non-validating notary cluster. It consists of multiple
 
 ### Can R3 run a notary for me, on Corda Network?
 
-Today, all participants on the Corda Network Mainnet share a public notary and those who want to run their own notary can do so on a Segregated Network. If you are interested in having a dedicated notary run on your behalf on the Mainnet, please contact info@corda.network
+Today, all participants on the Corda Network Mainnet share a public notary and those who want to run their own notary can do so on a Segregated Network. If you are interested in having a dedicated notary run on your behalf on the Mainnet, please contact your R3 Account Manager.
 
 ---
 
@@ -200,4 +200,5 @@ Corda Network infrastructure can be whitelisted using FQDN names but not IP addr
 
 In the future, Corda Network improvements will likely result in our Public IPs changing and that would negatively impact participants who would have to update their IP whitelisting rules. To avoid this we recommend using FQDN addresses of Network Map, Notary and Identity Manager services instead.
 
-For more information on whitelisting please contact info@corda.network 
+For more information on whitelisting please contact your R3 Account Manager.
+
