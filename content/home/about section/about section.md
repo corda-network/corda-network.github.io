@@ -4,4 +4,4 @@ Corda Network enables interoperability – the exchange of data or assets via a 
 
 The network went live in January 2019 and has a vibrant participant community.
 
-Find out more about Corda Network in this [Fact Sheet](https://github.com/corda-network/corda-network.github.io/blob/master/assets/CN%20Fact%20Sheet%202021.pdf).
+Learn more by exploring the Corda Network [Fact Sheet](https://github.com/corda-network/corda-network.github.io/blob/master/assets/CN%20Fact%20Sheet%202021.pdf).
