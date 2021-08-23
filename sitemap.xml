@@ -68,12 +68,6 @@
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>https://corda.network/about/terms-of-use</loc>
-		<lastmod>2021-05-26</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1</priority>
-	</url>
-	<url>
 		<loc>https://corda.network/corda-network-foundation/about-the-foundation</loc>
 		<lastmod>2021-05-26</lastmod>
 		<changefreq>weekly</changefreq>
@@ -225,12 +219,6 @@
 	</url>
 	<url>
 		<loc>https://corda.network/support/corda-network-support-service-handbook</loc>
-		<lastmod>2021-05-26</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1</priority>
-	</url>
-	<url>
-		<loc>https://corda.network/faq/frequently-asked-questions</loc>
 		<lastmod>2021-05-26</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1</priority>
@@ -466,24 +454,6 @@
 	<url>
 		<loc>https://corda.network/cookie-declaration</loc>
 		<lastmod>2021-05-26</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1</priority>
-	</url>
-	<url>
-		<loc>https://corda.network/thank-you</loc>
-		<lastmod>2021-08-10</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1</priority>
-	</url>
-	<url>
-		<loc>https://corda.network/anti-slavery-statement</loc>
-		<lastmod>2021-08-10</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>1</priority>
-	</url>
-	<url>
-		<loc>https://corda.network/contact/contact-us</loc>
-		<lastmod>2021-08-10</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1</priority>
 	</url>
