@@ -9,29 +9,29 @@ All time definitions are made in accordance with UTC+0. “Normal Business Hours
 ## Contents
 
 - [1. Introduction](#1-introduction)
-  - [1.1. Requesting a segregated network](#11-requesting-a-segregated-network)
-  - [1.2. Segregated network delivery](#12-segregated-network-delivery)
+  - [1.1. Requesting a Segregated Network](#11-requesting-a-segregated-network)
+  - [1.2. Segregated Network Delivery](#12-segregated-network-delivery)
 - [2. Network Parameters](#2-network-parameters)
-- [3. Changes in network parameters](#3-changes-in-network-parameters)
+- [3. Changes in Network Parameters](#3-changes-in-network-parameters)
 - [4. Tasks](#4-tasks)
   - [4.1. Requesting Network Parameter Change](#41-requesting-network-parameter-change)
   - [4.2. Network Parameter Update Process](#42-network-parameter-update-process)
-  - [4.3. Network parameter changes: Process flow and customer requirements](#43-network-parameter-changes-process-flow-and-customer-requirements)
+  - [4.3. Network Parameter Changes: Process Flow and Customer Requirements](#43-network-parameter-changes-process-flow-and-customer-requirements)
   - [4.4. Requesting Certificate Revocation](#44-requesting-certificate-revocation)
 - [5. Testing](#5-testing)
-  - [5.1. Health Survey tool](#51-health-survey-tool)
+  - [5.1. Health Survey Tool](#51-health-survey-tool)
   
 
 
-## 1.	Introduction 
+## 1. Introduction 
 Segregated networks (SNs) are partitioned sub-networks off the Corda Network Mainnet, which enable dedicated notaries, membership privacy (i.e. only participants of the segregated network are visible to each other) and complete control over the network parameter upgrade schedule. While the segregated network uses the same Trust Root and the Identity Operator (joining and leaving process) is shared with the Corda Network Mainnet, in all other respects it is separate (i.e. has its own notary, network map, and network parameters).
 
-### 1.1. Requesting a segregated network 
+### 1.1. Requesting a Segregated Network 
 The prerequisite for a segregated network to be created is a signed Participant Terms of Use agreement between R3 and Customer. Once the legal contract is in place, the Customer can request their Pre-Production and Production environments to be built by filling in a [Segregated Network Requirements Form](https://github.com/corda-network/corda-network.github.io/blob/master/assets/R3_Segregated%20Network%20Requirements%20Form_2021.docx). The form captures necessary technical details for the environment to be created as each segregated network is custom-built according to the Customer’s specifications. 
 
 Delivery dates for Pre-Production and Production segregated networks must be agreed with R3 Support team. While every effort is made to meet expectations regarding preferred timelines, building an environment may take up to 6 weeks to complete. 
 
-### 1.2. Segregated network delivery 
+### 1.2. Segregated Network Delivery 
 
 The segregated network delivery process follows the steps outlined below.
 
@@ -61,7 +61,7 @@ NodeInfo-xxx file containing notary service identity should be submitted within 
 
 R3 needs to update network parameters with Customer’s notary details as it is running the Network Map service on behalf of the Customer. After the network parameters have been updated, Customer can [start the notary worker nodes](https://docs.r3.com/en/platform/corda/4.8/enterprise/node/deploy/starting-components.html#starting-a-corda-node). This will be coordinated via a support ticket between Customer and R3 Support.
 
-## 2. Network parameters
+## 2. Network Parameters
 
 Network parameters are a set of values that every node participating in the segregated network needs to use so as to interoperate with other nodes. 
 When a segregated network is first set up, the Network Operator signs a data structure that contains the values and they are distributed along with the Network Map as network parameters. Segregated network nodes using this Network Map download the signed network parameters at first start-up, cache it in a network-parameters file and apply them on the node. A full list of network parameters can be found in the following table.
@@ -91,7 +91,7 @@ parametersUpdate is a network parameter that contains information on the point a
 | updateDeadline       	| An ISO 8601 format DateTime before which the proposed updates will not be applied to the Network. This value is the first moment they could be applied, not when they actually will be applied. 	|
  
 
-## 3. Changes in network parameters 
+## 3. Changes in Network Parameters 
 
 Setting initial network parameters is straightforward as there are as yet no network Participants onboarded. When a node first starts up it has no network parameters file and therefore implicitly accepts whatever the network is currently using. 
 
@@ -112,7 +112,7 @@ Change management is covered in greater detail in the Corda Network [Maintenance
 
 ## 4. Tasks
 
-### 4.1	Requesting Network Parameter Change
+### 4.1 Requesting Network Parameter Change
 
 To request a Network Parameters Update,  Customer should raise a ticket via the [Corda Network Support Portal](https://r3-cev.atlassian.net/servicedesk/customer/portal/7), outlining new network parameters, giving at least **3-weeks' notice i.e. 15 business days**. 
 
@@ -124,7 +124,7 @@ Certain upgrade scenarios requested by the Customer may require Participant node
 
 In the rare event of issues arising, any issue will be treated as an incident and managed according to the service levels defined in Corda Network Support Service Handbook.  
 
-### 4.2  Network Parameter Update Process
+### 4.2 Network Parameter Update Process
 
 Network Parameter Updates take place in two main phases:
 
@@ -159,7 +159,7 @@ At this point nodes that have not accepted the updates will begin to drop from t
 
 Completing this step will change the status of a parameter update to *APPLIED*.
 
-### 4.3 Network parameter changes: Process flow and customer requirements
+### 4.3 Network Parameter Changes: Process Flow and Customer Requirements
 
 Updates to some network parameters can be configured to be auto acceptable i.e. the new parameters will be accepted without user input. Auto acceptable parameters include *epoch*, *whitelistedContractImplementations*, m*odifiedTime* and *packageOwnership*.
 
@@ -194,7 +194,7 @@ More information can be found [here](https://corda.network/joining-corda-network
 
 ## 5. Testing
 
-### 5.1 Health Survey tool
+### 5.1 Health Survey Tool
 
 The Corda Health Survey tool is a command line utility designed to help Corda Enterprise node operators with initial setup of a Node; it is not meant to be used as an ongoing monitoring tool. Customer should be using the same version of the Health Survey tool as the version of Corda Enterprise node that they are running.
 In the context of a network parameter change, the purpose of running the Corda Health Survey tool is to confirm connectivity to the Identity Manager and Network Map, and to ping the Notary to confirm it is available.
