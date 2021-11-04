@@ -6,6 +6,23 @@ This guide serves as an introduction to segregated networks and may be updated b
 
 All time definitions are made in accordance with UTC+0. “Normal Business Hours” refer to Monday 00:30 UTC+0 to Friday 21:30 UTC+0, excluding public holidays in the territories of the United Kingdom, United States and Singapore. “Business Days” refer to Monday to Friday, excluding weekends and public holidays in the of the United Kingdom, United States and Singapore.
 
+## Contents
+
+- [1. Introduction](#1-introduction)
+  - [1.1. Requesting a segregated network](#11-requesting-a-segregated-network)
+  - [1.2. Segregated network delivery](#12-segregated-network-delivery)
+- [2. Network Parameters](#2-network-parameters)
+- [3. Changes in network parameters](#3-changes-in-network-parameters)
+- [4. Tasks](#4-tasks)
+  - [4.1. Requesting Network Parameter Change](#41-requesting-network-parameter-change)
+  - [4.2. Network Parameter Update Process](#42-network-parameter-update-process)
+  - [4.3. Network parameter changes: Process flow and customer requirements](#43-network-parameter-changes-process-flow-and-customer-requirements)
+  - [4.4. Requesting Certificate Revocation](#44-requesting-certificate-revocation)
+- [5. Testing](#5-testing)
+  - [5.1. Health Survey tool](#51-health-survey-tool)
+  
+
+
 ## 1.	Introduction 
 Segregated networks (SNs) are partitioned sub-networks off the Corda Network Mainnet, which enable dedicated notaries, membership privacy (i.e. only participants of the segregated network are visible to each other) and complete control over the network parameter upgrade schedule. While the segregated network uses the same Trust Root and the Identity Operator (joining and leaving process) is shared with the Corda Network Mainnet, in all other respects it is separate (i.e. has its own notary, network map, and network parameters).
 
@@ -95,7 +112,7 @@ Change management is covered in greater detail in the Corda Network [Maintenance
 
 ## 4. Tasks
 
-### 4.1	Requesting network parameter change
+### 4.1	Requesting Network Parameter Change
 
 To request a Network Parameters Update,  Customer should raise a ticket via the [Corda Network Support Portal](https://r3-cev.atlassian.net/servicedesk/customer/portal/7), outlining new network parameters, giving at least **3-weeks' notice i.e. 15 business days**. 
 
@@ -107,7 +124,7 @@ Certain upgrade scenarios requested by the Customer may require Participant node
 
 In the rare event of issues arising, any issue will be treated as an incident and managed according to the service levels defined in Corda Network Support Service Handbook.  
 
-### 4.2  Network Parameter Update process
+### 4.2  Network Parameter Update Process
 
 Network Parameter Updates take place in two main phases:
 
@@ -142,7 +159,7 @@ At this point nodes that have not accepted the updates will begin to drop from t
 
 Completing this step will change the status of a parameter update to *APPLIED*.
 
-### 4.3 Network parameter changes: Process flow & customer requirements
+### 4.3 Network parameter changes: Process flow and customer requirements
 
 Updates to some network parameters can be configured to be auto acceptable i.e. the new parameters will be accepted without user input. Auto acceptable parameters include *epoch*, *whitelistedContractImplementations*, m*odifiedTime* and *packageOwnership*.
 
